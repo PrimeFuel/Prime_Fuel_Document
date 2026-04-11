@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="assets/chapter-1/logo.jpg" alt="Logo de la Universidad Peruana de Ciencias Aplicadas"/>  
+  <img src="assets/chapter-1/logo.png" alt="Logo de la Universidad Peruana de Ciencias Aplicadas"/>  
   <h2>Informe de Trabajo Final</h2>
   <p><strong>Universidad:</strong> Universidad Peruana de Ciencias Aplicadas</p>
   <p><strong>Ciclo:</strong> 2026-10</p>
   <p><strong>Curso:</strong> Desarrollo de Aplicaciones Open Source</p>
-  <p><strong>Sección:</strong> 1ASI0729--</p>
+  <p><strong>Sección:</strong> 1ASI0729-2610-11959</p>
   <p><strong>Profesor:</strong> Hugo Allan Mori Paiva</p>
 </div>
 
@@ -17,8 +17,8 @@
       <th><strong>Apellidos y Nombres</strong></th>
     </tr>
     <tr>
-      <td>u</td>
-      <td>A</td>
+      <td>u20241c630</td>
+      <td>Asto Jacome Jose Gustavo</td>
     </tr>
     <tr>
       <td>u</td>
@@ -53,7 +53,7 @@
       <td>TB1</td>
       <td>30/04/2026</td>
       <td>
-        -  <br>
+        - Asto Jacome Jose Gustavo
         -  <br>
         -  <br>
         - Alberto Alejandro Ponce Perales
@@ -228,7 +228,7 @@ El siguiente gráfico muestra una línea de tiempo con la evolución semanal de 
     <tr>
       <td width="25%"><b>Comunica oralmente con efectividad a rangos de audiencia</b></td>
       <td>
-        <b>A</b><br>
+        <b>Jose Asto</b><br>
         TB1: .<br>
         <b>A</b><br>
         TB1: .<br>
@@ -244,7 +244,7 @@ El siguiente gráfico muestra una línea de tiempo con la evolución semanal de 
     <tr>
       <td width="25%"><b>Comunica por escrito con efectividad a diferentes rangos de audiencia</b></td>
       <td>
-        <b>A</b><br>
+        <b>Jose Asto</b><br>
         TB1: .<br>
         <b>A</b><br>
         TB1: .<br>
@@ -288,9 +288,9 @@ El siguiente gráfico muestra una línea de tiempo con la evolución semanal de 
   </thead>
   <tbody>
     <tr>
-      <td><img src="assets/chapter-1/foto-a.jpg" alt="nombre" width="80"></td>
-      <td>Nombre</td>
-      <td>u</td>
+      <td><img src="assets/chapter-1/foto-a.png" alt="nombre" width="80"></td>
+      <td>Jose Gustavo Asto Jacome</td>
+      <td>u20241c630</td>
       <td>Ingeniería de Software</td>
       <td>C.</td>
     </tr>
@@ -299,7 +299,7 @@ El siguiente gráfico muestra una línea de tiempo con la evolución semanal de 
       <td>Nombre</td>
       <td>u</td>
       <td>Ingeniería de Software</td>
-      <td>D</td>
+      <td>Estudiante de la carrera de Ingenieria de software en la UPC. Actualmente cuento con conocimientos en herramientas Office, como tambien en diferentes lenguajes de programacion como C++,C,Java, JavaScript. Mis mayores virtudes son: innovador, capacidad de liderar y adaptacion constante</td>
     </tr>
     <tr>
       <td><img src="assets/chapter-1/foto.jpg" alt="nombre" width="80"></td>
