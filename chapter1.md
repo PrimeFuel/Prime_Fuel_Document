@@ -21,8 +21,8 @@
       <td>Asto Jacome Jose Gustavo</td>
     </tr>
     <tr>
-      <td>u</td>
-      <td>S</td>
+      <td>u202312566</td>
+      <td>Cayanchi Avila Milenko Rubén</td>
     </tr>
     <tr>
       <td>u</td>
@@ -54,7 +54,7 @@
       <td>30/04/2026</td>
       <td>
         - Asto Jacome Jose Gustavo <br>
-        -  <br>
+        - Cayanchi Avila Milenko Rubén<br>
         -  <br>
         - Alberto Alejandro Ponce Perales
       </td>
@@ -253,11 +253,11 @@ El siguiente gráfico muestra una línea de tiempo con la evolución semanal de 
       <td>C.</td>
     </tr>
     <tr>
-      <td><img src="assets/chapter-1/foto.jpg" alt="nombre" width="100"></td>
-      <td>Nombre</td>
-      <td>u</td>
+      <td><img src="assets/chapter-1/milenko_foto.png" alt="nombre" width="100"></td>
+      <td>Cayanchi Avila Milenko Rubén</td>
+      <td>u202312566</td>
       <td>Ingeniería de Software</td>
-      <td>E</td>
+      <td>Estudiante de Ingeniería de Software, enfocado en el desarrollo de soluciones tecnológicas innovadoras para la mejora de la calidad de vida. Poseo conocimientos básicos en Python y conocimientos básicos/intermedios en C++. Mi objetivo es adquirir conocimientos avanzados en inteligencia artificial y desarrollo de aplicaciones de salud, con el fin de mejorar mis habilidades y contribuir en el campo de la salud tecnológica.</td>
     </tr>
     <tr>
       <td><img src="assets/chapter-1/foto.jpg" alt="nombre" width="80"></td>
