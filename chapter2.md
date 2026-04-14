@@ -16,7 +16,7 @@ En el mercado existen diversas soluciones digitales enfocadas en la gestión de 
   </tr>
   <tr>
     <td colspan="2"><strong></strong></td>
-    <td><strong>NombredelaStartup</strong><br><img src="./assets/chapter-2/logo-startup.jpg" height="100"/></td>
+    <td><strong>Tank Master</strong><br><img src="./assets/chapter-2/logo-tankmaster.jpg" height="100"/></td>
     <td><strong>Zavgar</strong><br><img src="./assets/chapter-2/logo-zavgar.jpg" height="100"/></td>
     <td><strong>FuelCloud</strong><br><img src="./assets/chapter-2/logo-fuelcloud.jpg" height="100"/></td>
     <td><strong>Wialon</strong><br><img src="./assets/chapter-2/logo-wialon.jpg" height="100"/></td>
@@ -181,6 +181,7 @@ Si bien **PrimeFuel** está inicialmente orientada a empresas locales, el modelo
 12. ¿Qué barreras considera que dificultarían implementar una solución digital como NombredelaStartup en su empresa?
 
 ### 2.2.2 Registro de entrevistas
+
 **1. Segmento 1: Empresas solicitantes de combustible**
 - Entrevista 1:
 - Nombre: Kevyn Anthony Asto Jacome

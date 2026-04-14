@@ -53,7 +53,7 @@
       <td>TB1</td>
       <td>30/04/2026</td>
       <td>
-        - Asto Jacome Jose Gustavo
+        - Asto Jacome Jose Gustavo <br>
         -  <br>
         -  <br>
         - Alberto Alejandro Ponce Perales
@@ -257,7 +257,7 @@ El siguiente gráfico muestra una línea de tiempo con la evolución semanal de 
       <td>Nombre</td>
       <td>u</td>
       <td>Ingeniería de Software</td>
-      <td>Estudiante de la carrera de Ingenieria de software en la UPC. Actualmente cuento con conocimientos en herramientas Office, como tambien en diferentes lenguajes de programacion como C++,C,Java, JavaScript. Mis mayores virtudes son: innovador, capacidad de liderar y adaptacion constante</td>
+      <td>E</td>
     </tr>
     <tr>
       <td><img src="assets/chapter-1/foto.jpg" alt="nombre" width="80"></td>
@@ -267,7 +267,7 @@ El siguiente gráfico muestra una línea de tiempo con la evolución semanal de 
       <td>S. </td>
     </tr>
     <tr>
-      <td><img src="assets/chapter-1/Foto.jpg" alt="Alberto Alejandro Ponce Perales" width="80"></td>
+      <td><img src="assets/chapter-1/FotoAlberto.jpg" alt="Alberto Alejandro Ponce Perales" width="80"></td>
       <td>Alberto Alejandro Ponce Perales</td>
       <td>u202320684</td>
       <td>Ingeniería de Software</td>
@@ -377,7 +377,7 @@ Para el desarrollo de la Startup, utilizamos el enfoque Lean UX, que nos permite
 
 #### 1.2.2.4 Lean UX Canvas
 
-<img src="assets/chapter-1/l.png" alt="Lean UX Canvas">
+<img src="assets/chapter-1/lean-ux-canvas.png" alt="Lean UX Canvas">
 
 ## 1.3 Segmentos objetivos
 
