@@ -25,8 +25,8 @@
       <td>Cayanchi Avila Milenko Rubén</td>
     </tr>
     <tr>
-      <td>u</td>
-      <td>O</td>
+      <td>u20231a257</td>
+      <td>Brayan Alexis Corvacho Damian</td>
     </tr>
     <tr>
       <td>u202320684</td>
