@@ -722,35 +722,35 @@
       <td>01</td>
       <td>US-01</td>
       <td>Ver sección Home</td>
-      <td>Como visitante (proveedor), quiero ver una sección de inicio que resuma el valor de FuelTrack para comprender rápidamente el objetivo del sistema</td>
+      <td>Como visitante (proveedor), quiero ver una sección de inicio que resuma el valor de TankMaster para comprender rápidamente el objetivo del sistema</td>
       <td>3</td>
     </tr>
     <tr>
       <td>02</td>
       <td>US-02</td>
       <td>Ver sección About Us</td>
-      <td>Como visitante de ambos segmentos, quiero conocer quiénes están detrás de FuelTrack para confiar en el sistema</td>
+      <td>Como visitante de ambos segmentos, quiero conocer quiénes están detrás de TankMaster para confiar en el sistema</td>
       <td>2</td>
     </tr>
     <tr>
       <td>03</td>
       <td>US-03</td>
       <td>Ver sección How it works?</td>
-      <td>Como visitante de ambos segmentos, quiero entender cómo funciona FuelTrack paso a paso para evaluar si se ajusta a mis necesidades</td>
+      <td>Como visitante de ambos segmentos, quiero entender cómo funciona TankMaster paso a paso para evaluar si se ajusta a mis necesidades</td>
       <td>3</td>
     </tr>
     <tr>
       <td>04</td>
       <td>US-41</td>
       <td>Ver sección Main Suppliers</td>
-      <td>Como visitante de ambos segmentos, quiero conocer los principales proveedores de combustible que trabajan con FuelTrack para confiar en la plataforma</td>
+      <td>Como visitante de ambos segmentos, quiero conocer los principales proveedores de combustible que trabajan con TankMaster para confiar en la plataforma</td>
       <td>1</td>
     </tr>
     <tr>
       <td>05</td>
       <td>US-42</td>
       <td>Ver sección Our Clients</td>
-      <td>Como visitante de ambos segmentos, quiero conocer a las empresas que utilizan FuelTrack para tener confianza en la plataforma y saber que otras empresas ya la están usando</td>
+      <td>Como visitante de ambos segmentos, quiero conocer a las empresas que utilizan TankMaster para tener confianza en la plataforma y saber que otras empresas ya la están usando</td>
       <td>3</td>
     </tr>
     <tr>
