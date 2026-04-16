@@ -184,54 +184,92 @@ Si bien **PrimeFuel** está inicialmente orientada a empresas locales, el modelo
 
 
 **1. Segmento 1: Empresas solicitantes de combustible**
+
 - Entrevista 1:
-- Nombre: Kevyn Anthony Asto Jacome
-- Edad: 32
-- Distrito: San Miguel
-<div align="center">
-  <img src="assets/chapter-2/kevyn.png" alt="Captura primer entrevistado"/> 
-  <p>Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQCKV9lpC3LTSYq8V0HBefpVAS_fcsy2aqA-XEwNtES_c3g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=uQEHe9</p>
-</div>
+
+
+| Campo                    | Detalle |
+|-------------------------|---------|
+| **Nombre entrevistado** | Kevyn Anthony Asto Jacome |
+| **Edad**               | 32 |
+| **Departamento**       | Lima |
+| **Inicio del video**   | 00:00 |
+| **Fin del video**      | 06:57 |
+| **Link del video**     | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQCKV9lpC3LTSYq8V0HBefpVAS_fcsy2aqA-XEwNtES_c3g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=uQEHe9 |
+| **Foto entrevista**    | <img src="assets/chapter-2/kevyn.png" alt="Captura primer entrevistado" width="120"/> |
+| **Resumen**           | El entrevistado se desempeña como analista y asignador de control de producción, con experiencia en logística y operaciones desde 2017. Gestiona un volumen aproximado de 20,000 a 21,000 m³ de combustible mensuales destinados tanto a calderas como a equipos móviles (montacargas). Actualmente, la gestión se realiza mediante proveedores específicos, utilizando gas natural para planta y tanques para equipos móviles, coordinado principalmente por correos y llamadas, con planificación diaria, semanal y mensual que requiere verificación manual constante. Entre los principales problemas destacan los desabastecimientos, tanto por factores externos (escasez nacional) como por fallas del proveedor, generando paralizaciones operativas. La trazabilidad en tiempo real es clave por su impacto en la continuidad operativa. En la toma de decisiones, se priorizan el tiempo de entrega y el compromiso del proveedor sobre el precio, aunque este último cobra relevancia en escenarios de escasez (ej. GLP). Muestra interés en soluciones digitales, especialmente notificaciones sobre estado de pedidos y tiempos de entrega, sin percibir grandes barreras de implementación. |
 
 
 - Entrevista 2:
-  - Nombre: Renato Guillermo Calvo Yalan
-  - Edad: 22 años
-  - Distrito: San Juan de Lurigancho, Lima
-<div allign="center">
-<img src="assets/chapter-2/Renato.png" alt="Captura segundo entrevistado"/>
 
-  <p>Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDS2Yop64CbRLtW82ISOuc4AU56u40anOCvBotRFMydvE4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Jgu6ZG</p>
-</div>
+| Campo                    | Detalle |
+|-------------------------|---------|
+| **Nombre entrevistado** | Renato Guillermo Calvo Yalan |
+| **Edad**               | 22 |
+| **Departamento**       | Lima |
+| **Inicio del video**   | 00:00 |
+| **Fin del video**      | 07:17 |
+| **Link del video**     | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDS2Yop64CbRLtW82ISOuc4AU56u40anOCvBotRFMydvE4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Jgu6ZG |
+| **Foto entrevista**    | <img src="assets/chapter-2/Renato.png" alt="Captura segundo entrevistado" width=120/> |
+| **Resumen**           | El entrevistado se desempeña como asistente de logística en una empresa de transporte de carga mediana, con más de dos años de experiencia en el sector, y gestiona un volumen aproximado de 8,000 a 12,000 unidades de combustible mensuales, dependiendo de la demanda operativa. Su labor principal consiste en coordinar pedidos y realizar el seguimiento de entregas, utilizando actualmente un sistema basado en contratos directos con proveedores, gestionado mediante llamadas, WhatsApp y registros en Excel, sin el uso de un sistema integrado. Entre los principales problemas identificados destacan la desorganización de la información, errores en los pedidos, falta de claridad en los datos, inconsistencias en los precios y una considerable pérdida de tiempo en la verificación y validación manual de la información. La trazabilidad en tiempo real es considerada muy importante, ya que permitiría un mayor control sobre los pedidos y el suministro. El uso de dispositivos se centra principalmente en teléfonos móviles para la comunicación y gestión operativa. En cuanto a los factores de decisión, el precio y el tiempo de entrega son los más relevantes, seguidos por la confianza en el proveedor. La falta de transparencia en los precios genera desconfianza y dificulta la comparación entre opciones, afectando negativamente la toma de decisiones. El entrevistado muestra interés en recibir notificaciones en tiempo real, especialmente sobre cambios de precios, para poder reaccionar oportunamente. Finalmente, identifica como principales barreras para la adopción de una solución digital la resistencia al cambio del personal y el tiempo requerido para adaptarse a una nueva forma de trabajo. |
+
+- Entrevista 3:
+
+| Campo                    | Detalle |
+|-------------------------|---------|
+| **Nombre entrevistado** | Denis Paul Requejo Sanchez |
+| **Edad**               | 34 |
+| **Departamento**       | Lima |
+| **Inicio del video**   | 00:00 |
+| **Fin del video**      | 05:35 |
+| **Link del video**     | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQD9W1DrB9WQS4N8_M5GJPorAXnVh-sF_SPbza6v5m4C4_A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YbIC1j |
+| **Foto entrevista**    | <img src="assets/chapter-2/PaulEntrevista.png" alt="Captura tercer entrevistado" width=120/> |
+| **Resumen**           | El entrevistado se desempeña como jefe de operaciones logísticas, con aproximadamente 8 años de experiencia en el sector, enfocado en la coordinación del abastecimiento y distribución de combustible, gestionando un volumen mensual que oscila entre 40,000 y 60,000 galones según la demanda. Actualmente, la gestión de compra y control se realiza mediante un enfoque tradicional basado en correos, llamadas y registros en hojas de Excel, complementado con el uso de WhatsApp para coordinaciones rápidas, sin contar con un sistema integrado. Entre los principales problemas identificados destacan el desorden en la información, la duplicidad de datos y la presencia de errores en los pedidos, lo que evidencia limitaciones en la eficiencia operativa. La trazabilidad en tiempo real es considerada altamente importante, ya que permitiría mejorar el control de los procesos y facilitar una respuesta oportuna ante incidencias. En cuanto a herramientas, se utilizan principalmente computadoras en oficina y dispositivos móviles en campo, reflejando una operación híbrida. Los factores más relevantes en la toma de decisiones son el precio, el tiempo de entrega y el historial de cumplimiento del proveedor. Asimismo, la falta de transparencia en los precios genera desconfianza y dificulta la comparación entre opciones. El entrevistado muestra una actitud positiva hacia el uso de notificaciones en tiempo real, destacando su utilidad para mejorar la planificación y la toma de decisiones. Finalmente, identifica como principales barreras para la adopción de una solución digital la resistencia al cambio por parte del personal y el tiempo requerido para su capacitación. |
+
+
 
 **2. Segmento 2: Proveedores de combustible**
 
 - Entrevista 1:
-  - Nombre: Francesco
-  - Edad: 20 años
-  - Distrito: La Molina, Lima
-<div allign="center">
-<img src="assets/chapter-2/Francesco.png" alt="Captura entrevistado Francesco"/>
-<p>Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDS2Yop64CbRLtW82ISOuc4AU56u40anOCvBotRFMydvE4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=0GD1zP</p>
-</div>
+
+| Campo                    | Detalle |
+|-------------------------|---------|
+| **Nombre entrevistado** | Franceso |
+| **Edad**               | 20 |
+| **Departamento**       | Lima |
+| **Inicio del video**   | 00:00 |
+| **Fin del video**      | 05:48 |
+| **Link del video**     | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDS2Yop64CbRLtW82ISOuc4AU56u40anOCvBotRFMydvE4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=0GD1zP |
+| **Foto entrevista**    | <img src="assets/chapter-2/Francesco.png" alt="Captura entrevistado Francesco" width=120/> |
+| **Resumen**           | El entrevistado se desempeña como asistente comercial en una empresa distribuidora de combustibles B2B, con aproximadamente un año de experiencia, encargándose de la gestión de clientes, cotizaciones y seguimiento de pedidos, atendiendo principalmente a empresas de transporte y logística, y en menor medida del sector construcción. La empresa maneja un volumen mensual de entre 10,000 y 18,000 galones, dependiendo de la demanda. Actualmente, los pedidos se gestionan mediante WhatsApp y correo electrónico, registrándose posteriormente en hojas de Excel, mientras que los contratos se almacenan en documentos separados, sin integración entre estos elementos. Entre los principales problemas identificados destacan la presencia de errores debido a información incompleta o mal registrada, la pérdida de tiempo en la búsqueda y validación de datos, y la falta de claridad sobre el estado de los pedidos. No cuentan con un sistema especializado, utilizando únicamente herramientas básicas como Excel y canales de comunicación tradicionales. El entrevistado valora especialmente que una solución digital sea sencilla, centralice la información, reduzca errores y permita visualizar el estado de las entregas en tiempo real. Asimismo, considera que integrar cotizaciones, contratos y pedidos en una sola plataforma sería altamente beneficioso para mejorar el control y la organización. Destaca también la importancia de contar con reportes históricos y comparativos para analizar el comportamiento de los clientes y optimizar la planificación de ventas. Finalmente, señala que la fidelización de clientes se basa en la rapidez de atención y el cumplimiento, y que una plataforma digital podría contribuir a mejorar la transparencia, profesionalizar el servicio y fortalecer la relación con los clientes. |
+
 
 - Entrevista 2:
-  - Nombre: Carlos Mendoza
-  - Edad: 50 años
-  - Distrito: San Martin de Porres, Lima
-<div align="center">
-<img src="assets/chapter-2/CarlosEntrevista.png" alt="Captura entrevistado Carlos" style="width: 30%; max-width: 300px; height: auto;"/>
-<p>Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQAc_YdFgDxbSIN6wUPQrIZ-ARLL0hIcgJwoS9AJHEcnpD4?e=fdVXa8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</p>
-</div>
+
+| Campo                    | Detalle |
+|-------------------------|---------|
+| **Nombre entrevistado** | Carlos Mendoza |
+| **Edad**               | 50 |
+| **Departamento**       | Lima |
+| **Inicio del video**   | 00:00 |
+| **Fin del video**      | 04:41 |
+| **Link del video**     | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQAc_YdFgDxbSIN6wUPQrIZ-ARLL0hIcgJwoS9AJHEcnpD4?e=fdVXa8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+| **Foto entrevista**    | <img src="assets/chapter-2/CarlosEntrevista.png" alt="Captura entrevistado Carlos" style="width: 30%; max-width: 120; height: auto;"/> |
+| **Resumen**           | El entrevistado se desempeña como jefe de logística y operaciones comerciales, con responsabilidad sobre todo el flujo desde la solicitud del cliente hasta la entrega final del combustible, atendiendo principalmente a clientes de gran volumen en sectores como minería y agroindustria, que representan cerca del 90% de su cartera. Maneja un volumen mensual de entre 40,000 y 60,000 galones, operando bajo contratos marco anuales donde los pedidos se reciben mediante órdenes de compra enviadas por correo electrónico. El proceso incluye validaciones internas como revisión de crédito en sistemas ERP y posterior programación de la flota, lo que introduce múltiples puntos de fricción. Entre los principales problemas destacan la falta de trazabilidad en tiempo real, retrasos por burocracia interna, dependencia de correos que pueden quedar sin atención, y la necesidad constante de coordinar manualmente información con choferes para responder a clientes, lo que genera ineficiencia y sobrecarga operativa. Aunque cuentan con sistemas para contabilidad y GPS para flota, estos no están integrados, lo que limita la visibilidad completa del proceso. El entrevistado valora altamente soluciones que integren automáticamente pedidos, validaciones y despachos, permitiendo al cliente subir órdenes, validar condiciones y rastrear entregas en tiempo real sin intermediación. Asimismo, considera clave contar con reportes dinámicos para análisis de desempeño, consumo por zonas y tiempos de entrega. Señala que una plataforma centralizada representaría un salto importante en la madurez digital de la empresa, permitiendo escalar operaciones sin incrementar significativamente el personal. Finalmente, destaca que la fidelización en su sector depende del cumplimiento estricto y la ausencia de fallas, y que una solución digital podría convertirse en una ventaja competitiva al ofrecer mayor transparencia, control y posicionamiento como socio tecnológico ante sus clientes. |
+
 
 - Entrevista 3:
-  - Nombre: Lucia Fernandez
-  - Edad: 21 años
-  - Distrito: Villa el Salvador, Lima
-<div align="center">
-<img src="assets/chapter-2/LuciaEntrevista.png" alt="Captura entrevistado Carlos" style="width: 30%; max-width: 300px; height: auto;"/>
-<p>Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQAVGJhcIxtqRpfX4RZjsRWyASN4B5-P0T-EiUi1238xlu4?e=X46Kf3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</p>
-</div>
+
+| Campo                    | Detalle |
+|-------------------------|---------|
+| **Nombre entrevistado** | Lucia Fernandez |
+| **Edad**               | 21 |
+| **Departamento**       | Lima |
+| **Inicio del video**   | 00:00 |
+| **Fin del video**      | 04:44 |
+| **Link del video**     | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQAVGJhcIxtqRpfX4RZjsRWyASN4B5-P0T-EiUi1238xlu4?e=X46Kf3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+| **Foto entrevista**    | <img src="assets/chapter-2/LuciaEntrevista.png" alt="Captura entrevistada Lucia" style="width: 30%; max-width: 120px; height: auto;"/> |
+| **Resumen**           | La entrevistada se desempeña como gerenta de ventas en una empresa proveedora de combustible, asumiendo además funciones relacionadas con operaciones y cobranzas, atendiendo principalmente a clientes del sector transporte y logística, como flotas de camiones y talleres con tanques propios. Maneja un volumen mensual de entre 25,000 y 40,000 galones, con una gestión de pedidos altamente dependiente de canales informales como WhatsApp y llamadas telefónicas, mientras que la información se transfiere manualmente a hojas de Excel compartidas con el área de despacho. Los contratos de mayor escala se gestionan por correo, pero la operación diaria se basa principalmente en comunicación directa. Entre los principales problemas identificados destacan la pérdida de pedidos por saturación de mensajes, errores al transcribir información al sistema, y demoras en procesos como facturación y coordinación interna. Aunque cuentan con un sistema contable, no disponen de herramientas integradas para la gestión logística, dependiendo en gran medida de Excel y la memoria operativa del equipo. La entrevistada valora especialmente soluciones digitales que sean simples e intuitivas, adaptadas a usuarios no técnicos, permitiendo registrar pedidos de forma rápida y visualizar la información organizada por prioridad. Considera que una plataforma que centralice pedidos, contratos y entregas sería altamente beneficiosa, ya que reduciría errores y optimizaría el tiempo de gestión. Asimismo, destaca la importancia de contar con reportes históricos para mejorar la planificación y negociación con proveedores, y señala que la fidelización de clientes se basa en el trato directo y el acceso a crédito, pudiendo fortalecerse mediante herramientas que brinden mayor transparencia, visibilidad del estado de cuenta y seguimiento en tiempo real de los pedidos. |
 
 
 ### 2.2.3 Análisis de entrevistas
@@ -243,6 +281,9 @@ Si bien **PrimeFuel** está inicialmente orientada a empresas locales, el modelo
 
 - Segmento 2: Proveedores de Combustible
   <img src="assets/chapter-2/andrea_lopez.png" alt="Captura entrevistado Andrea Lopez"/>
+
+
+
 ### 2.3.2 User Task Matrix
 - Segmento 1: Empresas solicitantes de combustible
 <table border="1">
