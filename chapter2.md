@@ -184,211 +184,437 @@ Si bien **PrimeFuel** está inicialmente orientada a empresas locales, el modelo
 
 
 **1. Segmento 1: Empresas solicitantes de combustible**
+
 - Entrevista 1:
-- Nombre: Kevyn Anthony Asto Jacome
-- Edad: 32
-- Distrito: San Miguel
-<div align="center">
-  <img src="assets/chapter-2/kevyn.png" alt="Captura primer entrevistado"/> 
-  <p>Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQCKV9lpC3LTSYq8V0HBefpVAS_fcsy2aqA-XEwNtES_c3g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=uQEHe9</p>
-</div>
+
+
+| Campo                    | Detalle |
+|-------------------------|---------|
+| **Nombre entrevistado** | Kevyn Anthony Asto Jacome |
+| **Edad**               | 32 |
+| **Departamento**       | Lima |
+| **Inicio del video**   | 00:00 |
+| **Fin del video**      | 06:57 |
+| **Link del video**     | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQCKV9lpC3LTSYq8V0HBefpVAS_fcsy2aqA-XEwNtES_c3g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=uQEHe9 |
+| **Foto entrevista**    | <img src="assets/chapter-2/kevyn.png" alt="Captura primer entrevistado" width="150"/> |
+| **Resumen**           | El entrevistado se desempeña como analista y asignador de control de producción, con experiencia en logística y operaciones desde 2017. Gestiona un volumen aproximado de 20,000 a 21,000 m³ de combustible mensuales destinados tanto a calderas como a equipos móviles (montacargas). Actualmente, la gestión se realiza mediante proveedores específicos, utilizando gas natural para planta y tanques para equipos móviles, coordinado principalmente por correos y llamadas, con planificación diaria, semanal y mensual que requiere verificación manual constante. Entre los principales problemas destacan los desabastecimientos, tanto por factores externos (escasez nacional) como por fallas del proveedor, generando paralizaciones operativas. La trazabilidad en tiempo real es clave por su impacto en la continuidad operativa. En la toma de decisiones, se priorizan el tiempo de entrega y el compromiso del proveedor sobre el precio, aunque este último cobra relevancia en escenarios de escasez (ej. GLP). Muestra interés en soluciones digitales, especialmente notificaciones sobre estado de pedidos y tiempos de entrega, sin percibir grandes barreras de implementación. |
 
 
 - Entrevista 2:
-  - Nombre: Renato Guillermo Calvo Yalan
-  - Edad: 22 años
-  - Distrito: San Juan de Lurigancho, Lima
-<div allign="center">
-<img src="assets/chapter-2/Renato.png" alt="Captura segundo entrevistado"/>
 
-  <p>Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDS2Yop64CbRLtW82ISOuc4AU56u40anOCvBotRFMydvE4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Jgu6ZG</p>
-</div>
+| Campo                    | Detalle |
+|-------------------------|---------|
+| **Nombre entrevistado** | Renato Guillermo Calvo Yalan |
+| **Edad**               | 22 |
+| **Departamento**       | Lima |
+| **Inicio del video**   | 00:00 |
+| **Fin del video**      | 07:17 |
+| **Link del video**     | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDS2Yop64CbRLtW82ISOuc4AU56u40anOCvBotRFMydvE4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Jgu6ZG |
+| **Foto entrevista**    | <img src="assets/chapter-2/Renato.png" alt="Captura segundo entrevistado" width=150/> |
+| **Resumen**           | El entrevistado se desempeña como asistente de logística en una empresa de transporte de carga mediana, con más de dos años de experiencia en el sector, y gestiona un volumen aproximado de 8,000 a 12,000 unidades de combustible mensuales, dependiendo de la demanda operativa. Su labor principal consiste en coordinar pedidos y realizar el seguimiento de entregas, utilizando actualmente un sistema basado en contratos directos con proveedores, gestionado mediante llamadas, WhatsApp y registros en Excel, sin el uso de un sistema integrado. Entre los principales problemas identificados destacan la desorganización de la información, errores en los pedidos, falta de claridad en los datos, inconsistencias en los precios y una considerable pérdida de tiempo en la verificación y validación manual de la información. La trazabilidad en tiempo real es considerada muy importante, ya que permitiría un mayor control sobre los pedidos y el suministro. El uso de dispositivos se centra principalmente en teléfonos móviles para la comunicación y gestión operativa. En cuanto a los factores de decisión, el precio y el tiempo de entrega son los más relevantes, seguidos por la confianza en el proveedor. La falta de transparencia en los precios genera desconfianza y dificulta la comparación entre opciones, afectando negativamente la toma de decisiones. El entrevistado muestra interés en recibir notificaciones en tiempo real, especialmente sobre cambios de precios, para poder reaccionar oportunamente. Finalmente, identifica como principales barreras para la adopción de una solución digital la resistencia al cambio del personal y el tiempo requerido para adaptarse a una nueva forma de trabajo. |
+
+- Entrevista 3:
+
+| Campo                    | Detalle |
+|-------------------------|---------|
+| **Nombre entrevistado** | Denis Paul Requejo Sanchez |
+| **Edad**               | 34 |
+| **Departamento**       | Lima |
+| **Inicio del video**   | 00:00 |
+| **Fin del video**      | 05:35 |
+| **Link del video**     | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQD9W1DrB9WQS4N8_M5GJPorAXnVh-sF_SPbza6v5m4C4_A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YbIC1j |
+| **Foto entrevista**    | <img src="assets/chapter-2/PaulEntrevista.png" alt="Captura tercer entrevistado" width=150/> |
+| **Resumen**           | El entrevistado se desempeña como jefe de operaciones logísticas, con aproximadamente 8 años de experiencia en el sector, enfocado en la coordinación del abastecimiento y distribución de combustible, gestionando un volumen mensual que oscila entre 40,000 y 60,000 galones según la demanda. Actualmente, la gestión de compra y control se realiza mediante un enfoque tradicional basado en correos, llamadas y registros en hojas de Excel, complementado con el uso de WhatsApp para coordinaciones rápidas, sin contar con un sistema integrado. Entre los principales problemas identificados destacan el desorden en la información, la duplicidad de datos y la presencia de errores en los pedidos, lo que evidencia limitaciones en la eficiencia operativa. La trazabilidad en tiempo real es considerada altamente importante, ya que permitiría mejorar el control de los procesos y facilitar una respuesta oportuna ante incidencias. En cuanto a herramientas, se utilizan principalmente computadoras en oficina y dispositivos móviles en campo, reflejando una operación híbrida. Los factores más relevantes en la toma de decisiones son el precio, el tiempo de entrega y el historial de cumplimiento del proveedor. Asimismo, la falta de transparencia en los precios genera desconfianza y dificulta la comparación entre opciones. El entrevistado muestra una actitud positiva hacia el uso de notificaciones en tiempo real, destacando su utilidad para mejorar la planificación y la toma de decisiones. Finalmente, identifica como principales barreras para la adopción de una solución digital la resistencia al cambio por parte del personal y el tiempo requerido para su capacitación. |
+
+
 
 **2. Segmento 2: Proveedores de combustible**
 
 - Entrevista 1:
-  - Nombre: Francesco
-  - Edad: 20 años
-  - Distrito: La Molina, Lima
-<div allign="center">
-<img src="assets/chapter-2/Francesco.png" alt="Captura entrevistado Francesco"/>
-<p>Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDS2Yop64CbRLtW82ISOuc4AU56u40anOCvBotRFMydvE4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=0GD1zP</p>
-</div>
+
+| Campo                    | Detalle |
+|-------------------------|---------|
+| **Nombre entrevistado** | Franceso |
+| **Edad**               | 20 |
+| **Departamento**       | Lima |
+| **Inicio del video**   | 00:00 |
+| **Fin del video**      | 05:48 |
+| **Link del video**     | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDS2Yop64CbRLtW82ISOuc4AU56u40anOCvBotRFMydvE4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=0GD1zP |
+| **Foto entrevista**    | <img src="assets/chapter-2/Francesco.png" alt="Captura entrevistado Francesco" width=150/> |
+| **Resumen**           | El entrevistado se desempeña como asistente comercial en una empresa distribuidora de combustibles B2B, con aproximadamente un año de experiencia, encargándose de la gestión de clientes, cotizaciones y seguimiento de pedidos, atendiendo principalmente a empresas de transporte y logística, y en menor medida del sector construcción. La empresa maneja un volumen mensual de entre 10,000 y 18,000 galones, dependiendo de la demanda. Actualmente, los pedidos se gestionan mediante WhatsApp y correo electrónico, registrándose posteriormente en hojas de Excel, mientras que los contratos se almacenan en documentos separados, sin integración entre estos elementos. Entre los principales problemas identificados destacan la presencia de errores debido a información incompleta o mal registrada, la pérdida de tiempo en la búsqueda y validación de datos, y la falta de claridad sobre el estado de los pedidos. No cuentan con un sistema especializado, utilizando únicamente herramientas básicas como Excel y canales de comunicación tradicionales. El entrevistado valora especialmente que una solución digital sea sencilla, centralice la información, reduzca errores y permita visualizar el estado de las entregas en tiempo real. Asimismo, considera que integrar cotizaciones, contratos y pedidos en una sola plataforma sería altamente beneficioso para mejorar el control y la organización. Destaca también la importancia de contar con reportes históricos y comparativos para analizar el comportamiento de los clientes y optimizar la planificación de ventas. Finalmente, señala que la fidelización de clientes se basa en la rapidez de atención y el cumplimiento, y que una plataforma digital podría contribuir a mejorar la transparencia, profesionalizar el servicio y fortalecer la relación con los clientes. |
+
 
 - Entrevista 2:
-  - Nombre: Carlos Mendoza
-  - Edad: 50 años
-  - Distrito: San Martin de Porres, Lima
-<div align="center">
-<img src="assets/chapter-2/CarlosEntrevista.png" alt="Captura entrevistado Carlos" style="width: 30%; max-width: 300px; height: auto;"/>
-<p>Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQAc_YdFgDxbSIN6wUPQrIZ-ARLL0hIcgJwoS9AJHEcnpD4?e=fdVXa8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</p>
-</div>
+
+| Campo                    | Detalle |
+|-------------------------|---------|
+| **Nombre entrevistado** | Carlos Mendoza |
+| **Edad**               | 50 |
+| **Departamento**       | Lima |
+| **Inicio del video**   | 00:00 |
+| **Fin del video**      | 04:41 |
+| **Link del video**     | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQAc_YdFgDxbSIN6wUPQrIZ-ARLL0hIcgJwoS9AJHEcnpD4?e=fdVXa8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+| **Foto entrevista**    | <img src="assets/chapter-2/CarlosEntrevista.png" alt="Captura entrevistado Carlos" style="width: 30%; max-width: 150;"/> |
+| **Resumen**           | El entrevistado se desempeña como jefe de logística y operaciones comerciales, con responsabilidad sobre todo el flujo desde la solicitud del cliente hasta la entrega final del combustible, atendiendo principalmente a clientes de gran volumen en sectores como minería y agroindustria, que representan cerca del 90% de su cartera. Maneja un volumen mensual de entre 40,000 y 60,000 galones, operando bajo contratos marco anuales donde los pedidos se reciben mediante órdenes de compra enviadas por correo electrónico. El proceso incluye validaciones internas como revisión de crédito en sistemas ERP y posterior programación de la flota, lo que introduce múltiples puntos de fricción. Entre los principales problemas destacan la falta de trazabilidad en tiempo real, retrasos por burocracia interna, dependencia de correos que pueden quedar sin atención, y la necesidad constante de coordinar manualmente información con choferes para responder a clientes, lo que genera ineficiencia y sobrecarga operativa. Aunque cuentan con sistemas para contabilidad y GPS para flota, estos no están integrados, lo que limita la visibilidad completa del proceso. El entrevistado valora altamente soluciones que integren automáticamente pedidos, validaciones y despachos, permitiendo al cliente subir órdenes, validar condiciones y rastrear entregas en tiempo real sin intermediación. Asimismo, considera clave contar con reportes dinámicos para análisis de desempeño, consumo por zonas y tiempos de entrega. Señala que una plataforma centralizada representaría un salto importante en la madurez digital de la empresa, permitiendo escalar operaciones sin incrementar significativamente el personal. Finalmente, destaca que la fidelización en su sector depende del cumplimiento estricto y la ausencia de fallas, y que una solución digital podría convertirse en una ventaja competitiva al ofrecer mayor transparencia, control y posicionamiento como socio tecnológico ante sus clientes. |
+
 
 - Entrevista 3:
-  - Nombre: Lucia Fernandez
-  - Edad: 21 años
-  - Distrito: Villa el Salvador, Lima
-<div align="center">
-<img src="assets/chapter-2/LuciaEntrevista.png" alt="Captura entrevistado Carlos" style="width: 30%; max-width: 300px; height: auto;"/>
-<p>Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQAVGJhcIxtqRpfX4RZjsRWyASN4B5-P0T-EiUi1238xlu4?e=X46Kf3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</p>
-</div>
+
+| Campo                    | Detalle |
+|-------------------------|---------|
+| **Nombre entrevistado** | Lucia Fernandez |
+| **Edad**               | 21 |
+| **Departamento**       | Lima |
+| **Inicio del video**   | 00:00 |
+| **Fin del video**      | 04:44 |
+| **Link del video**     | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQAVGJhcIxtqRpfX4RZjsRWyASN4B5-P0T-EiUi1238xlu4?e=X46Kf3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+| **Foto entrevista**    | <img src="assets/chapter-2/LuciaEntrevista.png" alt="Captura entrevistada Lucia" style="width: 30%; max-width: 120px;"/> |
+| **Resumen**           | La entrevistada se desempeña como gerenta de ventas en una empresa proveedora de combustible, asumiendo además funciones relacionadas con operaciones y cobranzas, atendiendo principalmente a clientes del sector transporte y logística, como flotas de camiones y talleres con tanques propios. Maneja un volumen mensual de entre 25,000 y 40,000 galones, con una gestión de pedidos altamente dependiente de canales informales como WhatsApp y llamadas telefónicas, mientras que la información se transfiere manualmente a hojas de Excel compartidas con el área de despacho. Los contratos de mayor escala se gestionan por correo, pero la operación diaria se basa principalmente en comunicación directa. Entre los principales problemas identificados destacan la pérdida de pedidos por saturación de mensajes, errores al transcribir información al sistema, y demoras en procesos como facturación y coordinación interna. Aunque cuentan con un sistema contable, no disponen de herramientas integradas para la gestión logística, dependiendo en gran medida de Excel y la memoria operativa del equipo. La entrevistada valora especialmente soluciones digitales que sean simples e intuitivas, adaptadas a usuarios no técnicos, permitiendo registrar pedidos de forma rápida y visualizar la información organizada por prioridad. Considera que una plataforma que centralice pedidos, contratos y entregas sería altamente beneficiosa, ya que reduciría errores y optimizaría el tiempo de gestión. Asimismo, destaca la importancia de contar con reportes históricos para mejorar la planificación y negociación con proveedores, y señala que la fidelización de clientes se basa en el trato directo y el acceso a crédito, pudiendo fortalecerse mediante herramientas que brinden mayor transparencia, visibilidad del estado de cuenta y seguimiento en tiempo real de los pedidos. |
 
 
 ### 2.2.3 Análisis de entrevistas
+En esta sección se presenta el análisis detallado de la información recolectada. Para cada segmento, se explican los hallazgos objetivos y subjetivos, seguidos de su interpretación para el desarrollo de la solución.
+
+### Segmento 1: Empresas Solicitantes de Combustible
+
+**Análisis de Características Objetivas y Subjetivas:** El análisis evidencia una digitalización parcial pero desarticulada. El 100% de los entrevistados gestiona sus pedidos mediante herramientas informales como llamadas, correos electrónicos y WhatsApp, mientras que el 100% utiliza Excel como principal herramienta de registro. Sin embargo, no existe integración entre estas herramientas, lo que genera duplicidad de información y procesos manuales constantes. En términos operativos, los volúmenes gestionados son altos y críticos para la continuidad del negocio, con casos que superan los 20,000 m³ mensuales.
+
+A nivel subjetivo, el 100% de los entrevistados identifica problemas de desorganización, errores en pedidos y pérdida de tiempo en validaciones. Asimismo, el 100% considera la trazabilidad en tiempo real como un factor clave, especialmente debido al impacto directo que tiene el desabastecimiento en sus operaciones, pudiendo generar paralizaciones completas. En cuanto a la toma de decisiones, el 100% prioriza el tiempo de entrega y la confiabilidad del proveedor por encima del precio en contextos críticos. Finalmente, existe una alta disposición a adoptar soluciones digitales, aunque con la condición implícita de que sean intuitivas y no generen fricción en su flujo actual.
+
+### Segmento 2: Proveedores de Combustible
+
+**Análisis de Características Objetivas y Subjetivas:** El análisis revela una operación altamente fragmentada y dependiente de procesos manuales. El 100% de los proveedores recibe pedidos mediante canales informales como WhatsApp, llamadas o correos, y el 100% utiliza Excel como herramienta principal de registro. Asimismo, el 100% gestiona contratos, pedidos y despachos en sistemas separados o documentos independientes, evidenciando una falta total de integración. En algunos casos, existen sistemas adicionales como ERP o GPS, pero estos operan de forma aislada, sin conexión con la gestión comercial o logística.
+
+Desde una perspectiva subjetiva, el 100% de los entrevistados identifica errores frecuentes derivados de información incompleta o mal registrada, así como una pérdida significativa de tiempo en la búsqueda y validación de datos. Además, el 100% señala la falta de visibilidad del estado de los pedidos como un problema crítico, lo que obliga a realizar coordinaciones manuales constantes con clientes y operadores. A nivel estratégico, el 100% reconoce la importancia de contar con reportes históricos y métricas para mejorar la planificación y la toma de decisiones. Existe también un consenso en que una solución digital integrada representaría una mejora significativa en eficiencia operativa, escalabilidad y percepción de valor frente al cliente.
+
+### Análisis Comparativo
+
+**Contrastación de Segmentos:**
+
+Al comparar ambos segmentos, se identifican coincidencias clave que validan la necesidad de la solución. En primer lugar, el 100% de ambos grupos depende de herramientas informales y no integradas (WhatsApp, correos y Excel), lo que genera ineficiencias estructurales en toda la cadena de valor. Asimismo, el 100% coincide en la necesidad de centralizar la información y mejorar la trazabilidad de los pedidos.
+
+Sin embargo, existen diferencias importantes en la percepción del problema. Mientras que las empresas solicitantes experimentan el problema como un riesgo operativo crítico, donde el desabastecimiento puede detener completamente sus operaciones, los proveedores lo perciben como un problema de eficiencia y escalabilidad, relacionado con la sobrecarga operativa, errores y limitaciones para crecer sin aumentar recursos humanos.
+
+Esta diferencia define claramente la propuesta de valor:
+
+- Para los solicitantes: continuidad operativa y reducción de riesgo
+- Para los proveedores: eficiencia, control y escalabilidad del negocio
+
+### Conclusiones y Definición de Arquetipos
+
+Basado en el análisis de las entrevistas, se definen los siguientes perfiles de usuario:
+
+**User Persona Solicitante ("El Operador Crítico")**
+- Rasgo clave: Prioriza la continuidad operativa y la confiabilidad por encima del costo.
+- Sustento: El 100% considera la trazabilidad en tiempo real como crítica y prioriza el tiempo de entrega frente al precio.
+- Necesidad principal: Evitar desabastecimientos y tener visibilidad inmediata del estado de sus pedidos.
+
+**User Persona Proveedor ("El Gestor Saturado")**
+- Rasgo clave: Busca orden y automatización para reducir carga operativa y escalar.
+- Sustento: El 100% reporta desorganización, errores y procesos manuales intensivos, además de la necesidad de integrar sistemas.
+- Necesidad principal: Centralizar la gestión de pedidos, contratos y despachos en una sola plataforma.
+
+
 
 ## 2.3 Needfinding
 ### 2.3.1 User Personas
+- Segmento 1: Empresas solicitantes de combustible
+  <img src="assets/chapter-2/carlos_ramirez.png" alt="Captura entrevistado Carlos Ramirez"/>
 
-A partir del análisis de entrevistas y la recolección de información sobre la gestión de pedidos de combustible, se identificaron los principales perfiles de usuarios que interactúan con la solución **TankMaster**, desarrollada por la startup **PrimeFuel**, destacando tanto a las empresas solicitantes como a los proveedores, quienes concentran la necesidad de optimizar la solicitud, gestión y seguimiento de pedidos en tiempo real; en este contexto, **TankMaster** propone centralizar y digitalizar todo el proceso en una sola plataforma, reduciendo el uso de canales informales, minimizando errores operativos y mejorando la trazabilidad, lo que permite al equipo de desarrollo comprender mejor sus motivaciones y frustraciones para diseñar funcionalidades como formularios digitales, tracking en tiempo real, dashboards y herramientas de comunicación integradas, logrando así una experiencia más eficiente, clara y confiable.
+- Segmento 2: Proveedores de Combustible
+  <img src="assets/chapter-2/andrea_lopez.png" alt="Captura entrevistado Andrea Lopez"/>
 
--Segmento 1: Empresas solicitantes de combustible
 
- <img src="assets/chapter-2/userCarlos.png" alt="userPersona de Carlos"/>
-
--Segmento 2: Proveedores de Combustible
-
- <img src="assets/chapter-2/userAndrea.png" alt="userPersona de Andrea"/>
 
 ### 2.3.2 User Task Matrix
-
-El User Task Matrix presenta las tareas que realizan los User Persona para cumplir sus objetivos en su día a día, independientemente de si usan nuestro software o no. Se evalúa la frecuencia y la importancia de cada tarea para identificar dónde aportar valor.
-
+- Segmento 1: Empresas solicitantes de combustible
 <table border="1">
   <thead>
     <tr>
-      <th rowspan="2">Tarea (Task)</th>
-      <th colspan="2">Empresas Solicitantes</th>
-      <th colspan="2">Proveedores de Combustible</th>
-    </tr>
-    <tr>
+      <th>Tarea</th>
+      <th>Descripción</th>
       <th>Frecuencia</th>
       <th>Importancia</th>
-      <th>Frecuencia</th>
-      <th>Importancia</th>
+      <th>Dolor actual (Pain Point)</th>
+      <th>Oportunidad de mejora</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Registrar / recibir pedidos</td>
+      <td>Registrar pedido de combustible</td>
+      <td>Ingresar cantidad, tipo y fecha de entrega</td>
       <td>Alta</td>
       <td>Alta</td>
-      <td>Alta</td>
-      <td>Alta</td>
+      <td>Procesos manuales y propensos a errores</td>
+      <td>Formulario digital rápido (&lt;3 min)</td>
     </tr>
     <tr>
-      <td>Validar información del pedido</td>
-      <td>Media</td>
+      <td>Consultar estado del pedido</td>
+      <td>Verificar estado del pedido</td>
       <td>Alta</td>
       <td>Alta</td>
-      <td>Alta</td>
-    </tr>
-    <tr>
-      <td>Consultar / actualizar estado del pedido</td>
-      <td>Alta</td>
-      <td>Alta</td>
-      <td>Alta</td>
-      <td>Alta</td>
+      <td>Falta de trazabilidad, requiere llamadas</td>
+      <td>Tracking en tiempo real</td>
     </tr>
     <tr>
       <td>Modificar pedido</td>
+      <td>Editar detalles antes de confirmación</td>
       <td>Media</td>
       <td>Alta</td>
-      <td>Baja</td>
-      <td>Media</td>
+      <td>Dificultad para hacer cambios</td>
+      <td>Edición simple con historial</td>
     </tr>
     <tr>
-      <td>Programar y planificar entregas</td>
-      <td>Baja</td>
-      <td>Media</td>
+      <td>Comunicarse con proveedor</td>
+      <td>Coordinar detalles del pedido</td>
       <td>Alta</td>
       <td>Alta</td>
-    </tr>
-    <tr>
-      <td>Gestionar múltiples pedidos</td>
-      <td>Media</td>
-      <td>Media</td>
-      <td>Alta</td>
-      <td>Alta</td>
-    </tr>
-    <tr>
-      <td>Comunicarse entre cliente y proveedor</td>
-      <td>Alta</td>
-      <td>Alta</td>
-      <td>Alta</td>
-      <td>Alta</td>
-    </tr>
-    <tr>
-      <td>Recibir / enviar notificaciones</td>
-      <td>Alta</td>
-      <td>Alta</td>
-      <td>Alta</td>
-      <td>Alta</td>
+      <td>Uso de múltiples canales</td>
+      <td>Chat integrado</td>
     </tr>
     <tr>
       <td>Revisar historial de pedidos</td>
+      <td>Consultar pedidos anteriores</td>
       <td>Media</td>
       <td>Media</td>
-      <td>Media</td>
-      <td>Media</td>
+      <td>Información dispersa</td>
+      <td>Historial centralizado</td>
     </tr>
     <tr>
-      <td>Monitorear desempeño / consumo</td>
-      <td>Baja</td>
-      <td>Media</td>
-      <td>Media</td>
-      <td>Media</td>
+      <td>Recibir notificaciones</td>
+      <td>Alertas sobre estado del pedido</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Seguimiento manual</td>
+      <td>Notificaciones automáticas</td>
     </tr>
     <tr>
-      <td>Generar reportes y métricas</td>
+      <td>Generar reportes</td>
+      <td>Analizar consumo de combustible</td>
       <td>Baja</td>
       <td>Media</td>
-      <td>Media</td>
-      <td>Media</td>
+      <td>Falta de datos estructurados</td>
+      <td>Dashboard con métricas</td>
     </tr>
   </tbody>
 </table>
 
 
+- Segmento 2: Proveedores de Combustible
+
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Tarea</th>
+      <th>Descripción</th>
+      <th>Frecuencia</th>
+      <th>Importancia</th>
+      <th>Dolor actual (Pain Point)</th>
+      <th>Oportunidad de mejora</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Recibir pedidos</td>
+      <td>Visualizar solicitudes de clientes</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Pedidos por múltiples canales</td>
+      <td>Bandeja centralizada</td>
+    </tr>
+    <tr>
+      <td>Validar pedidos</td>
+      <td>Confirmar disponibilidad</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Falta de organización</td>
+      <td>Flujo estructurado</td>
+    </tr>
+    <tr>
+      <td>Programar entregas</td>
+      <td>Asignar fechas y logística</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Coordinación manual compleja</td>
+      <td>Sistema de planificación</td>
+    </tr>
+    <tr>
+      <td>Actualizar estado del pedido</td>
+      <td>Marcar progreso del pedido</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Información desactualizada</td>
+      <td>Actualización en tiempo real</td>
+    </tr>
+    <tr>
+      <td>Gestionar múltiples pedidos</td>
+      <td>Organizar pedidos simultáneos</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Sobrecarga operativa</td>
+      <td>Panel de control</td>
+    </tr>
+    <tr>
+      <td>Comunicarse con clientes</td>
+      <td>Resolver dudas y coordinar</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Exceso de llamadas</td>
+      <td>Chat integrado</td>
+    </tr>
+    <tr>
+      <td>Monitorear desempeño</td>
+      <td>Evaluar eficiencia</td>
+      <td>Media</td>
+      <td>Media</td>
+      <td>Falta de métricas</td>
+      <td>Dashboard analítico</td>
+    </tr>
+  </tbody>
+</table>
+
 ### 2.3.3 User Journey Mapping
+- Segmento 1: Empresas solicitantes de combustible
 
 
--Segmento 1: Empresas solicitantes de combustible
+<table border="1">
+  <thead>
+    <tr>
+      <th>Etapa</th>
+      <th>Acciones</th>
+      <th>Pensamientos</th>
+      <th>Emociones</th>
+      <th>Pain Points</th>
+      <th>Oportunidades</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Identificación de necesidad</td>
+      <td>Detecta que necesita combustible</td>
+      <td>“Necesito hacer el pedido rápido”</td>
+      <td> Neutral</td>
+      <td>No hay sistema centralizado</td>
+      <td>Recordatorios automáticos</td>
+    </tr>
+    <tr>
+      <td>Registro del pedido</td>
+      <td>Contacta al proveedor (WhatsApp/correo)</td>
+      <td>“Espero no equivocarme en los datos”</td>
+      <td> Estrés</td>
+      <td>Errores manuales</td>
+      <td>Formulario digital guiado</td>
+    </tr>
+    <tr>
+      <td>Confirmación</td>
+      <td>Espera respuesta del proveedor</td>
+      <td>“¿Habrá sido recibido?”</td>
+      <td> Incertidumbre</td>
+      <td>Falta de confirmación inmediata</td>
+      <td>Confirmación automática</td>
+    </tr>
+    <tr>
+      <td>Seguimiento</td>
+      <td>Hace llamadas para saber estado</td>
+      <td>“Necesito saber dónde está”</td>
+      <td> Frustración</td>
+      <td>No hay tracking</td>
+      <td>Seguimiento en tiempo real</td>
+    </tr>
+    <tr>
+      <td>Recepción</td>
+      <td>Recibe el combustible</td>
+      <td>“Espero que llegue a tiempo”</td>
+      <td> Alivio</td>
+      <td>Retrasos inesperados</td>
+      <td>Alertas de entrega</td>
+    </tr>
+    <tr>
+      <td>Post-servicio</td>
+      <td>Registra o revisa el pedido</td>
+      <td>“Necesito llevar control”</td>
+      <td> Neutral</td>
+      <td>Datos desorganizados</td>
+      <td>Historial automático</td>
+    </tr>
+  </tbody>
+</table>
 
-El User Journey Mapping de Carlos representa el recorrido actual que experimenta como responsable en una empresa constructora, en la gestión del abastecimiento de combustible necesario para la operación de maquinaria pesada. El mapa ilustra el proceso end-to-end, desde la identificación de la necesidad de combustible hasta la evaluación de la entrega y desempeño del proveedor.
 
-En la situación As-Is, Carlos enfrenta un flujo de trabajo manual y poco estructurado: detecta necesidades sin apoyo de alertas, busca proveedores de manera informal, realiza pedidos mediante canales como WhatsApp o correo y da seguimiento a través de llamadas constantes. Esto genera desorden en la información, falta de trazabilidad, retrasos y una alta dependencia de la comunicación manual.
-
-El Journey busca evidenciar los puntos críticos de su experiencia actual, identificando emociones, tareas, fricciones y oportunidades de mejora a lo largo de cada etapa (Awareness, Data Collection, Daily Management, Communication, Reporting y Evaluation). Este análisis servirá como base para diseñar una solución que centralice la información, automatice el registro de pedidos y permita el seguimiento en tiempo real.
-
- <img src="assets/chapter-2/journeyCarlos.png" alt="userJourney de Carlos"/>
-
--Segmento 2: Proveedores de Combustible
-
-El User Journey Mapping de Andrea representa el recorrido actual que experimenta como coordinadora en una empresa distribuidora de combustible, encargada de gestionar múltiples pedidos, coordinar entregas y asegurar el cumplimiento logístico. El mapa ilustra el proceso end-to-end, desde la recepción de pedidos hasta la evaluación del desempeño operativo.
-
-En la situación As-Is, Andrea enfrenta un flujo de trabajo altamente demandante y fragmentado: recibe pedidos por diversos canales, valida información manualmente, organiza rutas sin herramientas automatizadas y mantiene comunicación constante con clientes mediante llamadas y mensajes. Esto genera sobrecarga operativa, errores en la planificación, saturación en la comunicación y limitada visibilidad de métricas clave.
-
-El Journey busca evidenciar los puntos críticos de su experiencia actual, identificando emociones, tareas, fricciones y oportunidades de mejora a lo largo de cada etapa (Awareness, Data Collection, Daily Management, Communication, Reporting y Evaluation). Este análisis servirá como base para diseñar una solución tecnológica que centralice pedidos, automatice la planificación logística y mejore la visibilidad operativa mediante indicadores y dashboards.
+- Segmento 2: Proveedores de Combustible
 
 
- <img src="assets/chapter-2/journeyAndrea.png" alt="UserJourney de Andrea"/>
+<table border="1">
+  <thead>
+    <tr>
+      <th>Etapa</th>
+      <th>Acciones</th>
+      <th>Pensamientos</th>
+      <th>Emociones</th>
+      <th>Pain Points</th>
+      <th>Oportunidades</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Recepción de pedido</td>
+      <td>Recibe pedidos por múltiples canales</td>
+      <td>“Tengo demasiados pedidos por revisar”</td>
+      <td> Estrés</td>
+      <td>Desorganización</td>
+      <td>Bandeja centralizada</td>
+    </tr>
+    <tr>
+      <td>Validación</td>
+      <td>Verifica datos del pedido</td>
+      <td>“¿Está todo correcto?”</td>
+      <td> Neutral</td>
+      <td>Errores en información</td>
+      <td>Validación automática</td>
+    </tr>
+    <tr>
+      <td>Planificación</td>
+      <td>Organiza rutas y entregas</td>
+      <td>“Esto toma mucho tiempo”</td>
+      <td> Carga</td>
+      <td>Proceso manual</td>
+      <td>Optimización de rutas</td>
+    </tr>
+    <tr>
+      <td>Comunicación</td>
+      <td>Coordina con clientes</td>
+      <td>“Recibo demasiadas llamadas”</td>
+      <td> Frustración</td>
+      <td>Saturación de comunicación</td>
+      <td>Notificaciones automáticas</td>
+    </tr>
+    <tr>
+      <td>Entrega</td>
+      <td>Realiza despacho</td>
+      <td>“Debe salir todo bien”</td>
+      <td> Tensión</td>
+      <td>Falta de visibilidad</td>
+      <td>Tracking en tiempo real</td>
+    </tr>
+    <tr>
+      <td>Evaluación</td>
+      <td>Revisa desempeño</td>
+      <td>“¿Estamos siendo eficientes?”</td>
+      <td> Reflexión</td>
+      <td>No hay métricas claras</td>
+      <td>Dashboard analítico</td>
+    </tr>
+  </tbody>
+</table>
 
 
 ### 2.3.4 Empathy Mapping
+- Segmento 1: Empresas solicitantes de combustible
+  <img src="assets/chapter-2/mapping_carloz.png" alt="Captura entrevistado Carlos Ramirez"/>
 
-Para la elaboración de los Empathy Maps, el equipo partió del conocimiento y observaciones recolectadas durante el análisis de los User Persona. Se colocó al centro de cada mapa al usuario correspondiente (Carlos y Andrea) y se respondieron las preguntas claves sobre su entorno, emociones, comportamientos y necesidades.
-
--Segmento 1: Empresas solicitantes de combustible
-
-
- <img src="assets/chapter-2/empathyCarlos.png" alt="empathyMapping de Carlos"/>
-
-
--Segmento 2: Proveedores de Combustible
-
- <img src="assets/chapter-2/empathyAndrea.png" alt="empathyMapping de Andrea"/>
-
-
+- Segmento 1: Empresas solicitantes de combustible
+  <img src="assets/chapter-2/mapping_andrea.png" alt="Captura entrevistado Carlos Ramirez"/>
 ## 2.4 Big Picture Event Storming
 
 Para comprender a profundidad el dominio del negocio de **Prime Fuel** y alinear la visión tecnológica con las operaciones reales de compraventa y distribución de combustible, el equipo llevó a cabo una sesión de **Event Storming**. Esta técnica colaborativa nos permitió identificar los hitos clave del sistema sin adelantarnos a detalles técnicos.
