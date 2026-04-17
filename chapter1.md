@@ -31,6 +31,9 @@
     <tr>
       <td>u202320684</td>
       <td>Ponce Perales Alberto Alejandro</td>
+    </tr><tr>
+      <td>u202319027</td>
+      <td>Herrera Enriquez Diego Fernando</td>
     </tr>
   </table>
 </div>
@@ -55,7 +58,7 @@
       <td>
         - Asto Jacome Jose Gustavo <br>
         - Cayanchi Avila Milenko Rubén<br>
-        -  <br>
+        - Herrera Enriquez Diego fernando<br>
         - Alberto Alejandro Ponce Perales
       </td>
       <td>
@@ -260,11 +263,11 @@ El siguiente gráfico muestra una línea de tiempo con la evolución semanal de 
       <td>Estudiante de Ingeniería de Software, enfocado en el desarrollo de soluciones tecnológicas innovadoras para la mejora de la calidad de vida. Poseo conocimientos básicos en Python y conocimientos básicos/intermedios en C++. Mi objetivo es adquirir conocimientos avanzados en inteligencia artificial y desarrollo de aplicaciones de salud, con el fin de mejorar mis habilidades y contribuir en el campo de la salud tecnológica.</td>
     </tr>
     <tr>
-      <td><img src="assets/chapter-1/foto.jpg" alt="nombre" width="80"></td>
-      <td>Nombre</td>
-      <td>u</td>
+      <td><img src="assets/chapter-1/fotoDiego.jpg" alt="nombre" width="80"></td>
+      <td>Herrera Enriquez Diego Fernando</td>
+      <td>u202319027</td>
       <td>Ingeniería de Software</td>
-      <td>S. </td>
+      <td>Soy Diego, con creatividad, responsabilidad y con gran disposición para aprender y crecer junto a mi equipo, pienso en entregar una aportación sobresaliente. Me adapto con facilidad a distintos retos, aportando ideas y soluciones prácticas que buscan mejorar cada proyecto. Valoro las buenas prácticas en esta profesión para servir a las personas con pasión por lo que hacemos.Conocimientos competentes en Frontend (HTML, CSS, JS) y experimentado en el diseño de proyectos a nivel integral. Mi enfoque está orientado a desarrollar soluciones prácticas y efectivas, siempre priorizando la satisfacción del usuario y con visióna seguir mejorando en futuros proyectos</td>
     </tr>
     <tr>
       <td><img src="assets/chapter-1/FotoAlberto.jpg" alt="Alberto Alejandro Ponce Perales" width="80"></td>
