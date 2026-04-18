@@ -710,7 +710,7 @@ En el Impact Mapping del modelo de negocio digital de TankMaster, desarrollado p
 A partir de estos impactos se definieron los Deliverables que la plataforma TankMaster debe ofrecer para generar dichos cambios en los actores. Entre ellos se incluyen el módulo de registro y gestión de pedidos, el sistema de tracking en tiempo real, el panel de control con métricas operativas, la planificación logística automatizada, el historial de pedidos y el sistema de notificaciones y comunicación integrada. Finalmente, en la columna de User Stories se detallaron historias en formato “Como [persona] deseo [acción] para [beneficio]” (por ejemplo, registro de pedidos, consulta de estado, actualización de entregas, coordinación logística y generación de reportes), lo que permite trazar una línea clara desde los objetivos de negocio hasta las funcionalidades del sistema, asegurando la alineación entre Business Goals, Impacts, Deliverables y el desarrollo de la solución.
 
 
- <img src="assets/chapter-3/impactMapping.png" alt="ImpactMapping de los userPersona"/>
+ <img src="../assets/chapter-3/impactMapping.png" alt="ImpactMapping de los userPersona"/>
 
 
 ## 3.3 Product Backlog
