@@ -236,15 +236,43 @@ Estructura esperada:
     <link rel="icon" href="/images/Tanklogo.png">
     < /head>
 
-### 4.2.4 Searching Systems
+### 4.2.4. Searching Systems
 
-Para asegurar una interacción fluida y enfocada, implementaremos las siguientes estrategias de navegación tanto en el sitio informativo como en la aplicación web:
+En la plataforma TankMaster, se implementa un sistema de búsqueda y filtrado que permite a los usuarios encontrar información relevante de manera rápida y eficiente, evitando la sobrecarga de información dentro del sistema. Este sistema está diseñado considerando los dos tipos de usuarios principales: solicitantes y proveedores, adaptando las opciones de búsqueda a sus necesidades específicas.
 
-Menú de navegación dinámico: La página principal contará con una barra de navegación con accesos directos a las funciones clave y opciones de registro/inicio de sesión. Esto permite que los nuevos visitantes se informen rápidamente y los usuarios habituales accedan a sus cuentas sin fricciones.
+**Búsqueda y filtros en gestión de pedidos**
 
-Arquitectura Visual Guiada: La información se organiza en bloques lógicos que corresponden a las secciones del menú principal, facilitando un desplazamiento vertical (scroll) intuitivo para descubrir las capacidades del software.
+**Solicitantes:**
 
-Diseño Adaptativo (Responsive): La interfaz se ajustará automáticamente a cualquier resolución o dispositivo. Ya sea desde una computadora de escritorio o una portátil, la experiencia será consistente y funcional, permitiendo al usuario cambiar de equipo sin afectar su productividad.
+- Búsqueda por código de pedido: Permite localizar rápidamente un pedido específico ingresando su identificador.
+- Filtrar por estado: "Pendiente", "Aprobado", "Despachado", "Entregado", "Rechazado".
+- Filtrar por fecha: Permite visualizar pedidos dentro de un rango de tiempo específico.
+- Historial de pedidos: Acceso a pedidos anteriores con posibilidad de filtrado por tipo de combustible o estado.
+
+**Proveedores:**
+
+- Filtrar pedidos pendientes: Visualización de pedidos que requieren acción inmediata.
+- Filtrar por cliente (empresa): Permite ubicar pedidos asociados a una empresa específica.
+- Filtrar por estado del pedido: "Pendiente", "Aprobado", "Despachado", "Finalizado", "Rechazado".
+- Filtrar por rango de fechas: Para análisis operativo y generación de reportes.
+
+**Búsqueda en módulos adicionales**
+
+- Gestión de flota: Búsqueda de vehículos por placa. Filtro por disponibilidad.
+- Gestión de conductores: Búsqueda por nombre o DNI. Filtro por disponibilidad o asignación.
+- Empresas (clientes): Búsqueda por nombre de empresa. Visualización de historial asociado.
+
+**Visualización de resultados**
+
+Los resultados de búsqueda se presentan en forma de listas estructuradas dentro de tablas dinámicas, mostrando información clave como estado del pedido, fechas, cliente asociado y detalles logísticos.
+
+Cada resultado permite acceder a una vista de detalle, donde el usuario puede revisar información completa del elemento seleccionado.
+
+En caso de no existir coincidencias, el sistema muestra mensajes informativos como “No se encontraron resultados”, evitando confusión en el usuario.
+
+**Flujo de búsqueda**
+
+El sistema de búsqueda está integrado dentro de cada módulo relevante mediante barras de búsqueda y filtros visibles. Los usuarios pueden aplicar, combinar o eliminar filtros fácilmente, permitiendo una navegación fluida y eficiente dentro de la plataforma.
 
 ### 4.2.5 Navigation Systems
 
