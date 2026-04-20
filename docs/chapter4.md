@@ -145,8 +145,46 @@ Para evitar confusiones en el seguimiento en tiempo real, se estandarizan las si
 - **Completed**: El cliente ha confirmado la recepción satisfactoria del combustible.
 
 ### 4.2.3 SEO Tags and Meta Tags
+
+Estas etiquetas han sido estructuradas para facilitar una navegación intuitiva y directa, garantizando una experiencia de usuario óptima para las empresas que buscan una herramienta eficiente y sencilla.
+
+Landing Page:
+
+Título (SEO Tag): TankMaster | Simplifica la Gestión de Pedidos de Combustible
+
+Descripción (Meta Tag): Optimiza el suministro de combustible con TankMaster, la plataforma centralizada para registrar depósitos, gestionar documentación y rastrear pedidos entre compradores y proveedores.
+
+Palabras Clave (Meta Tag): Combustible, Monitoreo, Pedidos, Gestión de combustible, Plataforma de proveedores, Rastreo de suministros, Depósitos de combustible, Software de gestión.
+
+Autor (Meta Tag): Equipo TankMaster
+
+Aplicación Web:
+
+Título (SEO Tag): TankMaster | Gestión de Pedidos y Depósitos
+
+Descripción (Meta Tag): Acceda a su panel de control para registrar depósitos, administrar archivos y monitorear el estado de sus pedidos de combustible en tiempo real.
+
+Palabras Clave (Meta Tag): Rastreo de combustible, Gestión de depósitos, Dashboard de proveedores, Logística de combustible, TankMaster Web App.
+
+Autor (Meta Tag): Equipo TankMaster
+
 ### 4.2.4 Searching Systems
+
+Para asegurar una interacción fluida y enfocada, implementaremos las siguientes estrategias de navegación tanto en el sitio informativo como en la aplicación web:
+
+Menú de navegación dinámico: La página principal contará con una barra de navegación con accesos directos a las funciones clave y opciones de registro/inicio de sesión. Esto permite que los nuevos visitantes se informen rápidamente y los usuarios habituales accedan a sus cuentas sin fricciones.
+
+Arquitectura Visual Guiada: La información se organiza en bloques lógicos que corresponden a las secciones del menú principal, facilitando un desplazamiento vertical (scroll) intuitivo para descubrir las capacidades del software.
+
+Diseño Adaptativo (Responsive): La interfaz se ajustará automáticamente a cualquier resolución o dispositivo. Ya sea desde una computadora de escritorio o una portátil, la experiencia será consistente y funcional, permitiendo al usuario cambiar de equipo sin afectar su productividad.
+
 ### 4.2.5 Navigation Systems
+
+En TankMaster, hemos diseñado un sistema de localización de datos mediante texto y categorías, pensado especialmente para que los proveedores gestionen sus pedidos activos e históricos con agilidad:
+
+Búsqueda por texto: Las tablas de pedidos integrarán buscadores inteligentes en cada columna (razón social, número de pedido, entidad bancaria, etc.). El sistema detectará automáticamente el tipo de información y filtrará los resultados en tiempo real. Asimismo, se incluirá una función de "Búsqueda Avanzada" para consultas de alta precisión que requieran completar múltiples criterios técnicos.
+
+Filtrado por categorías: Se ofrecerá un sistema de filtrado automatizado basado en los datos existentes para ahorrar tiempo en tareas operativas. Por ejemplo, la plataforma agrupará automáticamente todas las ubicaciones detectadas en los pedidos para que el usuario pueda seleccionarlas y filtrar su vista con un solo clic.
 
 ## 4.3 Landing Page UI Design
 ### 4.3.1 Landing Page Wireframe
