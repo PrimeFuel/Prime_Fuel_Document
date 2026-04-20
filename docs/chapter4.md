@@ -183,29 +183,58 @@ Para evitar confusiones en el seguimiento en tiempo real, se estandarizan las si
 
 - **Completed**: El cliente ha confirmado la recepción satisfactoria del combustible.
 
-### 4.2.3 SEO Tags and Meta Tags
+### 4.2.3. SEO Tags and Meta Tags
 
-Estas etiquetas han sido estructuradas para facilitar una navegación intuitiva y directa, garantizando una experiencia de usuario óptima para las empresas que buscan una herramienta eficiente y sencilla.
+En la plataforma TankMaster, se implementan etiquetas SEO (Search Engine Optimization) y Meta Tags dentro del < head > del sitio web con el objetivo de mejorar la visibilidad en motores de búsqueda como Google, así como optimizar la presentación de la página en diferentes dispositivos y contextos.
 
-Landing Page:
+Estas etiquetas permiten describir el contenido del sitio, definir su comportamiento en navegadores y facilitar que los usuarios encuentren la plataforma cuando buscan soluciones relacionadas con la gestión de pedidos de combustible.
 
-Título (SEO Tag): TankMaster | Simplifica la Gestión de Pedidos de Combustible
+A continuación, se describen las principales etiquetas utilizadas:
 
-Descripción (Meta Tag): Optimiza el suministro de combustible con TankMaster, la plataforma centralizada para registrar depósitos, gestionar documentación y rastrear pedidos entre compradores y proveedores.
+**Meta Tags Básicas**
 
-Palabras Clave (Meta Tag): Combustible, Monitoreo, Pedidos, Gestión de combustible, Plataforma de proveedores, Rastreo de suministros, Depósitos de combustible, Software de gestión.
+- charset="utf-8": Define la codificación de caracteres, asegurando que el contenido se muestre correctamente (incluyendo acentos y caracteres especiales).
+- viewport: Permite que la página sea responsive, adaptándose a dispositivos móviles, tablets y desktops.
 
-Autor (Meta Tag): Equipo TankMaster
+**SEO Tags**
 
-Aplicación Web:
+- title: Define el título de la página que aparece en los resultados de búsqueda. Es clave para atraer la atención del usuario.
+- meta description: Proporciona un resumen del contenido del sitio. Influye directamente en el CTR (Click Through Rate).
+- meta keywords: Incluye palabras clave relacionadas con el sistema, facilitando su indexación en buscadores.
+- meta author: Indica el equipo o autor responsable del desarrollo del sitio.
 
-Título (SEO Tag): TankMaster | Gestión de Pedidos y Depósitos
+**Optimización de Recursos**
 
-Descripción (Meta Tag): Acceda a su panel de control para registrar depósitos, administrar archivos y monitorear el estado de sus pedidos de combustible en tiempo real.
+- Preconnect (Google Fonts): Mejora el rendimiento al establecer conexiones anticipadas con servidores externos.
+- CSS e íconos: Se integran librerías como Bootstrap e iconos para mantener consistencia visual.
+- Favicon: Representa visualmente la plataforma en pestañas del navegador.
 
-Palabras Clave (Meta Tag): Rastreo de combustible, Gestión de depósitos, Dashboard de proveedores, Logística de combustible, TankMaster Web App.
+Estructura esperada:
 
-Autor (Meta Tag): Equipo TankMaster
+    < head>
+    < meta charset="utf-8">
+    < meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>TankMaster - Gestión inteligente de pedidos de combustible</title>
+    <meta name="description" content="TankMaster optimiza la gestión de pedidos de combustible entre empresas solicitantes y proveedores. Control, trazabilidad y eficiencia en un solo sistema.">
+    <meta name="keywords" content="TankMaster, combustible, gestión de pedidos, logística, proveedores de combustible, distribución, empresas, pedidos de combustible">
+    <meta name="author" content="Equipo TankMaster">
+
+    <!-- CSS & Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="/images/Tanklogo.png">
+    < /head>
 
 ### 4.2.4 Searching Systems
 
