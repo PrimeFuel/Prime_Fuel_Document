@@ -103,7 +103,46 @@ Los estándares de interacción definen cómo responde el sistema a las acciones
 ## 4.2 Information Architecture
 Esta sección describe los aspectos clave de la estructura y el etiquetado del aplicativo.
 
-### 4.2.1 Organization Systems
+### 4.2.1. Organization Systems
+
+En la plataforma TankMaster, se emplean distintos sistemas de organización del contenido con el objetivo de optimizar la navegación y facilitar la gestión de pedidos de combustible tanto para solicitantes como para proveedores. Estos sistemas permiten estructurar la información de manera clara, asegurando que los usuarios puedan interactuar con la plataforma de forma eficiente. A continuación, se describen los enfoques utilizados:
+
+#### Organización Visual del Contenido
+
+**Jerárquica (Visual Hierarchy):**
+La organización jerárquica se aplica en secciones clave como el dashboard, formularios de registro de pedidos y paneles de gestión. Se priorizan visualmente elementos como estados de pedidos, KPIs y botones de acción (por ejemplo, “Registrar pedido” o “Aprobar pedido”), utilizando tamaños de texto, colores y distribución espacial para guiar la atención del usuario hacia las acciones más relevantes.
+
+**Secuencial (Step-by-Step to Accomplish):**
+En procesos que requieren múltiples pasos, como el registro de empresas, la creación de pedidos o la asignación logística (vehículo y conductor), se utiliza un flujo secuencial. Esto permite que los usuarios completen cada etapa de forma ordenada, reduciendo errores y asegurando la correcta ejecución de las operaciones dentro del sistema.
+
+#### Esquemas de Categorización de Contenido
+
+**Por Audiencia (Roles de Usuario):**
+TankMaster distingue principalmente entre dos tipos de usuarios: solicitantes y proveedores.
+
+- Los solicitantes tienen acceso a funcionalidades como registro de pedidos, seguimiento de estado, historial y pagos.
+- Los proveedores gestionan pedidos, validan pagos, asignan recursos logísticos y generan reportes.
+
+La interfaz y navegación se adaptan según el rol, mostrando únicamente las opciones relevantes para cada tipo de usuario, lo que mejora la usabilidad y reduce la complejidad.
+
+**Por Tópicos:**
+El contenido también se organiza por categorías funcionales dentro de la plataforma, tales como:
+
+- Gestión de pedidos
+- Logística y despacho
+- Reportes y analytics
+- Soporte y contacto
+
+Esto permite a los usuarios localizar rápidamente las herramientas o información que necesitan, especialmente en módulos como soporte o reportes.
+
+#### Implementación en la Interfaz
+
+La organización jerárquica y secuencial se refleja en dashboards estructurados, formularios progresivos y vistas detalladas de pedidos, donde la información se presenta de forma clara y priorizada.
+
+Por otro lado, la categorización por audiencia y por tópicos se implementa mediante menús de navegación dinámicos, paneles diferenciados por rol y secciones claramente delimitadas. El uso de componentes visuales como tarjetas, tablas y estados (pendiente, aprobado, despachado, etc.) permite una lectura rápida y eficiente del sistema.
+
+Este enfoque garantiza que la experiencia en TankMaster sea intuitiva, escalable y alineada con las necesidades operativas de cada tipo de usuario, facilitando tanto la gestión como la toma de decisiones dentro de la plataforma.
+
 ### 4.2.2 Labeling Systems
 En TankMaster, el sistema de etiquetado ha sido diseñado priorizando la simplicidad y la reducción de la carga cognitiva de los operadores logísticos y proveedores. Se han seleccionado etiquetas descriptivas de una o dos palabras para evitar confusión y agilizar la navegación.
 
