@@ -274,13 +274,83 @@ En caso de no existir coincidencias, el sistema muestra mensajes informativos co
 
 El sistema de búsqueda está integrado dentro de cada módulo relevante mediante barras de búsqueda y filtros visibles. Los usuarios pueden aplicar, combinar o eliminar filtros fácilmente, permitiendo una navegación fluida y eficiente dentro de la plataforma.
 
-### 4.2.5 Navigation Systems
+### 4.2.5. Navigation Systems
 
-En TankMaster, hemos diseñado un sistema de localización de datos mediante texto y categorías, pensado especialmente para que los proveedores gestionen sus pedidos activos e históricos con agilidad:
+En la plataforma TankMaster, el sistema de navegación está diseñado para guiar a los usuarios de forma clara y eficiente a través del Landing Page y la Web Application, permitiéndoles cumplir sus objetivos según su rol dentro del sistema sea solicitante o proveedor.
 
-Búsqueda por texto: Las tablas de pedidos integrarán buscadores inteligentes en cada columna (razón social, número de pedido, entidad bancaria, etc.). El sistema detectará automáticamente el tipo de información y filtrará los resultados en tiempo real. Asimismo, se incluirá una función de "Búsqueda Avanzada" para consultas de alta precisión que requieran completar múltiples criterios técnicos.
+La navegación combina estructuras visuales, jerárquicas y contextuales, asegurando que el usuario pueda orientarse fácilmente y acceder a la información o funcionalidades necesarias sin fricción.
 
-Filtrado por categorías: Se ofrecerá un sistema de filtrado automatizado basado en los datos existentes para ahorrar tiempo en tareas operativas. Por ejemplo, la plataforma agrupará automáticamente todas las ubicaciones detectadas en los pedidos para que el usuario pueda seleccionarlas y filtrar su vista con un solo clic.
+#### Navegación en la Landing Page
+
+La Landing Page actúa como punto de entrada para nuevos usuarios, guiándolos mediante un flujo vertical estructurado que presenta progresivamente la información clave del sistema.
+
+**Elementos de navegación**
+
+**Menú de navegación superior (Navbar fija):**
+
+- Inicio
+- About Us
+- Como funciona
+- Beneficios
+- Planes y precios
+- Testimonios
+- Contacto
+
+**Desplazamiento vertical (Scroll Navigation):** El usuario recorre la página mediante scroll continuo, pasando por secciones organizadas jerárquicamente desde información general hasta acciones específicas.
+
+**Call To Action (CTA):** Botones estratégicamente ubicados (sea “Empezar ahora” o “Ver planes”) que redirigen al usuario hacia el registro o acciones clave.
+
+**Navegación por anclas:** Los elementos del menú permiten saltar directamente a secciones específicas dentro de la misma página.
+Flujo de navegación
+
+**El flujo sigue una lógica progresiva:**
+
+Valor del producto → Explicación → Confianza → Conversión
+
+Inicio → presenta el valor principal
+
+Como funciona → explica el sistema
+
+Beneficios  → refuerza confianza
+
+Planes → decisión
+
+Contacto → soporte o conversión final
+
+#### Navegación en la Web Application
+
+La navegación dentro del sistema se adapta al tipo de usuario, optimizando la experiencia según sus objetivos.
+
+**Para Solicitantes**
+
+Menú principal (sidebar o navbar):
+
+//TODO
+
+Patrones de navegación:
+
+- Acceso directo a creación de pedidos (CTA visible)
+- Navegación por listas (pedidos → detalle)
+- Filtros y búsqueda integrados
+
+**Para Proveedores**
+
+Menú principal (sidebar):
+
+//TODO
+
+Patrones de navegación:
+
+- Flujo operativo: Pedido → Aprobación → Despacho → Cierre
+- Acceso jerárquico a módulos logísticos
+- Navegación orientada a gestión y control
+
+#### Elementos de apoyo a la navegación
+
+- **Breadcrumbs (navegación jerárquica):** Permiten al usuario regresar a vistas anteriores dentro del sistema.
+- **Indicadores de estado:** Estados visibles de pedidos (pendiente, aprobado, etc.) que guían la interacción.
+- **Feedback visual:** Confirmaciones, errores y cambios de estado visibles.
+- **Persistencia de contexto:** El sistema mantiene filtros, idioma y vistas activas durante la navegación.
 
 ## 4.3 Landing Page UI Design
 ### 4.3.1 Landing Page Wireframe
