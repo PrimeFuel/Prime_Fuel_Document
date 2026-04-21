@@ -367,7 +367,7 @@ En esta sección se presentan los esquemas estructurales (wireframes) de baja fi
   <img src="./../assets/chapter-4/lpWireframe3.png" alt="Wireframe" width="80%"/>
 </div>
 <div align="center">
-  <img src="./../assets/chapter-4/lpWireframe4.png" alt="Wireframe" width="80%"/>
+  <img src="./../assets/chapter-4/lpWIreframe4.png" alt="Wireframe" width="80%"/>
 </div>
 <div align="center">
   <img src="./../assets/chapter-4/lpWireframe5.png" alt="Wireframe" width="80%"/>
