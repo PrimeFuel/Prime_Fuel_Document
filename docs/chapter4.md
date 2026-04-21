@@ -358,7 +358,28 @@ En esta sección se presentan los esquemas estructurales (wireframes) de baja fi
 
 **Desktop Web Browser Wireframe**
 <div align="center">
-  <img src="./../assets/chapter-4/landingPage_wireframe.png" alt="Wireframe" width="100%"/>
+  <img src="./../assets/chapter-4/lpWireframe1.png" alt="Wireframe" width="80%"/>
+</div>
+<div align="center">
+  <img src="./../assets/chapter-4/lpWireframe2.png" alt="Wireframe" width="80%"/>
+</div>
+<div align="center">
+  <img src="./../assets/chapter-4/lpWireframe3.png" alt="Wireframe" width="80%"/>
+</div>
+<div align="center">
+  <img src="./../assets/chapter-4/lpWireframe4.png" alt="Wireframe" width="80%"/>
+</div>
+<div align="center">
+  <img src="./../assets/chapter-4/lpWireframe5.png" alt="Wireframe" width="80%"/>
+</div>
+<div align="center">
+  <img src="./../assets/chapter-4/lpWireframe6.png" alt="Wireframe" width="80%"/>
+</div>
+<div align="center">
+  <img src="./../assets/chapter-4/lpWireframe7.png" alt="Wireframe" width="80%"/>
+</div>
+<div align="center">
+  <img src="./../assets/chapter-4/lpWireframe8.png" alt="Wireframe" width="80%"/>
 </div>
 
 * **Header (Navegación):** Se utiliza una organización horizontal fija con el logotipo a la izquierda, los enlaces de navegación centralizados (*Home, How it works, Benefits, Pricing, Testimonials, Contact) y el botón principal de *Call to Action (*"Request a Demo"*) resaltado a la derecha para incentivar la conversión inmediata.
