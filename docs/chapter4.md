@@ -389,7 +389,36 @@ En esta sección se presentan los esquemas estructurales (wireframes) de baja fi
     * **Benefits & Testimonials:** Se estructuran de forma matricial para facilitar la lectura de características clave y generar confianza al mostrar los casos de éxito de otras empresas.
     * **Pricing:** Presentado mediante tablas comparativas para destacar claramente los planes de suscripción.
 * **Footer:** Contiene los enlaces legales obligatorios como términos y condiciones, información de contacto y enlaces a redes sociales, cumpliendo con la ética y responsabilidad exigida en el proyecto.
+
+
 ### 4.3.2 Landing Page Mock-up
+En esta sección se presenta el diseño de alta fidelidad para el navegador de escritorio (Desktop Web Browser) de la plataforma TankMaster. Este diseño integra los activos visuales del Design System para ofrecer una interfaz profesional y confiable, alineada con la digitalización del sector energético.
+
+**Desktop Web Browser Mock-up**
+
+<div align="center">
+  <img src="./../assets/chapter-4/landingColor.png" alt="Mockup" width="85%"/>
+</div>
+
+El diseño final para escritorio utiliza una estructura de bloques claros y contrastados que guían al usuario hacia la conversión ("Request a free Demo"):
+
+- **Header & Navigation:** Se mantiene un encabezado fijo con el logotipo de TankMaster. El menú de navegación utiliza etiquetas precisas en inglés (Home, How it works, Benefits, Pricing, Testimonials, Contact) para facilitar el acceso a la información técnica sin saturación visual.
+
+- **Hero Section:** Aplica el color primario #1E3A8A en los títulos para transmitir autoridad y seguridad. El botón de llamado a la acción destaca mediante el color ámbar #F59E0B, generando un contraste que resalta la funcionalidad principal de la página.
+
+- **Value Proposition & Steps:** Las secciones de beneficios y flujo de trabajo ("How it works") utilizan iconos minimalistas y espacios en blanco generosos. Esto reduce la carga cognitiva, permitiendo que los encargados de logística comprendan el sistema en menos de 3 minutos.
+
+- **Pricing & Social Proof:** Se presentan tablas de precios con una jerarquía clara y una sección de testimonios que refuerza la confianza en el sistema a través de la validación de otros usuarios del sector.
+
+**Sustento de Diseño Gráfico e Inclusivo**
+
+El mock-up de TankMaster se fundamenta en principios de diseño inclusivo y accesibilidad para asegurar que el rango de audiencia corporativa pueda interactuar con la plataforma sin barreras:
+
+- **Contraste y Legibilidad:** La combinación de la tipografía Inter con la paleta de colores seleccionada garantiza un índice de contraste que cumple con las pautas de accesibilidad. El uso de Inter asegura que los datos numéricos y técnicos de combustible sean legibles en diversas condiciones de iluminación.
+
+- **Jerarquía Visual y Material Design:** Se aplican principios de Material Design, como el uso de elevaciones sutiles (shadows) en las tarjetas de precios y beneficios para diferenciar niveles de información.
+
+- **Adaptación al Usuario:** El diseño prioriza la claridad en la presentación de estados de pedido (Order Status) y métricas operativas, fundamentales para mitigar los errores humanos y la falta de trazabilidad identificados en la problemática inicial.
 
 ## 4.4 Web Applications UX/UI Design
 ### 4.4.1 Web Applications Wireframes
