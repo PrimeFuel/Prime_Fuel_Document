@@ -401,12 +401,403 @@ En esta sección se presentan los esquemas estructurales (wireframes) de baja fi
 
 ## 4.6 Domain-Driven Software Architecture
 ### 4.6.1 Design-Level Event Storming
+
+Para identificar los eventos de dominio, es recomendable realizar una sesión de Event Storming. Esta técnica permite visualizar y comprender el flujo de eventos dentro del dominio, facilitando la identificación de los Bounded Context.
+
+El desarrollo del proceso del Domain-Driven Design se realizó en la aplicación Miro: https://miro.com/app/board/uXjVGgOzeI4=/?share_link_id=580201872614
+
+<div align="center">
+  <img src="./../assets/chapter-4/miro.jpg" alt="imagen de lo realizado en miro" width="500"/>
+</div>
+
+1. Bounded Context IAM
+   El bounded context IAM (Identity and Access Management) se encarga de la autenticación, autorización y gestión de credenciales dentro del sistema. Administra procesos como el registro de clientes y proveedores, inicio de sesión, recuperación de contraseñas y asignación de permisos según el rol. Su propósito es garantizar accesos seguros y controlados, asegurando que cada usuario interactúe únicamente con las funcionalidades que le corresponden dentro de la plataforma.
+<div allign="center">
+  <img src="./../assets/chapter-4/IAM.png" alt="Bounded context IAM" width="500"/>
+</div>
+
+2. Bounded Context Catalog
+El bounded context Catalog se encarga de la gestión del catálogo de productos e inventario disponible en el sistema. Administra procesos como la creación, actualización y eliminación de ítems, así como la actualización de stock. Su propósito es mantener información precisa y actualizada sobre los recursos disponibles, permitiendo que los proveedores ofrezcan combustible y que los clientes consulten la disponibilidad antes de realizar una solicitud.
+
+<div allign="center">
+  <img src="./../assets/chapter-4/Catalog.png" alt="Bounded context Catalog" width="500"/>
+</div>
+
+3. Bounded Context Ordering
+El bounded context Ordering se encarga de la gestión del ciclo de vida de las solicitudes y órdenes realizadas por los clientes. Administra procesos como la creación de solicitudes, validación, aceptación o rechazo por parte del proveedor, generación de órdenes, despacho, confirmación de entrega y cierre del pedido. Su propósito es orquestar el flujo principal del negocio, asegurando que cada pedido siga un proceso claro, trazable y consistente desde su inicio hasta su finalización.
+
+<div allign="center">
+  <img src="./../assets/chapter-4/Ordering.png" alt="Bounded context Ordering" width="500"/>
+</div>
+
+
+4. Bounded Context Fulfillment
+El bounded context Fulfillment se encarga de la gestión logística necesaria para cumplir con las órdenes generadas. Administra procesos como el registro de transportes y conductores, asignación de recursos a pedidos y ejecución del despacho. Su propósito es garantizar que la entrega del combustible se realice de manera eficiente, coordinando los recursos logísticos involucrados en la distribución.
+
+<div allign="center">
+  <img src="./../assets/chapter-4/Fullfillment.png" alt="Bounded context Fullfilment" width="500"/>
+</div>
+
+
+5. Bounded Context Payment
+El bounded context Payment se encarga de la gestión de los pagos asociados a las órdenes. Administra procesos como la solicitud de pago, registro de transacciones y aprobación del pago. Su propósito es asegurar que las operaciones económicas se realicen de manera confiable, validando que los pedidos cuenten con el respaldo financiero necesario antes de su ejecución o finalización.
+
+<div allign="center">
+  <img src="./../assets/chapter-4/Payment.png" alt="Bounded context Payment" width="500"/>
+</div>
+
+6. Bounded Context Notification
+El bounded context Notification se encarga de la generación y gestión de notificaciones dentro del sistema. Administra procesos como la creación de notificaciones y el seguimiento de su estado (leídas o no leídas). Su propósito es mantener informados a los usuarios sobre eventos relevantes, como cambios en el estado de pedidos, pagos o entregas, mejorando la comunicación dentro de la plataforma.
+
+<div allign="center">
+  <img src="./../assets/chapter-4/Notification.png" alt="Bounded context Notification" width="500"/>
+</div>
+
+7. Bounded Context Reporting & Analytics
+El bounded context Reporting & Analytics se encarga de la generación y visualización de reportes basados en la información del sistema. Administra procesos como la elaboración de reportes de ventas, consumo y métricas operativas. Su propósito es proporcionar información clave para la toma de decisiones, permitiendo analizar el comportamiento del negocio y optimizar sus procesos.
+
+<div allign="center">
+  <img src="./../assets/chapter-4/Reporting.png" alt="Bounded context Reporting and Analytics" width="500"/>
+</div>
+
 ### 4.6.2 Software Architecture Context Diagram
+
+En este nivel se presenta una vista de alto nivel de la arquitectura, donde el foco está en el sistema de software TankMaster Platform como una “caja negra” y en las interacciones que mantiene con sus usuarios y con otros sistemas externos.
+
+El context diagram muestra al TankMaster Platform como un recuadro central, rodeado por los principales actores y sistemas con los que se comunica:
+
+Visitor: usuario anónimo que navega la landing page para conocer la plataforma, revisar sus beneficios y registrarse en el sistema.
+
+Client (Requester): representante de una empresa que requiere combustible. Interactúa con la plataforma para crear solicitudes, registrar pagos, hacer seguimiento de pedidos y confirmar entregas.
+
+Provider: representante de una empresa proveedora de combustible. Gestiona el inventario, evalúa solicitudes, aprueba o rechaza pedidos, asigna recursos logísticos y ejecuta despachos.
+
+Email Service: sistema externo encargado de enviar correos electrónicos, principalmente para la recuperación de contraseñas y notificaciones relacionadas a autenticación.
+
+Cloud Storage: sistema externo utilizado para almacenar comprobantes de pago (vouchers) cargados por los clientes.
+
+PDF Generator Service: sistema externo encargado de generar reportes en formato PDF, como resúmenes de consumo y ventas.
+
+En el diagrama se representan las relaciones entre estos elementos, destacando que los usuarios (Visitor, Client y Provider) interactúan directamente con TankMaster, mientras que el sistema se encarga de orquestar la comunicación con los servicios externos (correo, almacenamiento y generación de reportes). Esta vista permite comprender el alcance del sistema, sus límites de responsabilidad y el ecosistema en el que opera antes de entrar en detalles internos.
+
+<div allign="center">
+  <img src="./../assets/chapter-4/contextDiagram.png" alt="Context diagram" width="500"/>
+</div>
+
 ### 4.6.3 Software Architecture Container Diagrams
+
+En el nivel de contenedores, la atención se centra en cómo se organiza internamente el sistema en aplicaciones y fuentes de datos. El container diagram muestra los elementos principales de la arquitectura de TankMaster, sus responsabilidades y la forma en que se comunican entre sí y con sistemas externos.
+
+La arquitectura lógica de TankMaster se estructura en los siguientes contenedores:
+
+Landing Page: aplicación web estática que presenta la propuesta de valor del sistema, incluyendo secciones como descripción del servicio, beneficios, testimonios, precios, preguntas frecuentes y contacto. Está desarrollada con HTML, CSS y JavaScript, y orientada a usuarios no autenticados.
+
+TankMaster Web Application (SPA): aplicación web principal desarrollada en Angular. Es utilizada por clientes y proveedores para interactuar con el sistema. Contiene módulos como autenticación, gestión de solicitudes, pagos, inventario, logística, reportes, notificaciones y perfiles de usuario.
+
+TankMaster API: backend desarrollado en Spring Boot que expone una API REST. Centraliza la lógica de negocio, reglas de validación y orquestación de procesos, organizados en distintos bounded contexts del dominio (Identity, Catalog, Ordering, Payment, Fulfillment, Notification y Reporting).
+
+MySQL Database: base de datos relacional donde se almacena toda la información estructurada del sistema, incluyendo usuarios, solicitudes, órdenes, pagos, inventario, flota, notificaciones y reportes.
+
+En el diagrama se observa que:
+
+Los usuarios acceden inicialmente a la Landing Page, desde donde pueden registrarse o ingresar a la aplicación principal.
+La Web Application (SPA) se comunica exclusivamente con la API mediante peticiones HTTP/HTTPS utilizando formato JSON.
+La API persiste y consulta datos en la base de datos MySQL mediante mecanismos de acceso como JPA/JDBC.
+La API se integra con sistemas externos: Email Service para correos, Cloud Storage para almacenamiento de vouchers y PDF Generator Service para la generación de reportes.
+
+Esta vista permite entender la distribución de responsabilidades entre la capa de presentación (Landing Page y SPA), la capa de lógica de negocio (API) y la capa de persistencia (Database), así como las principales decisiones tecnológicas adoptadas.
+
+<div allign="center">
+  <img src="./../assets/chapter-4/containerDiagram.png" alt="Container diagram" width="500"/>
+</div>
+
+
 ### 4.6.4 Software Architecture Components Diagrams
 
+En el nivel de componentes se detalla la descomposición interna de los contenedores, enfocándose principalmente en el contenedor TankMaster API, donde reside la lógica de negocio del sistema.
+
+El component diagram organiza la arquitectura interna siguiendo los bounded contexts definidos en el dominio. Cada uno representa un módulo backend con responsabilidades específicas:
+
+- Identity & Access Backend: gestiona el registro de usuarios (clientes y proveedores), autenticación, autorización, emisión de tokens (JWT), recuperación de contraseñas y administración de perfiles.
+
+- Catalog Backend: administra el inventario de combustible de los proveedores, incluyendo stock disponible y precio por tipo de combustible.
+
+- Ordering Backend: orquesta el ciclo de vida completo de las órdenes, desde la creación de solicitudes hasta su cierre, incluyendo validaciones, aprobaciones, rechazos, despacho y confirmación de entrega.
+
+- Payment Backend: gestiona el registro de pagos mediante comprobantes, valida montos y asegura que las órdenes cuenten con respaldo financiero antes de ser aprobadas.
+
+- Fulfillment Backend: administra los recursos logísticos, como vehículos y conductores, y se encarga de asignarlos a órdenes aprobadas para su despacho.
+
+- Notification Backend: genera notificaciones dentro del sistema en respuesta a eventos relevantes, como cambios en el estado de las órdenes, y permite a los usuarios marcarlas como leídas.
+
+- Reporting & Analytics Backend: procesa información histórica de órdenes cerradas para generar reportes de consumo y ventas, incluyendo la generación de archivos PDF descargables.
+
+En el diagrama se refleja cómo:
+
+La Web Application consume los servicios de cada componente backend mediante endpoints REST organizados por contexto.
+Cada bounded context accede a la base de datos para gestionar la información correspondiente a su dominio.
+Existen interacciones entre contextos, por ejemplo:
+Ordering depende de Payment para validar pagos antes de aprobar órdenes.
+Ordering interactúa con Fulfillment para coordinar despachos.
+Ordering actualiza el inventario en Catalog al cerrar órdenes.
+Notification reacciona a cambios de estado en órdenes.
+Reporting consume datos de órdenes cerradas.
+Algunos componentes se integran con sistemas externos, como Identity con el servicio de correo, Payment con almacenamiento en la nube y Reporting con el generador de PDFs.
+
+De esta manera, los component diagrams permiten entender cómo la arquitectura se organiza internamente en módulos coherentes con el dominio, cómo se relacionan entre sí y cómo colaboran para implementar la funcionalidad completa de TankMaster.
+
+<div allign="center">
+  <img src="./../assets/chapter-4/componentDiagram.png" alt="Component diagram" width="500"/>
+</div>
+
+
 ## 4.7 Software Object-Oriented Design
+
+En esta sección se presenta el diseño orientado a objetos del sistema, el cual desarrolla con mayor detalle la implementación interna de los componentes identificados en los diagramas C4 del apartado 4.6. A partir de los contenedores y componentes definidos (Landing Page, Web Application, API y Database), se derivan diagramas de clases específicos para cada bounded context del dominio, con el objetivo de mostrar:
+
+- Cómo se modelan las entidades, agregados, servicios, repositorios y controladores en el backend para cada contexto.
+- Cómo se estructuran los componentes de presentación, lógica de aplicación y acceso a datos en el frontend.
+- Cómo se reflejan estos modelos en el diseño de la base de datos relacional, identificando qué tablas pertenecen a cada bounded context.
+
+De esta forma, el diseño orientado a objetos enlaza el nivel arquitectónico (C4 Model) con el nivel de implementación, permitiendo verificar la coherencia entre bounded contexts, responsabilidades de cada módulo y decisiones de diseño técnico, como el uso de interfaces de servicio, repositorios, ensambladores y value objects por contexto.
+
+
 ### 4.7.1 Class Diagrams
 
+En esta subsección se presentan los diagramas de clases que detallan la estructura interna de los principales componentes para cada bounded context. Estos diagramas complementan al Component Diagram de la API Application y a los contenedores definidos, proporcionando una vista centrada en clases, relaciones y responsabilidades.
+
+
+
+### Diagramas de clases del Frontend
+
+A nivel de frontend, se modelan las clases en función de los módulos y vistas que consumen los servicios expuestos por la API. La aplicación web sigue una arquitectura modular basada en bounded contexts, donde cada contexto se organiza en packages independientes con las siguientes capas:
+
+- **domain/model**: contiene las estructuras que representan los modelos de datos y value objects utilizados en la interfaz.
+- **application**: incluye servicios de aplicación que coordinan la lógica necesaria para interactuar con el backend.
+- **infrastructure/api**: encapsula las llamadas HTTP a la API mediante un cliente centralizado.
+- **presentation**: agrupa las vistas y componentes de interfaz de usuario, así como los mecanismos de gestión de estado cuando es necesario compartir información entre múltiples vistas.
+
+**Diagrama del Frontend completo:**
+
+<div allign="center">
+  <img src="../assets/chapter-4/frontend.png" alt="frontend classes"/>
+</div>
+
+El diagrama completo del frontend muestra la organización general de la capa de presentación, incluyendo todos los bounded contexts agrupados en packages independientes, los mecanismos de gestión de estado global, el cliente HTTP centralizado con manejo de autenticación, y los componentes encargados de la protección de rutas según el rol del usuario autenticado. Cada vista se conecta a su servicio correspondiente, el cual interactúa con la capa de infraestructura para consumir los servicios REST del backend.
+
+**Diagrama del Frontend dividido por contextos:**
+
+- **Identity & Access Frontend**  
+  Responsabilidad: Maneja las vistas de registro, inicio de sesión, recuperación de contraseña y edición de perfil de usuario.
+
+<div allign="center">
+  <img src="../assets/chapter-4/frontend_identity.png" alt="frontend identity"/>
+</div>
+
+- **Catalog Frontend**  
+  Responsabilidad: Maneja las vistas de gestión del inventario de recursos ofrecidos por el proveedor.
+
+<div allign="center">
+  <img src="../assets/chapter-4/frontend_catalog.png" alt="frontend catalog"/>
+</div>
+
+- **Ordering Frontend**  
+  Responsabilidad: Maneja las vistas del ciclo de vida completo de pedidos: creación de solicitudes, aprobación, rechazo, despacho, confirmación de entrega y cierre.
+
+<div allign="center">
+  <img src="../assets/chapter-4/frontend_ordering.png" alt="frontend ordering"/>
+</div>
+
+- **Payment Frontend**  
+  Responsabilidad: Maneja las vistas para que el cliente registre comprobantes de pago vinculados a una orden.
+
+<div allign="center">
+  <img src="../assets/chapter-4/frontend_payment.png" alt="frontend payment"/>
+</div>
+
+- **Fulfillment Frontend**  
+  Responsabilidad: Maneja las vistas de gestión de recursos logísticos (por ejemplo, vehículos y operadores) y la asignación de despacho a órdenes aprobadas.
+
+<div allign="center">
+  <img src="../assets/chapter-4/frontend_fullfillment.png" alt="frontend fullfillment"/>
+</div>
+
+- **Notification Frontend**  
+  Responsabilidad: Maneja el panel de notificaciones dentro de la aplicación para informar a los usuarios sobre cambios en el estado de los pedidos.
+
+<div allign="center">
+  <img src="../assets/chapter-4/frontend_notification.png" alt="frontend notification"/>
+</div>
+
+- **Reporting & Analytics Frontend**  
+  Responsabilidad: Maneja las vistas de visualización de métricas, gráficos de consumo o ventas, y la descarga de reportes.
+
+<div allign="center">
+  <img src="../assets/chapter-4/frontend_analysis.png" alt="frontend analysis"/>
+</div>
+
+### Diagramas de clases del Backend
+
+A nivel de backend, los diagramas de clases reflejan la implementación detallada de los módulos definidos como componentes dentro de la API. El sistema sigue una arquitectura por capas organizada por bounded contexts, donde cada contexto mantiene una clara separación de responsabilidades:
+
+- **interfaces**: expone los endpoints del sistema (controladores REST) y componentes encargados de transformar datos entre modelos externos e internos.
+- **domain**: contiene las entidades, agregados, value objects, así como comandos, consultas e interfaces que definen el comportamiento del dominio.
+- **application**: implementa la lógica de negocio mediante servicios que ejecutan comandos y consultas.
+- **infrastructure**: define los mecanismos de persistencia y comunicación con sistemas externos, incluyendo repositorios y servicios de integración.
+
+**Diagrama del Backend completo:**
+
+<div allign="center">
+  <img src="../assets/chapter-4/backend.png" alt="backend"/>
+</div>
+
+El diagrama completo del backend muestra la organización de todos los bounded contexts como módulos independientes dentro del sistema. Se visualizan las dependencias entre contextos, donde el bounded context de Ordering actúa como núcleo del sistema y coordina a los demás contextos mediante interfaces.
+
+Las principales dependencias incluyen:
+- Verificación de pagos antes de aprobar órdenes.
+- Gestión y liberación de recursos logísticos.
+- Validación y actualización de inventario.
+- Generación de notificaciones ante cambios de estado.
+- Alimentación de datos para reportes y análisis.
+
+Todas las interacciones entre bounded contexts se realizan a través de interfaces, evitando dependencias directas de implementación y favoreciendo el desacoplamiento.
+
+**Diagrama del Backend dividido por contextos:**
+
+- **Identity & Access Backend**  
+  Responsabilidad: Gestiona el registro de usuarios, autenticación, autorización y control de acceso.
+
+<div allign="center">
+  <img src="../assets/chapter-4/backend_identity.png" alt="backend identity"/>
+</div>
+
+- **Catalog Backend**  
+  Responsabilidad: Gestiona el inventario de recursos disponibles, incluyendo stock y características relevantes.
+
+<div allign="center">
+  <img src="../assets/chapter-4/backend_catalog.png" alt="backend catalog"/>
+</div>
+
+- **Ordering Backend**  
+  Responsabilidad: Orquesta el ciclo de vida completo del pedido. Es el bounded context central que coordina la interacción con los demás contextos.
+
+<div allign="center">
+  <img src="../assets/chapter-4/backend_ordering.png" alt="backend ordering"/>
+</div>
+
+
+- **Payment Backend**  
+  Responsabilidad: Gestiona el registro y validación de pagos asociados a órdenes.
+
+<div allign="center">
+  <img src="../assets/chapter-4/backend_payment.png" alt="backend payment"/>
+</div>
+
+- **Fulfillment Backend**  
+  Responsabilidad: Gestiona los recursos necesarios para la ejecución de entregas y su asignación a órdenes.
+
+<div allign="center">
+  <img src="../assets/chapter-4/backend_fullfilment.png" alt="backend fullfilment"/>
+</div>
+
+- **Notification Backend**  
+  Responsabilidad: Genera y gestiona notificaciones ante eventos relevantes del sistema.
+
+<div allign="center">
+  <img src="../assets/chapter-4/backend_notification.png" alt="backend notification"/>
+</div>
+
+
+- **Reporting & Analytics Backend**  
+  Responsabilidad: Agrega información histórica para generar métricas, análisis y reportes.
+
+<div allign="center">
+  <img src="../assets/chapter-4/backend_analysis.png" alt="backend analysis"/>
+</div>
+
 ## 4.8 Database Design
-### 4.8.1 Database Diagrams
+### 4.8.1. Database Diagram
+
+La base de datos relacional almacena todos los datos del dominio del sistema. Las tablas se organizan en correspondencia directa con los bounded contexts definidos en el diseño orientado a objetos. A continuación, se detalla qué tablas pertenecen a cada contexto y cuál es su responsabilidad dentro del modelo de datos.
+
+<div allign="center">
+  <img src="../assets/chapter-4/baseDatos.png" alt="backend analysis"/>
+</div>
+
+### Identity & Access — Base de datos
+
+**Responsabilidad:** Almacena la información de usuarios, sesiones y las extensiones de perfil para clientes y proveedores.
+
+- **USER:** datos base del usuario autenticado (`id_user`, `ruc`, `full_name`, `dni`, `email`, `password_hash`, `phone_number`, `address`, `role`, `is_active`, `created_at`, `updated_at`).
+- **CLIENT:** extensión del perfil para empresas solicitantes (`id_client`, `id_user` FK, `company_name`, `company_ruc`, `industry`, `created_at`).
+- **PROVIDER:** extensión del perfil para empresas proveedoras (`id_provider`, `id_user` FK, `company_name`, `company_ruc`, `description`, `created_at`).
+
+<div allign="center">
+  <img src="../assets/chapter-4/baseDatos_identity.png" alt="tablas de identity"/>
+</div>
+
+
+### Catalog — Base de datos
+
+**Responsabilidad:** Almacena el inventario disponible de cada proveedor, incluyendo stock y características relevantes.
+
+- **INVENTORY:** registro de stock por tipo de recurso (`id_inventory`, `id_provider` FK, `fuel_type`, `quantity_liters`, `price_per_liter`, `updated_at`).
+
+<div allign="center">
+  <img src="../assets/chapter-4/baseDatos_catalogo.png" alt="tablas de catalogo"/>
+</div>
+
+### Ordering — Base de datos
+
+**Responsabilidad:** Almacena el ciclo de vida completo de solicitudes y órdenes, incluyendo el detalle de ítems y los cambios de estado.
+
+- **REQUEST:** solicitud creada por el cliente (`id_request`, `id_client` FK, `id_provider` FK, `fuel_type`, `quantity_liters`, `delivery_address`, `requested_date`, `estimated_delivery`, `status`, `notes`, `created_at`).
+- **REQUEST_DETAIL:** detalle del pedido con desglose de valores (`id_detail`, `id_request` FK, `fuel_type`, `quantity_liters`, `unit_price`, `subtotal`).
+- **ORDER:** orden generada a partir de una solicitud aprobada (`id_order`, `id_request` FK, `status`, `approved_at`, `dispatched_at`, `delivered_at`, `closed_at`, `rejection_reason`, `created_at`).
+
+<div allign="center">
+  <img src="../assets/chapter-4/baseDatos_ordering.png" alt="tablas de orders"/>
+</div>
+
+### Payment — Base de datos
+
+**Responsabilidad:** Almacena los registros de pago asociados a las órdenes.
+
+- **PAYMENT:** comprobante de pago vinculado a una orden (`id_payment`, `id_order` FK, `operation_code`, `amount`, `bank_name`, `voucher_url`, `payment_date`, `status`, `registered_at`).
+
+<div allign="center">
+  <img src="../assets/chapter-4/baseDatosPayment.png" alt="tablas de payment"/>
+</div>
+
+### Fulfillment — Base de datos
+
+**Responsabilidad:** Almacena los recursos logísticos y su asignación a órdenes.
+
+- **TRANSPORT:** recurso de transporte del proveedor (`id_transport`, `id_provider` FK, `plate`, `vehicle_type`, `capacity_liters`, `is_available`, `created_at`).
+- **DRIVER:** operador asignado al transporte (`id_driver`, `id_provider` FK, `full_name`, `dni`, `license_number`, `phone_number`, `is_available`, `created_at`).
+- **DISPATCH:** asignación de recursos a una orden (`id_dispatch`, `id_order` FK, `id_transport` FK, `id_driver` FK, `assigned_at`, `status`).
+
+<div allign="center">
+  <img src="../assets/chapter-4/baseDatos_Fullfillment.png" alt="tablas de fullfilment"/>
+</div>
+
+### Notification — Base de datos
+
+**Responsabilidad:** Almacena las notificaciones generadas por eventos del sistema.
+
+- **NOTIFICATION:** notificación asociada a un usuario (`id_notification`, `id_user` FK, `id_order` FK, `type`, `message`, `is_read`, `created_at`).
+
+<div allign="center">
+  <img src="../assets/chapter-4/baseDatos_Notification.png" alt="tablas de fullfilment"/>
+</div>
+
+### Reporting & Analytics — Base de datos
+
+**Responsabilidad:** Almacena la información de reportes generados a partir de datos históricos.
+
+- **REPORT:** reporte generado por un usuario (`id_report`, `id_user` FK, `type`, `pdf_url`, `generated_at`).
+  
+
+<div allign="center">
+  <img src="../assets/chapter-4/baseDatos_analysis.png" alt="tablas de analysis"/>
+</div>
