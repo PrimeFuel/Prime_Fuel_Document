@@ -463,7 +463,7 @@ Hacia el final de la navegación, se presenta una sección de planes y suscripci
 El wireframe de Inicio de Sesión y Registro establece un punto de control centralizado diseñado para identificar al usuario y derivarlo de manera eficiente a su panel de control correspondiente. La arquitectura de información prioriza la funcionalidad sobre cualquier otro elemento, disponiendo de forma secuencial los campos de captura de credenciales, el acceso a la recuperación de cuenta y el disparador para la creación de nuevos perfiles. Este esquema garantiza que el usuario recorra el camino mínimo necesario para la autenticación, reduciendo la carga cognitiva al segmentar claramente las acciones primarias de las secundarias.
 
 <div align="center">
-  <img src="./../assets/chapter-4/Inicio.png" alt="inicio.png" width="700"/>
+  <img src="./../assets/chapter-4/inicio.png" alt="inicio.png" width="700"/>
 </div>
 
 **Wireframe 3**
