@@ -421,7 +421,59 @@ El mock-up de TankMaster se fundamenta en principios de diseño inclusivo y acce
 - **Adaptación al Usuario:** El diseño prioriza la claridad en la presentación de estados de pedido (Order Status) y métricas operativas, fundamentales para mitigar los errores humanos y la falta de trazabilidad identificados en la problemática inicial.
 
 ## 4.4 Web Applications UX/UI Design
+En este apartado se presentarán los Wireframes más relevantes del proyecto
 ### 4.4.1 Web Applications Wireframes
+Esta sección presenta la propuesta visual y funcional de las aplicaciones que integran la experiencia de TankMaster, diseñada para optimizar la interacción entre proveedores y compradores de combustible.
+
+**Wireframe 1 / Inicial**
+
+El primer wireframe representa la Landing Page principal de TankMaster, diseñada como una herramienta de conversión masiva para atraer tanto a empresas solicitantes como a proveedores.
+
+En el cuerpo de la página, la información se desglosa siguiendo una secuencia lógica que construye confianza y educación sobre el servicio. Se incluyen secciones dedicadas a la historia de la startup (About Us) y al funcionamiento paso a paso del sistema (How it works), utilizando bloques modulares que permiten un escaneo rápido del contenido. Esta estructura se complementa con una cuadrícula de características que resaltan los beneficios técnicos, como la trazabilidad y la centralización de datos, fundamentales para resolver los dolores detectados en la etapa de investigación.
+
+Hacia el final de la navegación, se presenta una sección de planes y suscripciones que utiliza el principio de jerarquía visual para destacar la opción más equilibrada, facilitando la toma de decisiones del usuario. El diseño concluye con un pie de página (footer) que centraliza los datos de contacto y redes sociales, asegurando que el usuario tenga siempre una vía de comunicación abierta con TechnoSAC. Todo el conjunto ha sido diseñado bajo criterios de diseño inclusivo, empleando dimensiones de botones generosas y una organización de elementos que prioriza la legibilidad y la facilidad de interacción en dispositivos móviles.
+
+<div align="center">
+  <img src="./../assets/chapter-4/lpWireframe1.png" alt="Wireframe" width="80%"/>
+</div>
+<div align="center">
+  <img src="./../assets/chapter-4/lpWireframe2.png" alt="Wireframe" width="80%"/>
+</div>
+<div align="center">
+  <img src="./../assets/chapter-4/lpWireframe3.png" alt="Wireframe" width="80%"/>
+</div>
+<div align="center">
+  <img src="./../assets/chapter-4/lpWIreframe4.png" alt="Wireframe" width="80%"/>
+</div>
+<div align="center">
+  <img src="./../assets/chapter-4/lpWireframe5.png" alt="Wireframe" width="80%"/>
+</div>
+<div align="center">
+  <img src="./../assets/chapter-4/lpWireframe6.png" alt="Wireframe" width="80%"/>
+</div>
+<div align="center">
+  <img src="./../assets/chapter-4/lpWireframe7.png" alt="Wireframe" width="80%"/>
+</div>
+<div align="center">
+  <img src="./../assets/chapter-4/lpWireframe8.png" alt="Wireframe" width="80%"/>
+</div>
+
+**Wireframe 2**
+
+El wireframe de Inicio de Sesión y Registro establece un punto de control centralizado diseñado para identificar al usuario y derivarlo de manera eficiente a su panel de control correspondiente. La arquitectura de información prioriza la funcionalidad sobre cualquier otro elemento, disponiendo de forma secuencial los campos de captura de credenciales, el acceso a la recuperación de cuenta y el disparador para la creación de nuevos perfiles. Este esquema garantiza que el usuario recorra el camino mínimo necesario para la autenticación, reduciendo la carga cognitiva al segmentar claramente las acciones primarias de las secundarias.
+
+<div align="center">
+  <img src="./../assets/chapter-4/Inicio.png" alt="inicio.png" width="700"/>
+</div>
+
+**Wireframe 3**
+
+El primer wireframe para proveedores, denominado Resumen Operativo, establece una arquitectura de información de alta prioridad que condensa la salud del negocio en tres indicadores clave: ventas mensuales, pedidos pendientes y vehículos en ruta.
+
+<div align="center">
+  <img src="./../assets/chapter-4/Inicio.png" alt="Estilos" width="700"/>
+</div>
+
 ### 4.4.2 Web Applications Wireflow Diagrams
 ### 4.4.3 Web Applications Mock-ups
 ### 4.4.4 Web Applications User Flow Diagrams
