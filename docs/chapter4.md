@@ -475,6 +475,18 @@ El primer wireframe para proveedores, denominado Resumen Operativo, establece un
 </div>
 
 ### 4.4.2 Web Applications Wireflow Diagrams
+
+El diagrama de Wireflow presentado a continuación ilustra la navegación lógica y la interacción entre las diversas interfaces de la plataforma TankMaster, detallando el recorrido que realizan tanto proveedores como compradores desde el primer contacto hasta la culminación de sus objetivos operativos. 
+El flujo inicia en la Landing Page, la cual actúa como el nodo central de información y conversión. Tras el proceso de Inicio de Sesión/Registro se divide en dos ramas: 
+
+* Flujo de Proveedores: Optimizado para la gestión masiva de datos, este recorrido guía al usuario desde una visión estratégica (Resumen Operativo) hacia acciones tácticas secuenciales, que incluyen la validación de pedidos, la consulta del directorio de clientes, la asignación logística de transporte y la generación de reportes administrativos.
+
+* Flujo de Compradores: Diseñado bajo principios de eficiencia y transparencia, este camino permite al solicitante monitorear su consumo mensual, registrar nuevos pedidos mediante la carga de comprobantes de pago, realizar el seguimiento de su suministro en tiempo real y consultar su historial transaccional.
+
+<div align="center">
+  <img src="./../assets/chapter-4/wireflow.png" alt="Diagrama de flujo" width="1000"/>
+</div>
+
 ### 4.4.3 Web Applications Mock-ups
 ### 4.4.4 Web Applications User Flow Diagrams
 
