@@ -601,6 +601,27 @@ Estas rutas alternas contemplan dos escenarios de error durante el registro. El 
 <div align="center">
 <img src="../assets/chapter-4/User Goal 2-Unhappy path.png" height="300"/>
 </div>
+
+User Goal 3: El usuario registrado desea recuperar el acceso a su cuenta mediante un código de verificación para actualizar su contraseña olvidada.
+
+User Personas: Usuario Registrado (Solicitante / Proveedor).
+
+Happy Path
+
+En esta ruta esperada, el flujo inicia en la "Sección de inicio". El usuario presiona el enlace "¿Olvidaste tu contraseña?" y es redirigido a la vista "Recuperar contraseña". Allí, completa el campo con su correo corporativo y presiona "Enviar Código". La interfaz se actualiza a la pantalla "Restablecer contraseña", donde el usuario llena los campos con el código recibido, su nueva contraseña y la confirmación. El proceso finaliza exitosamente al presionar "Actualizar Contraseña".
+
+<div align="center">
+<img src="../assets/chapter-4/User Goal 3-Unhappy path.png" height="200"/>
+</div>
+
+Unhappy Paths
+
+En esta ruta alterna, el usuario intenta iniciar la recuperación pero coloca un correo no registrado en el sistema. Al presionar "Enviar Código", la acción se bloquea y la pantalla se mantiene en "Recuperar contraseña - correo inválido", desplegando un mensaje de alerta en rojo ("Correo no registrado ingrese un correo válido"). El flujo se interrumpe hasta que el usuario proporcione información correcta.
+
+<div align="center">
+<img src="../assets/chapter-4/User Goal 3-Unhappy path.png" height="200"/>
+</div>
+
 ## 4.5 Web Applications Prototyping
 
 ## 4.6 Domain-Driven Software Architecture
