@@ -15,7 +15,7 @@
   <tbody>
 <!-- EP01 -->
 <tr>
-  <td colspan="5"><b>EP01 — Landing Page:</b> Funcionalidades visibles para visitantes en el sitio web público de TankMaster: home, about us, how it works, beneficios, clientes, precios y contacto.</td>
+  <td colspan="5"><b>EP01 — Landing Page:</b> Como visitante, quiero explorar el sitio web público de TankMaster para conocer el producto antes de registrarme.</td>
 </tr>
 <tr>
   <td>US-01</td>
@@ -97,7 +97,7 @@
 
 <!-- EP02 -->
 <tr>
-  <td colspan="5"><b>EP02 — Gestión de Pedidos (Solicitante):</b> Permite al solicitante registrar, consultar, confirmar y gestionar sus pedidos de combustible, incluyendo pagos e historial.</td>
+  <td colspan="5"><b>EP02 — Gestión de Pedidos (Solicitante):</b> Como solicitante, quiero gestionar mis pedidos de combustible para registrarlos, consultarlos, confirmarlos y llevar mi historial.</td>
 </tr>
 <tr>
   <td>US-05</td>
@@ -144,7 +144,7 @@
 
 <!-- EP03 -->
 <tr>
-  <td colspan="5"><b>EP03 — Gestión de Pedidos (Proveedor):</b> Permite al proveedor ver, aprobar, rechazar, despachar, cerrar pedidos y generar reportes de ventas.</td>
+  <td colspan="5"><b>EP03 — Gestión de Pedidos (Proveedor):</b>  Como proveedor, quiero gestionar los pedidos recibidos para aprobarlos, rechazarlos, despacharlos y generar reportes de ventas.</td>
 </tr>
 <tr>
   <td>US-10</td>
@@ -191,7 +191,7 @@
 
 <!-- EP04 -->
 <tr>
-  <td colspan="5"><b>EP04 — Autenticación y Registro:</b> Registro de empresas solicitantes y proveedoras, inicio de sesión, recuperación y cierre de sesión.</td>
+  <td colspan="5"><b>EP04 — Autenticación y Registro:</b> Como usuario, quiero registrarme e iniciar sesión en la plataforma para acceder de forma segura a mi cuenta.</td>
 </tr>
 <tr>
   <td>US-15</td>
@@ -231,7 +231,7 @@
 
 <!-- EP05 -->
 <tr>
-  <td colspan="5"><b>EP05 — Dashboard y Resumen Operativo:</b> Paneles de control con KPIs y resúmenes de estado de pedidos para ambos segmentos.</td>
+  <td colspan="5"><b>EP05 — Dashboard y Resumen Operativo:</b> Como usuario, quiero ver un panel de control con el resumen de mis pedidos para tener visibilidad operativa rápida.</td>
 </tr>
 <tr>
   <td>US-18</td>
@@ -250,7 +250,7 @@
 
 <!-- EP08 -->
 <tr>
-  <td colspan="5"><b>EP08 — Logística y Despacho:</b> Gestión de flota: vehículos, conductores, asignación y validación de disponibilidad para despachos.</td>
+  <td colspan="5"><b>EP08 — Logística y Despacho:</b>  Como proveedor, quiero gestionar mi flota de vehículos y conductores para asignarlos correctamente a cada despacho.</td>
 </tr>
 <tr>
   <td>US-20</td>
@@ -290,7 +290,7 @@
 
 <!-- EP09 -->
 <tr>
-  <td colspan="5"><b>EP09 — Perfil de Usuario:</b> Visualización y edición de datos del perfil del usuario autenticado.</td>
+  <td colspan="5"><b>EP09 — Perfil de Usuario:</b> Como usuario registrado, quiero ver y editar mi perfil para mantener mi información actualizada en la plataforma.</td>
 </tr>
 <tr>
   <td>US-23</td>
@@ -309,7 +309,7 @@
 
 <!-- EP10 -->
 <tr>
-  <td colspan="5"><b>EP10 — Soporte y Contacto:</b> Secciones de preguntas frecuentes e información de contacto rápido para usuarios y visitantes.</td>
+  <td colspan="5"><b>EP10 — Soporte y Contacto:</b> Como usuario, quiero acceder a soporte y datos de contacto para resolver dudas sin necesidad de intermediarios.</td>
 </tr>
 <tr>
   <td>US-25</td>
@@ -342,7 +342,7 @@
 
 <!-- EP11 -->
 <tr>
-  <td colspan="5"><b>EP11 — Búsqueda y Filtrado:</b> Funcionalidades para buscar pedidos por código y filtrarlos por estado.</td>
+  <td colspan="5"><b>EP11 — Búsqueda y Filtrado:</b> Como usuario, quiero buscar y filtrar pedidos para encontrar rápidamente la información que necesito.</td>
 </tr>
 <tr>
   <td>US-27</td>
@@ -361,7 +361,7 @@
 
 <!-- EP12 -->
 <tr>
-  <td colspan="5"><b>EP12 — Notificaciones:</b> Notificaciones automáticas al solicitante sobre cambios de estado de sus pedidos.</td>
+  <td colspan="5"><b>EP12 — Notificaciones:</b> Como solicitante, quiero recibir notificaciones automáticas para estar informado sobre los cambios de estado de mis pedidos.</td>
 </tr>
 <tr>
   <td>US-29</td>
@@ -380,7 +380,7 @@
 
 <!-- EP13 -->
 <tr>
-  <td colspan="5"><b>EP13 — Gestión de Clientes (Proveedor):</b> Listado y detalle de empresas solicitantes desde la vista del proveedor.</td>
+  <td colspan="5"><b>EP13 — Gestión de Clientes (Proveedor):</b>Como proveedor, quiero ver el listado y detalle de mis clientes para analizar su historial y frecuencia de pedidos.</td>
 </tr>
 <tr>
   <td>US-31</td>
@@ -399,7 +399,7 @@
 
 <!-- EP14 -->
 <tr>
-  <td colspan="5"><b>EP14 — Reportes y Analytics:</b> Gráficos de consumo y ventas, y descarga de reportes en PDF para ambos segmentos.</td>
+  <td colspan="5"><b>EP14 — Reportes y Analytics:</b> Como usuario, quiero acceder a gráficos y reportes descargables para analizar mi consumo o ventas por periodo.</td>
 </tr>
 <tr>
   <td>US-33</td>
@@ -425,7 +425,7 @@
 
 <!-- Technical Stories: EP06 -->
 <tr>
-  <td colspan="5"><b>EP06 — API de Autenticación:</b> Endpoints del backend para login, logout y recuperación de contraseña.</td>
+  <td colspan="5"><b>EP06 — API de Autenticación:</b> Como developer, quiero contar con endpoints de autenticación para implementar login, logout y recuperación de contraseña.</td>
 </tr>
 <tr>
   <td>TS-01</td>
@@ -451,7 +451,7 @@
 
 <!-- Technical Stories: EP07 -->
 <tr>
-  <td colspan="5"><b>EP07 — API de Pedidos:</b> Endpoints del backend para crear y consultar pedidos de combustible.</td>
+  <td colspan="5"><b>EP07 — API de Pedidos:</b> Como developer, quiero contar con endpoints de pedidos para crear y consultar órdenes de combustible desde el frontend.</td>
 </tr>
 <tr>
   <td>TS-04</td>
@@ -481,368 +481,60 @@ A partir de estos impactos se definieron los Deliverables que la plataforma Tank
  <img src="../assets/chapter-3/impactMapping.png" alt="ImpactMapping de los userPersona"/>
 
 
+
 ## 3.3 Product Backlog
 
-<table border="1" cellspacing="0" cellpadding="6">
-  <thead>
-    <tr>
-      <th>#Orden</th>
-      <th>ID</th>
-      <th>Título</th>
-      <th>Descripción</th>
-      <th>Story Points</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>01</td>
-      <td>US-01</td>
-      <td>Ver sección Home</td>
-      <td>Como visitante (proveedor), quiero ver una sección de inicio que resuma el valor de TankMaster para comprender rápidamente el objetivo del sistema</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>02</td>
-      <td>US-02</td>
-      <td>Ver sección About Us</td>
-      <td>Como visitante de ambos segmentos, quiero conocer quiénes están detrás de TankMaster para confiar en el sistema</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>03</td>
-      <td>US-03</td>
-      <td>Ver sección How it works?</td>
-      <td>Como visitante de ambos segmentos, quiero entender cómo funciona TankMaster paso a paso para evaluar si se ajusta a mis necesidades</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>04</td>
-      <td>US-04</td>
-      <td>Enviar mensaje de contacto</td>
-      <td>Como visitante de ambos segmentos, quiero enviar un mensaje desde Contact Us para solicitar más información</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>05</td>
-      <td>US-05</td>
-      <td>Registrar nuevo pedido</td>
-      <td>Como solicitante, quiero registrar un pedido con tipo y cantidad de combustible para que el proveedor lo procese</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>06</td>
-      <td>US-06</td>
-      <td>Consultar estado del pedido</td>
-      <td>Como solicitante, quiero ver el estado de mis pedidos para saber si están aprobados, en tránsito o entregados</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>07</td>
-      <td>US-07</td>
-      <td>Confirmar recepción de pedido</td>
-      <td>Como solicitante, quiero confirmar que recibí el pedido para que el proveedor lo cierre</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>08</td>
-      <td>US-08</td>
-      <td>Subir comprobante de pago</td>
-      <td>Como solicitante, quiero subir el comprobante para validar el pedido ante el proveedor</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>09</td>
-      <td>US-09</td>
-      <td>Ver historial de pedidos</td>
-      <td>Como solicitante, quiero ver mis pedidos anteriores para tener control sobre mi consumo</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>10</td>
-      <td>US-10</td>
-      <td>Ver pedidos pendientes</td>
-      <td>Como proveedor, quiero ver todos los pedidos pendientes para analizarlos y tomar acción</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>11</td>
-      <td>US-11</td>
-      <td>Aprobar o rechazar pedido</td>
-      <td>Como proveedor, quiero aceptar o rechazar pedidos según el stock disponible para evitar conflictos de distribución</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>12</td>
-      <td>US-12</td>
-      <td>Marcar pedido como despachado</td>
-      <td>Como proveedor, quiero marcar cuándo un pedido sale a entrega para notificar al cliente</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>13</td>
-      <td>US-13</td>
-      <td>Cerrar pedido</td>
-      <td>Como proveedor, quiero cerrar el pedido cuando el cliente confirme la entrega para finalizar el proceso</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>14</td>
-      <td>US-14</td>
-      <td>Generar reporte de ventas</td>
-      <td>Como proveedor, quiero generar reportes de ventas para tener registro de operaciones realizadas</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>15</td>
-      <td>US-15</td>
-      <td>Iniciar sesión</td>
-      <td>Como usuario registrado, quiero iniciar sesión con correo y contraseña para acceder a mi cuenta</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>16</td>
-      <td>US-16</td>
-      <td>Recuperar contraseña</td>
-      <td>Como usuario registrado, quiero recuperar mi contraseña para volver a acceder si la olvidé</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>17</td>
-      <td>US-17</td>
-      <td>Cerrar sesión</td>
-      <td>Como usuario registrado, quiero poder cerrar sesión para mantener segura mi cuenta</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>18</td>
-      <td>US-18</td>
-      <td>Ver resumen de pedidos (Solicitante)</td>
-      <td>Como solicitante, quiero ver un resumen de mis pedidos para identificar cuántos están en proceso o completados</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>19</td>
-      <td>US-19</td>
-      <td>Ver resumen de pedidos (Proveedor)</td>
-      <td>Como proveedor, quiero ver un resumen de pedidos gestionados y pendientes para organizar a los clientes</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>20</td>
-      <td>US-20</td>
-      <td>Asignar vehículo a pedido</td>
-      <td>Como proveedor, quiero asignar un vehículo a un pedido aprobado para organizar la logística</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>21</td>
-      <td>US-21</td>
-      <td>Asignar conductor a pedido</td>
-      <td>Como proveedor, quiero asignar un conductor para completar la información de despacho</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>22</td>
-      <td>US-22</td>
-      <td>Validar disponibilidad de transporte</td>
-      <td>Como proveedor, quiero saber qué vehículos están disponibles antes de asignarlos para vincularlos correctamente</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <td>23</td>
-      <td>US-23</td>
-      <td>Ver perfil de usuario</td>
-      <td>Como usuario registrado, quiero ver mis datos de perfil para revisar mi información registrada</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>24</td>
-      <td>US-24</td>
-      <td>Editar datos de perfil</td>
-      <td>Como usuario registrado, quiero editar mis datos para mantener mi información actualizada</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>25</td>
-      <td>US-25</td>
-      <td>Ver sección de preguntas frecuentes</td>
-      <td>Como visitante de ambos segmentos, quiero acceder a una sección de preguntas frecuentes para resolver dudas rápidamente</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>26</td>
-      <td>US-26</td>
-      <td>Acceder a información de contacto rápido</td>
-      <td>Como usuario de ambos segmentos, quiero ver datos de contacto directo (teléfono o correo) para hacer consultas urgentes</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>27</td>
-      <td>US-27</td>
-      <td>Buscar pedido por código</td>
-      <td>Como usuario de ambos segmentos, quiero buscar un pedido específico por su código para encontrarlo rápidamente</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>28</td>
-      <td>US-28</td>
-      <td>Filtrar pedidos por estado</td>
-      <td>Como usuario de ambos segmentos, quiero filtrar mis pedidos por estado (pendiente, aprobado, entregado) para facilitar la revisión</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>29</td>
-      <td>US-29</td>
-      <td>Recibir notificación de aprobación</td>
-      <td>Como solicitante, quiero recibir una notificación cuando un pedido sea aprobado o rechazado para  estar informado</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>30</td>
-      <td>US-30</td>
-      <td>Notificación de pedido despachado</td>
-      <td>Como solicitante, quiero recibir una notificación cuando un pedido haya sido despachado para estar informado</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>31</td>
-      <td>US-31</td>
-      <td>Ver listado de empresas</td>
-      <td>Como proveedor, quiero ver una lista de empresas solicitantes para identificar a mis clientes frecuentes</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>32</td>
-      <td>US-32</td>
-      <td>Ver detalles de empresa</td>
-      <td>Como proveedor, quiero ver información detallada de una empresa solicitante para analizar su historial de pedidos</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>33</td>
-      <td>US-33</td>
-      <td>Ver gráfico de consumo (Solicitante)</td>
-      <td>Como solicitante, quiero ver un gráfico de mi consumo mensual para tener control sobre el uso del combustible</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>34</td>
-      <td>US-34</td>
-      <td>Ver gráfico de ventas (Proveedor)</td>
-      <td>Como proveedor, quiero ver un gráfico de ventas por mes para monitorear el rendimiento del negocio</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>35</td>
-      <td>US-35</td>
-      <td>Descargar reporte PDF</td>
-      <td>Como usuario de ambos segmentos, quiero descargar un resumen de pedidos o ventas en formato PDF para archivarlo o compartirlo</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>36</td>
-      <td>US-36</td>
-      <td>Ver sección Main Suppliers</td>
-      <td>Como visitante de ambos segmentos, quiero conocer los principales proveedores de combustible que trabajan con TankMaster para confiar en la plataforma</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>37</td>
-      <td>US-37</td>
-      <td>Ver sección Our Clients</td>
-      <td>Como visitante de ambos segmentos, quiero conocer a las empresas que utilizan TankMaster para tener confianza en la plataforma y saber que otras empresas ya la están usando</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>38</td>
-      <td>US-38</td>
-      <td>Ver sección Are You A Fuel Requester?</td>
-      <td>Como visitante (solicitante), quiero saber si cumplo con los requisitos de solicitante de combustible para poder iniciar un proceso de registro o solicitud</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>39</td>
-      <td>US-39</td>
-      <td>Cambiar idioma</td>
-      <td>Como visitante de ambos segmentos, quiero poder cambiar entre inglés y español para entender la plataforma en mi idioma preferido</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <td>40</td>
-      <td>US-40</td>
-      <td>Registrar empresa solicitante</td>
-      <td>Como visitante (solicitante), quiero registrar mi empresa en la plataforma para comenzar a realizar pedidos de combustible.</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>41</td>
-      <td>US-41</td>
-      <td>Registrar empresa proveedora</td>
-      <td>Como visitante (proveedor), quiero registrar mi empresa distribuidora en la plataforma para comenzar a gestionar pedidos de combustible.</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>42</td>
-      <td>US-42</td>
-      <td>Rechazar pedido</td>
-      <td>Como proveedor, quiero rechazar un pedido cuando no pueda atenderlo para notificar al solicitante oportunamente.</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>43</td>
-      <td>US-43</td>
-      <td>Ver detalle de pedido</td>
-      <td>Como usuario de ambos segmentos, quiero ver el detalle completo de un pedido para revisar toda la información asociada.</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>44</td>
-      <td>US-44</td>
-      <td>Gestionar vehículos de flota</td>
-      <td>Como proveedor, quiero registrar y administrar los vehículos de mi flota para tenerlos disponibles al momento de asignarlos a pedidos.</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>45</td>
-      <td>US-45</td>
-      <td>Gestionar conductores</td>
-      <td>Como proveedor, quiero registrar y administrar los conductores de mi empresa para asignarlos correctamente a los despachos.</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>46</td>
-      <td>US-46</td>
-      <td>Ver sección Planes y Precios</td>
-      <td>Como visitante de ambos segmentos, quiero conocer los planes disponibles para evaluar qué opción se adapta mejor a mi empresa.</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>47</td>
-      <td>US-47</td>
-      <td>Ver sección Testimonios de Clientes</td>
-      <td>Como visitante de ambos segmentos, quiero leer testimonios de empresas que ya usan TankMaster para generar confianza antes de registrarme.</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>48</td>
-      <td>US-48</td>
-      <td>Cambiar idioma de la plataforma</td>
-      <td>Como visitante de ambos segmentos, quiero cambiar entre español e inglés para usar la plataforma en mi idioma preferido.</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>49</td>
-      <td>US-49</td>
-      <td>Acceder a preguntas frecuentes</td>
-      <td>Como visitante de ambos segmentos, quiero consultar una sección de preguntas frecuentes para resolver dudas sin necesidad de contactar soporte.</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>50</td>
-      <td>US-50</td>
-      <td>Ver información de contacto directo</td>
-      <td>Como usuario de ambos segmentos, quiero ver los datos de contacto directo de soporte para realizar consultas urgentes.</td>
-      <td>2</td>
-    </tr>
-  </tbody>
-</table>
+| #Orden | ID | Título | Descripción | Story Points |
+|--------|-----|--------|-------------|:---:|
+| 01 | US-15 | Iniciar sesión | Como usuario registrado, quiero iniciar sesión con correo y contraseña para acceder a mi cuenta. | 2 |
+| 02 | US-16 | Recuperar contraseña | Como usuario registrado, quiero recuperar mi contraseña para volver a acceder si la olvidé. | 2 |
+| 03 | US-17 | Cerrar sesión | Como usuario registrado, quiero poder cerrar sesión para mantener segura mi cuenta. | 1 |
+| 04 | US-40 | Registrar empresa solicitante | Como visitante (solicitante), quiero registrar mi empresa en la plataforma para comenzar a realizar pedidos de combustible. | 3 |
+| 05 | US-41 | Registrar empresa proveedora | Como visitante (proveedor), quiero registrar mi empresa distribuidora en la plataforma para comenzar a gestionar pedidos de combustible. | 3 |
+| 06 | US-01 | Ver sección Home | Como visitante (proveedor), quiero ver una sección de inicio que resuma el valor de TankMaster para comprender rápidamente el objetivo del sistema. | 2 |
+| 07 | US-02 | Ver sección About Us | Como visitante de ambos segmentos, quiero conocer quiénes están detrás de TankMaster para confiar en el sistema. | 1 |
+| 08 | US-03 | Ver sección How it works? | Como visitante de ambos segmentos, quiero entender cómo funciona TankMaster paso a paso para evaluar si se ajusta a mis necesidades. | 2 |
+| 09 | US-36 | Ver sección Benefits | Como visitante de ambos segmentos, quiero conocer las principales ventajas para evaluar la implementación de la plataforma. | 1 |
+| 10 | US-37 | Ver sección Testimonios de Clientes | Como visitante de ambos segmentos, quiero conocer los testimonios de usuarios de TankMaster para tener confianza en la plataforma. | 2 |
+| 11 | US-38 | Ver sección Planes y Precios | Como visitante de ambos segmentos, quiero saber qué planes se adecuan a mis necesidades para poder iniciar un proceso de registro. | 3 |
+| 12 | US-39 | Cambiar idioma | Como visitante de ambos segmentos, quiero poder cambiar entre inglés y español para entender la plataforma en mi idioma preferido. | 3 |
+| 13 | US-04 | Enviar mensaje de contacto | Como visitante de ambos segmentos, quiero enviar un mensaje desde Contact Us para solicitar más información. | 3 |
+| 14 | US-18 | Ver resumen de pedidos (Solicitante) | Como solicitante, quiero ver un resumen de mis pedidos para identificar cuántos están en proceso o completados. | 3 |
+| 15 | US-19 | Ver resumen de pedidos (Proveedor) | Como proveedor, quiero ver un resumen de pedidos gestionados y pendientes para organizar a los clientes. | 3 |
+| 16 | US-05 | Registrar nuevo pedido | Como solicitante, quiero registrar un pedido con tipo y cantidad de combustible para que el proveedor lo procese. | 5 |
+| 17 | US-06 | Consultar estado del pedido | Como solicitante, quiero ver el estado de mis pedidos para saber si están aprobados, en tránsito o entregados. | 2 |
+| 18 | US-07 | Confirmar recepción de pedido | Como solicitante, quiero confirmar que recibí el pedido para que el proveedor lo cierre. | 2 |
+| 19 | US-08 | Registrar información de pago | Como solicitante, quiero ingresar la información de los pagos correspondientes para validar el pedido ante el proveedor. | 3 |
+| 20 | US-09 | Ver historial de pedidos | Como solicitante, quiero ver mis pedidos anteriores para tener control sobre mi consumo. | 2 |
+| 21 | US-43 | Ver detalle de pedido | Como usuario de ambos segmentos, quiero ver el detalle completo de un pedido para revisar toda la información asociada. | 2 |
+| 22 | US-10 | Ver pedidos pendientes | Como proveedor, quiero ver todos los pedidos pendientes para analizarlos y tomar acción. | 2 |
+| 23 | US-11 | Aprobar pedido | Como proveedor, quiero aprobar pedidos según los depósitos hechos a mis cuentas bancarias. | 3 |
+| 24 | US-42 | Rechazar pedido | Como proveedor, quiero rechazar un pedido cuando no pueda atenderlo para notificar al solicitante oportunamente. | 2 |
+| 25 | US-12 | Marcar pedido como despachado | Como proveedor, quiero marcar cuándo un pedido sale a entrega para notificar al cliente. | 2 |
+| 26 | US-13 | Cerrar pedido | Como proveedor, quiero cerrar el pedido cuando el cliente confirme la entrega para finalizar el proceso. | 2 |
+| 27 | US-44 | Gestionar vehículos de flota | Como proveedor, quiero registrar y administrar los vehículos de mi flota para tenerlos disponibles al asignarlos a pedidos. | 3 |
+| 28 | US-45 | Gestionar conductores | Como proveedor, quiero registrar y administrar los conductores de mi empresa para asignarlos correctamente a los despachos. | 3 |
+| 29 | US-20 | Asignar vehículo a pedido | Como proveedor, quiero asignar un vehículo a un pedido aprobado para organizar la logística. | 3 |
+| 30 | US-21 | Asignar conductor a pedido | Como proveedor, quiero asignar un conductor para completar la información de despacho. | 3 |
+| 31 | US-22 | Validar disponibilidad de transporte | Como proveedor, quiero saber qué vehículos están disponibles antes de asignarlos para vincularlos correctamente. | 5 |
+| 32 | US-27 | Buscar pedido por código | Como usuario de ambos segmentos, quiero buscar un pedido específico por su código para encontrarlo rápidamente. | 2 |
+| 33 | US-28 | Filtrar pedidos por estado | Como usuario de ambos segmentos, quiero filtrar mis pedidos por estado para facilitar la revisión. | 2 |
+| 34 | US-29 | Recibir notificación de aprobación | Como solicitante, quiero recibir una notificación cuando un pedido sea aprobado o rechazado para estar informado. | 2 |
+| 35 | US-30 | Notificación de pedido despachado | Como solicitante, quiero recibir una notificación cuando un pedido haya sido despachado para estar informado. | 2 |
+| 36 | US-14 | Generar reporte de ventas | Como proveedor, quiero generar reportes de ventas para tener registro de operaciones realizadas. | 3 |
+| 37 | US-33 | Ver gráfico de consumo (Solicitante) | Como solicitante, quiero ver un gráfico de mi consumo mensual para tener control sobre el uso del combustible. | 3 |
+| 38 | US-34 | Ver gráfico de ventas (Proveedor) | Como proveedor, quiero ver un gráfico de ventas por mes para monitorear el rendimiento del negocio. | 3 |
+| 39 | US-35 | Descargar reporte PDF | Como usuario de ambos segmentos, quiero descargar un resumen de pedidos o ventas en formato PDF para archivarlo o compartirlo. | 3 |
+| 40 | US-31 | Ver listado de empresas | Como proveedor, quiero ver una lista de empresas solicitantes para identificar a mis clientes frecuentes. | 2 |
+| 41 | US-32 | Ver detalles de empresa | Como proveedor, quiero ver información detallada de una empresa solicitante para analizar su historial de pedidos. | 2 |
+| 42 | US-23 | Ver perfil de usuario | Como usuario registrado, quiero ver mis datos de perfil para revisar mi información registrada. | 1 |
+| 43 | US-24 | Editar datos de perfil | Como usuario registrado, quiero editar mis datos para mantener mi información actualizada. | 2 |
+| 44 | US-25 | Ver sección de preguntas frecuentes | Como visitante de ambos segmentos, quiero acceder a una sección de preguntas frecuentes para resolver dudas rápidamente. | 2 |
+| 45 | US-26 | Acceder a información de contacto rápido | Como usuario de ambos segmentos, quiero ver datos de contacto directo (teléfono o correo) para hacer consultas urgentes. | 1 |
+| 46 | TS-01 | Endpoint: Login | Como developer, quiero un endpoint para autenticar usuarios. | 2 |
+| 47 | TS-02 | Endpoint: Recuperar contraseña | Como developer, quiero un endpoint que permita enviar correo de recuperación. | 2 |
+| 48 | TS-03 | Endpoint: Logout | Como developer, quiero un endpoint para cerrar sesión. | 1 |
+| 49 | TS-04 | Endpoint: Crear pedido | Como developer, quiero un endpoint para registrar un nuevo pedido de combustible. | 3 |
+| 50 | TS-05 | Endpoint: Consultar pedidos por usuario | Como developer, quiero un endpoint para obtener todos los pedidos de un usuario. | 2 |
+
+---
