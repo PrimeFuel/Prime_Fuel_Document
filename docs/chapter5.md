@@ -255,7 +255,7 @@ Flujo Gitflow:
         <td>Sección About Us</td>
         <td>Como visitante de ambos segmentos, quiero conocer quiénes están detrás de TankMaster para confiar en el sistema</td>
         <td>4 horas</td>
-        <td>Jose</td>
+        <td>Alberto</td>
         <td>Done</td>
     </tr>
     <tr align="center">
@@ -265,7 +265,7 @@ Flujo Gitflow:
         <td>Sección How it works?</td>
         <td>Como visitante de ambos segmentos, quiero entender cómo funciona TankMaster paso a paso para evaluar si se ajusta a mis necesidades</td>
         <td>5 horas</td>
-        <td>Alberto</td>
+        <td>Jose</td>
         <td>Done</td>
     </tr>
     <tr align="center">
@@ -339,34 +339,98 @@ Durante el Sprint 1, nuestro equipo culminó la implementación de la Landing Pa
   <tr>
     <td>PrimeFuel/TankMaster_LandingPage</td>
     <td>main</td>
-    <td>4258bf0</td>
-    <td>docs: add html base structure and scripts for internationalization and scrolling</td>
+    <td>5596c00</td>
+    <td>feat: add initial landing page structure for FullTank web platform</td>
     <td>-</td>
-    <td>19/09/2025</td>
+    <td>24/04/2025</td>
   </tr>
   <tr>
     <td>PrimeFuel/TankMaster_LandingPage</td>
     <td>main</td>
-    <td>1b714ae</td>
-    <td>fix: fixed about/video section, how it works section, benefits section and features section</td>
+    <td>6c22e93</td>
+    <td>feat: implement landing page interactivity including navigation, scroll effects, FAQ accordion, and animations</td>
     <td>-</td>
-    <td>19/09/2025</td>
+    <td>24/04/2026</td>
   </tr>
   <tr>
     <td>PrimeFuel/TankMaster_LandingPage</td>
     <td>main</td>
-    <td>6e9ef07</td>
-    <td>docs: added Menu Movil, Hero Section and Stats Section with styles.css</td>
+    <td>02df602</td>
+    <td>feat: add styles for metrics, FAQ accordion, step cards, and responsive navbar components</td>
     <td>-</td>
-    <td>19/09/2025</td>
+    <td>24/04/2026</td>
   </tr>
   <tr>
     <td>PrimeFuel/TankMaster_LandingPage</td>
     <td>main</td>
-    <td>5480154</td>
-    <td>feat:added Testimonials section, Pricing section, Contact section and footer</td>
+    <td>25bd1bf</td>
+    <td>feat: add styling for testimonials, pricing, FAQ, footer, about, and team sections</td>
     <td>-</td>
-    <td>19/09/2025</td>
+    <td>24/04/2026</td>
+  </tr>
+  <tr>
+    <td>PrimeFuel/TankMaster_LandingPage</td>
+    <td>feat/about us</td>
+    <td>0408f5d</td>
+    <td>docs: improved the spelling</td>
+    <td>-</td>
+    <td>25/04/2026</td>
+  </tr>
+  <tr>
+    <td>PrimeFuel/TankMaster_LandingPage</td>
+    <td>feat/about us</td>
+    <td>389615f</td>
+    <td>docs: added images file</td>
+    <td>-</td>
+    <td>25/04/2026</td>
+  </tr>
+  <tr>
+    <td>PrimeFuel/TankMaster_LandingPage</td>
+    <td>main</td>
+    <td>771e406</td>
+    <td>add team profiles and about-the-team video section</td>
+    <td>-</td>
+    <td>25/04/2026</td>
+  </tr>
+  <tr>
+    <td>PrimeFuel/TankMaster_LandingPage</td>
+    <td>main</td>
+    <td>68e2115</td>
+    <td>docs: fix landing page text</td>
+    <td>-</td>
+    <td>25/04/2026</td>
+  </tr>
+  <tr>
+    <td>PrimeFuel/TankMaster_LandingPage</td>
+    <td>main</td>
+    <td>3ce5d9d</td>
+    <td>feat(about the product): add stakeholder video for the future</td>
+    <td>-</td>
+    <td>26/04/2025</td>
+  </tr>
+  <tr>
+    <td>PrimeFuel/TankMaster_LandingPage</td>
+    <td>main</td>
+    <td>d6c516c</td>
+    <td>fix(english switched): everything is now translated to english</td>
+    <td>-</td>
+    <td>26/04/2026</td>
+  </tr>
+  <tr>
+    <td>PrimeFuel/TankMaster_LandingPage</td>
+    <td>main</td>
+    <td>bc61806</td>
+    <td>fix(responsive design):responsive design corrected</td>
+    <td>-</td>
+    <td>26/04/2026</td>
+  </tr>
+  <tr>
+    <td>PrimeFuel/TankMaster_LandingPage</td>
+    <td>main</td>
+    <td>bae9d2d</td>
+    <td>fix(main.js): minor translation problems solved</td>
+    <td>-</td>
+    <td>26/04/2026</td>
   </tr>
 </tbody>
 
@@ -376,26 +440,27 @@ Durante el Sprint 1, nuestro equipo culminó la implementación de la Landing Pa
 
 En el sprint 1 se diseñó el primer modelo de la landing page. Esta cuenta con diferentes secciones para acceso de los usuarios. Algunas evidencias son:
 - **Home:** Presenta de manera rápida el propósito y valor de TankMaster para captar la atención del visitante.
-![Home](assets/chapter-5/home.png)
+![Home](../assets/chapter-5/HomeLandingPage.png)
 
 - **About Us:** Explica quiénes somos y nuestra misión para generar confianza.
-![About Us 1](assets/chapter-5/about-us-1.png)
-![About Us 2](assets/chapter-5/about-us-2.png)
+![About Us 1](../assets/chapter-5/AboutUs1LandingPage.png)
+![About Us 2](../assets/chapter-5/AboutUs2LandingPage2.png)
+![About Us 3](../assets/chapter-5/AboutUs3LandingPage.png)
 
 - **Benefits:** Explica los beneficios de implementar TankMaster en el área logística de la empresa.
-![How it works?](assets/chapter-5/benefits.png)
+![Benefits](../assets/chapter-5/BenefitsLandingPage.png)
 
 - **How it works?:** Describe de forma sencilla y visual el funcionamiento de TankMaster paso a paso.
-![How it works?](assets/chapter-5/how-it-works.png)
+![How it works?](../assets/chapter-5/HowItWorksLandingPage.png)
 
 - **Testimonials:** Muestra algunas de las empresas o usuarios que confían en TankMaster como referencia de credibilidad.
-![Our Clients](assets/chapter-5/testimonials.png)
+![Testimonials](../assets/chapter-5/TestimonialsLandingPage.png)
 
 - **Pricing:** Propone planes y precios que puedan acomodarse a las necesidades del usuario.
-![Join](assets/chapter-5/pricing.png)
+![Pricing](../assets/chapter-5/PricingLandingPage.png)
 
 - **Contact Us:** Ofrece un formulario y datos de contacto directo para resolver dudas o solicitar soporte.
-![Contact Us](assets/chapter-5/contact.png)
+![Contact Us](../assets/chapter-5/ContactUsLandingPage.png)
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
@@ -411,13 +476,15 @@ Durante el Sprint 1, el equipo se enfocó en el desarrollo del Landing Page de T
 <h4>Detalles del Despliegue:</h4>
 
 <ul>
-  <li><strong>URL de la Landing Page:</strong> <a href="https://fueltrack-open-landing.vercel.app/" target="_blank">https://fueltrack-open-landing.vercel.app/</a></li>
-  <li><strong>Repositorio:</strong> <a href="https://github.com/1ASI0729-2520-7394-Grupo4/landing-page" target="_blank">https://github.com/1ASI0729-2520-7394-Grupo4/landing-page</a></li>
+  <li><strong>URL de la Landing Page:</strong> <a href="https://primefuel.github.io/FullTank_LandingPage/" target="_blank">https://primefuel.github.io/FullTank_LandingPage/</a></li>
+  <li><strong>Repositorio:</strong> <a href="https://github.com/PrimeFuel/FullTank_LandingPage" target="_blank">https://github.com/PrimeFuel/FullTank_LandingPage</a></li>
 </ul>
 
 <h4>Evidencia:</h4>
 
-![Deployment Visual Evidence of Analytics](assets/chapter-5/vercel-landing-analytics.png)
+![Deployment Visual Evidence of Analytics](../assets/chapter-5/Deploy1LandingPage.png)
+
+![Deployment Visual Evidence of Analytics](../assets/chapter-5/Deploy2LandingPage.png)
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint. 
 
@@ -429,7 +496,6 @@ Durante el Sprint 1, el equipo se enfocó en el desarrollo del Landing Page de T
 <h4>Evidencia de Colaboración:</h4>
 <ul>
   <li>Captura de pantalla de commits en GitHub mostrando contribuciones del equipo.</li>
-  <li>Conversaciones de WhatsApp sobre coordinación de secciones y ajustes de diseño.</li>
 </ul>
 
 <h4>Principales Herramientas de Comunicación:</h4>
