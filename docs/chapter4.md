@@ -514,6 +514,31 @@ Módulo de proveedores. Presenta un layout mixto. En la parte superior, integra 
   <img src="../assets/chapter-4/Suppliers Directory View.png" alt="Estilos" width="700"/>
 </div>
 
+**Wireframe 9**
+
+Vista del directorio de proveedores verificados. Mantiene la barra de navegación lateral y presenta dos tarjetas de indicadores (KPIs) en la parte superior ("Total Suppliers" y "Verified Coverage"). El contenido principal se organiza mediante una lista vertical de tarjetas, donde cada una representa a un proveedor, incluyendo un marcador para su logotipo, líneas de texto descriptivo, botones de acción rápida y una casilla de selección. Incluye controles de paginación en la parte inferior.
+
+
+<div align="center">
+  <img src="../assets/chapter-4/Verified Suppliers Directory View.png" alt="Verified Suppliers Directory View" width="700"/>
+</div>
+
+**Wireframe 10**
+
+Vista de detalles de seguimiento logístico o inspección. La pantalla presenta un layout complejo de paneles divisibles. En la columna izquierda, muestra tarjetas de resumen y un componente gráfico central destacado (probablemente un mapa de geolocalización o un visor de imágenes) con controles inferiores. En el panel derecho, se agrupa la información detallada del estado de la operación, barras de progreso y un botón de acción principal para gestionar el registro.
+
+<div align="center">
+  <img src="../assets/chapter-4/Logistics Tracking Details View.png" alt="Add Equipment Form View" width="700"/>
+</div>
+
+**Wireframe 11**
+
+Vista del formulario para la adición de nuevo equipamiento. Presenta un diseño limpio bajo el título "Add Equipment". El contenedor central organiza los campos de entrada de datos en un formato de dos columnas para optimizar el espacio en resoluciones de escritorio. Finaliza con un botón de acción primaria ("Save Equipment") alineado a la derecha en la parte inferior del formulario.
+
+HTML
+<div align="center">
+  <img src="../assets/chapter-4/Add Equipment Form View.png" alt="Add Equipment Form View" width="700"/>
+</div>
 
 ### 4.4.2 Web Applications Wireflow Diagrams
 
