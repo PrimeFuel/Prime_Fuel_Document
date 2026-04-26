@@ -1,21 +1,20 @@
 # Capítulo IV: Product Design
 
 ## 4.1 Style Guidelines
-En esta sección el equipo presenta la Guía de Estilos de Prime-Fuel.
-
+En esta sección el equipo presenta la Guía de Estilos de Full-Tank.
 ### 4.1.1 General Style Guidelines
-En esta sección se definen los aspectos visuales y comunicativos que garantizan una experiencia consistente en todos los puntos de contacto de la solución TankMaster. Nuestras decisiones de diseño se basan en los principios de Material Design, adaptándolos para transmitir confianza, eficiencia y modernidad en el sector energético.
+En esta sección se definen los aspectos visuales y comunicativos que garantizan una experiencia consistente en todos los puntos de contacto de la solución Full-Tank. Nuestras decisiones de diseño se basan en los principios de Material Design, adaptándolos para transmitir confianza, eficiencia y modernidad en el sector energético.
 
 **Branding**
 
-El logotipo de TankMaster es el eje central de nuestra identidad.
+El logotipo de Full-Tank es el eje central de nuestra identidad.
 
-- **Concepto:** La integración de las iniciales "TM" con un indicador circular (que evoca tanto un reloj como un manómetro de combustible) simboliza los dos pilares de nuestra propuesta de valor: precisión operativa y trazabilidad en tiempo real.
+- **Concepto:** La integración de las iniciales "FT" con un indicador circular (que evoca tanto un reloj como un manómetro de combustible) simboliza los dos pilares de nuestra propuesta de valor: precisión operativa y trazabilidad en tiempo real.
   
 - **Identidad Visual:** El diseño utiliza líneas geométricas sólidas para transmitir robustez y confiabilidad, características esenciales para un sistema que gestiona recursos críticos en sectores como minería y construcción.
   
-<div align="center">
-  <img src="./../assets/chapter-4/logo_TankMaster.png" alt="Logo TankMaster" width="200"/>
+<div allign="center">
+  <img src="./../assets/chapter-4/logo_FullTank.png" alt="Logo FullTank" width="310"/>
 </div>
 
 
@@ -43,7 +42,7 @@ Nuestra paleta de colores equilibra el profesionalismo corporativo con la identi
 
 **Estilos**
 <div align="center">
-  <img src="./../assets/chapter-4/estilo.png" alt="Estilos" width="200"/>
+  <img src="./../assets/chapter-4/estilo.png" alt="Estilos" width="310"/>
 </div>
 
 **Spacing**
@@ -55,7 +54,7 @@ Siguiendo los lineamientos de Material Design, implementamos un sistema de rejil
 
 **Tone of Voice and Language**
 
-Dado que interactuamos con gerentes de logística y proveedores industriales, el tono de TankMaster se define en las siguientes dimensiones:
+Dado que interactuamos con gerentes de logística y proveedores industriales, el tono de Full-Tank se define en las siguientes dimensiones:
 
 - **Serio:** El manejo de combustibles implica altos costos y riesgos; la comunicación debe ser precisa y técnica.
 - **Formal:** Mantenemos un estándar corporativo para generar respeto y profesionalismo entre empresas (B2B).
@@ -63,7 +62,7 @@ Dado que interactuamos con gerentes de logística y proveedores industriales, el
 - **Sereno:** Buscamos transmitir calma y control, especialmente en situaciones de retrasos logísticos, mediante interfaces limpias y mensajes directos.
 
 ### 4.1.2 Web Style Guidelines
-Esta sección detalla los estándares de diseño de interfaz y comportamiento de interacción para la plataforma web de TankMaster, asegurando una experiencia fluida tanto en navegadores de escritorio como en dispositivos móviles.
+Esta sección detalla los estándares de diseño de interfaz y comportamiento de interacción para la plataforma web de Full-Tank, asegurando una experiencia fluida tanto en navegadores de escritorio como en dispositivos móviles.
 
 **1. Grid and Breakpoints**
   - Para garantizar que la interfaz sea responsive, adoptamos el sistema de rejilla de Material Design basado en columnas:
@@ -100,12 +99,13 @@ Los estándares de interacción definen cómo responde el sistema a las acciones
 
 - **Mobile:** El Sidebar se oculta automáticamente y es accesible a través de un "hamburger menu" en la parte superior izquierda, maximizando el espacio para la visualización de datos críticos.
 
+
 ## 4.2 Information Architecture
+
 Esta sección describe los aspectos clave de la estructura y el etiquetado del aplicativo.
 
-### 4.2.1. Organization Systems
-
-En la plataforma TankMaster, se emplean distintos sistemas de organización del contenido con el objetivo de optimizar la navegación y facilitar la gestión de pedidos de combustible tanto para solicitantes como para proveedores. Estos sistemas permiten estructurar la información de manera clara, asegurando que los usuarios puedan interactuar con la plataforma de forma eficiente. A continuación, se describen los enfoques utilizados:
+### 4.2.1 Organization Systems
+En la plataforma Full-Tank, se emplean distintos sistemas de organización del contenido con el objetivo de optimizar la navegación y facilitar la gestión de pedidos de combustible tanto para solicitantes como para proveedores. Estos sistemas permiten estructurar la información de manera clara, asegurando que los usuarios puedan interactuar con la plataforma de forma eficiente. A continuación, se describen los enfoques utilizados:
 
 #### Organización Visual del Contenido
 
@@ -118,7 +118,7 @@ En procesos que requieren múltiples pasos, como el registro de empresas, la cre
 #### Esquemas de Categorización de Contenido
 
 **Por Audiencia (Roles de Usuario):**
-TankMaster distingue principalmente entre dos tipos de usuarios: solicitantes y proveedores.
+Full-Tank distingue principalmente entre dos tipos de usuarios: solicitantes y proveedores.
 
 - Los solicitantes tienen acceso a funcionalidades como registro de pedidos, seguimiento de estado, historial y pagos.
 - Los proveedores gestionan pedidos, validan pagos, asignan recursos logísticos y generan reportes.
@@ -141,10 +141,10 @@ La organización jerárquica y secuencial se refleja en dashboards estructurados
 
 Por otro lado, la categorización por audiencia y por tópicos se implementa mediante menús de navegación dinámicos, paneles diferenciados por rol y secciones claramente delimitadas. El uso de componentes visuales como tarjetas, tablas y estados (pendiente, aprobado, despachado, etc.) permite una lectura rápida y eficiente del sistema.
 
-Este enfoque garantiza que la experiencia en TankMaster sea intuitiva, escalable y alineada con las necesidades operativas de cada tipo de usuario, facilitando tanto la gestión como la toma de decisiones dentro de la plataforma.
+Este enfoque garantiza que la experiencia en Full-Tank sea intuitiva, escalable y alineada con las necesidades operativas de cada tipo de usuario, facilitando tanto la gestión como la toma de decisiones dentro de la plataforma.
 
 ### 4.2.2 Labeling Systems
-En TankMaster, el sistema de etiquetado ha sido diseñado priorizando la simplicidad y la reducción de la carga cognitiva de los operadores logísticos y proveedores. Se han seleccionado etiquetas descriptivas de una o dos palabras para evitar confusión y agilizar la navegación.
+En Full-Tank, el sistema de etiquetado ha sido diseñado priorizando la simplicidad y la reducción de la carga cognitiva de los operadores logísticos y proveedores. Se han seleccionado etiquetas descriptivas de una o dos palabras para evitar confusión y agilizar la navegación.
 
 1. **Landing Page Labels**
 Las etiquetas del sitio web estático buscan guiar al visitante rápidamente hacia la propuesta de valor y la conversión:
@@ -183,9 +183,8 @@ Para evitar confusiones en el seguimiento en tiempo real, se estandarizan las si
 
 - **Completed**: El cliente ha confirmado la recepción satisfactoria del combustible.
 
-### 4.2.3. SEO Tags and Meta Tags
-
-En la plataforma TankMaster, se implementan etiquetas SEO (Search Engine Optimization) y Meta Tags dentro del < head > del sitio web con el objetivo de mejorar la visibilidad en motores de búsqueda como Google, así como optimizar la presentación de la página en diferentes dispositivos y contextos.
+### 4.2.3 SEO Tags and Meta Tags
+En la plataforma Full-Tank, se implementan etiquetas SEO (Search Engine Optimization) y Meta Tags dentro del < head > del sitio web con el objetivo de mejorar la visibilidad en motores de búsqueda como Google, así como optimizar la presentación de la página en diferentes dispositivos y contextos.
 
 Estas etiquetas permiten describir el contenido del sitio, definir su comportamiento en navegadores y facilitar que los usuarios encuentren la plataforma cuando buscan soluciones relacionadas con la gestión de pedidos de combustible.
 
@@ -215,10 +214,10 @@ Estructura esperada:
     < meta charset="utf-8">
     < meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>TankMaster - Gestión inteligente de pedidos de combustible</title>
-    <meta name="description" content="TankMaster optimiza la gestión de pedidos de combustible entre empresas solicitantes y proveedores. Control, trazabilidad y eficiencia en un solo sistema.">
-    <meta name="keywords" content="TankMaster, combustible, gestión de pedidos, logística, proveedores de combustible, distribución, empresas, pedidos de combustible">
-    <meta name="author" content="Equipo TankMaster">
+    <title>Full-Tank - Gestión inteligente de pedidos de combustible</title>
+    <meta name="description" content="Full-Tank optimiza la gestión de pedidos de combustible entre empresas solicitantes y proveedores. Control, trazabilidad y eficiencia en un solo sistema.">
+    <meta name="keywords" content="Full-Tank, combustible, gestión de pedidos, logística, proveedores de combustible, distribución, empresas, pedidos de combustible">
+    <meta name="author" content="Equipo Full-Tank">
 
     <!-- CSS & Icons -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -236,9 +235,8 @@ Estructura esperada:
     <link rel="icon" href="/images/Tanklogo.png">
     < /head>
 
-### 4.2.4. Searching Systems
-
-En la plataforma TankMaster, se implementa un sistema de búsqueda y filtrado que permite a los usuarios encontrar información relevante de manera rápida y eficiente, evitando la sobrecarga de información dentro del sistema. Este sistema está diseñado considerando los dos tipos de usuarios principales: solicitantes y proveedores, adaptando las opciones de búsqueda a sus necesidades específicas.
+### 4.2.4 Searching Systems
+En la plataforma Full-Tank, se implementa un sistema de búsqueda y filtrado que permite a los usuarios encontrar información relevante de manera rápida y eficiente, evitando la sobrecarga de información dentro del sistema. Este sistema está diseñado considerando los dos tipos de usuarios principales: solicitantes y proveedores, adaptando las opciones de búsqueda a sus necesidades específicas.
 
 **Búsqueda y filtros en gestión de pedidos**
 
@@ -274,188 +272,46 @@ En caso de no existir coincidencias, el sistema muestra mensajes informativos co
 
 El sistema de búsqueda está integrado dentro de cada módulo relevante mediante barras de búsqueda y filtros visibles. Los usuarios pueden aplicar, combinar o eliminar filtros fácilmente, permitiendo una navegación fluida y eficiente dentro de la plataforma.
 
-### 4.2.5. Navigation Systems
-
-En la plataforma TankMaster, el sistema de navegación está diseñado para guiar a los usuarios de forma clara y eficiente a través del Landing Page y la Web Application, permitiéndoles cumplir sus objetivos según su rol dentro del sistema sea solicitante o proveedor.
-
-La navegación combina estructuras visuales, jerárquicas y contextuales, asegurando que el usuario pueda orientarse fácilmente y acceder a la información o funcionalidades necesarias sin fricción.
-
-#### Navegación en la Landing Page
-
-La Landing Page actúa como punto de entrada para nuevos usuarios, guiándolos mediante un flujo vertical estructurado que presenta progresivamente la información clave del sistema.
-
-**Elementos de navegación**
-
-**Menú de navegación superior (Navbar fija):**
-
-- Inicio
-- About Us
-- Como funciona
-- Beneficios
-- Planes y precios
-- Testimonios
-- Contacto
-
-**Desplazamiento vertical (Scroll Navigation):** El usuario recorre la página mediante scroll continuo, pasando por secciones organizadas jerárquicamente desde información general hasta acciones específicas.
-
-**Call To Action (CTA):** Botones estratégicamente ubicados (sea “Empezar ahora” o “Ver planes”) que redirigen al usuario hacia el registro o acciones clave.
-
-**Navegación por anclas:** Los elementos del menú permiten saltar directamente a secciones específicas dentro de la misma página.
-Flujo de navegación
-
-**El flujo sigue una lógica progresiva:**
-
-Valor del producto → Explicación → Confianza → Conversión
-
-Inicio → presenta el valor principal
-
-Como funciona → explica el sistema
-
-Beneficios  → refuerza confianza
-
-Planes → decisión
-
-Contacto → soporte o conversión final
-
-#### Navegación en la Web Application
-
-La navegación dentro del sistema se adapta al tipo de usuario, optimizando la experiencia según sus objetivos.
-
-**Para Solicitantes**
-
-Menú principal (sidebar o navbar):
-
-//TODO
-
-Patrones de navegación:
-
-- Acceso directo a creación de pedidos (CTA visible)
-- Navegación por listas (pedidos → detalle)
-- Filtros y búsqueda integrados
-
-**Para Proveedores**
-
-Menú principal (sidebar):
-
-//TODO
-
-Patrones de navegación:
-
-- Flujo operativo: Pedido → Aprobación → Despacho → Cierre
-- Acceso jerárquico a módulos logísticos
-- Navegación orientada a gestión y control
-
-#### Elementos de apoyo a la navegación
-
-- **Breadcrumbs (navegación jerárquica):** Permiten al usuario regresar a vistas anteriores dentro del sistema.
-- **Indicadores de estado:** Estados visibles de pedidos (pendiente, aprobado, etc.) que guían la interacción.
-- **Feedback visual:** Confirmaciones, errores y cambios de estado visibles.
-- **Persistencia de contexto:** El sistema mantiene filtros, idioma y vistas activas durante la navegación.
+### 4.2.5 Navigation Systems
 
 ## 4.3 Landing Page UI Design
 ### 4.3.1 Landing Page Wireframe
-En esta sección se presentan los esquemas estructurales (wireframes) de baja fidelidad para la Landing Page de *TankMaster*, diseñados en Figma. Estos diagramas establecen la jerarquía visual, la distribución de contenido y el comportamiento responsivo antes de aplicar el estilo visual final, asegurando que la interfaz cumpla con nuestros objetivos de negocio.
+En esta sección se presentan los esquemas estructurales (wireframes) de baja fidelidad para la Landing Page de *Full-Tank*, diseñados en Figma. Estos diagramas establecen la jerarquía visual, la distribución de contenido y el comportamiento responsivo antes de aplicar el estilo visual final, asegurando que la interfaz cumpla con nuestros objetivos de negocio.
 
 **Desktop Web Browser Wireframe**
 <div align="center">
-  <img src="./../assets/chapter-4/lpWireframe1.png" alt="Wireframe" width="80%"/>
-</div>
-<div align="center">
-  <img src="./../assets/chapter-4/lpWireframe2.png" alt="Wireframe" width="80%"/>
-</div>
-<div align="center">
-  <img src="./../assets/chapter-4/lpWireframe3.png" alt="Wireframe" width="80%"/>
-</div>
-<div align="center">
-  <img src="./../assets/chapter-4/lpWIreframe4.png" alt="Wireframe" width="80%"/>
-</div>
-<div align="center">
-  <img src="./../assets/chapter-4/lpWireframe5.png" alt="Wireframe" width="80%"/>
-</div>
-<div align="center">
-  <img src="./../assets/chapter-4/lpWireframe6.png" alt="Wireframe" width="80%"/>
-</div>
-<div align="center">
-  <img src="./../assets/chapter-4/lpWireframe7.png" alt="Wireframe" width="80%"/>
-</div>
-<div align="center">
-  <img src="./../assets/chapter-4/lpWireframe8.png" alt="Wireframe" width="80%"/>
+  <img src="./../assets/chapter-4/Wireframe1.png" alt="Wireframe" width="100%"/>
 </div>
 
 * **Header (Navegación):** Se utiliza una organización horizontal fija con el logotipo a la izquierda, los enlaces de navegación centralizados (*Home, How it works, Benefits, Pricing, Testimonials, Contact) y el botón principal de *Call to Action (*"Request a Demo"*) resaltado a la derecha para incentivar la conversión inmediata.
-* **Hero Section (Home):** Ocupa la primera vista con un título de propuesta de valor centrado, un subtítulo descriptivo y un botón primario de "Request a Demo", acompañado de un placeholder (caja gris) para una imagen representativa del dashboard de TankMaster a la derecha.
+* **Hero Section (Home):** Ocupa la primera vista con un título de propuesta de valor centrado, un subtítulo descriptivo y un botón primario de "Request a Demo", acompañado de un placeholder (caja gris) para una imagen representativa del dashboard de Full-Tank a la derecha.
 * **Body Sections:**
     * **How it works:** Se organiza secuencialmente en 3 o 4 columnas, mostrando los pasos del flujo operativo.
     * **Benefits & Testimonials:** Se estructuran de forma matricial para facilitar la lectura de características clave y generar confianza al mostrar los casos de éxito de otras empresas.
     * **Pricing:** Presentado mediante tablas comparativas para destacar claramente los planes de suscripción.
-* **Footer:** Contiene los enlaces legales obligatorios como términos y condiciones, información de contacto y enlaces a redes sociales, cumpliendo con la ética y responsabilidad exigida en el proyecto.
+* **Footer:** Contiene los enlaces legales obligatorios (Términos y Condiciones), información de contacto y enlaces a redes sociales, cumpliendo con la ética y responsabilidad exigida en el proyecto.
 
 
 ### 4.3.2 Landing Page Mock-up
-En esta sección se presenta el diseño de alta fidelidad para el navegador de escritorio (Desktop Web Browser) de la plataforma TankMaster. Este diseño integra los activos visuales del Design System para ofrecer una interfaz profesional y confiable, alineada con la digitalización del sector energético.
-
-**Desktop Web Browser Mock-up**
-
-<div align="center">
-  <img src="./../assets/chapter-4/landingColor.png" alt="Mockup" width="85%"/>
-</div>
-
-El diseño final para escritorio utiliza una estructura de bloques claros y contrastados que guían al usuario hacia la conversión ("Request a free Demo"):
-
-- **Header & Navigation:** Se mantiene un encabezado fijo con el logotipo de TankMaster. El menú de navegación utiliza etiquetas precisas en inglés (Home, How it works, Benefits, Pricing, Testimonials, Contact) para facilitar el acceso a la información técnica sin saturación visual.
-
-- **Hero Section:** Aplica el color primario #1E3A8A en los títulos para transmitir autoridad y seguridad. El botón de llamado a la acción destaca mediante el color ámbar #F59E0B, generando un contraste que resalta la funcionalidad principal de la página.
-
-- **Value Proposition & Steps:** Las secciones de beneficios y flujo de trabajo ("How it works") utilizan iconos minimalistas y espacios en blanco generosos. Esto reduce la carga cognitiva, permitiendo que los encargados de logística comprendan el sistema en menos de 3 minutos.
-
-- **Pricing & Social Proof:** Se presentan tablas de precios con una jerarquía clara y una sección de testimonios que refuerza la confianza en el sistema a través de la validación de otros usuarios del sector.
-
-**Sustento de Diseño Gráfico e Inclusivo**
-
-El mock-up de TankMaster se fundamenta en principios de diseño inclusivo y accesibilidad para asegurar que el rango de audiencia corporativa pueda interactuar con la plataforma sin barreras:
-
-- **Contraste y Legibilidad:** La combinación de la tipografía Inter con la paleta de colores seleccionada garantiza un índice de contraste que cumple con las pautas de accesibilidad. El uso de Inter asegura que los datos numéricos y técnicos de combustible sean legibles en diversas condiciones de iluminación.
-
-- **Jerarquía Visual y Material Design:** Se aplican principios de Material Design, como el uso de elevaciones sutiles (shadows) en las tarjetas de precios y beneficios para diferenciar niveles de información.
-
-- **Adaptación al Usuario:** El diseño prioriza la claridad en la presentación de estados de pedido (Order Status) y métricas operativas, fundamentales para mitigar los errores humanos y la falta de trazabilidad identificados en la problemática inicial.
 
 ## 4.4 Web Applications UX/UI Design
-En este apartado se presentarán los Wireframes más relevantes del proyecto
+
+Los wireframes y mockups aquí presentados muestran la estructura inicial de las vistas principales, priorizando la jerarquía visual, la simplicidad de navegación, la accesibilidad, la escalabilidad futura y la claridad en la presentación de información crítica como rutas, paraderos, notificaciones y configuraciones del usuario.
+
 ### 4.4.1 Web Applications Wireframes
-Esta sección presenta la propuesta visual y funcional de las aplicaciones que integran la experiencia de TankMaster, diseñada para optimizar la interacción entre proveedores y compradores de combustible.
 
-**Wireframe 1 / Sección Inicial**
+Esta sección presenta la propuesta visual y funcional de las aplicaciones que integran la experiencia de FullTank, diseñada para optimizar la interacción entre proveedores y compradores de combustible.
 
-El primer wireframe representa la Landing Page principal de TankMaster, diseñada como una herramienta de conversión masiva para atraer tanto a empresas solicitantes como a proveedores.
+**Wireframe 1 / Inicial**
+
+El primer wireframe representa la Landing Page principal de FullTank, diseñada como una herramienta de conversión masiva para atraer tanto a empresas solicitantes como a proveedores.
 
 En el cuerpo de la página, la información se desglosa siguiendo una secuencia lógica que construye confianza y educación sobre el servicio. Se incluyen secciones dedicadas a la historia de la startup (About Us) y al funcionamiento paso a paso del sistema (How it works), utilizando bloques modulares que permiten un escaneo rápido del contenido. Esta estructura se complementa con una cuadrícula de características que resaltan los beneficios técnicos, como la trazabilidad y la centralización de datos, fundamentales para resolver los dolores detectados en la etapa de investigación.
 
 Hacia el final de la navegación, se presenta una sección de planes y suscripciones que utiliza el principio de jerarquía visual para destacar la opción más equilibrada, facilitando la toma de decisiones del usuario. El diseño concluye con un pie de página (footer) que centraliza los datos de contacto y redes sociales, asegurando que el usuario tenga siempre una vía de comunicación abierta con TechnoSAC. Todo el conjunto ha sido diseñado bajo criterios de diseño inclusivo, empleando dimensiones de botones generosas y una organización de elementos que prioriza la legibilidad y la facilidad de interacción en dispositivos móviles.
 
 <div align="center">
-  <img src="./../assets/chapter-4/lpWireframe1.png" alt="Wireframe" width="80%"/>
-</div>
-<div align="center">
-  <img src="./../assets/chapter-4/lpWireframe2.png" alt="Wireframe" width="80%"/>
-</div>
-<div align="center">
-  <img src="./../assets/chapter-4/lpWireframe3.png" alt="Wireframe" width="80%"/>
-</div>
-<div align="center">
-  <img src="./../assets/chapter-4/lpWIreframe4.png" alt="Wireframe" width="80%"/>
-</div>
-<div align="center">
-  <img src="./../assets/chapter-4/lpWireframe5.png" alt="Wireframe" width="80%"/>
-</div>
-<div align="center">
-  <img src="./../assets/chapter-4/lpWireframe6.png" alt="Wireframe" width="80%"/>
-</div>
-<div align="center">
-  <img src="./../assets/chapter-4/lpWireframe7.png" alt="Wireframe" width="80%"/>
-</div>
-<div align="center">
-  <img src="./../assets/chapter-4/lpWireframe8.png" alt="Wireframe" width="80%"/>
+  <img src="./../assets/chapter-4/Wireframe1.png" alt="Estilos" width="310"/>
 </div>
 
 **Wireframe 2**
@@ -463,93 +319,150 @@ Hacia el final de la navegación, se presenta una sección de planes y suscripci
 El wireframe de Inicio de Sesión y Registro establece un punto de control centralizado diseñado para identificar al usuario y derivarlo de manera eficiente a su panel de control correspondiente. La arquitectura de información prioriza la funcionalidad sobre cualquier otro elemento, disponiendo de forma secuencial los campos de captura de credenciales, el acceso a la recuperación de cuenta y el disparador para la creación de nuevos perfiles. Este esquema garantiza que el usuario recorra el camino mínimo necesario para la autenticación, reduciendo la carga cognitiva al segmentar claramente las acciones primarias de las secundarias.
 
 <div align="center">
-  <img src="./../assets/chapter-4/inicio.png" alt="inicio.png" width="700"/>
+  <img src="./../assets/chapter-4/Inicio.png" alt="Estilos" width="700"/>
 </div>
 
 **Wireframe 3**
 
-El wireframe de la funcionalidad Recuperar Contraseña presenta una interfaz simple y centrada en el usuario, orientada a facilitar el acceso en caso de olvido de credenciales. La pantalla incluye un campo para el ingreso del correo electrónico, acompañado de instrucciones claras y un botón de acción para solicitar la recuperación. Además, se contemplan mensajes de validación para campos vacíos o correos no registrados, así como una confirmación visual tras el envío exitoso. El diseño prioriza la claridad, minimiza distracciones y guía al usuario de forma directa a completar el proceso.
+El primer wireframe para proveedores, denominado Resumen Operativo, establece una arquitectura de información de alta prioridad que condensa la salud del negocio en tres indicadores clave: ventas mensuales, pedidos pendientes y vehículos en ruta.
 
 <div align="center">
-  <img src="./../assets/chapter-4/recuperarContrasenia.png" alt="Estilos" width="700"/>
+  <img src="./../assets/chapter-4/Wireframe2.png" alt="Estilos" width="700"/>
 </div>
 
 **Wireframe 4**
 
-El primer wireframe para proveedores, denominado Resumen Operativo, establece una arquitectura de información de alta prioridad que condensa la salud del negocio en tres indicadores clave: ventas mensuales, pedidos pendientes y vehículos en ruta.
+El wireframe de Gestión de Pedidos Entrantes estructura la información mediante una tabla funcional que centraliza las solicitudes nuevas, permitiendo al proveedor procesar múltiples órdenes desde una sola vista. La arquitectura de información se organiza en columnas que detallan datos críticos como el cliente, el tipo de combustible y la cantidad, situando los botones de acción en el extremo derecho para facilitar una respuesta rápida de aprobación o rechazo.
 
 <div align="center">
-  <img src="./../assets/chapter-4/personalOperativo.png" alt="Estilos" width="700"/>
+  <img src="./../assets/chapter-4/Wireframe3.png" alt="Estilos" width="700"/>
 </div>
 
 **Wireframe 5**
 
-El wireframe de Gestión de Pedidos Entrantes estructura la información mediante una tabla funcional que centraliza las solicitudes nuevas, permitiendo al proveedor procesar múltiples órdenes desde una sola vista. La arquitectura de información se organiza en columnas que detallan datos críticos como el cliente, el tipo de combustible y la cantidad, situando los botones de acción en el extremo derecho para facilitar una respuesta rápida de aprobación o rechazo.
+El wireframe de Directorio de Clientes utiliza un sistema de tarjetas (cards) para organizar el perfil detallado de cada empresa, permitiendo al proveedor acceder a la información de contacto y preferencias de compra de manera individualizada. La arquitectura de información se segmenta visualmente mediante el uso de listas de verificación e iconos, lo que facilita el escaneo rápido de los servicios contratados o requisitos específicos por cliente.
 
 <div align="center">
-  <img src="./../assets/chapter-4/gestionPedidos.png" alt="Estilos" width="700"/>
+  <img src="./../assets/chapter-4/Wireframe4.png" alt="Estilos" width="700"/>
 </div>
 
 **Wireframe 6**
 
-El wireframe de Directorio de Clientes utiliza un sistema de tarjetas (cards) para organizar el perfil detallado de cada empresa, permitiendo al proveedor acceder a la información de contacto y preferencias de compra de manera individualizada. La arquitectura de información se segmenta visualmente mediante el uso de listas de verificación e iconos, lo que facilita el escaneo rápido de los servicios contratados o requisitos específicos por cliente.
+El wireframe de Asignación de Despacho presenta una arquitectura de información dividida en dos paneles estratégicos para facilitar la coordinación logística del proveedor. El panel izquierdo concentra los campos de entrada para la selección de pedidos y la vinculación de unidades de transporte, incluyendo un contenedor específico para la validación de documentos o firmas digitales, lo que asegura que cada despacho cumpla con los requisitos administrativos.
 
 <div align="center">
-  <img src="./../assets/chapter-4/directorioClientes.png" alt="Estilos" width="700"/>
+  <img src="./../assets/chapter-4/Wireframe5.png" alt="Estilos" width="700"/>
 </div>
 
 **Wireframe 7**
 
-El wireframe de Asignación de Despacho presenta una arquitectura de información dividida en dos paneles estratégicos para facilitar la coordinación logística del proveedor. El panel izquierdo concentra los campos de entrada para la selección de pedidos y la vinculación de unidades de transporte, incluyendo un contenedor específico para la validación de documentos o firmas digitales, lo que asegura que cada despacho cumpla con los requisitos administrativos.
+El wireframe de Reportes y Documentación cierra el panel de proveedores con una arquitectura de información orientada a la auditoría y el control administrativo. La interfaz dispone de un área central de visualización para previsualizar registros operativos, acompañada de un botón de acción principal para la generación y descarga de documentos legales o reportes de ventas.
 
 <div align="center">
-  <img src="./../assets/chapter-4/asignacionDespacho.png" alt="Estilos" width="700"/>
+  <img src="./../assets/chapter-4/Wireframe6.png" alt="Estilos" width="700"/>
 </div>
 
 **Wireframe 8**
 
-El wireframe de Reportes y Documentación cierra el panel de proveedores con una arquitectura de información orientada a la auditoría y el control administrativo. La interfaz dispone de un área central de visualización para previsualizar registros operativos, acompañada de un botón de acción principal para la generación y descarga de documentos legales o reportes de ventas.
+El primer wireframe del panel de Compradores introduce la vista de Consumo General, diseñada para ofrecer una arquitectura de información centrada en el control financiero y operativo del solicitante. La interfaz utiliza una disposición horizontal de tres tarjetas de métricas que permiten al usuario monitorear, de forma inmediata, su gasto total mensual, el volumen de consumo acumulado y la cantidad de pedidos que se encuentran actualmente en estado pendiente.
 
 <div align="center">
-  <img src="./../assets/chapter-4/reportesDocumentacion.png" alt="Estilos" width="700"/>
+  <img src="./../assets/chapter-4/Wireframe7.png" alt="Estilos" width="700"/>
 </div>
 
 **Wireframe 9**
 
-El primer wireframe del panel de Compradores introduce la vista de Consumo General, diseñada para ofrecer una arquitectura de información centrada en el control financiero y operativo del solicitante. La interfaz utiliza una disposición horizontal de tres tarjetas de métricas que permiten al usuario monitorear, de forma inmediata, su gasto total mensual, el volumen de consumo acumulado y la cantidad de pedidos que se encuentran actualmente en estado pendiente.
+El wireframe de Solicitud de Combustible y Procedimiento de Pago funciona como una interfaz de formulario estructurada para guiar al comprador a través del registro de una nueva orden. La arquitectura de información divide el proceso en dos bloques lógicos: la especificación técnica del pedido (tipo de combustible y cantidad) y la carga de la evidencia de pago necesaria para la validación del proveedor. Al presentar los campos de manera simétrica y clara dentro de un contenedor enfocado, se minimiza el riesgo de errores en el ingreso de datos, asegurando que el flujo desde la solicitud hasta la confirmación del depósito sea fluido y cumpla con los requisitos operativos del sistema.
 
 <div align="center">
-  <img src="./../assets/chapter-4/consumoTotal.png" alt="Estilos" width="700"/>
+  <img src="./../assets/chapter-4/Wireframe8.png" alt="Estilos" width="700"/>
 </div>
 
 **Wireframe 10**
 
-El wireframe de Solicitud de Combustible y Procedimiento de Pago funciona como una interfaz de formulario estructurada para guiar al comprador a través del registro de una nueva orden. La arquitectura de información divide el proceso en dos bloques lógicos: la especificación técnica del pedido (tipo de combustible y cantidad) y la carga de la evidencia de pago necesaria para la validación del proveedor. Al presentar los campos de manera simétrica y clara dentro de un contenedor enfocado, se minimiza el riesgo de errores en el ingreso de datos, asegurando que el flujo desde la solicitud hasta la confirmación del depósito sea fluido y cumpla con los requisitos operativos del sistema.
+El wireframe de Seguimiento del Pedido se centra en proporcionar transparencia y tranquilidad al comprador mediante una arquitectura de información que destaca el progreso del suministro en tiempo real. El elemento principal de esta interfaz es una barra de estado dinámica que permite visualizar de forma gráfica en qué etapa se encuentra el pedido (solicitado, aprobado, en tránsito o entregado), eliminando la incertidumbre del usuario. 
 
 <div align="center">
-  <img src="./../assets/chapter-4/solicitudCombustible.png" alt="Estilos" width="700"/>
+  <img src="./../assets/chapter-4/Wireframe9.png" alt="Estilos" width="700"/>
 </div>
 
 **Wireframe 11**
 
-El wireframe de Seguimiento del Pedido se centra en proporcionar transparencia y tranquilidad al comprador mediante una arquitectura de información que destaca el progreso del suministro en tiempo real. El elemento principal de esta interfaz es una barra de estado dinámica que permite visualizar de forma gráfica en qué etapa se encuentra el pedido (solicitado, aprobado, en tránsito o entregado), eliminando la incertidumbre del usuario. 
-
-<div align="center">
-  <img src="./../assets/chapter-4/seguimientoPedido.png" alt="Estilos" width="700"/>
-</div>
-
-**Wireframe 12**
-
 El wireframe del Historial de Pedidos cierra la experiencia del comprador mediante una arquitectura de información que facilita la consulta de transacciones pasadas para fines de auditoría y control de inventarios. La interfaz organiza los pedidos anteriores en una cuadrícula de tarjetas (cards), donde cada una presenta un resumen de la transacción, incluyendo fechas y volúmenes, acompañada de un botón de acción para acceder a detalles específicos o descargar comprobantes.
 
 <div align="center">
-  <img src="./../assets/chapter-4/historialPedidos.png" alt="Estilos" width="700"/>
+  <img src="./../assets/chapter-4/Wireframe10.png" alt="Estilos" width="700"/>
 </div>
 
 
+### **Mobile**
+**Wireframe 1**
+
+La adaptación móvil de la página principal prioriza la jerarquía vertical para asegurar una navegación fluida en pantallas pequeñas. La arquitectura de información reorganiza el menú en un componente de "hamburguesa" y transforma las tarjetas de planes y beneficios en una disposición de columna única. Los botones de llamado a la acción se han redimensionado para ocupar el ancho de la pantalla, facilitando la interacción táctil y guiando al usuario directamente hacia el registro o inicio de sesión.
+
+<div align="center">
+  <img src="./../assets/chapter-4/Prinicpial Mobile.png" alt="Estilos" width="200"/>
+</div>
+
+**Wireframe 2**
+
+Los wireframes de Inicio de Sesión y Recuperación de Contraseña se han simplificado al máximo para evitar la fatiga visual. En la versión móvil, los campos de entrada de datos son los protagonistas absolutos, utilizando etiquetas claras y botones de gran escala. El diseño inclusivo se evidencia en el espaciado entre elementos, optimizado para evitar errores de pulsación y garantizar un acceso rápido incluso para operarios en entornos de alta movilidad.
+
+<div align="center">
+  <img src="./../assets/chapter-4/o Registro para Mobile.png" alt="Estilos" width="200"/>
+</div>
+
+**Wireframe 3**
+
+El wireframe de Compradores Mobile adapta la experiencia web a un formato de scroll vertical infinito, optimizando el espacio mediante el apilamiento de módulos para una gestión eficiente a una sola mano.
+
+<div align="center">
+  <img src="./../assets/chapter-4/Compradores Mobile.png" alt="Estilos" width="200"/>
+</div>
+
+**Wireframe 4**
+
+Este wireframe adapta el flujo de compra a una secuencia vertical que guía al usuario de manera lineal desde la configuración hasta la liquidación del pedido. La arquitectura de información se organiza en tres secciones clave: un bloque superior con el resumen detallado de la solicitud de combustible, un carrusel central para la selección de la información de proveedores, y un módulo final dedicado al método de pago.
+
+<div align="center">
+  <img src="./../assets/chapter-4/Compradores Mobile pt2 _ Solicitud de Combustible.png" alt="Estilos" width="200"/>
+</div>
+
+**Wireframe 5**
+
+Este wireframe presenta el perfil detallado del socio logístico seleccionado, diseñado para fortalecer la transparencia en la cadena de suministro. La arquitectura de información sitúa en la parte superior los datos institucionales y de contacto del proveedor, seguidos de un componente visual de gran formato que representa la ubicación geográfica de sus sedes o estaciones de servicio.
+
+<div align="center">
+  <img src="./../assets/chapter-4/Compradores Mobile pt3 _ Información del Proveedor.png" alt="Estilos" width="200"/>
+</div>
+
+**Wireframe 6**
+
+El wireframe 6 condensa las herramientas de gestión en una interfaz de alto rendimiento diseñada para la operatividad en campo. La arquitectura de información se organiza verticalmente mediante tres bloques modulares: un Resumen Operativo en la parte superior con tarjetas de métricas clave (ventas, pedidos y flota), seguido de una sección de Pedidos Recientes presentada en filas simplificadas para una validación rápida, y finalmente un carrusel horizontal para el Directorio de Clientes.
+
+<div align="center">
+  <img src="./../assets/chapter-4/Proveedores Mobile.png" alt="Estilos" width="200"/>
+</div>
+
+**Wireframe 7**
+
+Este wireframe adapta el proceso de vinculación de recursos a una estructura de stacking vertical, permitiendo que el proveedor coordine el transporte de manera secuencial y ordenada.
+
+<div align="center">
+  <img src="./../assets/chapter-4/Proveedores Mobile pt2.png" alt="Estilos" width="200"/>
+</div>
+
+**Wireframe 8**
+
+Este último wireframe móvil consolida las funciones administrativas de cierre y auditoría en una interfaz simplificada y de fácil navegación. La arquitectura de información mantiene las métricas de resumen en la parte superior para dar contexto antes de proceder a la gestión documental, donde se sitúa un área central de previsualización para los registros de operaciones mensuales.
+
+<div align="center">
+  <img src="./../assets/chapter-4/Proveedores Mobile pt3.png" alt="Estilos" width="200"/>
+</div>
+
 ### 4.4.2 Web Applications Wireflow Diagrams
 
-El diagrama de Wireflow presentado a continuación ilustra la navegación lógica y la interacción entre las diversas interfaces de la plataforma TankMaster, detallando el recorrido que realizan tanto proveedores como compradores desde el primer contacto hasta la culminación de sus objetivos operativos. 
+El diagrama de Wireflow presentado a continuación ilustra la navegación lógica y la interacción entre las diversas interfaces de la plataforma FullTank, detallando el recorrido que realizan tanto proveedores como compradores desde el primer contacto hasta la culminación de sus objetivos operativos. 
 El flujo inicia en la Landing Page, la cual actúa como el nodo central de información y conversión. Tras el proceso de Inicio de Sesión/Registro se divide en dos ramas: 
 
 * Flujo de Proveedores: Optimizado para la gestión masiva de datos, este recorrido guía al usuario desde una visión estratégica (Resumen Operativo) hacia acciones tácticas secuenciales, que incluyen la validación de pedidos, la consulta del directorio de clientes, la asignación logística de transporte y la generación de reportes administrativos.
@@ -557,10 +470,43 @@ El flujo inicia en la Landing Page, la cual actúa como el nodo central de infor
 * Flujo de Compradores: Diseñado bajo principios de eficiencia y transparencia, este camino permite al solicitante monitorear su consumo mensual, registrar nuevos pedidos mediante la carga de comprobantes de pago, realizar el seguimiento de su suministro en tiempo real y consultar su historial transaccional.
 
 <div align="center">
-  <img src="./../assets/chapter-4/wireflow.png" alt="Diagrama de flujo" width="1000"/>
+  <img src="./../assets/chapter-4/Diagram.png" alt="Estilos" width="1000"/>
 </div>
 
 ### 4.4.3 Web Applications Mock-ups
+
+En este apartado se mostrará los mockups hechos para la aplicación web FullTank.
+
+**Login – Techno ZAC**
+
+Pantalla de inicio donde el usuario puede loguearse o registrarse. Además el usuario puede pedir una demo gratuita aunque igual se le pedirá que se registre.
+
+<img src="../assets/chapter-4/mockup-login.PNG" height="400"/>
+
+**Inicio de sesión – Techno ZAC**
+
+Formulario que necesitará las credenciales del usuario. Además brinda la opción de cambiar la contraseña o pasar a registrarse en caso de que no tenga una cuenta.
+
+<img src="../assets/chapter-4/mockup-inicioSesion.PNG" height="400"/>
+
+**Registro – Techno ZAC**
+
+Formulario que pide datos básicos como el correo, el nombre de la empresa y una contraseña. Posteriormente, se le enviará al usuario una validación por correo.
+
+<img src="../assets/chapter-4/mockup-registro.PNG" height="400"/>
+
+**Solicitud de combustible – Techno ZAC**
+
+Página que permite ver tus gastos mensuales y principalmente se puede hacer pedidos a los proveedores desde la misma página. Por otra parte, se puede hacer seguimiento a los pedidos
+
+<img src="../assets/chapter-4/mockup-principal-solicitante.PNG" height="600"/>
+
+**Registro de órdenes – Techno ZAC**
+
+Página que informa a los proveedores de los pedidos que le hacen los solicitantes con opción de aceptar o rechazar el pedido. Además, se brinda facilidades para escoger al repartidor e imprimir resúmenes.
+
+<img src="../assets/chapter-4/mockup-principal-proveedor.PNG" height="600"/>
+
 ### 4.4.4 Web Applications User Flow Diagrams
 
 User Goal 1: El usuario registrado desea iniciar sesión para acceder a su cuenta y gestionar sus pedidos.
@@ -622,6 +568,26 @@ En esta ruta alterna, el usuario intenta iniciar la recuperación pero coloca un
 <img src="../assets/chapter-4/User Goal 3-Unhappy path.png" height="200"/>
 </div>
 
+User Goal 4: El usuario desea registrar un nuevo pedido especificando el tipo y la cantidad de combustible para que el proveedor lo procese.
+
+User Persona: Solicitante.
+
+Happy Path
+En esta ruta esperada, el flujo representa la funcionalidad principal del sistema. El usuario (Solicitante), habiendo iniciado sesión, se encuentra en su Dashboard o panel principal. Desde allí, selecciona la opción para "Crear Nuevo Pedido". El sistema le presenta un formulario donde ingresa los datos requeridos (tipo de combustible, cantidad en galones, y dirección o tanque de destino). Al completar correctamente la información y hacer clic en "Enviar Pedido" (o "Registrar"), el sistema procesa la solicitud, la guarda en la base de datos con un estado inicial de "Pendiente" y redirige al usuario a una pantalla de confirmación de éxito o al listado de sus pedidos recientes.
+
+Unhappy Paths
+Estas rutas alternas ocurren cuando el usuario comete errores al intentar registrar su solicitud de combustible, lo que impide que el pedido se envíe al proveedor. Esto puede suceder si el usuario deja campos obligatorios vacíos (como olvidar seleccionar el tipo de combustible) o si ingresa valores inválidos (por ejemplo, una cantidad de galones igual o menor a cero, o que exceda el límite permitido por el sistema). Al intentar enviar el formulario con estas inconsistencias, el sistema bloquea la acción, permanece en la vista del formulario y resalta los campos afectados con mensajes de advertencia, indicando al usuario que debe corregir las cantidades o completar la información para poder continuar.
+
+User Goal 5: El usuario proveedor desea revisar un pedido pendiente y aprobarlo tras validar que los depósitos realizados a sus cuentas bancarias cubren el monto total.
+
+User Persona: Proveedor.
+
+Happy Path
+En esta ruta esperada, el flujo se ejecuta desde la perspectiva de la administración del negocio. El usuario (Proveedor) inicia en su Dashboard y accede a la sección de "Pedidos Pendientes". Selecciona un pedido específico de la lista para acceder a sus detalles completos. Allí, el proveedor verifica que el solicitante haya registrado correctamente la información del pago y que los depósitos cubran el costo total del combustible solicitado. Al validar esta información, el usuario presiona el botón "Aprobar Pedido". El sistema procesa la acción, cambia el estado del pedido a "Aprobado" y muestra una notificación de éxito, devolviendo al usuario al listado actualizado.
+
+Unhappy Paths
+Estas rutas alternas se presentan cuando las condiciones financieras del pedido no se cumplen. El proveedor revisa los detalles del pedido, pero identifica que los depósitos registrados por el solicitante son inválidos, inexistentes o el monto ingresado es insuficiente para cubrir la totalidad del pedido. Si el proveedor intenta hacer clic en "Aprobar" bajo estas condiciones (o selecciona una opción explícita de "Rechazar/Observar"), el sistema bloquea el cambio a estado "Aprobado". En su lugar, se despliega una alerta visual o un mensaje de error indicando que el pedido no cuenta con el pago completo, manteniendo el estado en pendiente o pausado hasta que el cliente regularice la situación.
+
 ## 4.5 Web Applications Prototyping
 
 ## 4.6 Domain-Driven Software Architecture
@@ -637,21 +603,21 @@ El desarrollo del proceso del Domain-Driven Design se realizó en la aplicación
 
 1. Bounded Context IAM
    El bounded context IAM (Identity and Access Management) se encarga de la autenticación, autorización y gestión de credenciales dentro del sistema. Administra procesos como el registro de clientes y proveedores, inicio de sesión, recuperación de contraseñas y asignación de permisos según el rol. Su propósito es garantizar accesos seguros y controlados, asegurando que cada usuario interactúe únicamente con las funcionalidades que le corresponden dentro de la plataforma.
-<div allign="center">
+<div align="center">
   <img src="./../assets/chapter-4/IAM.png" alt="Bounded context IAM" width="500"/>
 </div>
 
 2. Bounded Context Catalog
 El bounded context Catalog se encarga de la gestión del catálogo de productos e inventario disponible en el sistema. Administra procesos como la creación, actualización y eliminación de ítems, así como la actualización de stock. Su propósito es mantener información precisa y actualizada sobre los recursos disponibles, permitiendo que los proveedores ofrezcan combustible y que los clientes consulten la disponibilidad antes de realizar una solicitud.
 
-<div allign="center">
+<div align="center">
   <img src="./../assets/chapter-4/Catalog.png" alt="Bounded context Catalog" width="500"/>
 </div>
 
 3. Bounded Context Ordering
 El bounded context Ordering se encarga de la gestión del ciclo de vida de las solicitudes y órdenes realizadas por los clientes. Administra procesos como la creación de solicitudes, validación, aceptación o rechazo por parte del proveedor, generación de órdenes, despacho, confirmación de entrega y cierre del pedido. Su propósito es orquestar el flujo principal del negocio, asegurando que cada pedido siga un proceso claro, trazable y consistente desde su inicio hasta su finalización.
 
-<div allign="center">
+<div align="center">
   <img src="./../assets/chapter-4/Ordering.png" alt="Bounded context Ordering" width="500"/>
 </div>
 
@@ -659,7 +625,7 @@ El bounded context Ordering se encarga de la gestión del ciclo de vida de las s
 4. Bounded Context Fulfillment
 El bounded context Fulfillment se encarga de la gestión logística necesaria para cumplir con las órdenes generadas. Administra procesos como el registro de transportes y conductores, asignación de recursos a pedidos y ejecución del despacho. Su propósito es garantizar que la entrega del combustible se realice de manera eficiente, coordinando los recursos logísticos involucrados en la distribución.
 
-<div allign="center">
+<div align="center">
   <img src="./../assets/chapter-4/Fullfillment.png" alt="Bounded context Fullfilment" width="500"/>
 </div>
 
@@ -667,29 +633,29 @@ El bounded context Fulfillment se encarga de la gestión logística necesaria pa
 5. Bounded Context Payment
 El bounded context Payment se encarga de la gestión de los pagos asociados a las órdenes. Administra procesos como la solicitud de pago, registro de transacciones y aprobación del pago. Su propósito es asegurar que las operaciones económicas se realicen de manera confiable, validando que los pedidos cuenten con el respaldo financiero necesario antes de su ejecución o finalización.
 
-<div allign="center">
+<div align="center">
   <img src="./../assets/chapter-4/Payment.png" alt="Bounded context Payment" width="500"/>
 </div>
 
 6. Bounded Context Notification
 El bounded context Notification se encarga de la generación y gestión de notificaciones dentro del sistema. Administra procesos como la creación de notificaciones y el seguimiento de su estado (leídas o no leídas). Su propósito es mantener informados a los usuarios sobre eventos relevantes, como cambios en el estado de pedidos, pagos o entregas, mejorando la comunicación dentro de la plataforma.
 
-<div allign="center">
+<div align="center">
   <img src="./../assets/chapter-4/Notification.png" alt="Bounded context Notification" width="500"/>
 </div>
 
 7. Bounded Context Reporting & Analytics
 El bounded context Reporting & Analytics se encarga de la generación y visualización de reportes basados en la información del sistema. Administra procesos como la elaboración de reportes de ventas, consumo y métricas operativas. Su propósito es proporcionar información clave para la toma de decisiones, permitiendo analizar el comportamiento del negocio y optimizar sus procesos.
 
-<div allign="center">
+<div align="center">
   <img src="./../assets/chapter-4/Reporting.png" alt="Bounded context Reporting and Analytics" width="500"/>
 </div>
 
+
 ### 4.6.2 Software Architecture Context Diagram
+En este nivel se presenta una vista de alto nivel de la arquitectura, donde el foco está en el sistema de software FullTank Platform como una “caja negra” y en las interacciones que mantiene con sus usuarios y con otros sistemas externos.
 
-En este nivel se presenta una vista de alto nivel de la arquitectura, donde el foco está en el sistema de software TankMaster Platform como una “caja negra” y en las interacciones que mantiene con sus usuarios y con otros sistemas externos.
-
-El context diagram muestra al TankMaster Platform como un recuadro central, rodeado por los principales actores y sistemas con los que se comunica:
+El context diagram muestra al FullTank Platform como un recuadro central, rodeado por los principales actores y sistemas con los que se comunica:
 
 Visitor: usuario anónimo que navega la landing page para conocer la plataforma, revisar sus beneficios y registrarse en el sistema.
 
@@ -703,23 +669,24 @@ Cloud Storage: sistema externo utilizado para almacenar comprobantes de pago (vo
 
 PDF Generator Service: sistema externo encargado de generar reportes en formato PDF, como resúmenes de consumo y ventas.
 
-En el diagrama se representan las relaciones entre estos elementos, destacando que los usuarios (Visitor, Client y Provider) interactúan directamente con TankMaster, mientras que el sistema se encarga de orquestar la comunicación con los servicios externos (correo, almacenamiento y generación de reportes). Esta vista permite comprender el alcance del sistema, sus límites de responsabilidad y el ecosistema en el que opera antes de entrar en detalles internos.
+En el diagrama se representan las relaciones entre estos elementos, destacando que los usuarios (Visitor, Client y Provider) interactúan directamente con FullTank, mientras que el sistema se encarga de orquestar la comunicación con los servicios externos (correo, almacenamiento y generación de reportes). Esta vista permite comprender el alcance del sistema, sus límites de responsabilidad y el ecosistema en el que opera antes de entrar en detalles internos.
 
 <div allign="center">
-  <img src="./../assets/chapter-4/contextDiagram.png" alt="Context diagram" width="500"/>
+  <img src="./../assets/chapter-4/ContextDiagram.png" alt="Context diagram" width="500"/>
 </div>
 
 ### 4.6.3 Software Architecture Container Diagrams
 
-En el nivel de contenedores, la atención se centra en cómo se organiza internamente el sistema en aplicaciones y fuentes de datos. El container diagram muestra los elementos principales de la arquitectura de TankMaster, sus responsabilidades y la forma en que se comunican entre sí y con sistemas externos.
 
-La arquitectura lógica de TankMaster se estructura en los siguientes contenedores:
+En el nivel de contenedores, la atención se centra en cómo se organiza internamente el sistema en aplicaciones y fuentes de datos. El container diagram muestra los elementos principales de la arquitectura de FullTank, sus responsabilidades y la forma en que se comunican entre sí y con sistemas externos.
+
+La arquitectura lógica de FullTank se estructura en los siguientes contenedores:
 
 Landing Page: aplicación web estática que presenta la propuesta de valor del sistema, incluyendo secciones como descripción del servicio, beneficios, testimonios, precios, preguntas frecuentes y contacto. Está desarrollada con HTML, CSS y JavaScript, y orientada a usuarios no autenticados.
 
-TankMaster Web Application (SPA): aplicación web principal desarrollada en Angular. Es utilizada por clientes y proveedores para interactuar con el sistema. Contiene módulos como autenticación, gestión de solicitudes, pagos, inventario, logística, reportes, notificaciones y perfiles de usuario.
+FullTank Web Application (SPA): aplicación web principal desarrollada en Angular. Es utilizada por clientes y proveedores para interactuar con el sistema. Contiene módulos como autenticación, gestión de solicitudes, pagos, inventario, logística, reportes, notificaciones y perfiles de usuario.
 
-TankMaster API: backend desarrollado en Spring Boot que expone una API REST. Centraliza la lógica de negocio, reglas de validación y orquestación de procesos, organizados en distintos bounded contexts del dominio (Identity, Catalog, Ordering, Payment, Fulfillment, Notification y Reporting).
+FullTank API: backend desarrollado en Spring Boot que expone una API REST. Centraliza la lógica de negocio, reglas de validación y orquestación de procesos, organizados en distintos bounded contexts del dominio (Identity, Catalog, Ordering, Payment, Fulfillment, Notification y Reporting).
 
 MySQL Database: base de datos relacional donde se almacena toda la información estructurada del sistema, incluyendo usuarios, solicitudes, órdenes, pagos, inventario, flota, notificaciones y reportes.
 
@@ -732,14 +699,13 @@ La API se integra con sistemas externos: Email Service para correos, Cloud Stora
 
 Esta vista permite entender la distribución de responsabilidades entre la capa de presentación (Landing Page y SPA), la capa de lógica de negocio (API) y la capa de persistencia (Database), así como las principales decisiones tecnológicas adoptadas.
 
-<div allign="center">
+<div align="center">
   <img src="./../assets/chapter-4/containerDiagram.png" alt="Container diagram" width="500"/>
 </div>
 
-
 ### 4.6.4 Software Architecture Components Diagrams
 
-En el nivel de componentes se detalla la descomposición interna de los contenedores, enfocándose principalmente en el contenedor TankMaster API, donde reside la lógica de negocio del sistema.
+En el nivel de componentes se detalla la descomposición interna de los contenedores, enfocándose principalmente en el contenedor FullTank API, donde reside la lógica de negocio del sistema.
 
 El component diagram organiza la arquitectura interna siguiendo los bounded contexts definidos en el dominio. Cada uno representa un módulo backend con responsabilidades específicas:
 
@@ -769,15 +735,13 @@ Notification reacciona a cambios de estado en órdenes.
 Reporting consume datos de órdenes cerradas.
 Algunos componentes se integran con sistemas externos, como Identity con el servicio de correo, Payment con almacenamiento en la nube y Reporting con el generador de PDFs.
 
-De esta manera, los component diagrams permiten entender cómo la arquitectura se organiza internamente en módulos coherentes con el dominio, cómo se relacionan entre sí y cómo colaboran para implementar la funcionalidad completa de TankMaster.
+De esta manera, los component diagrams permiten entender cómo la arquitectura se organiza internamente en módulos coherentes con el dominio, cómo se relacionan entre sí y cómo colaboran para implementar la funcionalidad completa de FullTank.
 
 <div allign="center">
   <img src="./../assets/chapter-4/componentDiagram.png" alt="Component diagram" width="500"/>
 </div>
 
-
 ## 4.7 Software Object-Oriented Design
-
 En esta sección se presenta el diseño orientado a objetos del sistema, el cual desarrolla con mayor detalle la implementación interna de los componentes identificados en los diagramas C4 del apartado 4.6. A partir de los contenedores y componentes definidos (Landing Page, Web Application, API y Database), se derivan diagramas de clases específicos para cada bounded context del dominio, con el objetivo de mostrar:
 
 - Cómo se modelan las entidades, agregados, servicios, repositorios y controladores en el backend para cada contexto.
@@ -785,9 +749,10 @@ En esta sección se presenta el diseño orientado a objetos del sistema, el cual
 - Cómo se reflejan estos modelos en el diseño de la base de datos relacional, identificando qué tablas pertenecen a cada bounded context.
 
 De esta forma, el diseño orientado a objetos enlaza el nivel arquitectónico (C4 Model) con el nivel de implementación, permitiendo verificar la coherencia entre bounded contexts, responsabilidades de cada módulo y decisiones de diseño técnico, como el uso de interfaces de servicio, repositorios, ensambladores y value objects por contexto.
-
-
 ### 4.7.1 Class Diagrams
+
+En esta subsección se presentan los diagramas de clases que detallan la estructura interna de los principales componentes para cada bounded context. Estos diagramas complementan al Component Diagram de la API Application y a los contenedores definidos, proporcionando una vista centrada en clases, relaciones y responsabilidades.
+
 
 En esta subsección se presentan los diagramas de clases que detallan la estructura interna de los principales componentes para cada bounded context. Estos diagramas complementan al Component Diagram de la API Application y a los contenedores definidos, proporcionando una vista centrada en clases, relaciones y responsabilidades.
 
@@ -941,7 +906,7 @@ Todas las interacciones entre bounded contexts se realizan a través de interfac
 </div>
 
 ## 4.8 Database Design
-### 4.8.1. Database Diagram
+### 4.8.1 Database Diagrams
 
 La base de datos relacional almacena todos los datos del dominio del sistema. Las tablas se organizan en correspondencia directa con los bounded contexts definidos en el diseño orientado a objetos. A continuación, se detalla qué tablas pertenecen a cada contexto y cuál es su responsabilidad dentro del modelo de datos.
 
