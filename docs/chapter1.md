@@ -29,7 +29,7 @@
       <td>Jose Gustavo Asto Jacome</td>
       <td>u20241c630</td>
       <td>Ingeniería de Software</td>
-      <td>C.</td>
+      <td>Estudiante de Ingenieria de Software de la UPC. Cuento con conocimiento en C++,Python,Java,C y Javascript. Soy un lider nato y saco lo mejor de todos en mi equipo.</td>
     </tr>
     <tr>
       <td><img src="../assets/chapter-1/milenko_foto.png" alt="nombre" width="100"></td>
