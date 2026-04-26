@@ -53,11 +53,12 @@
   </thead>
   <tbody>
     <tr>
-      <td>TB1</td>
-      <td>30/04/2026</td>
+      <td>AV1</td>
+      <td>27/04/2026</td>
       <td>
         - Asto Jacome Jose Gustavo <br>
         - Cayanchi Avila Milenko Rubén<br>
+        - Brayan Alexis Corvacho Damian <br>
         - Herrera Enriquez Diego fernando<br>
         - Alberto Alejandro Ponce Perales
       </td>
@@ -82,19 +83,20 @@
 ## Project Report Collaboration Insights
 
 **Link del repositorio del informe:**  
-
+https://github.com/PrimeFuel/Prime_Fuel_Document
 
 **Link del repositorio de la Landing Page:**  
-
+https://github.com/PrimeFuel/FullTank_LandingPage
 
 **Link del repositorio del fronted:**  
-
+https://github.com/PrimeFuel/frontend
 
 **Link del repositorio del backend:**  
-
+https://github.com/PrimeFuel/backend
 
 **Link de los repositorios de la organización:**  
 
+https://github.com/PrimeFuel
 
 Este informe ha sido desarrollado de forma colaborativa mediante GitHub, empleando GitFlow y Conventional Commits. Cada miembro del equipo ha contribuido con commits y ramas durante el desarrollo del proyecto.
 
@@ -189,14 +191,16 @@ El siguiente gráfico muestra una línea de tiempo con la evolución semanal de 
     <tr>
       <td width="25%"><b>Comunica oralmente con efectividad a rangos de audiencia</b></td>
       <td>
-        <b>Jose Asto</b><br>
-        TB1: .<br>
-        <b>A</b><br>
-        TB1: .<br>
-        <b>A</b><br>
-        TB1: .<br>
-        <b>Alberto Ponce</b><br>
-        TB1: .<br>
+        <b>Jose Asto Jacome</b><br>
+        TB1: Expuso oralmente los hallazgos del análisis competitivo y las estrategias frente a competidores durante las sesiones de equipo.<br>
+        <b>Milenko Cayanchi Avila</b><br>
+        TB1: Presentó oralmente los resultados del Needfinding, incluyendo User Personas y User Journey Mapping, ante el grupo.<br>
+        <b>Brayan Corvacho Damian</b><br>
+        TB1: Comunicó oralmente el diseño de la arquitectura de software y los diagramas de contenedores y componentes al equipo.<br>
+        <b>Diego Herrera Enriquez</b><br>
+        TB1: Expuso oralmente el proceso de entrevistas y el análisis de los segmentos objetivo identificados.<br>
+        <b>Alberto Ponce Perales</b><br>
+        TB1: Presentó oralmente el diseño UX/UI de la Landing Page y las Web Applications al equipo de trabajo.<br>
       </td>
       <td>
         Consideramos que la comunicación oral fue aplicada de manera clara y estratégica, logrando exponer hallazgos, transmitir insights y sostener discusiones con efectividad frente a diferentes audiencias. Gracias a ello, se alcanzó una comprensión común del problema y se sentaron bases sólidas para proponer soluciones innovadoras en el marco del Lean UX Process.
@@ -205,14 +209,16 @@ El siguiente gráfico muestra una línea de tiempo con la evolución semanal de 
     <tr>
       <td width="25%"><b>Comunica por escrito con efectividad a diferentes rangos de audiencia</b></td>
       <td>
-        <b>Jose Asto</b><br>
-        TB1: .<br>
-        <b>A</b><br>
-        TB1: .<br>
-        <b>A</b><br>
-        TB1: .<br>
-        <b>Alberto Ponce</b><br>
-        TB1: .<br>
+        <b>Jose Asto Jacome</b><br>
+        TB1: Redactó el Startup Profile y el Solution Profile, adaptando el lenguaje para audiencias técnicas y no técnicas.<br>
+        <b>Milenko Cayanchi Avila</b><br>
+        TB1: Documentó por escrito el análisis de entrevistas y el Empathy Mapping con claridad y estructura adecuada.<br>
+        <b>Brayan Corvacho Damian</b><br>
+        TB1: Elaboró la documentación escrita de los diagramas de base de datos y el diseño orientado a objetos.<br>
+        <b>Diego Herrera Enriquez</b><br>
+        TB1: Redactó las User Stories y el Impact Mapping, asegurando que fueran comprensibles para todos los miembros del equipo.<br>
+        <b>Alberto Ponce Perales</b><br>
+        TB1: Documentó por escrito las Style Guidelines y los sistemas de arquitectura de información del producto.<br>
       </td>
       <td>
         La comunicación escrita se utilizó de forma clara y estratégica, adaptando el nivel de detalle y el lenguaje según la audiencia. Esto permitió documentar hallazgos, explicar la problemática y presentar propuestas de manera efectiva, logrando que toda la información fuera comprendida y validada en el marco del Lean UX Process.
@@ -220,5 +226,3 @@ El siguiente gráfico muestra una línea de tiempo con la evolución semanal de 
     </tr>
   </tbody>
 </table>
-
-<br>
