@@ -540,6 +540,15 @@ HTML
   <img src="../assets/chapter-4/Add Equipment Form View.png" alt="Add Equipment Form View" width="700"/>
 </div>
 
+
+**Wireframe 12**
+
+Vista de detalles de una solicitud de combustible específica. Mantiene la barra de navegación lateral. En la cabecera, muestra el identificador de la orden junto a espacios para botones de acción secundarios. El área de contenido adopta un diseño de cuadrícula (grid) asimétrico dividido en dos columnas. La columna principal (izquierda) agrupa las especificaciones de la orden, un amplio contenedor gráfico (diseñado para un mapa interactivo de seguimiento o tracking) y un componente de línea de tiempo (Timeline) para detallar los estados logísticos. La columna lateral (derecha) exhibe el perfil del proveedor con una llamada a la acción ("Contact Provider"), seguido de secciones para notas, instrucciones y documentos adjuntos.
+
+<div align="center">
+  <img src="../assets/chapter-4/Request Details View.png" alt="Request Details View" width="700"/>
+</div>
+
 ### 4.4.2 Web Applications Wireflow Diagrams
 
 El diagrama de Wireflow presentado a continuación ilustra la navegación lógica y la interacción entre las diversas interfaces de la plataforma TankMaster, detallando el recorrido que realizan tanto proveedores como compradores desde el primer contacto hasta la culminación de sus objetivos operativos. 
@@ -550,7 +559,10 @@ El flujo inicia en la Landing Page, la cual actúa como el nodo central de infor
 * Flujo de Compradores: Diseñado bajo principios de eficiencia y transparencia, este camino permite al solicitante monitorear su consumo mensual, registrar nuevos pedidos mediante la carga de comprobantes de pago, realizar el seguimiento de su suministro en tiempo real y consultar su historial transaccional.
 
 <div align="center">
-  <img src="./../assets/chapter-4/wireflow.png" alt="Diagrama de flujo" width="1000"/>
+  <img src="./../assets/chapter-4/wireflow1.png" alt="Diagrama de flujo" width="1000"/>
+</div>
+<div align="center">
+  <img src="./../assets/chapter-4/wireflow2.png" alt="Diagrama de flujo" width="1000"/>
 </div>
 
 ### 4.4.3 Web Applications Mock-ups
