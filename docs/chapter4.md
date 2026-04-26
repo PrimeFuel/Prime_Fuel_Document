@@ -460,11 +460,15 @@ Hacia el final de la navegación, se presenta una sección de planes y suscripci
 
 **Wireframe 2**
 
+Este diseño presenta un layout de pantalla dividida (dos columnas). En el lado izquierdo, se observa el logotipo o texto de la marca ("Fulltank") en la esquina superior. En el centro geométrico de esta columna, hay un contenedor ("Login") que aloja dos campos de entrada de texto (representados por rectángulos gris claro) y un botón de acción primaria (rectángulo gris oscuro). El lado derecho está dominado por un gran marcador de posición gráfico (indicado por la equis).
+
 <div align="center">
   <img src="../assets/chapter-4/Login.png" alt="Estilos" width="700"/>
 </div>
 
 **Wireframe 3**
+
+Mantiene la misma estructura de pantalla dividida y contenedor gráfico a la derecha. El contenedor izquierdo, titulado "Create corporate Account", expande el formulario a tres campos de entrada de texto horizontales y un botón de acción primaria inferior.
 
 <div align="center">
   <img src="../assets/chapter-4/Create account.png" alt="Estilos" width="700"/>
@@ -472,9 +476,44 @@ Hacia el final de la navegación, se presenta una sección de planes y suscripci
 
 **Wireframe 4**
 
+Conserva la consistencia estructural de los anteriores. El formulario central, bajo el título "Reset Password", incluye tres campos de entrada de texto y un botón de acción primaria.
+
 <div align="center">
   <img src="../assets/chapter-4/Reset password.png" alt="Estilos" width="700"/>
 </div>
+
+**Wireframe 5**
+
+Esta es la vista principal (Home) de la aplicación tras el inicio de sesión. Presenta un sistema de navegación lateral izquierdo (Sidebar) con enlaces a diferentes módulos. En el área principal, emplea un patrón de diseño tipo Dashboard con una jerarquía clara: tarjetas de indicadores clave de rendimiento (KPIs) en la parte superior, gráficos centrales (tendencia de consumo y niveles de tanques con barras de progreso) y una tabla de datos (Data Table) inferior para órdenes de logística activas.
+
+<div align="center">
+  <img src="../assets/chapter-4/Dashboard View.png" alt="Estilos" width="700"/>
+</div>
+
+**Wireframe 6**
+
+Vista dedicada a la gestión de solicitudes. Mantiene la barra lateral constante. Incorpora controles de búsqueda y acciones primarias en la esquina superior derecha. Utiliza tarjetas de resumen para el estado de las solicitudes (Totales, Pendientes, En tránsito, Completadas) y dedica la mayor parte del espacio a una tabla de datos extensa con opciones de ordenamiento (Sort), paginación y controles de acción por fila.
+
+<div align="center">
+  <img src="../assets/chapter-4/Fuel Requests Management View.png" alt="Estilos" width="700"/>
+</div>
+
+**Wireframe 7**
+
+Vista de reportería. Sigue la misma estructura base. Presenta KPIs financieros y de eficiencia en la parte superior. El centro visual es un gran gráfico de barras para visualizar las tendencias de consumo. En la parte inferior, una tabla de datos de "Gastos Recientes" que incluye un botón de filtrado explícito (Filter).
+
+<div align="center">
+  <img src="../assets/chapter-4/Reports & Analytics View.png" alt="Estilos" width="700"/>
+</div>
+
+**Wireframe 8**
+
+Módulo de proveedores. Presenta un layout mixto. En la parte superior, integra un contenedor gráfico grande (posiblemente un mapa o imagen destacada) junto a una tarjeta de detalles del proveedor. Debajo, muestra tarjetas de información resumida con botones "View Details" (posiblemente para proveedores frecuentes), y finaliza con una tabla de datos paginada para listar a todos los proveedores recomendados.
+
+<div align="center">
+  <img src="../assets/chapter-4/Suppliers Directory View.png" alt="Estilos" width="700"/>
+</div>
+
 
 ### 4.4.2 Web Applications Wireflow Diagrams
 
@@ -510,6 +549,7 @@ En esta ruta, el usuario completa su información de cuenta erróneamente. Al pr
 <div align="center">
 <img src="../assets/chapter-4/User Goal 1-Unhappy path.png" height="200"/>
 </div>
+
 
 User Goal 2: El visitante desea crear una cuenta corporativa nueva en la plataforma para acceder a los servicios.
 
