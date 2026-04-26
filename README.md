@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="../assets/chapter-1/logo.png" alt="Logo de la Universidad Peruana de Ciencias Aplicadas"/>  
+  <img src="assets/introduction/logo.png" alt="Logo de la Universidad Peruana de Ciencias Aplicadas"/>  
   <h2>Informe de Trabajo Final</h2>
   <p><strong>Universidad:</strong> Universidad Peruana de Ciencias Aplicadas</p>
   <p><strong>Ciclo:</strong> 2026-10</p>
@@ -98,18 +98,21 @@ https://github.com/PrimeFuel/backend
 
 https://github.com/PrimeFuel
 
+**Link del figma:** https://www.figma.com/design/ZMHB35H60u2eUhctevkVKc/Fullank-Completo?node-id=0-1&t=I3nr2x0tcAinM7gE-1
+
 Este informe ha sido desarrollado de forma colaborativa mediante GitHub, empleando GitFlow y Conventional Commits. Cada miembro del equipo ha contribuido con commits y ramas durante el desarrollo del proyecto.
 
 **Participación por miembro**
 
 A continuación, se muestra un gráfico de barras con la cantidad de commits realizados por cada integrante del equipo:
 
-
+![alt text](assets/introduction/barra.png)
 
 **Evolución temporal de commits**
 
 El siguiente gráfico muestra una línea de tiempo con la evolución semanal de los commits realizados por todos los miembros:
 
+![alt text](assets/introduction/tiempo.png)
 
 ## Contenido
 
