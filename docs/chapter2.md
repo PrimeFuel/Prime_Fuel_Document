@@ -16,7 +16,7 @@ En el mercado existen diversas soluciones digitales enfocadas en la gestión de 
   </tr>
   <tr>
     <td colspan="2"><strong></strong></td>
-    <td><strong>Tank Master</strong><br><img src="./../assets/chapter-2/logo-tankmaster.jpg" height="100"/></td>
+    <td><strong>FullTank</strong><br><img src="./../assets/chapter-2/logo-FullTank.png" height="100"/></td>
     <td><strong>Zavgar</strong><br><img src="./../assets/chapter-2/logo-zavgar.jpg" height="100"/></td>
     <td><strong>FuelCloud</strong><br><img src="./../assets/chapter-2/logo-fuelcloud.jpg" height="100"/></td>
     <td><strong>Wialon</strong><br><img src="./../assets/chapter-2/logo-wialon.jpg" height="100"/></td>

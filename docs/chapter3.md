@@ -15,26 +15,26 @@
   <tbody>
 <!-- EP01 -->
 <tr>
-  <td colspan="5"><b>EP01 — Landing Page:</b> Como visitante, quiero explorar el sitio web público de TankMaster para conocer el producto antes de registrarme.</td>
+  <td colspan="5"><b>EP01 — Landing Page:</b> Como visitante, quiero explorar el sitio web público de FullTank para conocer el producto antes de registrarme.</td>
 </tr>
 <tr>
   <td>US-01</td>
   <td>Ver sección Home</td>
-  <td>Como visitante (proveedor), quiero ver una sección de inicio que resuma el valor de TankMaster para comprender rápidamente el objetivo del sistema.</td>
-  <td><b>Escenario 1: Visualización de resumen del sistema</b><br/>Dado que el visitante (proveedor) accede al sitio web,<br/>Cuando se encuentra en la sección Home,<br/>Entonces puede ver un resumen claro del sistema.<br/><br/><b>Escenario 2: Acceso a call to action desde Home</b><br/>Dado que el visitante (proveedor) revisa la sección Home,<br/>Cuando desliza hacia abajo,<br/>Entonces encuentra un botón que lo invita a conocer más sobre TankMaster.</td>
+  <td>Como visitante (proveedor), quiero ver una sección de inicio que resuma el valor de FullTank para comprender rápidamente el objetivo del sistema.</td>
+  <td><b>Escenario 1: Visualización de resumen del sistema</b><br/>Dado que el visitante (proveedor) accede al sitio web,<br/>Cuando se encuentra en la sección Home,<br/>Entonces puede ver un resumen claro del sistema.<br/><br/><b>Escenario 2: Acceso a call to action desde Home</b><br/>Dado que el visitante (proveedor) revisa la sección Home,<br/>Cuando desliza hacia abajo,<br/>Entonces encuentra un botón que lo invita a conocer más sobre FullTank.</td>
   <td>EP01</td>
 </tr>
 <tr>
   <td>US-02</td>
   <td>Ver sección About Us</td>
-  <td>Como visitante de ambos segmentos, quiero conocer quiénes están detrás de TankMaster para confiar en el sistema.</td>
+  <td>Como visitante de ambos segmentos, quiero conocer quiénes están detrás de FullTank para confiar en el sistema.</td>
   <td><b>Escenario 1: Información visible del equipo</b><br/>Dado que el visitante de ambos segmentos accede a About Us,<br/>Cuando se carga la sección,<br/>Entonces puede leer una descripción del equipo detrás del sistema.<br/><br/><b>Escenario 2: Ver valores o misión</b><br/>Dado que el visitante de ambos segmentos revisa la sección completa,<br/>Cuando llega al final del contenido,<br/>Entonces puede conocer los valores o misión de la empresa.</td>
   <td>EP01</td>
 </tr>
 <tr>
   <td>US-03</td>
   <td>Ver sección How it works?</td>
-  <td>Como visitante de ambos segmentos, quiero entender cómo funciona TankMaster paso a paso para evaluar si se ajusta a mis necesidades.</td>
+  <td>Como visitante de ambos segmentos, quiero entender cómo funciona FullTank paso a paso para evaluar si se ajusta a mis necesidades.</td>
   <td><b>Escenario 1: Comprensión del flujo de pedidos</b><br/>Dado que el visitante de ambos segmentos accede a How it works?,<br/>Cuando lee la sección,<br/>Entonces entiende el flujo de pedido desde solicitud hasta entrega.<br/><br/><b>Escenario 2: Interacción clara entre usuarios</b><br/>Dado que el visitante de ambos segmentos busca claridad,<br/>Cuando revisa la sección,<br/>Entonces puede comprender cómo interactúan solicitante y proveedor.</td>
   <td>EP01</td>
 </tr>
@@ -49,21 +49,21 @@
   <td>US-36</td>
   <td>Ver sección Benefits</td>
   <td>Como visitante de ambos segmentos, quiero conocer las principales ventajas con las que puedo contar para evaluar la implementación de la plataforma.</td>
-  <td><b>Escenario 1: Visualizar beneficios</b><br/>Dado que el visitante de ambos segmentos accede a la sección "¿Por qué elegir TankMaster?",<br/>Cuando visualiza los múltiples beneficios,<br/>Entonces puede identificar nuestra ventajas frente a nuestros competidores.<br/><br/><b>Escenario 2: Visualizar beneficios</b><br/>Dado que el visitante de ambos segmentos accede a la sección "¿Por qué elegir TankMaster?",<br/>Cuando observa la lista de beneficios,<br/>Entonces ve como le podría beneficiar usar TankMaster.</td>
+  <td><b>Escenario 1: Visualizar beneficios</b><br/>Dado que el visitante de ambos segmentos accede a la sección "¿Por qué elegir FullTank?",<br/>Cuando visualiza los múltiples beneficios,<br/>Entonces puede identificar nuestra ventajas frente a nuestros competidores.<br/><br/><b>Escenario 2: Visualizar beneficios</b><br/>Dado que el visitante de ambos segmentos accede a la sección "¿Por qué elegir FullTank?",<br/>Cuando observa la lista de beneficios,<br/>Entonces ve como le podría beneficiar usar FullTank.</td>
   <td>EP01</td>
 </tr>
 <tr>
   <td>US-37</td>
   <td>Ver sección Lo que Dicen Nuestros Clientes</td>
-  <td>Como visitante de ambos segmentos, quiero conocer los testimonios de los usuarios de TankMaster para tener confianza en la plataforma y saber que otras empresas ya la están usando.</td>
-  <td><b>Escenario 1: Ver testimonios de clientes</b><br/>Dado que el visitante de ambos segmentos está interesado en los comentarios de los clientes,<br/>Cuando accede a la sección,<br/>Entonces puede leer un breve testimonio sobre experiencias usando TankMaster.<br/><br/><b>Escenario 2: Visualizar testimonios recientes</b><br/>Dado que el visitante de ambos segmentos accede a la sección y esta se actualiza regularmente,<br/>Cuando se carga la información,<br/>Entonces visualiza las últimos testimonios que se han unido a TankMaster.</td>
+  <td>Como visitante de ambos segmentos, quiero conocer los testimonios de los usuarios de FullTank para tener confianza en la plataforma y saber que otras empresas ya la están usando.</td>
+  <td><b>Escenario 1: Ver testimonios de clientes</b><br/>Dado que el visitante de ambos segmentos está interesado en los comentarios de los clientes,<br/>Cuando accede a la sección,<br/>Entonces puede leer un breve testimonio sobre experiencias usando FullTank.<br/><br/><b>Escenario 2: Visualizar testimonios recientes</b><br/>Dado que el visitante de ambos segmentos accede a la sección y esta se actualiza regularmente,<br/>Cuando se carga la información,<br/>Entonces visualiza las últimos testimonios que se han unido a FullTank.</td>
   <td>EP01</td>
 </tr>
 <tr>
   <td>US-38</td>
   <td>Ver sección Planes y Precios</td>
   <td>Como visitante (ambos segmentos), quiero saber que planes se adecuan a mis necesidades para poder iniciar un proceso de registro o solicitud.</td>
-  <td><b>Escenario 1: Ver información sobre ser solicitante de combustible</b><br/>Dado que el visitante entra a la sección Precios y Planes,<br/>Cuando visualiza los diferentes precios y las features incluidas,<br/>Entonces entiende que existe flexibilidad para adaptar TankMaster a su empresa.<br/><br/><b>Escenario 2: Seleccionar un plan</b><br/>Dado que el visitante está interesado en obtener un plan específico,<br/>Cuando hace clic en el call to action,<br/>Entonces es redirigido a la página de registro.</td>
+  <td><b>Escenario 1: Ver información sobre ser solicitante de combustible</b><br/>Dado que el visitante entra a la sección Precios y Planes,<br/>Cuando visualiza los diferentes precios y las features incluidas,<br/>Entonces entiende que existe flexibilidad para adaptar FullTank a su empresa.<br/><br/><b>Escenario 2: Seleccionar un plan</b><br/>Dado que el visitante está interesado en obtener un plan específico,<br/>Cuando hace clic en el call to action,<br/>Entonces es redirigido a la página de registro.</td>
   <td>EP01</td>
 </tr>
 <tr>
@@ -83,8 +83,8 @@
 <tr>
   <td>US-47</td>
   <td>Ver sección Testimonios de Clientes</td>
-  <td>Como visitante de ambos segmentos, quiero leer testimonios de empresas que ya usan TankMaster para generar confianza antes de registrarme.</td>
-  <td><b>Escenario 1: Visualización de testimonios</b><br/>Dado que el visitante accede a la sección de testimonios,<br/>Cuando se carga el contenido,<br/>Entonces puede leer experiencias de empresas que usan TankMaster.<br/><br/><b>Escenario 2: Testimonios actualizados</b><br/>Dado que la sección se actualiza regularmente,<br/>Cuando el visitante la carga,<br/>Entonces visualiza los testimonios más recientes disponibles.<br/><br/><b>Escenario 3: Error de carga</b><br/>Dado que ocurre un error al cargar los testimonios,<br/>Cuando el visitante accede a la sección,<br/>Entonces se muestra un mensaje genérico de error sin romper la navegación.</td>
+  <td>Como visitante de ambos segmentos, quiero leer testimonios de empresas que ya usan FullTank para generar confianza antes de registrarme.</td>
+  <td><b>Escenario 1: Visualización de testimonios</b><br/>Dado que el visitante accede a la sección de testimonios,<br/>Cuando se carga el contenido,<br/>Entonces puede leer experiencias de empresas que usan FullTank.<br/><br/><b>Escenario 2: Testimonios actualizados</b><br/>Dado que la sección se actualiza regularmente,<br/>Cuando el visitante la carga,<br/>Entonces visualiza los testimonios más recientes disponibles.<br/><br/><b>Escenario 3: Error de carga</b><br/>Dado que ocurre un error al cargar los testimonios,<br/>Cuando el visitante accede a la sección,<br/>Entonces se muestra un mensaje genérico de error sin romper la navegación.</td>
   <td>EP01</td>
 </tr>
 <tr>
@@ -473,9 +473,9 @@
 
 ## 3.2 Impact Mapping
 
-En el Impact Mapping del modelo de negocio digital de TankMaster, desarrollado por la startup PrimeFuel, el equipo elaboró el mapa partiendo de un Business Goal principal que cumple los criterios SMART: “Optimizar la gestión y distribución de combustible, alcanzando 300 empresas solicitantes activas y 100 proveedores registrados en el primer año de operación, reduciendo en un 40% los tiempos de gestión de pedidos”. A partir de esta meta se incorporaron como Actors/Personas a los User Personas previamente definidos: Carlos Ramírez (empresa solicitante) y Andrea López (proveedora de combustible). Para cada uno se identificaron los Impacts esperados, es decir, cómo se busca cambiar su comportamiento para lograr el objetivo: en el caso de Carlos, la digitalización del registro de pedidos, la reducción de la dependencia de canales informales, el seguimiento en tiempo real y una mejor toma de decisiones basada en datos; en el caso de Andrea, la centralización de pedidos, la optimización de la planificación logística, la mejora en la comunicación con clientes y el uso de métricas para el control operativo.
+En el Impact Mapping del modelo de negocio digital de FullTank, desarrollado por la startup PrimeFuel, el equipo elaboró el mapa partiendo de un Business Goal principal que cumple los criterios SMART: “Optimizar la gestión y distribución de combustible, alcanzando 300 empresas solicitantes activas y 100 proveedores registrados en el primer año de operación, reduciendo en un 40% los tiempos de gestión de pedidos”. A partir de esta meta se incorporaron como Actors/Personas a los User Personas previamente definidos: Carlos Ramírez (empresa solicitante) y Andrea López (proveedora de combustible). Para cada uno se identificaron los Impacts esperados, es decir, cómo se busca cambiar su comportamiento para lograr el objetivo: en el caso de Carlos, la digitalización del registro de pedidos, la reducción de la dependencia de canales informales, el seguimiento en tiempo real y una mejor toma de decisiones basada en datos; en el caso de Andrea, la centralización de pedidos, la optimización de la planificación logística, la mejora en la comunicación con clientes y el uso de métricas para el control operativo.
 
-A partir de estos impactos se definieron los Deliverables que la plataforma TankMaster debe ofrecer para generar dichos cambios en los actores. Entre ellos se incluyen el módulo de registro y gestión de pedidos, el sistema de tracking en tiempo real, el panel de control con métricas operativas, la planificación logística automatizada, el historial de pedidos y el sistema de notificaciones y comunicación integrada. Finalmente, en la columna de User Stories se detallaron historias en formato “Como [persona] deseo [acción] para [beneficio]” (por ejemplo, registro de pedidos, consulta de estado, actualización de entregas, coordinación logística y generación de reportes), lo que permite trazar una línea clara desde los objetivos de negocio hasta las funcionalidades del sistema, asegurando la alineación entre Business Goals, Impacts, Deliverables y el desarrollo de la solución.
+A partir de estos impactos se definieron los Deliverables que la plataforma FullTank debe ofrecer para generar dichos cambios en los actores. Entre ellos se incluyen el módulo de registro y gestión de pedidos, el sistema de tracking en tiempo real, el panel de control con métricas operativas, la planificación logística automatizada, el historial de pedidos y el sistema de notificaciones y comunicación integrada. Finalmente, en la columna de User Stories se detallaron historias en formato “Como [persona] deseo [acción] para [beneficio]” (por ejemplo, registro de pedidos, consulta de estado, actualización de entregas, coordinación logística y generación de reportes), lo que permite trazar una línea clara desde los objetivos de negocio hasta las funcionalidades del sistema, asegurando la alineación entre Business Goals, Impacts, Deliverables y el desarrollo de la solución.
 
 
  <img src="../assets/chapter-3/impactMapping.png" alt="ImpactMapping de los userPersona"/>
@@ -491,11 +491,11 @@ A partir de estos impactos se definieron los Deliverables que la plataforma Tank
 | 03 | US-17 | Cerrar sesión | Como usuario registrado, quiero poder cerrar sesión para mantener segura mi cuenta. | 1 |
 | 04 | US-40 | Registrar empresa solicitante | Como visitante (solicitante), quiero registrar mi empresa en la plataforma para comenzar a realizar pedidos de combustible. | 3 |
 | 05 | US-41 | Registrar empresa proveedora | Como visitante (proveedor), quiero registrar mi empresa distribuidora en la plataforma para comenzar a gestionar pedidos de combustible. | 3 |
-| 06 | US-01 | Ver sección Home | Como visitante (proveedor), quiero ver una sección de inicio que resuma el valor de TankMaster para comprender rápidamente el objetivo del sistema. | 2 |
-| 07 | US-02 | Ver sección About Us | Como visitante de ambos segmentos, quiero conocer quiénes están detrás de TankMaster para confiar en el sistema. | 1 |
-| 08 | US-03 | Ver sección How it works? | Como visitante de ambos segmentos, quiero entender cómo funciona TankMaster paso a paso para evaluar si se ajusta a mis necesidades. | 2 |
+| 06 | US-01 | Ver sección Home | Como visitante (proveedor), quiero ver una sección de inicio que resuma el valor de FullTank para comprender rápidamente el objetivo del sistema. | 2 |
+| 07 | US-02 | Ver sección About Us | Como visitante de ambos segmentos, quiero conocer quiénes están detrás de FullTank para confiar en el sistema. | 1 |
+| 08 | US-03 | Ver sección How it works? | Como visitante de ambos segmentos, quiero entender cómo funciona FullTank paso a paso para evaluar si se ajusta a mis necesidades. | 2 |
 | 09 | US-36 | Ver sección Benefits | Como visitante de ambos segmentos, quiero conocer las principales ventajas para evaluar la implementación de la plataforma. | 1 |
-| 10 | US-37 | Ver sección Testimonios de Clientes | Como visitante de ambos segmentos, quiero conocer los testimonios de usuarios de TankMaster para tener confianza en la plataforma. | 2 |
+| 10 | US-37 | Ver sección Testimonios de Clientes | Como visitante de ambos segmentos, quiero conocer los testimonios de usuarios de FullTank para tener confianza en la plataforma. | 2 |
 | 11 | US-38 | Ver sección Planes y Precios | Como visitante de ambos segmentos, quiero saber qué planes se adecuan a mis necesidades para poder iniciar un proceso de registro. | 3 |
 | 12 | US-39 | Cambiar idioma | Como visitante de ambos segmentos, quiero poder cambiar entre inglés y español para entender la plataforma en mi idioma preferido. | 3 |
 | 13 | US-04 | Enviar mensaje de contacto | Como visitante de ambos segmentos, quiero enviar un mensaje desde Contact Us para solicitar más información. | 3 |
@@ -538,3 +538,7 @@ A partir de estos impactos se definieron los Deliverables que la plataforma Tank
 | 50 | TS-05 | Endpoint: Consultar pedidos por usuario | Como developer, quiero un endpoint para obtener todos los pedidos de un usuario. | 2 |
 
 ---
+
+Link del Trello: https://trello.com/invite/b/69e2fd01ee5b055b2d967a45/ATTI05a9ebca4c1da02108fc92fa76bfa07e412172F6/fulltank
+
+![trello](../assets/chapter-3/trello.png)

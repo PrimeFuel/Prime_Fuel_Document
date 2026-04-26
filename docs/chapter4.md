@@ -1,13 +1,13 @@
 # Capítulo IV: Product Design
 
 ## 4.1 Style Guidelines
-En esta sección el equipo presenta la Guía de Estilos de Full-Tank.
+En esta sección el equipo presenta la Guía de Estilos de FullTank.
 ### 4.1.1 General Style Guidelines
-En esta sección se definen los aspectos visuales y comunicativos que garantizan una experiencia consistente en todos los puntos de contacto de la solución Full-Tank. Nuestras decisiones de diseño se basan en los principios de Material Design, adaptándolos para transmitir confianza, eficiencia y modernidad en el sector energético.
+En esta sección se definen los aspectos visuales y comunicativos que garantizan una experiencia consistente en todos los puntos de contacto de la solución FullTank. Nuestras decisiones de diseño se basan en los principios de Material Design, adaptándolos para transmitir confianza, eficiencia y modernidad en el sector energético.
 
 **Branding**
 
-El logotipo de Full-Tank es el eje central de nuestra identidad.
+El logotipo de FullTank es el eje central de nuestra identidad.
 
 - **Concepto:** La integración de las iniciales "FT" con un indicador circular (que evoca tanto un reloj como un manómetro de combustible) simboliza los dos pilares de nuestra propuesta de valor: precisión operativa y trazabilidad en tiempo real.
   
@@ -54,7 +54,7 @@ Siguiendo los lineamientos de Material Design, implementamos un sistema de rejil
 
 **Tone of Voice and Language**
 
-Dado que interactuamos con gerentes de logística y proveedores industriales, el tono de Full-Tank se define en las siguientes dimensiones:
+Dado que interactuamos con gerentes de logística y proveedores industriales, el tono de FullTank se define en las siguientes dimensiones:
 
 - **Serio:** El manejo de combustibles implica altos costos y riesgos; la comunicación debe ser precisa y técnica.
 - **Formal:** Mantenemos un estándar corporativo para generar respeto y profesionalismo entre empresas (B2B).
@@ -62,7 +62,7 @@ Dado que interactuamos con gerentes de logística y proveedores industriales, el
 - **Sereno:** Buscamos transmitir calma y control, especialmente en situaciones de retrasos logísticos, mediante interfaces limpias y mensajes directos.
 
 ### 4.1.2 Web Style Guidelines
-Esta sección detalla los estándares de diseño de interfaz y comportamiento de interacción para la plataforma web de Full-Tank, asegurando una experiencia fluida tanto en navegadores de escritorio como en dispositivos móviles.
+Esta sección detalla los estándares de diseño de interfaz y comportamiento de interacción para la plataforma web de FullTank, asegurando una experiencia fluida tanto en navegadores de escritorio como en dispositivos móviles.
 
 **1. Grid and Breakpoints**
   - Para garantizar que la interfaz sea responsive, adoptamos el sistema de rejilla de Material Design basado en columnas:
@@ -105,7 +105,7 @@ Los estándares de interacción definen cómo responde el sistema a las acciones
 Esta sección describe los aspectos clave de la estructura y el etiquetado del aplicativo.
 
 ### 4.2.1 Organization Systems
-En la plataforma Full-Tank, se emplean distintos sistemas de organización del contenido con el objetivo de optimizar la navegación y facilitar la gestión de pedidos de combustible tanto para solicitantes como para proveedores. Estos sistemas permiten estructurar la información de manera clara, asegurando que los usuarios puedan interactuar con la plataforma de forma eficiente. A continuación, se describen los enfoques utilizados:
+En la plataforma FullTank, se emplean distintos sistemas de organización del contenido con el objetivo de optimizar la navegación y facilitar la gestión de pedidos de combustible tanto para solicitantes como para proveedores. Estos sistemas permiten estructurar la información de manera clara, asegurando que los usuarios puedan interactuar con la plataforma de forma eficiente. A continuación, se describen los enfoques utilizados:
 
 #### Organización Visual del Contenido
 
@@ -118,7 +118,7 @@ En procesos que requieren múltiples pasos, como el registro de empresas, la cre
 #### Esquemas de Categorización de Contenido
 
 **Por Audiencia (Roles de Usuario):**
-Full-Tank distingue principalmente entre dos tipos de usuarios: solicitantes y proveedores.
+FullTank distingue principalmente entre dos tipos de usuarios: solicitantes y proveedores.
 
 - Los solicitantes tienen acceso a funcionalidades como registro de pedidos, seguimiento de estado, historial y pagos.
 - Los proveedores gestionan pedidos, validan pagos, asignan recursos logísticos y generan reportes.
@@ -141,10 +141,10 @@ La organización jerárquica y secuencial se refleja en dashboards estructurados
 
 Por otro lado, la categorización por audiencia y por tópicos se implementa mediante menús de navegación dinámicos, paneles diferenciados por rol y secciones claramente delimitadas. El uso de componentes visuales como tarjetas, tablas y estados (pendiente, aprobado, despachado, etc.) permite una lectura rápida y eficiente del sistema.
 
-Este enfoque garantiza que la experiencia en Full-Tank sea intuitiva, escalable y alineada con las necesidades operativas de cada tipo de usuario, facilitando tanto la gestión como la toma de decisiones dentro de la plataforma.
+Este enfoque garantiza que la experiencia en FullTank sea intuitiva, escalable y alineada con las necesidades operativas de cada tipo de usuario, facilitando tanto la gestión como la toma de decisiones dentro de la plataforma.
 
 ### 4.2.2 Labeling Systems
-En Full-Tank, el sistema de etiquetado ha sido diseñado priorizando la simplicidad y la reducción de la carga cognitiva de los operadores logísticos y proveedores. Se han seleccionado etiquetas descriptivas de una o dos palabras para evitar confusión y agilizar la navegación.
+En FullTank, el sistema de etiquetado ha sido diseñado priorizando la simplicidad y la reducción de la carga cognitiva de los operadores logísticos y proveedores. Se han seleccionado etiquetas descriptivas de una o dos palabras para evitar confusión y agilizar la navegación.
 
 1. **Landing Page Labels**
 Las etiquetas del sitio web estático buscan guiar al visitante rápidamente hacia la propuesta de valor y la conversión:
@@ -184,7 +184,7 @@ Para evitar confusiones en el seguimiento en tiempo real, se estandarizan las si
 - **Completed**: El cliente ha confirmado la recepción satisfactoria del combustible.
 
 ### 4.2.3 SEO Tags and Meta Tags
-En la plataforma Full-Tank, se implementan etiquetas SEO (Search Engine Optimization) y Meta Tags dentro del < head > del sitio web con el objetivo de mejorar la visibilidad en motores de búsqueda como Google, así como optimizar la presentación de la página en diferentes dispositivos y contextos.
+En la plataforma FullTank, se implementan etiquetas SEO (Search Engine Optimization) y Meta Tags dentro del < head > del sitio web con el objetivo de mejorar la visibilidad en motores de búsqueda como Google, así como optimizar la presentación de la página en diferentes dispositivos y contextos.
 
 Estas etiquetas permiten describir el contenido del sitio, definir su comportamiento en navegadores y facilitar que los usuarios encuentren la plataforma cuando buscan soluciones relacionadas con la gestión de pedidos de combustible.
 
@@ -214,10 +214,10 @@ Estructura esperada:
     < meta charset="utf-8">
     < meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Full-Tank - Gestión inteligente de pedidos de combustible</title>
-    <meta name="description" content="Full-Tank optimiza la gestión de pedidos de combustible entre empresas solicitantes y proveedores. Control, trazabilidad y eficiencia en un solo sistema.">
-    <meta name="keywords" content="Full-Tank, combustible, gestión de pedidos, logística, proveedores de combustible, distribución, empresas, pedidos de combustible">
-    <meta name="author" content="Equipo Full-Tank">
+    <title>FullTank - Gestión inteligente de pedidos de combustible</title>
+    <meta name="description" content="FullTank optimiza la gestión de pedidos de combustible entre empresas solicitantes y proveedores. Control, trazabilidad y eficiencia en un solo sistema.">
+    <meta name="keywords" content="FullTank, combustible, gestión de pedidos, logística, proveedores de combustible, distribución, empresas, pedidos de combustible">
+    <meta name="author" content="Equipo FullTank">
 
     <!-- CSS & Icons -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -236,7 +236,7 @@ Estructura esperada:
     < /head>
 
 ### 4.2.4 Searching Systems
-En la plataforma Full-Tank, se implementa un sistema de búsqueda y filtrado que permite a los usuarios encontrar información relevante de manera rápida y eficiente, evitando la sobrecarga de información dentro del sistema. Este sistema está diseñado considerando los dos tipos de usuarios principales: solicitantes y proveedores, adaptando las opciones de búsqueda a sus necesidades específicas.
+En la plataforma FullTank, se implementa un sistema de búsqueda y filtrado que permite a los usuarios encontrar información relevante de manera rápida y eficiente, evitando la sobrecarga de información dentro del sistema. Este sistema está diseñado considerando los dos tipos de usuarios principales: solicitantes y proveedores, adaptando las opciones de búsqueda a sus necesidades específicas.
 
 **Búsqueda y filtros en gestión de pedidos**
 
@@ -276,7 +276,7 @@ El sistema de búsqueda está integrado dentro de cada módulo relevante mediant
 
 ## 4.3 Landing Page UI Design
 ### 4.3.1 Landing Page Wireframe
-En esta sección se presentan los esquemas estructurales (wireframes) de baja fidelidad para la Landing Page de *Full-Tank*, diseñados en Figma. Estos diagramas establecen la jerarquía visual, la distribución de contenido y el comportamiento responsivo antes de aplicar el estilo visual final, asegurando que la interfaz cumpla con nuestros objetivos de negocio.
+En esta sección se presentan los esquemas estructurales (wireframes) de baja fidelidad para la Landing Page de *FullTank*, diseñados en Figma. Estos diagramas establecen la jerarquía visual, la distribución de contenido y el comportamiento responsivo antes de aplicar el estilo visual final, asegurando que la interfaz cumpla con nuestros objetivos de negocio.
 
 **Desktop Web Browser Wireframe**
 <div align="center">
@@ -284,7 +284,7 @@ En esta sección se presentan los esquemas estructurales (wireframes) de baja fi
 </div>
 
 * **Header (Navegación):** Se utiliza una organización horizontal fija con el logotipo a la izquierda, los enlaces de navegación centralizados (*Home, How it works, Benefits, Pricing, Testimonials, Contact) y el botón principal de *Call to Action (*"Request a Demo"*) resaltado a la derecha para incentivar la conversión inmediata.
-* **Hero Section (Home):** Ocupa la primera vista con un título de propuesta de valor centrado, un subtítulo descriptivo y un botón primario de "Request a Demo", acompañado de un placeholder (caja gris) para una imagen representativa del dashboard de Full-Tank a la derecha.
+* **Hero Section (Home):** Ocupa la primera vista con un título de propuesta de valor centrado, un subtítulo descriptivo y un botón primario de "Request a Demo", acompañado de un placeholder (caja gris) para una imagen representativa del dashboard de FullTank a la derecha.
 * **Body Sections:**
     * **How it works:** Se organiza secuencialmente en 3 o 4 columnas, mostrando los pasos del flujo operativo.
     * **Benefits & Testimonials:** Se estructuran de forma matricial para facilitar la lectura de características clave y generar confianza al mostrar los casos de éxito de otras empresas.
@@ -308,7 +308,7 @@ El primer wireframe representa la Landing Page principal de FullTank, diseñada 
 
 En el cuerpo de la página, la información se desglosa siguiendo una secuencia lógica que construye confianza y educación sobre el servicio. Se incluyen secciones dedicadas a la historia de la startup (About Us) y al funcionamiento paso a paso del sistema (How it works), utilizando bloques modulares que permiten un escaneo rápido del contenido. Esta estructura se complementa con una cuadrícula de características que resaltan los beneficios técnicos, como la trazabilidad y la centralización de datos, fundamentales para resolver los dolores detectados en la etapa de investigación.
 
-Hacia el final de la navegación, se presenta una sección de planes y suscripciones que utiliza el principio de jerarquía visual para destacar la opción más equilibrada, facilitando la toma de decisiones del usuario. El diseño concluye con un pie de página (footer) que centraliza los datos de contacto y redes sociales, asegurando que el usuario tenga siempre una vía de comunicación abierta con TechnoSAC. Todo el conjunto ha sido diseñado bajo criterios de diseño inclusivo, empleando dimensiones de botones generosas y una organización de elementos que prioriza la legibilidad y la facilidad de interacción en dispositivos móviles.
+Hacia el final de la navegación, se presenta una sección de planes y suscripciones que utiliza el principio de jerarquía visual para destacar la opción más equilibrada, facilitando la toma de decisiones del usuario. El diseño concluye con un pie de página (footer) que centraliza los datos de contacto y redes sociales, asegurando que el usuario tenga siempre una vía de comunicación abierta con PrimeFuel. Todo el conjunto ha sido diseñado bajo criterios de diseño inclusivo, empleando dimensiones de botones generosas y una organización de elementos que prioriza la legibilidad y la facilidad de interacción en dispositivos móviles.
 
 <div align="center">
   <img src="./../assets/chapter-4/Wireframe1.png" alt="Estilos" width="310"/>
@@ -477,31 +477,31 @@ El flujo inicia en la Landing Page, la cual actúa como el nodo central de infor
 
 En este apartado se mostrará los mockups hechos para la aplicación web FullTank.
 
-**Login – Techno ZAC**
+**Login – PrimeFuel**
 
 Pantalla de inicio donde el usuario puede loguearse o registrarse. Además el usuario puede pedir una demo gratuita aunque igual se le pedirá que se registre.
 
 <img src="../assets/chapter-4/mockup-login.PNG" height="400"/>
 
-**Inicio de sesión – Techno ZAC**
+**Inicio de sesión – PrimeFuel**
 
 Formulario que necesitará las credenciales del usuario. Además brinda la opción de cambiar la contraseña o pasar a registrarse en caso de que no tenga una cuenta.
 
 <img src="../assets/chapter-4/mockup-inicioSesion.PNG" height="400"/>
 
-**Registro – Techno ZAC**
+**Registro – PrimeFuel**
 
 Formulario que pide datos básicos como el correo, el nombre de la empresa y una contraseña. Posteriormente, se le enviará al usuario una validación por correo.
 
 <img src="../assets/chapter-4/mockup-registro.PNG" height="400"/>
 
-**Solicitud de combustible – Techno ZAC**
+**Solicitud de combustible – PrimeFuel**
 
 Página que permite ver tus gastos mensuales y principalmente se puede hacer pedidos a los proveedores desde la misma página. Por otra parte, se puede hacer seguimiento a los pedidos
 
 <img src="../assets/chapter-4/mockup-principal-solicitante.PNG" height="600"/>
 
-**Registro de órdenes – Techno ZAC**
+**Registro de órdenes – PrimeFuel**
 
 Página que informa a los proveedores de los pedidos que le hacen los solicitantes con opción de aceptar o rechazar el pedido. Además, se brinda facilidades para escoger al repartidor e imprimir resúmenes.
 
@@ -589,6 +589,110 @@ Unhappy Paths
 Estas rutas alternas se presentan cuando las condiciones financieras del pedido no se cumplen. El proveedor revisa los detalles del pedido, pero identifica que los depósitos registrados por el solicitante son inválidos, inexistentes o el monto ingresado es insuficiente para cubrir la totalidad del pedido. Si el proveedor intenta hacer clic en "Aprobar" bajo estas condiciones (o selecciona una opción explícita de "Rechazar/Observar"), el sistema bloquea el cambio a estado "Aprobado". En su lugar, se despliega una alerta visual o un mensaje de error indicando que el pedido no cuenta con el pago completo, manteniendo el estado en pendiente o pausado hasta que el cliente regularice la situación.
 
 ## 4.5 Web Applications Prototyping
+
+La sección de Web Applications Prototyping presenta los prototipos interactivos de **FullTank** para versión Desktop y Mobile Web. Estos prototipos simulan cómo los usuarios solicitan combustible, gestionan pedidos y realizan seguimiento en tiempo real.
+
+Las decisiones de diseño se basan en:
+
+- **Simplicidad** para facilitar el uso de la plataforma  
+- **Rapidez** en el acceso a funciones críticas  
+- **Consistencia** en toda la experiencia de usuario  
+
+
+
+### Criterios de diseño
+
+#### Arquitectura enfocada en el usuario
+Se priorizaron las funcionalidades principales:
+
+- Solicitud de combustible  
+- Seguimiento de pedidos  
+- Historial de órdenes  
+- Proveedores disponibles  
+- Notificaciones  
+
+Estos elementos se ubicaron en accesos rápidos para reducir la cantidad de pasos.
+
+---
+
+#### Navegación clara
+Se definió una navegación simple:
+
+- **Desktop:** menú superior con secciones principales  
+- **Mobile:** tab-bar inferior para acciones frecuentes y menú hamburguesa para opciones secundarias  
+
+---
+
+#### Patrones de interacción conocidos
+Para mejorar la usabilidad:
+
+- Tarjetas para pedidos y proveedores  
+- Tablas para historial  
+- Íconos simples (pedido, alerta, ubicación)  
+- Flujo directo sin elementos innecesarios  
+
+---
+
+#### Diseño accesible
+Se consideraron:
+
+- Tipografía clara y legible  
+- Botones grandes en dispositivos móviles  
+- Interfaz limpia y ordenada  
+
+---
+
+### Prototipos UI – Versión Desktop
+
+La versión desktop está orientada a la gestión completa de pedidos:
+
+- **Dashboard principal**  
+  Vista general de pedidos activos, estados y alertas  
+
+- **Navegación superior**  
+  Acceso a Home, Orders, Suppliers, Tracking y Settings  
+
+- **Secciones organizadas**  
+  Información dividida en bloques como pedidos, historial y seguimiento  
+
+---
+
+### Prototipos UI – Versión Mobile
+
+La versión mobile prioriza rapidez y facilidad de uso:
+
+- **Inicio simplificado**  
+  Resumen inmediato del estado de pedidos  
+
+- **Tab-Bar inferior**  
+  Accesos a:
+  - Home  
+  - Orders  
+  - Tracking  
+  - Profile  
+
+- **Menú hamburguesa**  
+  Incluye opciones secundarias como configuración o historial completo  
+
+- **Interacción táctil optimizada**  
+  Botones grandes, navegación fluida y scroll continuo  
+
+---
+
+### Relación con User Flow Diagrams
+
+Los prototipos respetan los flujos definidos, asegurando que:
+
+- Solicitar combustible sea rápido  
+- El seguimiento de pedidos sea claro  
+- No existan pasos innecesarios  
+
+Esto permite completar las tareas principales de manera eficiente dentro de la plataforma.
+
+![Prototype](../assets/chapter-4/prototype.png)
+
+Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQD-R7UX2DcKRJNLtZjqQtj5ASvmAemq4_ar5XNntIFluHs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=qn4iaM
+
 
 ## 4.6 Domain-Driven Software Architecture
 ### 4.6.1 Design-Level Event Storming
