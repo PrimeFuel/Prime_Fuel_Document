@@ -1,13 +1,13 @@
 # Capítulo IV: Product Design
 
 ## 4.1 Style Guidelines
-En esta sección el equipo presenta la Guía de Estilos de FullTank.
+En esta sección el equipo presenta la Guía de Estilos de Full-Tank.
 ### 4.1.1 General Style Guidelines
-En esta sección se definen los aspectos visuales y comunicativos que garantizan una experiencia consistente en todos los puntos de contacto de la solución FullTank. Nuestras decisiones de diseño se basan en los principios de Material Design, adaptándolos para transmitir confianza, eficiencia y modernidad en el sector energético.
+En esta sección se definen los aspectos visuales y comunicativos que garantizan una experiencia consistente en todos los puntos de contacto de la solución Full-Tank. Nuestras decisiones de diseño se basan en los principios de Material Design, adaptándolos para transmitir confianza, eficiencia y modernidad en el sector energético.
 
 **Branding**
 
-El logotipo de FullTank es el eje central de nuestra identidad.
+El logotipo de Full-Tank es el eje central de nuestra identidad.
 
 - **Concepto:** La integración de las iniciales "FT" con un indicador circular (que evoca tanto un reloj como un manómetro de combustible) simboliza los dos pilares de nuestra propuesta de valor: precisión operativa y trazabilidad en tiempo real.
   
@@ -54,7 +54,7 @@ Siguiendo los lineamientos de Material Design, implementamos un sistema de rejil
 
 **Tone of Voice and Language**
 
-Dado que interactuamos con gerentes de logística y proveedores industriales, el tono de FullTank se define en las siguientes dimensiones:
+Dado que interactuamos con gerentes de logística y proveedores industriales, el tono de Full-Tank se define en las siguientes dimensiones:
 
 - **Serio:** El manejo de combustibles implica altos costos y riesgos; la comunicación debe ser precisa y técnica.
 - **Formal:** Mantenemos un estándar corporativo para generar respeto y profesionalismo entre empresas (B2B).
@@ -62,7 +62,7 @@ Dado que interactuamos con gerentes de logística y proveedores industriales, el
 - **Sereno:** Buscamos transmitir calma y control, especialmente en situaciones de retrasos logísticos, mediante interfaces limpias y mensajes directos.
 
 ### 4.1.2 Web Style Guidelines
-Esta sección detalla los estándares de diseño de interfaz y comportamiento de interacción para la plataforma web de FullTank, asegurando una experiencia fluida tanto en navegadores de escritorio como en dispositivos móviles.
+Esta sección detalla los estándares de diseño de interfaz y comportamiento de interacción para la plataforma web de Full-Tank, asegurando una experiencia fluida tanto en navegadores de escritorio como en dispositivos móviles.
 
 **1. Grid and Breakpoints**
   - Para garantizar que la interfaz sea responsive, adoptamos el sistema de rejilla de Material Design basado en columnas:
@@ -105,7 +105,7 @@ Los estándares de interacción definen cómo responde el sistema a las acciones
 Esta sección describe los aspectos clave de la estructura y el etiquetado del aplicativo.
 
 ### 4.2.1 Organization Systems
-En la plataforma FullTank, se emplean distintos sistemas de organización del contenido con el objetivo de optimizar la navegación y facilitar la gestión de pedidos de combustible tanto para solicitantes como para proveedores. Estos sistemas permiten estructurar la información de manera clara, asegurando que los usuarios puedan interactuar con la plataforma de forma eficiente. A continuación, se describen los enfoques utilizados:
+En la plataforma Full-Tank, se emplean distintos sistemas de organización del contenido con el objetivo de optimizar la navegación y facilitar la gestión de pedidos de combustible tanto para solicitantes como para proveedores. Estos sistemas permiten estructurar la información de manera clara, asegurando que los usuarios puedan interactuar con la plataforma de forma eficiente. A continuación, se describen los enfoques utilizados:
 
 #### Organización Visual del Contenido
 
@@ -118,7 +118,7 @@ En procesos que requieren múltiples pasos, como el registro de empresas, la cre
 #### Esquemas de Categorización de Contenido
 
 **Por Audiencia (Roles de Usuario):**
-FullTank distingue principalmente entre dos tipos de usuarios: solicitantes y proveedores.
+Full-Tank distingue principalmente entre dos tipos de usuarios: solicitantes y proveedores.
 
 - Los solicitantes tienen acceso a funcionalidades como registro de pedidos, seguimiento de estado, historial y pagos.
 - Los proveedores gestionan pedidos, validan pagos, asignan recursos logísticos y generan reportes.
@@ -141,10 +141,10 @@ La organización jerárquica y secuencial se refleja en dashboards estructurados
 
 Por otro lado, la categorización por audiencia y por tópicos se implementa mediante menús de navegación dinámicos, paneles diferenciados por rol y secciones claramente delimitadas. El uso de componentes visuales como tarjetas, tablas y estados (pendiente, aprobado, despachado, etc.) permite una lectura rápida y eficiente del sistema.
 
-Este enfoque garantiza que la experiencia en FullTank sea intuitiva, escalable y alineada con las necesidades operativas de cada tipo de usuario, facilitando tanto la gestión como la toma de decisiones dentro de la plataforma.
+Este enfoque garantiza que la experiencia en Full-Tank sea intuitiva, escalable y alineada con las necesidades operativas de cada tipo de usuario, facilitando tanto la gestión como la toma de decisiones dentro de la plataforma.
 
 ### 4.2.2 Labeling Systems
-En FullTank, el sistema de etiquetado ha sido diseñado priorizando la simplicidad y la reducción de la carga cognitiva de los operadores logísticos y proveedores. Se han seleccionado etiquetas descriptivas de una o dos palabras para evitar confusión y agilizar la navegación.
+En Full-Tank, el sistema de etiquetado ha sido diseñado priorizando la simplicidad y la reducción de la carga cognitiva de los operadores logísticos y proveedores. Se han seleccionado etiquetas descriptivas de una o dos palabras para evitar confusión y agilizar la navegación.
 
 1. **Landing Page Labels**
 Las etiquetas del sitio web estático buscan guiar al visitante rápidamente hacia la propuesta de valor y la conversión:
@@ -184,7 +184,7 @@ Para evitar confusiones en el seguimiento en tiempo real, se estandarizan las si
 - **Completed**: El cliente ha confirmado la recepción satisfactoria del combustible.
 
 ### 4.2.3 SEO Tags and Meta Tags
-En la plataforma FullTank, se implementan etiquetas SEO (Search Engine Optimization) y Meta Tags dentro del < head > del sitio web con el objetivo de mejorar la visibilidad en motores de búsqueda como Google, así como optimizar la presentación de la página en diferentes dispositivos y contextos.
+En la plataforma Full-Tank, se implementan etiquetas SEO (Search Engine Optimization) y Meta Tags dentro del < head > del sitio web con el objetivo de mejorar la visibilidad en motores de búsqueda como Google, así como optimizar la presentación de la página en diferentes dispositivos y contextos.
 
 Estas etiquetas permiten describir el contenido del sitio, definir su comportamiento en navegadores y facilitar que los usuarios encuentren la plataforma cuando buscan soluciones relacionadas con la gestión de pedidos de combustible.
 
@@ -214,10 +214,10 @@ Estructura esperada:
     < meta charset="utf-8">
     < meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>FullTank - Gestión inteligente de pedidos de combustible</title>
-    <meta name="description" content="FullTank optimiza la gestión de pedidos de combustible entre empresas solicitantes y proveedores. Control, trazabilidad y eficiencia en un solo sistema.">
-    <meta name="keywords" content="FullTank, combustible, gestión de pedidos, logística, proveedores de combustible, distribución, empresas, pedidos de combustible">
-    <meta name="author" content="Equipo FullTank">
+    <title>Full-Tank - Gestión inteligente de pedidos de combustible</title>
+    <meta name="description" content="Full-Tank optimiza la gestión de pedidos de combustible entre empresas solicitantes y proveedores. Control, trazabilidad y eficiencia en un solo sistema.">
+    <meta name="keywords" content="Full-Tank, combustible, gestión de pedidos, logística, proveedores de combustible, distribución, empresas, pedidos de combustible">
+    <meta name="author" content="Equipo Full-Tank">
 
     <!-- CSS & Icons -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -236,7 +236,7 @@ Estructura esperada:
     < /head>
 
 ### 4.2.4 Searching Systems
-En la plataforma FullTank, se implementa un sistema de búsqueda y filtrado que permite a los usuarios encontrar información relevante de manera rápida y eficiente, evitando la sobrecarga de información dentro del sistema. Este sistema está diseñado considerando los dos tipos de usuarios principales: solicitantes y proveedores, adaptando las opciones de búsqueda a sus necesidades específicas.
+En la plataforma Full-Tank, se implementa un sistema de búsqueda y filtrado que permite a los usuarios encontrar información relevante de manera rápida y eficiente, evitando la sobrecarga de información dentro del sistema. Este sistema está diseñado considerando los dos tipos de usuarios principales: solicitantes y proveedores, adaptando las opciones de búsqueda a sus necesidades específicas.
 
 **Búsqueda y filtros en gestión de pedidos**
 
@@ -282,7 +282,7 @@ Navegación Secundaria: Enlaces internos, como los botones en la sección What W
 
 ## 4.3 Landing Page UI Design
 ### 4.3.1 Landing Page Wireframe
-En esta sección se presentan los esquemas estructurales (wireframes) de baja fidelidad para la Landing Page de *FullTank*, diseñados en Figma. Estos diagramas establecen la jerarquía visual, la distribución de contenido y el comportamiento responsivo antes de aplicar el estilo visual final, asegurando que la interfaz cumpla con nuestros objetivos de negocio.
+En esta sección se presentan los esquemas estructurales (wireframes) de baja fidelidad para la Landing Page de *Full-Tank*, diseñados en Figma. Estos diagramas establecen la jerarquía visual, la distribución de contenido y el comportamiento responsivo antes de aplicar el estilo visual final, asegurando que la interfaz cumpla con nuestros objetivos de negocio.
 
 **Desktop Web Browser Wireframe**
 <div align="center">
@@ -290,7 +290,7 @@ En esta sección se presentan los esquemas estructurales (wireframes) de baja fi
 </div>
 
 * **Header (Navegación):** Se utiliza una organización horizontal fija con el logotipo a la izquierda, los enlaces de navegación centralizados (*Home, How it works, Benefits, Pricing, Testimonials, Contact) y el botón principal de *Call to Action (*"Request a Demo"*) resaltado a la derecha para incentivar la conversión inmediata.
-* **Hero Section (Home):** Ocupa la primera vista con un título de propuesta de valor centrado, un subtítulo descriptivo y un botón primario de "Request a Demo", acompañado de un placeholder (caja gris) para una imagen representativa del dashboard de FullTank a la derecha.
+* **Hero Section (Home):** Ocupa la primera vista con un título de propuesta de valor centrado, un subtítulo descriptivo y un botón primario de "Request a Demo", acompañado de un placeholder (caja gris) para una imagen representativa del dashboard de Full-Tank a la derecha.
 * **Body Sections:**
     * **How it works:** Se organiza secuencialmente en 3 o 4 columnas, mostrando los pasos del flujo operativo.
     * **Benefits & Testimonials:** Se estructuran de forma matricial para facilitar la lectura de características clave y generar confianza al mostrar los casos de éxito de otras empresas.
@@ -322,83 +322,167 @@ Hacia el final de la navegación, se presenta una sección de planes y suscripci
 
 **Wireframe 2**
 
-El wireframe de Inicio de Sesión y Registro establece un punto de control centralizado diseñado para identificar al usuario y derivarlo de manera eficiente a su panel de control correspondiente. La arquitectura de información prioriza la funcionalidad sobre cualquier otro elemento, disponiendo de forma secuencial los campos de captura de credenciales, el acceso a la recuperación de cuenta y el disparador para la creación de nuevos perfiles. Este esquema garantiza que el usuario recorra el camino mínimo necesario para la autenticación, reduciendo la carga cognitiva al segmentar claramente las acciones primarias de las secundarias.
+Este diseño presenta un layout de pantalla dividida (dos columnas). En el lado izquierdo, se observa el logotipo o texto de la marca ("Fulltank") en la esquina superior. En el centro geométrico de esta columna, hay un contenedor ("Login") que aloja dos campos de entrada de texto (representados por rectángulos gris claro) y un botón de acción primaria (rectángulo gris oscuro). El lado derecho está dominado por un gran marcador de posición gráfico (indicado por la equis).
 
 <div align="center">
-  <img src="./../assets/chapter-4/Inicio.png" alt="Estilos" width="700"/>
+  <img src="../assets/chapter-4/Login.png" alt="Estilos" width="700"/>
 </div>
 
 **Wireframe 3**
 
-El primer wireframe para proveedores, denominado Resumen Operativo, establece una arquitectura de información de alta prioridad que condensa la salud del negocio en tres indicadores clave: ventas mensuales, pedidos pendientes y vehículos en ruta.
+Mantiene la misma estructura de pantalla dividida y contenedor gráfico a la derecha. El contenedor izquierdo, titulado "Create corporate Account", expande el formulario a tres campos de entrada de texto horizontales y un botón de acción primaria inferior.
 
 <div align="center">
-  <img src="./../assets/chapter-4/Wireframe2.png" alt="Estilos" width="700"/>
+  <img src="../assets/chapter-4/Create account.png" alt="Estilos" width="700"/>
 </div>
 
 **Wireframe 4**
 
-El wireframe de Gestión de Pedidos Entrantes estructura la información mediante una tabla funcional que centraliza las solicitudes nuevas, permitiendo al proveedor procesar múltiples órdenes desde una sola vista. La arquitectura de información se organiza en columnas que detallan datos críticos como el cliente, el tipo de combustible y la cantidad, situando los botones de acción en el extremo derecho para facilitar una respuesta rápida de aprobación o rechazo.
+Conserva la consistencia estructural de los anteriores. El formulario central, bajo el título "Reset Password", incluye tres campos de entrada de texto y un botón de acción primaria.
 
 <div align="center">
-  <img src="./../assets/chapter-4/Wireframe3.png" alt="Estilos" width="700"/>
+  <img src="../assets/chapter-4/Reset password.png" alt="Estilos" width="700"/>
 </div>
 
 **Wireframe 5**
 
-El wireframe de Directorio de Clientes utiliza un sistema de tarjetas (cards) para organizar el perfil detallado de cada empresa, permitiendo al proveedor acceder a la información de contacto y preferencias de compra de manera individualizada. La arquitectura de información se segmenta visualmente mediante el uso de listas de verificación e iconos, lo que facilita el escaneo rápido de los servicios contratados o requisitos específicos por cliente.
+Esta es la vista principal (Home) de la aplicación tras el inicio de sesión. Presenta un sistema de navegación lateral izquierdo (Sidebar) con enlaces a diferentes módulos. En el área principal, emplea un patrón de diseño tipo Dashboard con una jerarquía clara: tarjetas de indicadores clave de rendimiento (KPIs) en la parte superior, gráficos centrales (tendencia de consumo y niveles de tanques con barras de progreso) y una tabla de datos (Data Table) inferior para órdenes de logística activas.
 
 <div align="center">
-  <img src="./../assets/chapter-4/Wireframe4.png" alt="Estilos" width="700"/>
+  <img src="../assets/chapter-4/Dashboard View.png" alt="Estilos" width="700"/>
 </div>
 
 **Wireframe 6**
 
-El wireframe de Asignación de Despacho presenta una arquitectura de información dividida en dos paneles estratégicos para facilitar la coordinación logística del proveedor. El panel izquierdo concentra los campos de entrada para la selección de pedidos y la vinculación de unidades de transporte, incluyendo un contenedor específico para la validación de documentos o firmas digitales, lo que asegura que cada despacho cumpla con los requisitos administrativos.
+Vista dedicada a la gestión de solicitudes. Mantiene la barra lateral constante. Incorpora controles de búsqueda y acciones primarias en la esquina superior derecha. Utiliza tarjetas de resumen para el estado de las solicitudes (Totales, Pendientes, En tránsito, Completadas) y dedica la mayor parte del espacio a una tabla de datos extensa con opciones de ordenamiento (Sort), paginación y controles de acción por fila.
 
 <div align="center">
-  <img src="./../assets/chapter-4/Wireframe5.png" alt="Estilos" width="700"/>
+  <img src="../assets/chapter-4/Fuel Requests Management View.png" alt="Estilos" width="700"/>
 </div>
 
 **Wireframe 7**
 
-El wireframe de Reportes y Documentación cierra el panel de proveedores con una arquitectura de información orientada a la auditoría y el control administrativo. La interfaz dispone de un área central de visualización para previsualizar registros operativos, acompañada de un botón de acción principal para la generación y descarga de documentos legales o reportes de ventas.
+Vista de reportería. Sigue la misma estructura base. Presenta KPIs financieros y de eficiencia en la parte superior. El centro visual es un gran gráfico de barras para visualizar las tendencias de consumo. En la parte inferior, una tabla de datos de "Gastos Recientes" que incluye un botón de filtrado explícito (Filter).
 
 <div align="center">
-  <img src="./../assets/chapter-4/Wireframe6.png" alt="Estilos" width="700"/>
+  <img src="../assets/chapter-4/Reports & Analytics View.png" alt="Estilos" width="700"/>
 </div>
 
 **Wireframe 8**
 
-El primer wireframe del panel de Compradores introduce la vista de Consumo General, diseñada para ofrecer una arquitectura de información centrada en el control financiero y operativo del solicitante. La interfaz utiliza una disposición horizontal de tres tarjetas de métricas que permiten al usuario monitorear, de forma inmediata, su gasto total mensual, el volumen de consumo acumulado y la cantidad de pedidos que se encuentran actualmente en estado pendiente.
+Módulo de proveedores. Presenta un layout mixto. En la parte superior, integra un contenedor gráfico grande (posiblemente un mapa o imagen destacada) junto a una tarjeta de detalles del proveedor. Debajo, muestra tarjetas de información resumida con botones "View Details" (posiblemente para proveedores frecuentes), y finaliza con una tabla de datos paginada para listar a todos los proveedores recomendados.
 
 <div align="center">
-  <img src="./../assets/chapter-4/Wireframe7.png" alt="Estilos" width="700"/>
+  <img src="../assets/chapter-4/Suppliers Directory View.png" alt="Estilos" width="700"/>
 </div>
 
 **Wireframe 9**
 
-El wireframe de Solicitud de Combustible y Procedimiento de Pago funciona como una interfaz de formulario estructurada para guiar al comprador a través del registro de una nueva orden. La arquitectura de información divide el proceso en dos bloques lógicos: la especificación técnica del pedido (tipo de combustible y cantidad) y la carga de la evidencia de pago necesaria para la validación del proveedor. Al presentar los campos de manera simétrica y clara dentro de un contenedor enfocado, se minimiza el riesgo de errores en el ingreso de datos, asegurando que el flujo desde la solicitud hasta la confirmación del depósito sea fluido y cumpla con los requisitos operativos del sistema.
+Vista del directorio de proveedores verificados. Mantiene la barra de navegación lateral y presenta dos tarjetas de indicadores (KPIs) en la parte superior ("Total Suppliers" y "Verified Coverage"). El contenido principal se organiza mediante una lista vertical de tarjetas, donde cada una representa a un proveedor, incluyendo un marcador para su logotipo, líneas de texto descriptivo, botones de acción rápida y una casilla de selección. Incluye controles de paginación en la parte inferior.
+
 
 <div align="center">
-  <img src="./../assets/chapter-4/Wireframe8.png" alt="Estilos" width="700"/>
+  <img src="../assets/chapter-4/Verified Suppliers Directory View.png" alt="Verified Suppliers Directory View" width="700"/>
 </div>
 
 **Wireframe 10**
 
-El wireframe de Seguimiento del Pedido se centra en proporcionar transparencia y tranquilidad al comprador mediante una arquitectura de información que destaca el progreso del suministro en tiempo real. El elemento principal de esta interfaz es una barra de estado dinámica que permite visualizar de forma gráfica en qué etapa se encuentra el pedido (solicitado, aprobado, en tránsito o entregado), eliminando la incertidumbre del usuario. 
+Vista de detalles de seguimiento logístico o inspección. La pantalla presenta un layout complejo de paneles divisibles. En la columna izquierda, muestra tarjetas de resumen y un componente gráfico central destacado (probablemente un mapa de geolocalización o un visor de imágenes) con controles inferiores. En el panel derecho, se agrupa la información detallada del estado de la operación, barras de progreso y un botón de acción principal para gestionar el registro.
 
 <div align="center">
-  <img src="./../assets/chapter-4/Wireframe9.png" alt="Estilos" width="700"/>
+  <img src="../assets/chapter-4/Logistics Tracking Details View.png" alt="Add Equipment Form View" width="700"/>
 </div>
 
 **Wireframe 11**
 
-El wireframe del Historial de Pedidos cierra la experiencia del comprador mediante una arquitectura de información que facilita la consulta de transacciones pasadas para fines de auditoría y control de inventarios. La interfaz organiza los pedidos anteriores en una cuadrícula de tarjetas (cards), donde cada una presenta un resumen de la transacción, incluyendo fechas y volúmenes, acompañada de un botón de acción para acceder a detalles específicos o descargar comprobantes.
+Vista del formulario para la adición de nuevo equipamiento. Presenta un diseño limpio bajo el título "Add Equipment". El contenedor central organiza los campos de entrada de datos en un formato de dos columnas para optimizar el espacio en resoluciones de escritorio. Finaliza con un botón de acción primaria ("Save Equipment") alineado a la derecha en la parte inferior del formulario.
+
+HTML
+<div align="center">
+  <img src="../assets/chapter-4/Add Equipment Form View.png" alt="Add Equipment Form View" width="700"/>
+</div>
+
+
+**Wireframe 12**
+
+Vista de detalles de una solicitud de combustible específica. Mantiene la barra de navegación lateral. En la cabecera, muestra el identificador de la orden junto a espacios para botones de acción secundarios. El área de contenido adopta un diseño de cuadrícula (grid) asimétrico dividido en dos columnas. La columna principal (izquierda) agrupa las especificaciones de la orden, un amplio contenedor gráfico (diseñado para un mapa interactivo de seguimiento o tracking) y un componente de línea de tiempo (Timeline) para detallar los estados logísticos. La columna lateral (derecha) exhibe el perfil del proveedor con una llamada a la acción ("Contact Provider"), seguido de secciones para notas, instrucciones y documentos adjuntos.
 
 <div align="center">
-  <img src="./../assets/chapter-4/Wireframe10.png" alt="Estilos" width="700"/>
+  <img src="../assets/chapter-4/Request Details View.png" alt="Request Details View" width="700"/>
 </div>
+
+**Wireframe 13**
+
+Este wireframe muestra una pantalla de gestión de inventario, cuyo propósito es visualizar y controlar los productos disponibles, permitiendo revisar existencias y realizar acciones sobre cada ítem de forma organizada.
+
+<div align="center">
+  <img src="../assets/chapter-4/wireframe-supplierInventory.png" alt="Estilos" width="700"/>
+</div>
+
+**Wireframe 14**
+
+Este wireframe muestra una pantalla de gestión de órdenes, enfocada en visualizar, organizar y dar seguimiento a pedidos, combinando una tabla principal con detalles y un panel lateral para información o acciones rápidas.
+
+<div align="center">
+  <img src="../assets/chapter-4/wireframe-supplierOrder.png" alt="Estilos" width="700"/>
+</div>
+
+Este wireframe muestra una pantalla de detalle de una orden, cuyo propósito es visualizar toda la información específica de un pedido, incluyendo su estado, datos relacionados y posibles acciones, en una vista más completa y organizada.
+
+**Wireframe 15**
+
+<div align="center">
+  <img src="../assets/chapter-4/wireframe-supplierOrder2.png" alt="Estilos" width="700"/>
+</div>
+
+**Wireframe 16**
+
+Este wireframe muestra una pantalla para gestionar solicitudes entrantes de proveedores, donde el usuario puede revisar y tomar acciones sobre pedidos de forma rápida, usando filtros y una tabla con las solicitudes
+
+<div align="center">
+  <img src="../assets/chapter-4/wireframe-supplierRequest.png" alt="Estilos" width="700"/>
+</div>
+
+**Wireframe 17**
+
+El wireframe representa un dashboard para la gestión operativa de una plataforma logística o de suministro de combustible, cuyo propósito es centralizar información clave para la toma de decisiones.
+
+<div align="center">
+  <img src="../assets/chapter-4/wireframe-supplierDashboard.png" alt="Estilos" width="700"/>
+</div>
+
+**Wireframe 18**
+
+El wireframe representa una pantalla de la cuenta, donde puede verificar los datos de su cuenta, su seguridad y ver las notificaciones
+
+<div align="center">
+  <img src="../assets/chapter-4/wireframe-supplierAccount.png" alt="Estilos" width="700"/>
+</div>
+
+**Wireframe 19**
+
+El wireframe representa una pantalla de fletes, donde se puede revisar el costo de los fletes y revisar que conductor será el más apropiado
+
+<div align="center">
+  <img src="../assets/chapter-4/wireframe-supplierFleet.png" alt="Estilos" width="700"/>
+</div>
+
+**Wireframe 20**
+
+El wireframe representa una pantalla para gestionar reportes, donde se puede revisar las ventas que fueron concluidas y las ventas actuales. Por otra parte, existen los filtos para este tipo de imagenes que les sera útil ya que permite buscar la informacion más rápido.
+
+<div align="center">
+  <img src="../assets/chapter-4/wireframe-supplierReport.png" alt="Estilos" width="700"/>
+</div>
+
+**Wireframe 21**
+
+El wireframe representa una pantalla de gestion de reportes, aqui se pueden revisar las estadisticas de la empresa como la cantidad de clientes o las órdenes activas. Además, se puede revisar que sector está invirtiendo más en combustible
+
+<div align="center">
+  <img src="../assets/chapter-4/wireframe-supplierReport2.png" alt="Estilos" width="700"/>
+</div>
+
 
 
 ### **Mobile**
@@ -418,52 +502,153 @@ Los wireframes de Inicio de Sesión y Recuperación de Contraseña se han simpli
   <img src="./../assets/chapter-4/o Registro para Mobile.png" alt="Estilos" width="200"/>
 </div>
 
+### Compradores
+
 **Wireframe 3**
 
-El wireframe de Compradores Mobile adapta la experiencia web a un formato de scroll vertical infinito, optimizando el espacio mediante el apilamiento de módulos para una gestión eficiente a una sola mano.
+Este wireframe de Búsqueda de Proveedores organiza el directorio mediante un diseño de tarjetas verticales que facilita la comparación rápida de opciones en pantallas móviles.
 
 <div align="center">
-  <img src="./../assets/chapter-4/Compradores Mobile.png" alt="Estilos" width="200"/>
+  <img src="./../assets/chapter-4/WM1.png" alt="Estilos" width="200"/>
 </div>
 
 **Wireframe 4**
 
-Este wireframe adapta el flujo de compra a una secuencia vertical que guía al usuario de manera lineal desde la configuración hasta la liquidación del pedido. La arquitectura de información se organiza en tres secciones clave: un bloque superior con el resumen detallado de la solicitud de combustible, un carrusel central para la selección de la información de proveedores, y un módulo final dedicado al método de pago.
+Este wireframe del Dashboard Operativo para Compradores organiza la información crítica en una estructura vertical de cuatro niveles para un monitoreo rápido. Su arquitectura de información prioriza métricas inmediatas como órdenes activas y balance de combustible, seguidas de un gráfico de consumo semanal y el estado detallado de los tanques de almacenamiento.
 
 <div align="center">
-  <img src="./../assets/chapter-4/Compradores Mobile pt2 _ Solicitud de Combustible.png" alt="Estilos" width="200"/>
+  <img src="./../assets/chapter-4/WM2.png" alt="Estilos" width="200"/>
 </div>
 
 **Wireframe 5**
 
-Este wireframe presenta el perfil detallado del socio logístico seleccionado, diseñado para fortalecer la transparencia en la cadena de suministro. La arquitectura de información sitúa en la parte superior los datos institucionales y de contacto del proveedor, seguidos de un componente visual de gran formato que representa la ubicación geográfica de sus sedes o estaciones de servicio.
+Este wireframe de Monitoreo de Equipos utiliza un diseño de tarjetas individuales para gestionar el estado de los tanques y unidades de combustible de forma independiente. Su arquitectura de información destaca visualmente el porcentaje de llenado mediante gráficos circulares, permitiendo una lectura rápida de la capacidad y la fecha del último reabastecimiento.
 
 <div align="center">
-  <img src="./../assets/chapter-4/Compradores Mobile pt3 _ Información del Proveedor.png" alt="Estilos" width="200"/>
+  <img src="./../assets/chapter-4/WM3.png" alt="Estilos" width="200"/>
 </div>
 
 **Wireframe 6**
 
-El wireframe 6 condensa las herramientas de gestión en una interfaz de alto rendimiento diseñada para la operatividad en campo. La arquitectura de información se organiza verticalmente mediante tres bloques modulares: un Resumen Operativo en la parte superior con tarjetas de métricas clave (ventas, pedidos y flota), seguido de una sección de Pedidos Recientes presentada en filas simplificadas para una validación rápida, y finalmente un carrusel horizontal para el Directorio de Clientes.
+Este wireframe de Reportes y Analítica presenta una estructura de auditoría móvil centrada en la síntesis de datos logísticos complejos. Su arquitectura de información se divide en módulos que incluyen un selector de rango de fechas, un gráfico detallado de consumo de combustible y un desglose de gastos por sede, facilitando el control financiero.
 
 <div align="center">
-  <img src="./../assets/chapter-4/Proveedores Mobile.png" alt="Estilos" width="200"/>
+  <img src="./../assets/chapter-4/WM4.png" alt="Estilos" width="200"/>
 </div>
 
 **Wireframe 7**
 
-Este wireframe adapta el proceso de vinculación de recursos a una estructura de stacking vertical, permitiendo que el proveedor coordine el transporte de manera secuencial y ordenada.
+Este wireframe de Gestión de Solicitudes Activas organiza el flujo de pedidos mediante una lista de tarjetas de estado que permite el seguimiento en tiempo real.
 
 <div align="center">
-  <img src="./../assets/chapter-4/Proveedores Mobile pt2.png" alt="Estilos" width="200"/>
+  <img src="./../assets/chapter-4/WM5.png" alt="Estilos" width="200"/>
 </div>
 
 **Wireframe 8**
 
-Este último wireframe móvil consolida las funciones administrativas de cierre y auditoría en una interfaz simplificada y de fácil navegación. La arquitectura de información mantiene las métricas de resumen en la parte superior para dar contexto antes de proceder a la gestión documental, donde se sitúa un área central de previsualización para los registros de operaciones mensuales.
+Este wireframe de Seguimiento de Orden en Tiempo Real utiliza una arquitectura de información de alta visibilidad para reducir la incertidumbre del comprador. La interfaz prioriza un mapa geolocalizado en la parte superior, seguido de tarjetas con datos técnicos del combustible y la identificación del conductor.
 
 <div align="center">
-  <img src="./../assets/chapter-4/Proveedores Mobile pt3.png" alt="Estilos" width="200"/>
+  <img src="./../assets/chapter-4/WM6.png" alt="Estilos" width="200"/>
+</div>
+
+**Wireframe 9**
+
+Este wireframe de Recomendaciones de Proveedores implementa una arquitectura de información basada en algoritmos de confianza, priorizando a los socios con mayor puntaje de fiabilidad. La interfaz destaca una tarjeta principal para el proveedor "más confiable" con métricas de desempeño detalladas, seguida de un listado categorizado que diferencia entre proveedores contratados y bajo demanda.
+
+<div align="center">
+  <img src="./../assets/chapter-4/WM7.png" alt="Estilos" width="200"/>
+</div>
+
+**Wireframe 10**
+
+Este wireframe de Nueva Solicitud de Combustible implementa un flujo de formulario por pasos para guiar al comprador en la configuración de pedidos complejos. Su arquitectura de información segmenta el proceso en tres niveles lógicos: selección de producto, ubicación mediante mapa interactivo y programación de entrega, finalizando con un resumen de costos detallado.
+
+<div align="center">
+  <img src="./../assets/chapter-4/WM8.png" alt="Estilos" width="200"/>
+</div>
+
+
+### Proveedores
+
+**Wireframe 11**
+
+Este wireframe organiza la gestión comercial mediante una estructura vertical de tres niveles. Su arquitectura de información prioriza el balance total y las métricas de ingresos mensuales en la parte superior, seguidas de un gráfico de desempeño de ventas y un listado de órdenes recientes para una validación rápida.
+
+<div align="center">
+  <img src="./../assets/chapter-4/WMV1.png" alt="Estilos" width="200"/>
+</div>
+
+**Wireframe 12**
+
+Este wireframe centraliza la gestión operativa del proveedor mediante una estructura de monitoreo en tiempo real. Su arquitectura de información destaca métricas de órdenes activas y balance de combustible, seguidas de una gráfica de tendencias de venta semanal para facilitar la toma de decisiones.
+
+<div align="center">
+  <img src="./../assets/chapter-4/WMV2.png" alt="Estilos" width="200"/>
+</div>
+
+**Wireframe 13**
+
+Este wireframe de Gestión de Flota Activa organiza el monitoreo de vehículos mediante una lista de tarjetas de estado para un control logístico en tiempo real.
+
+<div align="center">
+  <img src="./../assets/chapter-4/WMV4.png" alt="Estilos" width="200"/>
+</div>
+
+**Wireframe 14**
+
+Este wireframe de Órdenes en Progreso para proveedores centraliza el monitoreo logístico de los despachos activos mediante tarjetas con mapas integrados. Su arquitectura de información destaca el estado de tránsito, la ubicación geográfica en tiempo real y datos críticos como el tiempo estimado de llegada (ETA) y la identificación de la unidad de transporte.
+
+<div align="center">
+  <img src="./../assets/chapter-4/WMV5.png" alt="Estilos" width="200"/>
+</div>
+
+**Wireframe 15**
+
+Este wireframe de Reportes de Clientes organiza la inteligencia de negocios del proveedor mediante un análisis segmentado de su cartera. Su arquitectura de información prioriza métricas generales (total de clientes y volumen) y la distribución del suministro por sectores mediante barras de progreso, facilitando la identificación de los mercados con mayor demanda.
+
+<div align="center">
+  <img src="./../assets/chapter-4/WMV6.png" alt="Estilos" width="200"/>
+</div>
+
+**Wireframe 16**
+
+Este wireframe de Monitoreo de Inventario en Sedes organiza el estado de los depósitos mediante tarjetas de alerta que priorizan la urgencia operativa. Su arquitectura de información utiliza barras de estado y etiquetas de nivel (Critical, Optimal, Low Stock) para informar sobre el volumen de distintos combustibles en cada terminal.
+
+<div align="center">
+  <img src="./../assets/chapter-4/WMV7.png" alt="Estilos" width="200"/>
+</div>
+
+**Wireframe 17**
+
+Este wireframe de Gestión de Solicitudes Entrantes permite a los proveedores procesar órdenes de logística mediante un sistema de validación rápida. Su arquitectura de información organiza las peticiones en tarjetas individuales que muestran el volumen solicitado y los ingresos proyectados, clasificando su prioridad mediante etiquetas de estado.
+
+<div align="center">
+  <img src="./../assets/chapter-4/WMV8.png" alt="Estilos" width="200"/>
+</div>
+
+**Wireframe 18**
+
+Este wireframe de Manifiesto de Carga y Seguimiento del Conductor organiza la información logística detallada para una supervisión precisa de la entrega. Su arquitectura de información destaca un mapa de geolocalización superior, seguido del perfil del conductor con canales de comunicación directa y un desglose técnico de la carga.
+
+<div align="center">
+  <img src="./../assets/chapter-4/WMV9.png" alt="Estilos" width="200"/>
+</div>
+
+**Wireframe 19**
+
+Este wireframe de Perfil y Configuración de Cuenta organiza la gestión de identidad y seguridad del usuario en una estructura vertical de fácil navegación. Su arquitectura de información se divide en tres bloques lógicos: datos personales, seguridad y preferencias de notificaciones, permitiendo un control granular sobre la cuenta.
+
+<div align="center">
+  <img src="./../assets/chapter-4/WMV3.png" alt="Estilos" width="200"/>
+</div>
+
+**Wireframe 20**
+
+Este wireframe representa el Menú de Navegación Lateral (Sidebar), el componente central que articula la experiencia de usuario en ambas versiones de la aplicación.
+
+<div align="center">
+  <img src="./../assets/chapter-4/WMV0.png" alt="Estilos" width="200"/>
 </div>
 
 ### 4.4.2 Web Applications Wireflow Diagrams
@@ -476,42 +661,107 @@ El flujo inicia en la Landing Page, la cual actúa como el nodo central de infor
 * Flujo de Compradores: Diseñado bajo principios de eficiencia y transparencia, este camino permite al solicitante monitorear su consumo mensual, registrar nuevos pedidos mediante la carga de comprobantes de pago, realizar el seguimiento de su suministro en tiempo real y consultar su historial transaccional.
 
 <div align="center">
-  <img src="./../assets/chapter-4/Diagram.png" alt="Estilos" width="1000"/>
+  <img src="./../assets/chapter-4/wireflow1.png" alt="Estilos" width="1000"/>
+</div>
+<div align="center">
+  <img src="./../assets/chapter-4/wireflow2.png" alt="Estilos" width="1000"/>
 </div>
 
 ### 4.4.3 Web Applications Mock-ups
 
 En este apartado se mostrará los mockups hechos para la aplicación web FullTank.
 
-**Login – PrimeFuel**
+**Login – Techno SAC**
 
 Pantalla de inicio donde el usuario puede loguearse o registrarse. Además el usuario puede pedir una demo gratuita aunque igual se le pedirá que se registre.
 
 <img src="../assets/chapter-4/mockup-login.PNG" height="400"/>
 
-**Inicio de sesión – PrimeFuel**
+**Inicio de sesión – Techno SAC**
 
 Formulario que necesitará las credenciales del usuario. Además brinda la opción de cambiar la contraseña o pasar a registrarse en caso de que no tenga una cuenta.
 
 <img src="../assets/chapter-4/mockup-inicioSesion.PNG" height="400"/>
 
-**Registro – PrimeFuel**
+**Registro – Techno SAC**
 
 Formulario que pide datos básicos como el correo, el nombre de la empresa y una contraseña. Posteriormente, se le enviará al usuario una validación por correo.
 
 <img src="../assets/chapter-4/mockup-registro.PNG" height="400"/>
 
-**Solicitud de combustible – PrimeFuel**
 
-Página que permite ver tus gastos mensuales y principalmente se puede hacer pedidos a los proveedores desde la misma página. Por otra parte, se puede hacer seguimiento a los pedidos
+**Mock ups del proveedor**
 
-<img src="../assets/chapter-4/mockup-principal-solicitante.PNG" height="600"/>
+En esta sección se presentan los mock-ups de alta fidelidad para la aplicación web orientada al segmento de Proveedores de Combustible. El diseño ha sido elaborado utilizando Figma, tomando como base nuestro Sistema de Diseño, enfocado en reducir la carga operativa y brindar visibilidad en tiempo real de la logística y los pedidos.
 
-**Registro de órdenes – PrimeFuel**
 
-Página que informa a los proveedores de los pedidos que le hacen los solicitantes con opción de aceptar o rechazar el pedido. Además, se brinda facilidades para escoger al repartidor e imprimir resúmenes.
+<img src="../assets/chapter-4/SupplierDashboard.png" height="400"/>
+<img src="../assets/chapter-4/Supplier - Clients Reports.png" height="400"/>
+<img src="../assets/chapter-4/Supplier - Fleet.png" height="400"/>
+<img src="../assets/chapter-4/Supplier - Incoming Requests.png" height="400"/>
+<img src="../assets/chapter-4/Supplier - Inventory.png" height="400"/>
+<img src="../assets/chapter-4/Supplier - Order Detail.png" height="400"/>
+<img src="../assets/chapter-4/Supplier - Orders in Progress.png" height="400"/>
+<img src="../assets/chapter-4/Supplier - Reports.png" height="400"/>
+<img src="../assets/chapter-4/Supplier- Profile Settings.png" height="800"/>
 
-<img src="../assets/chapter-4/mockup-principal-proveedor.PNG" height="600"/>
+**Mock ups del comprador**
+
+En esta sección se presentan los mock-ups de alta fidelidad para la aplicación web orientada al segmento de Empresas Solicitantes de Combustible (representado por nuestro User Persona, Carlos Ramírez Torres). El diseño ha sido elaborado utilizando Figma, tomando como base el Sistema de Diseño del proyecto. El enfoque principal para este perfil es simplificar la creación de solicitudes, centralizar la información de los equipos y ofrecer una trazabilidad absoluta de las entregas.
+
+<img src="../assets/chapter-4/Buyer - Create Request.png" height="400"/>
+<img src="../assets/chapter-4/Buyer - Dashboard.png" height="400"/>
+<img src="../assets/chapter-4/Buyer - Equipment View.png" height="400"/>
+<img src="../assets/chapter-4/Buyer - Profile Settings.png" height="400"/>
+<img src="../assets/chapter-4/Buyer - Reports (1).png" height="400"/>
+<img src="../assets/chapter-4/Buyer - Request Detail.png" height="400"/>
+<img src="../assets/chapter-4/Buyer - Requests List (1).png" height="400"/>
+<img src="../assets/chapter-4/Buyer - Supplier Recommendation.png" height="400"/>
+<img src="../assets/chapter-4/Buyer - Suppliers List (1).png" height="400"/>
+
+**Web Applications Mock-ups (Versión Móvil - Segmento Proveedor)**
+En esta sección se presentan los mock-ups de alta fidelidad para la versión móvil de la aplicación, diseñada bajo un enfoque de Responsive Web Design. Esta versión está optimizada para que el proveedor pueda gestionar la operativa logística desde dispositivos móviles con la misma eficiencia que en la versión de escritorio, facilitando el monitoreo en campo.
+
+<img src="../assets/chapter-4/Supplier_Dashboard.png" height="400"/>
+
+<img src="../assets/chapter-4/Plantilla_1.png" height="400"/>
+
+<img src="../assets/chapter-4/Supplier_2.png" height="400"/>
+
+<img src="../assets/chapter-4/Supplier_3.png" height="400"/>
+
+<img src="../assets/chapter-4/Plantilla_4.png" height="400"/>
+
+<img src="../assets/chapter-4/Plantilla_5.png" height="400"/>
+
+<img src="../assets/chapter-4/Plantilla_6.png" height="400"/>
+
+<img src="../assets/chapter-4/Plantilla_7.png" height="400"/>
+
+<img src="../assets/chapter-4/Plantilla_8.png" height="400"/>
+
+<img src="../assets/chapter-4/ultima_mockup.png" height="400"/>
+
+
+**Web Applications Mock-ups (Versión Móvil - Segmento Comprador)**
+En esta sección se presentan los mock-ups de alta fidelidad para la versión móvil de la aplicación web dirigida a las Empresas Solicitantes (User Persona: Carlos Ramírez Torres). Aplicando el principio de Mobile-First y Responsive Web Design, esta interfaz está pensada para un usuario que frecuentemente se encuentra en campo (ej. obras de construcción o plantas industriales) y necesita solicitar combustible o verificar el estado de una entrega de forma rápida desde su smartphone.
+
+<img src="../assets/chapter-4/Plantilla_Buyer_1.png" height="400"/>
+
+<img src="../assets/chapter-4/Buyer-Dashboard.png" height="400"/>
+
+<img src="../assets/chapter-4/Plantilla_Buyer_2.png" height="400"/>
+
+<img src="../assets/chapter-4/Report-buyer.png" height="400"/>
+
+<img src="../assets/chapter-4/Buyer-Requests.png" height="400"/>
+
+<img src="../assets/chapter-4/Buyer-Request Detail.png" height="400"/>
+
+<img src="../assets/chapter-4/Suppliers_Sections.png" height="400"/>
+
+<img src="../assets/chapter-4/Buyer-Create Request.png" height="400"/>
+
 
 ### 4.4.4 Web Applications User Flow Diagrams
 
@@ -581,8 +831,16 @@ User Persona: Solicitante.
 Happy Path
 En esta ruta esperada, el flujo representa la funcionalidad principal del sistema. El usuario (Solicitante), habiendo iniciado sesión, se encuentra en su Dashboard o panel principal. Desde allí, selecciona la opción para "Crear Nuevo Pedido". El sistema le presenta un formulario donde ingresa los datos requeridos (tipo de combustible, cantidad en galones, y dirección o tanque de destino). Al completar correctamente la información y hacer clic en "Enviar Pedido" (o "Registrar"), el sistema procesa la solicitud, la guarda en la base de datos con un estado inicial de "Pendiente" y redirige al usuario a una pantalla de confirmación de éxito o al listado de sus pedidos recientes.
 
+<div align="center">
+<img src="../assets/chapter-4/User Goal 4 - HappyPath.png" height="150"/>
+</div>
+
 Unhappy Paths
 Estas rutas alternas ocurren cuando el usuario comete errores al intentar registrar su solicitud de combustible, lo que impide que el pedido se envíe al proveedor. Esto puede suceder si el usuario deja campos obligatorios vacíos (como olvidar seleccionar el tipo de combustible) o si ingresa valores inválidos (por ejemplo, una cantidad de galones igual o menor a cero, o que exceda el límite permitido por el sistema). Al intentar enviar el formulario con estas inconsistencias, el sistema bloquea la acción, permanece en la vista del formulario y resalta los campos afectados con mensajes de advertencia, indicando al usuario que debe corregir las cantidades o completar la información para poder continuar.
+
+<div align="center">
+<img src="../assets/chapter-4/User Goal 4 - UnHappyPath.png" height="150"/>
+</div>
 
 User Goal 5: El usuario proveedor desea revisar un pedido pendiente y aprobarlo tras validar que los depósitos realizados a sus cuentas bancarias cubren el monto total.
 
@@ -591,8 +849,16 @@ User Persona: Proveedor.
 Happy Path
 En esta ruta esperada, el flujo se ejecuta desde la perspectiva de la administración del negocio. El usuario (Proveedor) inicia en su Dashboard y accede a la sección de "Pedidos Pendientes". Selecciona un pedido específico de la lista para acceder a sus detalles completos. Allí, el proveedor verifica que el solicitante haya registrado correctamente la información del pago y que los depósitos cubran el costo total del combustible solicitado. Al validar esta información, el usuario presiona el botón "Aprobar Pedido". El sistema procesa la acción, cambia el estado del pedido a "Aprobado" y muestra una notificación de éxito, devolviendo al usuario al listado actualizado.
 
+<div align="center">
+<img src="../assets/chapter-4/User Goal 5 - HappyPath.png" height="150"/>
+</div>
+
 Unhappy Paths
 Estas rutas alternas se presentan cuando las condiciones financieras del pedido no se cumplen. El proveedor revisa los detalles del pedido, pero identifica que los depósitos registrados por el solicitante son inválidos, inexistentes o el monto ingresado es insuficiente para cubrir la totalidad del pedido. Si el proveedor intenta hacer clic en "Aprobar" bajo estas condiciones (o selecciona una opción explícita de "Rechazar/Observar"), el sistema bloquea el cambio a estado "Aprobado". En su lugar, se despliega una alerta visual o un mensaje de error indicando que el pedido no cuenta con el pago completo, manteniendo el estado en pendiente o pausado hasta que el cliente regularice la situación.
+
+<div align="center">
+<img src="../assets/chapter-4/User Goal 5 - UnHappyPath.png" height="150"/>
+</div>
 
 ## 4.5 Web Applications Prototyping
 
@@ -698,7 +964,6 @@ Esto permite completar las tareas principales de manera eficiente dentro de la p
 ![Prototype](../assets/chapter-4/prototype.png)
 
 Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQD-R7UX2DcKRJNLtZjqQtj5ASvmAemq4_ar5XNntIFluHs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=qn4iaM
-
 
 ## 4.6 Domain-Driven Software Architecture
 ### 4.6.1 Design-Level Event Storming
