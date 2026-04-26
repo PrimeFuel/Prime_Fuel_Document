@@ -24,12 +24,14 @@
 
 ### Software Deployment
 
-- **Vercel**: Servicio de hosting utilizado para el despliegue de la landing page del proyecto.
+- **Github Pages**: Servicio de hosting utilizado para el despliegue de la landing page del proyecto.
 
 ### Software Documentation
 
 - **Structurizr**: Plataforma empleada para la creación de diagramas C4, permitiendo representar visualmente la arquitectura del software en distintos niveles de abstracción.
 - **GitHub**: Plataforma utilizada para la gestión de repositorios de código y documentación del proyecto, incluyendo la landing page, el frontend, el backend y los documentos técnicos, facilitando el trabajo colaborativo y el control de versiones.
+- **Vertabelo**: Herramienta especializada en el modelado de bases de datos, utilizada para diseñar diagramas entidad-relación (ERD), permitiendo estructurar de manera clara y eficiente la arquitectura de datos del sistema.
+- **Trello**: Herramienta de gestión ágil utilizada para la organización del Product Backlog y Sprint Backlog, permitiendo priorizar tareas, hacer seguimiento del progreso y coordinar el trabajo del equipo de manera colaborativa.
 
 
 ### 5.1.2. Source Code Management.
@@ -88,7 +90,7 @@ Tecnologías utilizadas:
 
 #### Estrategia de Deployment
 
-- Vercel Cloud
+- Github Pages
 - Repositorio principal en GitHub
 
 Flujo Gitflow:
