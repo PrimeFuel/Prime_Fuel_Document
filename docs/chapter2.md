@@ -502,7 +502,8 @@ Esta estructura temporal nos ayudó a identificar claramente las áreas crítica
 
 ## 2.5 Ubiquitous Language
 
-In this project, whose main objective is to improve efficiency, traceability, and communication in the management and distribution of fuel through a web platform, the following ubiquitous language has been defined to ensure clarity and consistency among users, developers, and stakeholders:
+En este proyecto, cuyo objetivo principal es mejorar la eficiencia, la trazabilidad y la comunicación en la gestión y distribución de combustible a través de una plataforma web, se ha definido el siguiente lenguaje común para garantizar la claridad y la coherencia entre usuarios, desarrolladores y partes interesadas:
+
 
 <table border="1">
   <thead>
@@ -579,10 +580,12 @@ In this project, whose main objective is to improve efficiency, traceability, an
   </tbody>
 </table>
 
-Expected benefits of the ubiquitous language:
+Beneficios esperados del lenguaje común:
 
-- Facilitates communication among developers, users, and system stakeholders.
-- Improves understanding of the system's core processes and functionalities.
-- Reduces ambiguity and misinterpretation during design and development.
-- Ensures consistency across documentation, interfaces, and implementation.
+- Facilita la comunicación entre desarrolladores, usuarios y partes interesadas del sistema.
 
+- Mejora la comprensión de los procesos y funcionalidades principales del sistema.
+
+- Reduce la ambigüedad y las malas interpretaciones durante el diseño y el desarrollo.
+
+- Garantiza la coherencia en la documentación, las interfaces y la implementación.
