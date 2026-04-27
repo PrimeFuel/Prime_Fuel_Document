@@ -717,7 +717,7 @@ En esta sección se presentan los mock-ups de alta fidelidad para la aplicación
 <img src="../assets/chapter-4/Buyer - Request Detail.png" height="400"/>
 <img src="../assets/chapter-4/Buyer - Requests List (1).png" height="400"/>
 <img src="../assets/chapter-4/Buyer - Supplier Recommendation.png" height="400"/>
-<img src="../assets/chapter-4/Buyer - Suppliers List (1).png" height="400"/>
+<img src="../assets/chapter-4/Buyer - Suppliers List (1).png" height="400"/> 
 
 **Web Applications Mock-ups (Versión Móvil - Segmento Proveedor)**
 En esta sección se presentan los mock-ups de alta fidelidad para la versión móvil de la aplicación, diseñada bajo un enfoque de Responsive Web Design. Esta versión está optimizada para que el proveedor pueda gestionar la operativa logística desde dispositivos móviles con la misma eficiencia que en la versión de escritorio, facilitando el monitoreo en campo.
