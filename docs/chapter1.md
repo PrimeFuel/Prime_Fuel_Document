@@ -52,6 +52,14 @@
       <td>Ingeniería de Software</td>
       <td>Estudiante de la carrera de Ingeniería de Software en la UPC. Actualmente cuento con conocimientos en lenguajes de programación como C + + y manejo de Java. Considero que mis mayores virtudes son: la responsabilidad, capacidad de adaptarme, trabajar en equipo y la resiliencia.</td>
     </tr>
+    <tr>
+      <td><img src="../assets/chapter-1/brayan.png" alt="Brayan Alexis Corvacho Damian" width="80"></td>
+      <td>Brayan Alexis Corvacho Damian</td>
+      <td>u20231a257</td>
+      <td>Ingeniería de Software</td>
+      <td>Estudiante de Ingeniería de Software en la UPC. Poseo conocimientos sólidos en Python, JavaScript y desarrollo web. Me apasiona la resolución de problemas algorítmicos y el trabajo en equipo para crear soluciones innovadoras.</td>
+    </tr>
+    
   </tbody>
 </table>
 
