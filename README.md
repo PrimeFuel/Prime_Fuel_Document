@@ -3,8 +3,8 @@
   <h2>Informe de Trabajo Final</h2>
   <p><strong>Universidad:</strong> Universidad Peruana de Ciencias Aplicadas</p>
   <p><strong>Ciclo:</strong> 2026-10</p>
-  <p><strong>Curso:</strong> Desarrollo de Aplicaciones Open Source</p>
-  <p><strong>Sección:</strong> 1ASI0729-2610-11959</p>
+  <p><strong>Curso:</strong> 1ASI0729-2610 Desarrollo de Aplicaciones Open Source</p>
+  <p><strong>Sección:</strong> 11959</p>
   <p><strong>Profesor:</strong> Hugo Allan Mori Paiva</p>
 </div>
 
