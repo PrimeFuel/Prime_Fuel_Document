@@ -73,28 +73,6 @@
   <td><b>Escenario 1: Cambiar idioma a español</b><br/>Dado que el visitante de ambos segmentos está viendo la página en inglés,<br/>Cuando selecciona la opción de español,<br/>Entonces toda la interfaz de la página se muestra en español.<br/><br/><b>Escenario 2: Cambiar idioma a inglés</b><br/>Dado que el visitante está viendo la página en español,<br/>Cuando selecciona la opción de inglés,<br/>Entonces toda la interfaz de la página se muestra en inglés.</td>
   <td>EP01</td>
 </tr>
-<tr>
-  <td>US-46</td>
-  <td>Ver sección Planes y Precios</td>
-  <td>Como visitante de ambos segmentos, quiero conocer los planes disponibles para evaluar qué opción se adapta mejor a mi empresa.</td>
-  <td><b>Escenario 1: Visualización de planes</b><br/>Dado que el visitante accede a la sección de Planes y Precios,<br/>Cuando se carga el contenido,<br/>Entonces puede ver los diferentes planes con sus precios y características incluidas.<br/><br/><b>Escenario 2: Selección de plan y redirección</b><br/>Dado que el visitante está interesado en un plan específico,<br/>Cuando hace clic en el call to action del plan,<br/>Entonces es redirigido a la página de registro.<br/><br/><b>Escenario 3: Visualización en móvil</b><br/>Dado que el visitante accede desde un dispositivo móvil,<br/>Cuando carga la sección,<br/>Entonces los planes se muestran de forma legible y adaptada a la pantalla.</td>
-  <td>EP01</td>
-</tr>
-<tr>
-  <td>US-47</td>
-  <td>Ver sección Testimonios de Clientes</td>
-  <td>Como visitante de ambos segmentos, quiero leer testimonios de empresas que ya usan TankMaster para generar confianza antes de registrarme.</td>
-  <td><b>Escenario 1: Visualización de testimonios</b><br/>Dado que el visitante accede a la sección de testimonios,<br/>Cuando se carga el contenido,<br/>Entonces puede leer experiencias de empresas que usan TankMaster.<br/><br/><b>Escenario 2: Testimonios actualizados</b><br/>Dado que la sección se actualiza regularmente,<br/>Cuando el visitante la carga,<br/>Entonces visualiza los testimonios más recientes disponibles.<br/><br/><b>Escenario 3: Error de carga</b><br/>Dado que ocurre un error al cargar los testimonios,<br/>Cuando el visitante accede a la sección,<br/>Entonces se muestra un mensaje genérico de error sin romper la navegación.</td>
-  <td>EP01</td>
-</tr>
-<tr>
-  <td>US-48</td>
-  <td>Cambiar idioma de la plataforma</td>
-  <td>Como visitante de ambos segmentos, quiero cambiar entre español e inglés para usar la plataforma en mi idioma preferido.</td>
-  <td><b>Escenario 1: Cambiar a inglés</b><br/>Dado que el visitante navega la web en español,<br/>Cuando selecciona la opción de inglés,<br/>Entonces toda la interfaz se muestra en inglés.<br/><br/><b>Escenario 2: Cambiar a español</b><br/>Dado que el visitante navega en inglés,<br/>Cuando selecciona la opción de español,<br/>Entonces toda la interfaz se muestra en español.<br/><br/><b>Escenario 3: Persistencia del idioma</b><br/>Dado que el visitante cambia el idioma y navega a otra sección,<br/>Cuando regresa a la sección anterior,<br/>Entonces el idioma seleccionado se mantiene activo.</td>
-  <td>EP01</td>
-</tr>
-
 <!-- EP02 -->
 <tr>
   <td colspan="5"><b>EP02 — Gestión de Pedidos (Solicitante):</b> Como solicitante, quiero gestionar mis pedidos de combustible para registrarlos, consultarlos, confirmarlos y llevar mi historial.</td>
@@ -325,21 +303,6 @@
   <td><b>Escenario 1: Visualización de datos de contacto</b><br/>Dado que el usuario accede a la sección de soporte,<br/>Cuando se carga la página,<br/>Entonces puede visualizar claramente el correo de soporte y número telefónico.<br/><br/><b>Escenario 2: Acceso al correo de cliente</b><br/>Dado que el usuario hace clic en la dirección de correo,<br/>Cuando tiene una app de correo configurada,<br/>Entonces se abre automáticamente su aplicación de correo predeterminada.<br/><br/><b>Escenario 3: Falla en la configuración de contacto</b><br/>Dado que el usuario accede a la página y los datos de contacto no están bien configurados,<br/>Cuando se carga la sección de contacto,<br/>Entonces el sistema muestra un mensaje genérico invitando a intentar más tarde.</td>
   <td>EP10</td>
 </tr>
-<tr>
-  <td>US-49</td>
-  <td>Acceder a preguntas frecuentes</td>
-  <td>Como visitante de ambos segmentos, quiero consultar una sección de preguntas frecuentes para resolver dudas sin necesidad de contactar soporte.</td>
-  <td><b>Escenario 1: Visualización de FAQs</b><br/>Dado que el visitante accede a la sección de preguntas frecuentes,<br/>Cuando se carga el contenido,<br/>Entonces puede leer preguntas y respuestas organizadas por categorías.<br/><br/><b>Escenario 2: Búsqueda de pregunta específica</b><br/>Dado que el visitante tiene una duda puntual,<br/>Cuando escribe palabras clave en el buscador de FAQs,<br/>Entonces se filtran las preguntas relevantes.<br/><br/><b>Escenario 3: Error al cargar FAQs</b><br/>Dado que ocurre un fallo al cargar la sección,<br/>Cuando el visitante intenta acceder,<br/>Entonces se muestra un mensaje de error con opción de reintentar.</td>
-  <td>EP10</td>
-</tr>
-<tr>
-  <td>US-50</td>
-  <td>Ver información de contacto directo</td>
-  <td>Como usuario de ambos segmentos, quiero ver los datos de contacto directo de soporte para realizar consultas urgentes.</td>
-  <td><b>Escenario 1: Visualización de datos de contacto</b><br/>Dado que el usuario accede a la sección de soporte,<br/>Cuando se carga la página,<br/>Entonces puede ver claramente el correo y número telefónico de soporte.<br/><br/><b>Escenario 2: Abrir correo desde enlace</b><br/>Dado que el usuario hace clic en la dirección de correo,<br/>Cuando tiene una app de correo configurada,<br/>Entonces se abre automáticamente su aplicación de correo predeterminada.<br/><br/><b>Escenario 3: Datos de contacto no configurados</b><br/>Dado que los datos de contacto no están configurados correctamente,<br/>Cuando el usuario accede a la sección,<br/>Entonces el sistema muestra un mensaje genérico invitando a intentar más tarde.</td>
-  <td>EP10</td>
-</tr>
-
 <!-- EP11 -->
 <tr>
   <td colspan="5"><b>EP11 — Búsqueda y Filtrado:</b> Como usuario, quiero buscar y filtrar pedidos para encontrar rápidamente la información que necesito.</td>
