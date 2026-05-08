@@ -153,18 +153,16 @@ Flujo Gitflow:
     </tr>
     <tr>
         <td align="center">Sprint 1 Goal</td>
-        <td>Desarrollar una landing page funcional y visualmente clara que comunique efectivamente la propuesta de valor de TankMaster a nuestros dos segmentos clave de usuarios: proveedores de combustible y solicitantes de combustible. La página debe incluir secciones estratégicas como:<br>
-        •	Home, con un call to action para captar proveedores interesados.<br>
-        •	Are you a fuel requester?, con un call to action dirigido a potenciales solicitantes.<br>
-        •	Secciones informativas como About Us y How it works?, para explicar el funcionamiento del sistema.<br>
-        •	Secciones de validación social como Main Suppliers y Our Clients, para generar confianza mostrando empresas reales que ya usan el servicio.<br>
-        •	Una sección de contacto directo (Contact Us) para atención inmediata.<br>
-        •	Soporte de idioma bilingüe (español e inglés) para mayor accesibilidad.
+        <td>Nuestro objetivo es comunicar la propuesta de valor de FullTank a clientes y proveedores potenciales
+            mediante una página de destino funcional. Creemos que esto genera conocimiento de la marca e interés en
+            la conversión entre las empresas que solicitan combustible y los proveedores. Esto se confirmará cuando 
+            los visitantes puedan navegar por todas las secciones, cambiar de idioma y acceder al formulario de registro
+            sin errores.
         </td>
     </tr>
     <tr align="center">
         <td>Sprint 1 Velocity</td>
-        <td>12</td>
+        <td>17</td>
     </tr>
     <tr align="center">
         <td>Sum of Story Point</td>
@@ -243,7 +241,7 @@ Flujo Gitflow:
         <td>Ver sección Home</td>
         <td>W-01</td>
         <td>Sección Home</td>
-        <td>Como visitante (proveedor), quiero ver una sección de inicio que resuma el valor de TankMaster para comprender rápidamente el objetivo del sistema</td>
+        <td>Como visitante (proveedor), quiero ver una sección de inicio que resuma el valor de FullTank para comprender rápidamente el objetivo del sistema</td>
         <td>5 horas</td>
         <td>Milenko</td>
         <td>Done</td>
@@ -253,7 +251,7 @@ Flujo Gitflow:
         <td>Ver sección About Us</td>
         <td>W-02</td>
         <td>Sección About Us</td>
-        <td>Como visitante de ambos segmentos, quiero conocer quiénes están detrás de TankMaster para confiar en el sistema</td>
+        <td>Como visitante de ambos segmentos, quiero conocer quiénes están detrás de FullTank para confiar en el sistema</td>
         <td>4 horas</td>
         <td>Alberto</td>
         <td>Done</td>
@@ -263,7 +261,7 @@ Flujo Gitflow:
         <td>Ver sección How it Works?</td>
         <td>W-03</td>
         <td>Sección How it works?</td>
-        <td>Como visitante de ambos segmentos, quiero entender cómo funciona TankMaster paso a paso para evaluar si se ajusta a mis necesidades</td>
+        <td>Como visitante de ambos segmentos, quiero entender cómo funciona FullTank paso a paso para evaluar si se ajusta a mis necesidades</td>
         <td>5 horas</td>
         <td>Jose</td>
         <td>Done</td>
@@ -283,7 +281,7 @@ Flujo Gitflow:
         <td>Ver sección Lo que Dicen Nuestros Clientes</td>
         <td>W-05</td>
         <td>Sección Testimonios</td>
-        <td>Como visitante de ambos segmentos, quiero conocer los testimonios de los usuarios de TankMaster para tener confianza en la plataforma y saber que otras empresas ya la están usando.</td>
+        <td>Como visitante de ambos segmentos, quiero conocer los testimonios de los usuarios de FullTank para tener confianza en la plataforma y saber que otras empresas ya la están usando.</td>
         <td>6 horas</td>
         <td>Alberto</td>
         <td>Done</td>
@@ -322,7 +320,7 @@ Flujo Gitflow:
 
 #### 5.2.1.4. Development Evidence for Sprint Review.
 
-Durante el Sprint 1, nuestro equipo culminó la implementación de la Landing Page de TankMaster, cumpliendo con las User Stories priorizadas. Se trabajó en la maquetación de las secciones principales, implementación de estilos CSS, diseño responsive para diferentes dispositivos y subida de los cambios al repositorio grupal. Los commits fueron realizados en la rama main, cada uno agregando una sección de la Landing Page
+Durante el Sprint 1, nuestro equipo culminó la implementación de la Landing Page de FullTank, cumpliendo con las User Stories priorizadas. Se trabajó en la maquetación de las secciones principales, implementación de estilos CSS, diseño responsive para diferentes dispositivos y subida de los cambios al repositorio grupal. Los commits fueron realizados en la rama main, cada uno agregando una sección de la Landing Page
 
 <table border>
   <thead>
@@ -337,15 +335,15 @@ Durante el Sprint 1, nuestro equipo culminó la implementación de la Landing Pa
   </thead>
 <tbody>
   <tr>
-    <td>PrimeFuel/TankMaster_LandingPage</td>
+    <td>PrimeFuel/FullTank_LandingPage</td>
     <td>main</td>
     <td>5596c00</td>
     <td>feat: add initial landing page structure for FullTank web platform</td>
     <td>-</td>
-    <td>24/04/2025</td>
+    <td>24/04/2026</td>
   </tr>
   <tr>
-    <td>PrimeFuel/TankMaster_LandingPage</td>
+    <td>PrimeFuel/FullTank_LandingPage</td>
     <td>main</td>
     <td>6c22e93</td>
     <td>feat: implement landing page interactivity including navigation, scroll effects, FAQ accordion, and animations</td>
@@ -353,7 +351,7 @@ Durante el Sprint 1, nuestro equipo culminó la implementación de la Landing Pa
     <td>24/04/2026</td>
   </tr>
   <tr>
-    <td>PrimeFuel/TankMaster_LandingPage</td>
+    <td>PrimeFuel/FullTank_LandingPage</td>
     <td>main</td>
     <td>02df602</td>
     <td>feat: add styles for metrics, FAQ accordion, step cards, and responsive navbar components</td>
@@ -361,7 +359,7 @@ Durante el Sprint 1, nuestro equipo culminó la implementación de la Landing Pa
     <td>24/04/2026</td>
   </tr>
   <tr>
-    <td>PrimeFuel/TankMaster_LandingPage</td>
+    <td>PrimeFuel/FullTank_LandingPage</td>
     <td>main</td>
     <td>25bd1bf</td>
     <td>feat: add styling for testimonials, pricing, FAQ, footer, about, and team sections</td>
@@ -369,7 +367,7 @@ Durante el Sprint 1, nuestro equipo culminó la implementación de la Landing Pa
     <td>24/04/2026</td>
   </tr>
   <tr>
-    <td>PrimeFuel/TankMaster_LandingPage</td>
+    <td>PrimeFuel/FullTank_LandingPage</td>
     <td>feat/about us</td>
     <td>0408f5d</td>
     <td>docs: improved the spelling</td>
@@ -377,7 +375,7 @@ Durante el Sprint 1, nuestro equipo culminó la implementación de la Landing Pa
     <td>25/04/2026</td>
   </tr>
   <tr>
-    <td>PrimeFuel/TankMaster_LandingPage</td>
+    <td>PrimeFuel/FullTank_LandingPage</td>
     <td>feat/about us</td>
     <td>389615f</td>
     <td>docs: added images file</td>
@@ -385,7 +383,7 @@ Durante el Sprint 1, nuestro equipo culminó la implementación de la Landing Pa
     <td>25/04/2026</td>
   </tr>
   <tr>
-    <td>PrimeFuel/TankMaster_LandingPage</td>
+    <td>PrimeFuel/FullTank_LandingPage</td>
     <td>main</td>
     <td>771e406</td>
     <td>add team profiles and about-the-team video section</td>
@@ -393,7 +391,7 @@ Durante el Sprint 1, nuestro equipo culminó la implementación de la Landing Pa
     <td>25/04/2026</td>
   </tr>
   <tr>
-    <td>PrimeFuel/TankMaster_LandingPage</td>
+    <td>PrimeFuel/FullTank_LandingPage</td>
     <td>main</td>
     <td>68e2115</td>
     <td>docs: fix landing page text</td>
@@ -401,15 +399,15 @@ Durante el Sprint 1, nuestro equipo culminó la implementación de la Landing Pa
     <td>25/04/2026</td>
   </tr>
   <tr>
-    <td>PrimeFuel/TankMaster_LandingPage</td>
+    <td>PrimeFuel/FullTank_LandingPage</td>
     <td>main</td>
     <td>3ce5d9d</td>
     <td>feat(about the product): add stakeholder video for the future</td>
     <td>-</td>
-    <td>26/04/2025</td>
+    <td>26/04/2026</td>
   </tr>
   <tr>
-    <td>PrimeFuel/TankMaster_LandingPage</td>
+    <td>PrimeFuel/FullTank_LandingPage</td>
     <td>main</td>
     <td>d6c516c</td>
     <td>fix(english switched): everything is now translated to english</td>
@@ -417,7 +415,7 @@ Durante el Sprint 1, nuestro equipo culminó la implementación de la Landing Pa
     <td>26/04/2026</td>
   </tr>
   <tr>
-    <td>PrimeFuel/TankMaster_LandingPage</td>
+    <td>PrimeFuel/FullTank_LandingPage</td>
     <td>main</td>
     <td>bc61806</td>
     <td>fix(responsive design):responsive design corrected</td>
@@ -425,7 +423,7 @@ Durante el Sprint 1, nuestro equipo culminó la implementación de la Landing Pa
     <td>26/04/2026</td>
   </tr>
   <tr>
-    <td>PrimeFuel/TankMaster_LandingPage</td>
+    <td>PrimeFuel/FullTank_LandingPage</td>
     <td>main</td>
     <td>bae9d2d</td>
     <td>fix(main.js): minor translation problems solved</td>
@@ -439,7 +437,7 @@ Durante el Sprint 1, nuestro equipo culminó la implementación de la Landing Pa
 #### 5.2.1.5. Execution Evidence for Sprint Review.
 
 En el sprint 1 se diseñó el primer modelo de la landing page. Esta cuenta con diferentes secciones para acceso de los usuarios. Algunas evidencias son:
-- **Home:** Presenta de manera rápida el propósito y valor de TankMaster para captar la atención del visitante.
+- **Home:** Presenta de manera rápida el propósito y valor de FullTank para captar la atención del visitante.
 ![Home](../assets/chapter-5/HomeLandingPage.png)
 
 - **About Us:** Explica quiénes somos y nuestra misión para generar confianza.
@@ -447,13 +445,13 @@ En el sprint 1 se diseñó el primer modelo de la landing page. Esta cuenta con 
 ![About Us 2](../assets/chapter-5/AboutUs2LandingPage2.png)
 ![About Us 3](../assets/chapter-5/AboutUs3LandingPage.png)
 
-- **Benefits:** Explica los beneficios de implementar TankMaster en el área logística de la empresa.
+- **Benefits:** Explica los beneficios de implementar FullTank en el área logística de la empresa.
 ![Benefits](../assets/chapter-5/BenefitsLandingPage.png)
 
-- **How it works?:** Describe de forma sencilla y visual el funcionamiento de TankMaster paso a paso.
+- **How it works?:** Describe de forma sencilla y visual el funcionamiento de FullTank paso a paso.
 ![How it works?](../assets/chapter-5/HowItWorksLandingPage.png)
 
-- **Testimonials:** Muestra algunas de las empresas o usuarios que confían en TankMaster como referencia de credibilidad.
+- **Testimonials:** Muestra algunas de las empresas o usuarios que confían en FullTank como referencia de credibilidad.
 ![Testimonials](../assets/chapter-5/TestimonialsLandingPage.png)
 
 - **Pricing:** Propone planes y precios que puedan acomodarse a las necesidades del usuario.
@@ -464,13 +462,13 @@ En el sprint 1 se diseñó el primer modelo de la landing page. Esta cuenta con 
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
-Durante el Sprint 1, el equipo se enfocó en el desarrollo del Landing Page de TankMaster, por lo cual no se implementaron ni documentaron endpoints relacionados a Web Services. Los trabajos de desarrollo backend, integración de API y documentación con OpenAPI están planificados para Sprints posteriores.
+Durante el Sprint 1, el equipo se enfocó en el desarrollo del Landing Page de FullTank, por lo cual no se implementaron ni documentaron endpoints relacionados a Web Services. Los trabajos de desarrollo backend, integración de API y documentación con OpenAPI están planificados para Sprints posteriores.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
 <p>
     <strong>Resumen:</strong><br>
-    El despliegue inicial de la Landing Page de TankMaster fue realizado exitosamente utilizando Vercel.
+    El despliegue inicial de la Landing Page de FullTank fue realizado exitosamente utilizando Vercel.
 </p>
 
 <h4>Detalles del Despliegue:</h4>
