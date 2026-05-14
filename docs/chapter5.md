@@ -196,7 +196,7 @@ Flujo Gitflow:
     </tr>
     <tr>
       <td>Diego Fernando Herrera Enriquez</td>
-      <td>TheBlackunityrogue</td>
+      <td>DerDFHE</td>
       <td>C</td>
       <td>C</td>
     </tr>
@@ -502,3 +502,75 @@ Durante el Sprint 1, el equipo se enfocó en el desarrollo del Landing Page de F
   <li>WhatsApp (comunicación diaria y aclaraciones rápidas)</li>
   <li>Google Meet (reuniones de planificación de sprint)</li>
 </ul>
+
+### 5.2.2. Sprint 2
+#### 5.2.2.1.Sprint Planning 2
+
+
+.
+#### 5.2.2.2. Aspect Leaders and Collaborators.
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th>Team Member</th>
+      <th>GitHub Username</th>
+      <th>Landing Page</th>
+      <th>Documentation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Milenko Rubén Cayanchi Avila</td>
+      <td>MaxghZZ</td>
+      <td>L</td>
+      <td>L</td>
+    </tr>
+    <tr>
+      <td>Jose Gustavo Asto Jacome</td>
+      <td>DhudsQ</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Diego Fernando Herrera Enriquez</td>
+      <td>DerDFHE</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Alberto Alejandro Ponce Perales</td>
+      <td>aponceperales</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Brayan Alexis Corvacho Damian</td>
+      <td>BralexCD</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 5.2.2.3.Sprint Backlog 2.
+
+
+
+#### 5.2.2.4.Development Evidence for Sprint Review.
+
+
+
+#### 5.2.2.5.Execution Evidence for Sprint Review.
+
+
+
+#### 5.2.2.6.Services Documentation Evidence for Sprint Review.
+
+
+
+#### 5.2.2.7.Software Deployment Evidence for Sprint Review.
+
+
+
+#### 5.2.2.8.Team Collaboration Insights during Sprint
