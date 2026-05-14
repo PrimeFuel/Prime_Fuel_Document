@@ -13,6 +13,7 @@
     </tr>
   </thead>
   <tbody>
+
 <!-- EP01 -->
 <tr>
   <td colspan="5"><b>EP01 — Landing Page:</b> Como visitante, quiero explorar el sitio web público de FullTank para conocer el producto antes de registrarme.</td>
@@ -73,6 +74,7 @@
   <td><b>Escenario 1: Cambiar idioma a español</b><br/>Dado que el visitante de ambos segmentos está viendo la página en inglés,<br/>Cuando selecciona la opción de español,<br/>Entonces toda la interfaz de la página se muestra en español.<br/><br/><b>Escenario 2: Cambiar idioma a inglés</b><br/>Dado que el visitante está viendo la página en español,<br/>Cuando selecciona la opción de inglés,<br/>Entonces toda la interfaz de la página se muestra en inglés.</td>
   <td>EP01</td>
 </tr>
+
 <!-- EP02 -->
 <tr>
   <td colspan="5"><b>EP02 — Gestión de Pedidos (Solicitante):</b> Como solicitante, quiero gestionar mis pedidos de combustible para registrarlos, consultarlos, confirmarlos y llevar mi historial.</td>
@@ -122,7 +124,7 @@
 
 <!-- EP03 -->
 <tr>
-  <td colspan="5"><b>EP03 — Gestión de Pedidos (Proveedor):</b>  Como proveedor, quiero gestionar los pedidos recibidos para aprobarlos, rechazarlos, despacharlos y generar reportes de ventas.</td>
+  <td colspan="5"><b>EP03 — Gestión de Pedidos (Proveedor):</b> Como proveedor, quiero gestionar los pedidos recibidos para aprobarlos, rechazarlos, despacharlos y generar reportes de ventas.</td>
 </tr>
 <tr>
   <td>US-10</td>
@@ -219,30 +221,16 @@
   <td>EP05</td>
 </tr>
 <tr>
-  <td>US-19</td>
-  <td>Ver resumen de pedidos (Proveedor)</td>
-  <td>Como proveedor, quiero ver un resumen de pedidos gestionados y pendientes para organizar a los clientes.</td>
-  <td><b>Escenario 1: Visualización de KPIs con datos</b><br/>Dado que el proveedor tiene pedidos registrados,<br/>Cuando accede a su dashboard,<br/>Entonces ve KPIs de pedidos: pendientes, aprobados, rechazados, despachados y finalizados.<br/><br/><b>Escenario 2: Sin datos registrados</b><br/>Dado que no hay pedidos registrados,<br/>Cuando se carga el dashboard,<br/>Entonces los KPIs se muestran con valor cero y un mensaje informativo.<br/><br/><b>Escenario 3: Fallo en la carga del resumen</b><br/>Dado que el proveedor accede al dashboard,<br/>Cuando hay un error de conexión,<br/>Entonces se muestra una alerta con opción para reintentar.</td>
+  <td>US-47</td>
+  <td>Ver Dashboard principal del proveedor</td>
+  <td>Como proveedor, quiero acceder a un panel principal con KPIs de operación y un gráfico de tendencia de ventas para tener visibilidad en tiempo real del estado de mi negocio.</td>
+  <td><b>Escenario 1: Visualización de KPIs y gráfico de tendencia</b><br/>Dado que el proveedor accede al dashboard principal,<br/>Cuando se cargan los datos del periodo activo,<br/>Entonces visualiza las tarjetas de KPIs (combustible total vendido, pedidos pendientes) y un gráfico de tendencia con opción de filtrar por vista diaria, semanal o mensual.<br/><br/><b>Escenario 2: Navegación desde el dashboard hacia otras secciones</b><br/>Dado que el proveedor revisa el panel principal y desea profundizar en un indicador,<br/>Cuando selecciona el acceso directo a pedidos activos o al módulo de reportes,<br/>Entonces es redirigido a la vista correspondiente sin perder el contexto de sesión.</td>
   <td>EP05</td>
 </tr>
 
 <!-- EP08 -->
 <tr>
-  <td colspan="5"><b>EP08 — Logística y Despacho:</b>  Como proveedor, quiero gestionar mi flota de vehículos y conductores para asignarlos correctamente a cada despacho.</td>
-</tr>
-<tr>
-  <td>US-20</td>
-  <td>Asignar vehículo a pedido</td>
-  <td>Como proveedor, quiero asignar un vehículo a un pedido aprobado para organizar la logística.</td>
-  <td><b>Escenario 1: Asignación válida</b><br/>Dado que el proveedor tiene un pedido aprobado y un vehículo libre disponible,<br/>Cuando selecciona el vehículo para asignarlo,<br/>Entonces queda asignado correctamente al pedido.<br/><br/><b>Escenario 2: Vehículo ocupado</b><br/>Dado que el proveedor intenta asignar un vehículo que ya está ocupado,<br/>Cuando realiza la acción,<br/>Entonces el sistema muestra un mensaje indicando que el vehículo no está disponible.<br/><br/><b>Escenario 3: Falla durante la asignación</b><br/>Dado que el proveedor intenta asignar un vehículo y ocurre un error en el backend,<br/>Cuando se ejecuta la asignación,<br/>Entonces se muestra un mensaje de error y no se vincula ningún vehículo.</td>
-  <td>EP08</td>
-</tr>
-<tr>
-  <td>US-21</td>
-  <td>Asignar conductor a pedido</td>
-  <td>Como proveedor, quiero asignar un conductor para completar la información de despacho.</td>
-  <td><b>Escenario 1: Conductor disponible</b><br/>Dado que el proveedor tiene un pedido con vehículo asignado y el conductor está libre,<br/>Cuando selecciona al conductor,<br/>Entonces este se vincula correctamente al pedido.<br/><br/><b>Escenario 2: Conductor ya asignado en misma franja horaria</b><br/>Dado que el conductor está asignado a otro pedido en el mismo horario,<br/>Cuando se intenta asignarlo,<br/>Entonces el sistema bloquea la acción y muestra un mensaje de conflicto.<br/><br/><b>Escenario 3: Error al guardar</b><br/>Dado que el proveedor intenta guardar la asignación y ocurre una falla técnica,<br/>Cuando realiza la acción,<br/>Entonces se muestra un mensaje de error y no se realiza el vínculo.</td>
-  <td>EP08</td>
+  <td colspan="5"><b>EP08 — Logística y Despacho:</b> Como proveedor, quiero gestionar mi flota de vehículos y conductores para asignarlos correctamente a cada despacho.</td>
 </tr>
 <tr>
   <td>US-22</td>
@@ -263,6 +251,13 @@
   <td>Gestionar conductores</td>
   <td>Como proveedor, quiero registrar y administrar los conductores de mi empresa para asignarlos correctamente a los despachos.</td>
   <td><b>Escenario 1: Registro exitoso de conductor</b><br/>Dado que el proveedor completa los datos del conductor (nombre, DNI, licencia),<br/>Cuando guarda el registro,<br/>Entonces el conductor queda disponible para ser asignado a pedidos.<br/><br/><b>Escenario 2: DNI duplicado</b><br/>Dado que el proveedor intenta registrar un conductor con un DNI ya existente,<br/>Cuando intenta guardar,<br/>Entonces el sistema notifica que el conductor ya está registrado.<br/><br/><b>Escenario 3: Edición de datos de conductor</b><br/>Dado que el proveedor actualiza los datos de un conductor existente,<br/>Cuando guarda los cambios,<br/>Entonces la información se actualiza correctamente en el sistema.</td>
+  <td>EP08</td>
+</tr>
+<tr>
+  <td>US-49</td>
+  <td>Asignar recursos a despacho</td>
+  <td>Como proveedor, quiero asignar un vehículo y un conductor a un pedido aprobado en una sola operación para agilizar la preparación del despacho.</td>
+  <td><b>Escenario 1: Asignación exitosa de recursos al despacho</b><br/>Dado que el proveedor selecciona un pedido aprobado y elige un vehículo y conductor disponibles,<br/>Cuando confirma la asignación,<br/>Entonces ambos recursos quedan vinculados al pedido y el despacho queda registrado con estado "Asignado".<br/><br/><b>Escenario 2: Recursos no disponibles para la fecha del pedido</b><br/>Dado que el proveedor intenta asignar recursos a un pedido y tanto el vehículo como el conductor seleccionados ya tienen compromisos en esa fecha,<br/>Cuando ejecuta la asignación,<br/>Entonces el sistema muestra cuáles recursos están en conflicto e impide completar la operación.</td>
   <td>EP08</td>
 </tr>
 
@@ -303,6 +298,7 @@
   <td><b>Escenario 1: Visualización de datos de contacto</b><br/>Dado que el usuario accede a la sección de soporte,<br/>Cuando se carga la página,<br/>Entonces puede visualizar claramente el correo de soporte y número telefónico.<br/><br/><b>Escenario 2: Acceso al correo de cliente</b><br/>Dado que el usuario hace clic en la dirección de correo,<br/>Cuando tiene una app de correo configurada,<br/>Entonces se abre automáticamente su aplicación de correo predeterminada.<br/><br/><b>Escenario 3: Falla en la configuración de contacto</b><br/>Dado que el usuario accede a la página y los datos de contacto no están bien configurados,<br/>Cuando se carga la sección de contacto,<br/>Entonces el sistema muestra un mensaje genérico invitando a intentar más tarde.</td>
   <td>EP10</td>
 </tr>
+
 <!-- EP11 -->
 <tr>
   <td colspan="5"><b>EP11 — Búsqueda y Filtrado:</b> Como usuario, quiero buscar y filtrar pedidos para encontrar rápidamente la información que necesito.</td>
@@ -343,7 +339,7 @@
 
 <!-- EP13 -->
 <tr>
-  <td colspan="5"><b>EP13 — Gestión de Clientes (Proveedor):</b>Como proveedor, quiero ver el listado y detalle de mis clientes para analizar su historial y frecuencia de pedidos.</td>
+  <td colspan="5"><b>EP13 — Gestión de Clientes (Proveedor):</b> Como proveedor, quiero ver el listado y detalle de mis clientes para analizar su historial y frecuencia de pedidos.</td>
 </tr>
 <tr>
   <td>US-31</td>
@@ -384,6 +380,25 @@
   <td>Como usuario de ambos segmentos, quiero descargar un resumen de pedidos o ventas en formato PDF para archivarlo o compartirlo.</td>
   <td><b>Escenario 1: Generación de PDF con datos</b><br/>Dado que el usuario hace clic en "Descargar",<br/>Cuando hay datos en el periodo seleccionado,<br/>Entonces se genera un archivo PDF descargable.<br/><br/><b>Escenario 2: No hay datos en el periodo seleccionado</b><br/>Dado que el usuario no tiene registros en el periodo seleccionado,<br/>Cuando se solicita la descarga,<br/>Entonces el sistema notifica que no hay contenido para exportar.<br/><br/><b>Escenario 3: Falla en la generación del PDF</b><br/>Dado que el usuario intenta descargar el archivo y ocurre un error en el backend al generar el PDF,<br/>Cuando hace clic en el botón de descargar,<br/>Entonces se muestra un mensaje de error sin afectar la sesión.</td>
   <td>EP14</td>
+</tr>
+<tr>
+  <td>US-48</td>
+  <td>Ver distribución de ventas por sector</td>
+  <td>Como proveedor, quiero ver la distribución de mis ventas por sector industrial para identificar cuáles son mis clientes más relevantes por rubro.</td>
+  <td><b>Escenario 1: Visualización de distribución con datos disponibles</b><br/>Dado que el proveedor accede al módulo de reportes de clientes,<br/>Cuando existen ventas registradas en más de un sector industrial,<br/>Entonces el sistema muestra un gráfico de barras con el volumen y porcentaje de participación por sector.<br/><br/><b>Escenario 2: Sin distribución por sector disponible</b><br/>Dado que el proveedor aún no tiene ventas registradas o todos sus clientes pertenecen al mismo sector,<br/>Cuando accede a la sección de distribución,<br/>Entonces el sistema muestra un mensaje indicando que no hay datos suficientes para mostrar la distribución.</td>
+  <td>EP14</td>
+</tr>
+
+<!-- EP15 -->
+<tr>
+  <td colspan="5"><b>EP15 — Gestión de Inventario (Proveedor):</b> Como proveedor, quiero administrar mi catálogo de productos de combustible para mantenerlo actualizado y disponible en la plataforma.</td>
+</tr>
+<tr>
+  <td>US-46</td>
+  <td>Gestionar inventario de combustibles</td>
+  <td>Como proveedor, quiero registrar, editar y eliminar los productos de combustible de mi catálogo para que estén disponibles como opciones al crear un pedido.</td>
+  <td><b>Escenario 1: Registro y visualización de productos en el inventario</b><br/>Dado que el proveedor accede al módulo de inventario y completa los campos requeridos del formulario de producto (nombre, tipo de combustible, precio por litro y unidad),<br/>Cuando guarda el registro,<br/>Entonces el producto aparece listado en el inventario con su información completa y queda disponible para ser referenciado en nuevos pedidos.<br/><br/><b>Escenario 2: Edición y eliminación de un producto existente</b><br/>Dado que el proveedor selecciona un producto ya registrado en el inventario,<br/>Cuando actualiza sus datos o confirma su eliminación,<br/>Entonces los cambios se reflejan de inmediato en el listado y el producto editado o eliminado no genera inconsistencias en pedidos en curso.</td>
+  <td>EP15</td>
 </tr>
 
 <!-- Technical Stories: EP06 -->
@@ -432,6 +447,7 @@
 </tr>
   </tbody>
 </table>
+
 
 
 ## 3.2 Impact Mapping
