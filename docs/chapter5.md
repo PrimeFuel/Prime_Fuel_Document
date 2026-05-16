@@ -866,11 +866,33 @@ Durante el Sprint 2, el equipo se enfocó en el desarrollo del repositorio front
 
 <table border> <thead> <tr> <th>Repositorio</th> <th>Rama</th> <th>ID de Commit</th> <th>Mensaje de Commit</th> </tr> </thead> <tbody> <tr> <td>PrimeFuel/frontend</td> <td>develop</td> <td>f815d0c</td> <td>feat(develop): added dashboard page</td> </tr> <tr> <td>PrimeFuel/frontend</td> <td>develop</td> <td>271c3e4</td> <td>feat(develop): solved hosting problems</td> </tr> <tr> <td>PrimeFuel/frontend</td> <td>develop</td> <td>36bc5a0</td> <td>feat(develop): changed endpoint into the environment one</td> </tr> <tr> <td>PrimeFuel/frontend</td> <td>feature/inventory</td> <td>7a7b178</td> <td>feat(inventory): changed catalog to inventory</td> </tr> <tr> <td>PrimeFuel/frontend</td> <td>feature/fulfillment</td> <td>97d1ecc</td> <td>feat(fulfillment): implement driver list and form presentation views</td> </tr> <tr> <td>PrimeFuel/frontend</td> <td>feature/reporting</td> <td>133904a</td> <td>feat(reporting): connection json server and added statics</td> </tr> <tr> <td>PrimeFuel/frontend</td> <td>feature/shared</td> <td>b720b65</td> <td>feat(shared): move notification button from menu to header</td> </tr> <tr> <td>PrimeFuel/frontend</td> <td>feature/notification</td> <td>23248bf</td> <td>feat(notification): fix server db.json</td> </tr> <tr> <td>PrimeFuel/frontend</td> <td>feature/notification</td> <td>ea54e2d</td> <td>feat(notification): add notification routes and list view</td> </tr> <tr> <td>PrimeFuel/frontend</td> <td>feature/shared</td> <td>03fb1e3</td> <td>feat(shared): add button for clients and providers</td> </tr> <tr> <td>PrimeFuel/frontend</td> <td>feature/i18n</td> <td>9e04917</td> <td>feat(i18n): add en and es translation files</td> </tr> <tr> <td>PrimeFuel/frontend</td> <td>feature/shared</td> <td>fa80d5d</td> <td>chore(environments): add development and production environment configuration</td> </tr> </tbody> </table>
 
-#### 5.2.2.5.Execution Evidence for Sprint Review.
+#### 5.2.2.5. Execution Evidence for Sprint Review.
 
-En este sprint se implementaron las siguientes pantallas y módulos clave:
+En este sprint se implementaron las siguientes pantallas y módulos clave correspondientes a la Web Application (Frontend) de FullTank:
 
+- **Dashboard Principal (Proveedor):** Muestra KPIs de combustible vendido, pedidos pendientes y navegación directa a módulos operativos.
+![Dashboard Principal](../assets/chapter-5/DashboardPrincipalSprint2.png)
 
+- **Módulo de Inventario (Inventory):** Permite visualizar el stock actual y realizar el CRUD de productos de combustible.
+![Inventory](../assets/chapter-5/InventorySprint2.png)
+
+- **Módulo de Pedidos (Ordering - Solicitudes):** Vistas para registrar, listar, buscar, filtrar, aprobar y rechazar solicitudes de combustible.
+![Ordering - Solicitudes](../assets/chapter-5/OrderingRequestsSprint2.png)
+
+- **Módulo de Pedidos (Ordering - Órdenes):** Listado de órdenes activas e históricas con cambios de estado y detalles de cada pedido.
+![Ordering - Órdenes](../assets/chapter-5/OrderingOrdersSprint2.png)
+
+- **Módulo de Logística (Fulfillment - Vehículos):** Gestión (CRUD) de la flota de vehículos con validación de disponibilidad.
+![Fulfillment - Vehículos](../assets/chapter-5/FulfillmentVehiclesSprint2.png)
+
+- **Módulo de Logística (Fulfillment - Conductores):** Gestión (CRUD) del registro de conductores.
+![Fulfillment - Conductores](../assets/chapter-5/FulfillmentDriversSprint2.png)
+
+- **Módulo de Logística (Fulfillment - Dispatch Dashboard):** Asignación de vehículos y conductores a pedidos aprobados.
+![Fulfillment - Dispatch](../assets/chapter-5/FulfillmentDispatchSprint2.png)
+
+- **Módulo de Reportes (Reporting):** Visualización de gráficos de ventas, distribución por sector y portafolio interactivo de clientes.
+![Reporting](../assets/chapter-5/ReportingSprint2.png)
 
 #### 5.2.2.6.Services Documentation Evidence for Sprint Review.
 
