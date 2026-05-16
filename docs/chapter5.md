@@ -882,7 +882,7 @@ Resumen:
 Se logró el despliegue automático de la aplicación Frontend en la nube utilizando Firebase Hosting. El proyecto está configurado a través del archivo `firebase.json` en el workspace `full-tank-open`.
 
 Detalles del Despliegue:
-URL del Frontend App: 
+URL del Frontend App: https://fulltank-open.web.app/home
 
 ![Frontend Firebase Deployment](../assets/chapter-5/firebase-deploy.png)
 
