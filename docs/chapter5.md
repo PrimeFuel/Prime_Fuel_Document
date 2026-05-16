@@ -153,18 +153,16 @@ Flujo Gitflow:
     </tr>
     <tr>
         <td align="center">Sprint 1 Goal</td>
-        <td>Desarrollar una landing page funcional y visualmente clara que comunique efectivamente la propuesta de valor de FullTank a nuestros dos segmentos clave de usuarios: proveedores de combustible y solicitantes de combustible. La página debe incluir secciones estratégicas como:<br>
-        •	Home, con un call to action para captar proveedores interesados.<br>
-        •	Are you a fuel requester?, con un call to action dirigido a potenciales solicitantes.<br>
-        •	Secciones informativas como About Us y How it works?, para explicar el funcionamiento del sistema.<br>
-        •	Secciones de validación social como Main Suppliers y Our Clients, para generar confianza mostrando empresas reales que ya usan el servicio.<br>
-        •	Una sección de contacto directo (Contact Us) para atención inmediata.<br>
-        •	Soporte de idioma bilingüe (español e inglés) para mayor accesibilidad.
+        <td>Nuestro objetivo es comunicar la propuesta de valor de FullTank a clientes y proveedores potenciales
+            mediante una página de destino funcional. Creemos que esto genera conocimiento de la marca e interés en
+            la conversión entre las empresas que solicitan combustible y los proveedores. Esto se confirmará cuando 
+            los visitantes puedan navegar por todas las secciones, cambiar de idioma y acceder al formulario de registro
+            sin errores.
         </td>
     </tr>
     <tr align="center">
         <td>Sprint 1 Velocity</td>
-        <td>12</td>
+        <td>17</td>
     </tr>
     <tr align="center">
         <td>Sum of Story Point</td>
@@ -198,7 +196,7 @@ Flujo Gitflow:
     </tr>
     <tr>
       <td>Diego Fernando Herrera Enriquez</td>
-      <td>TheBlackunityrogue</td>
+      <td>DerDFHE</td>
       <td>C</td>
       <td>C</td>
     </tr>
@@ -342,7 +340,7 @@ Durante el Sprint 1, nuestro equipo culminó la implementación de la Landing Pa
     <td>5596c00</td>
     <td>feat: add initial landing page structure for FullTank web platform</td>
     <td>-</td>
-    <td>24/04/2025</td>
+    <td>24/04/2026</td>
   </tr>
   <tr>
     <td>PrimeFuel/FullTank_LandingPage</td>
@@ -406,7 +404,7 @@ Durante el Sprint 1, nuestro equipo culminó la implementación de la Landing Pa
     <td>3ce5d9d</td>
     <td>feat(about the product): add stakeholder video for the future</td>
     <td>-</td>
-    <td>26/04/2025</td>
+    <td>26/04/2026</td>
   </tr>
   <tr>
     <td>PrimeFuel/FullTank_LandingPage</td>
@@ -505,6 +503,413 @@ Durante el Sprint 1, el equipo se enfocó en el desarrollo del Landing Page de F
   <li>Google Meet (reuniones de planificación de sprint)</li>
 </ul>
 
+### 5.2.2. Sprint 2
+#### 5.2.2.1.Sprint Planning 2
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <td><strong>Sprint #</strong></td>
+    <td><strong>Sprint 2</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><strong>Sprint Planning Background</strong></td>
+  </tr>
+  <tr>
+    <td>Date</td>
+    <td>04/05/2026</td>
+  </tr>
+  <tr>
+    <td>Time</td>
+    <td>15:00 PM</td>
+  </tr>
+  <tr>
+    <td>Location</td>
+    <td>Meet / Discord</td>
+  </tr>
+  <tr>
+    <td>Prepared by</td>
+    <td>Asto Jacome Jose Gustavo</td>
+  </tr>
+  <tr>
+    <td>Attendees (to planning meeting)</td>
+    <td>
+      Asto Jacome Jose Gustavo (u20241c630)<br>
+      Cayanchi Avila Milenko Rubén (u202312566)<br>
+      Corvacho Damian Brayan Alexis (u20231a257)<br>
+      Ponce Perales Alberto Alejandro (u202320684)<br>
+      Herrera Enriquez Diego Fernando (u202319027)
+    </td>
+  </tr>
+  <tr>
+    <td>Sprint 1 Review Summary</td>
+    <td>Se logró desplegar con éxito la Landing Page. Se estableció la arquitectura base del proyecto Angular con estructura por Bounded Contexts (DDD). El feedback fue positivo en cuanto a consistencia de estilos y organización del repositorio.</td>
+  </tr>
+  <tr>
+    <td>Sprint 1 Retrospective Summary</td>
+    <td>El equipo trabajó de forma coordinada. Se identificó la necesidad de definir convenciones claras de nomenclatura por módulo y de alinear el uso de Angular Signals y NgRx antes de avanzar con vistas operativas complejas.</td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><strong>Sprint Goal &amp; User Stories</strong></td>
+  </tr>
+  <tr>
+    <td>Sprint 2 Goal</td>
+    <td>
+      Construir y estabilizar la Web Application (Frontend) funcional de FullTank en Angular 17, implementando los módulos operativos principales: inventario, pedidos (solicitudes y órdenes), logística (vehículos, conductores, despacho), dashboard del proveedor y reportes analíticos, conectados a una API fake (json-server) desplegada en Render para simular el flujo completo de negocio.<br><br>
+      <em>El Sprint Goal se considerará cumplido cuando los usuarios puedan navegar fluidamente entre todos los módulos implementados y ejecutar simulaciones operativas desde la Web App desplegada.</em>
+    </td>
+  </tr>
+  <tr>
+    <td>Sprint 2 Velocity</td>
+    <td>15</td>
+  </tr>
+  <tr>
+    <td>Sum of Story Points</td>
+    <td>55</td>
+  </tr>
+</table>
+
+#### 5.2.2.2. Aspect Leaders and Collaborators.
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th>Team Member</th>
+      <th>GitHub Username</th>
+      <th>Landing Page</th>
+      <th>Documentation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Milenko Rubén Cayanchi Avila</td>
+      <td>MaxghZZ</td>
+      <td>L</td>
+      <td>L</td>
+    </tr>
+    <tr>
+      <td>Jose Gustavo Asto Jacome</td>
+      <td>DhudsQ</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Diego Fernando Herrera Enriquez</td>
+      <td>DerDFHE</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Alberto Alejandro Ponce Perales</td>
+      <td>aponceperales</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Brayan Alexis Corvacho Damian</td>
+      <td>BralexCD</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 5.2.2.3.Sprint Backlog 2.
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th colspan="2"><strong>Sprint #</strong></th>
+      <th colspan="6"><strong>Sprint 2</strong></th>
+    </tr>
+    <tr>
+      <th colspan="2"><strong>User Story</strong></th>
+      <th colspan="6"><strong>Work-Item / Task</strong></th>
+    </tr>
+    <tr>
+      <th><strong>Id</strong></th>
+      <th><strong>Title</strong></th>
+      <th><strong>Id</strong></th>
+      <th><strong>Title</strong></th>
+      <th><strong>Description</strong></th>
+      <th><strong>Estimation (Hours)</strong></th>
+      <th><strong>Assigned to</strong></th>
+      <th><strong>Status</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US-47</td>
+      <td>Ver Dashboard principal del proveedor</td>
+      <td>W-01</td>
+      <td>Dashboard Principal</td>
+      <td>Implementación del dashboard con KPIs de combustible vendido, pedidos pendientes, gráfico de tendencia de ventas con filtro diario/semanal/mensual y navegación directa a módulos operativos.</td>
+      <td>6</td>
+      <td>Asto Jacome Jose Gustavo</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-46</td>
+      <td>Gestionar inventario de combustibles</td>
+      <td>W-02</td>
+      <td>Módulo Inventory – CRUD de Productos</td>
+      <td>CRUD completo de productos de combustible (fuel-product) con formulario de alta/edición y listado. Incluye assembler, API endpoint, store con Angular Signals y vistas product-form y product-inventory.</td>
+      <td>6</td>
+      <td>Cayanchi Avila Milenko Rubén</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-46</td>
+      <td>Gestionar inventario de combustibles</td>
+      <td>W-03</td>
+      <td>Módulo Inventory – Lista de Stock</td>
+      <td>Vista inventory-list que muestra el stock actual por tipo de combustible, con opciones de edición y eliminación de ítems de inventario.</td>
+      <td>4</td>
+      <td>Cayanchi Avila Milenko Rubén</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-10</td>
+      <td>Ver pedidos pendientes</td>
+      <td>W-04</td>
+      <td>Módulo Ordering – Lista de Solicitudes</td>
+      <td>Vista request-list con tabla paginada y ordenable de solicitudes pendientes. Incluye filtro por estado, búsqueda por código y chips de estado visual.</td>
+      <td>5</td>
+      <td>Ponce Perales Alberto Alejandro</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-05</td>
+      <td>Registrar nuevo pedido</td>
+      <td>W-05</td>
+      <td>Módulo Ordering – Formulario de Solicitud</td>
+      <td>Vista request-form con formulario reactivo para registrar una nueva solicitud de combustible. Incluye validación de campos obligatorios y envío al store.</td>
+      <td>4</td>
+      <td>Ponce Perales Alberto Alejandro</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-11</td>
+      <td>Aprobar pedido</td>
+      <td>W-06</td>
+      <td>Acción Aprobar en request-list</td>
+      <td>Implementación de la acción de aprobación de solicitudes desde la vista request-list, actualizando el estado a APPROVED en el store y en la API.</td>
+      <td>3</td>
+      <td>Ponce Perales Alberto Alejandro</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-42</td>
+      <td>Rechazar pedido</td>
+      <td>W-07</td>
+      <td>Acción Rechazar en request-list</td>
+      <td>Implementación del flujo de rechazo de solicitudes con actualización de estado a REJECTED en el store, incluyendo diálogo de confirmación.</td>
+      <td>3</td>
+      <td>Ponce Perales Alberto Alejandro</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-06</td>
+      <td>Consultar estado del pedido</td>
+      <td>W-08</td>
+      <td>Módulo Ordering – Lista de Órdenes</td>
+      <td>Vista order-list con tabla paginada y ordenable de órdenes. Muestra estado actualizado (CREATED, DISPATCHED, CLOSED) con chips visuales y navegación al detalle.</td>
+      <td>4</td>
+      <td>Ponce Perales Alberto Alejandro</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-43</td>
+      <td>Ver detalle de pedido</td>
+      <td>W-09</td>
+      <td>Módulo Ordering – Detalle de Orden</td>
+      <td>Vista order-detail con información completa de la orden: tipo de combustible, cantidad, estado, fechas y datos de asignación. Incluye restricción de acceso a órdenes ajenas.</td>
+      <td>4</td>
+      <td>Ponce Perales Alberto Alejandro</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-12</td>
+      <td>Marcar pedido como despachado</td>
+      <td>W-10</td>
+      <td>Acción Despachar en order-list</td>
+      <td>Acción de cambio de estado de orden a DISPATCHED desde la vista de listado de órdenes, con actualización en store y API.</td>
+      <td>2</td>
+      <td>Ponce Perales Alberto Alejandro</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-13</td>
+      <td>Cerrar pedido</td>
+      <td>W-11</td>
+      <td>Acción Cerrar en order-list</td>
+      <td>Acción de cierre de orden (CLOSED) desde la vista de listado, bloqueando modificaciones posteriores en el store.</td>
+      <td>2</td>
+      <td>Ponce Perales Alberto Alejandro</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-27</td>
+      <td>Buscar pedido por código</td>
+      <td>W-12</td>
+      <td>Búsqueda por código en request-list</td>
+      <td>Campo de búsqueda en la vista request-list que filtra en tiempo real por ID/código de solicitud usando MatInput y Angular Forms.</td>
+      <td>2</td>
+      <td>Ponce Perales Alberto Alejandro</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-28</td>
+      <td>Filtrar pedidos por estado</td>
+      <td>W-13</td>
+      <td>Filtro por estado en request-list</td>
+      <td>Filtrado de solicitudes por estado (PENDING_APPROVAL, APPROVED, REJECTED, CANCELLED) mediante MatChipSet en la vista request-list.</td>
+      <td>2</td>
+      <td>Ponce Perales Alberto Alejandro</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-44</td>
+      <td>Gestionar vehículos de flota</td>
+      <td>W-14</td>
+      <td>Módulo Fulfillment – Vehículos CRUD</td>
+      <td>Vistas vehicle-list y vehicle-form con CRUD completo de vehículos de flota. Incluye validación de placa duplicada y disponibilidad para asignación a pedidos.</td>
+      <td>5</td>
+      <td>Corvacho Damian Brayan Alexis</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-45</td>
+      <td>Gestionar conductores</td>
+      <td>W-15</td>
+      <td>Módulo Fulfillment – Conductores CRUD</td>
+      <td>Vistas driver-list y driver-form con CRUD completo de conductores. Incluye validación de DNI duplicado y control de disponibilidad operativa.</td>
+      <td>5</td>
+      <td>Corvacho Damian Brayan Alexis</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-22</td>
+      <td>Validar disponibilidad de transporte</td>
+      <td>W-16</td>
+      <td>Módulo Fulfillment – Dispatch Dashboard</td>
+      <td>Vista dispatch-dashboard que muestra la disponibilidad en tiempo real de vehículos y conductores, bloqueando selección de recursos con conflictos de agenda.</td>
+      <td>4</td>
+      <td>Corvacho Damian Brayan Alexis</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-49</td>
+      <td>Asignar recursos a despacho</td>
+      <td>W-17</td>
+      <td>Asignación vehículo+conductor en Dispatch</td>
+      <td>Implementación de la asignación conjunta de vehículo y conductor a un pedido aprobado en una sola operación desde dispatch-dashboard, con registro de la entidad delivery.</td>
+      <td>4</td>
+      <td>Corvacho Damian Brayan Alexis</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-34</td>
+      <td>Ver gráfico de ventas (Proveedor)</td>
+      <td>W-18</td>
+      <td>Reporting – Gráfico de Ventas Mensuales</td>
+      <td>Vista supplier-dashboard con gráfico de barras de ventas mensuales usando Chart.js, integrado al reporting store con datos de sales-metrics.</td>
+      <td>4</td>
+      <td>Asto Jacome Jose Gustavo</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-48</td>
+      <td>Ver distribución de ventas por sector</td>
+      <td>W-19</td>
+      <td>Reporting – Distribución por Sector Industrial</td>
+      <td>Sección dentro de supplier-dashboard que muestra la distribución porcentual de ventas por sector industrial (sector-distribution entity) con gráfico analítico.</td>
+      <td>3</td>
+      <td>Asto Jacome Jose Gustavo</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-31</td>
+      <td>Ver listado de empresas</td>
+      <td>W-20</td>
+      <td>Reporting – Portafolio de Clientes</td>
+      <td>Vista client-portfolio con listado interactivo de empresas solicitantes mostrando nombre, pedidos activos e historial total por empresa, usando client-portfolio entity.</td>
+      <td>4</td>
+      <td>Asto Jacome Jose Gustavo</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-32</td>
+      <td>Ver detalles de empresa</td>
+      <td>W-21</td>
+      <td>Reporting – Detalle de empresa en Portafolio</td>
+      <td>Detalle expandible de cada empresa dentro de client-portfolio que muestra historial de pedidos, cantidades y fechas. Mensaje informativo si no hay historial disponible.</td>
+      <td>3</td>
+      <td>Asto Jacome Jose Gustavo</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-09</td>
+      <td>Ver historial de pedidos</td>
+      <td>W-22</td>
+      <td>Historial en order-list (órdenes cerradas)</td>
+      <td>Sección de órdenes cerradas en order-list que permite al solicitante consultar el historial con fecha, tipo y estado. Mensaje informativo si no hay pedidos previos.</td>
+      <td>2</td>
+      <td>Herrera Enriquez Diego Fernando</td>
+      <td>Done</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 5.2.2.4.Development Evidence for Sprint Review.
+
+Durante el Sprint 2, el equipo se enfocó en el desarrollo del repositorio frontend del producto FullTank perteneciente a la startup PrimeFuel. La aplicación fue desarrollada utilizando Angular, Angular Material y TypeScript, siguiendo una arquitectura basada en Bounded Contexts y principios de DDD (Domain-Driven Design). Para el consumo de APIs se utilizó HttpClient conectado a un json-server como Fake API, mientras que para la visualización de métricas y reportes se implementaron gráficas utilizando Chart.js. Además, el proyecto incorporó soporte de internacionalización mediante @ngx-translate/core, utilizando archivos de traducción (en.json y es.json) para ofrecer soporte multilenguaje.
+
+<table border> <thead> <tr> <th>Repositorio</th> <th>Rama</th> <th>ID de Commit</th> <th>Mensaje de Commit</th> </tr> </thead> <tbody> <tr> <td>PrimeFuel/frontend</td> <td>develop</td> <td>f815d0c</td> <td>feat(develop): added dashboard page</td> </tr> <tr> <td>PrimeFuel/frontend</td> <td>develop</td> <td>271c3e4</td> <td>feat(develop): solved hosting problems</td> </tr> <tr> <td>PrimeFuel/frontend</td> <td>develop</td> <td>36bc5a0</td> <td>feat(develop): changed endpoint into the environment one</td> </tr> <tr> <td>PrimeFuel/frontend</td> <td>feature/inventory</td> <td>7a7b178</td> <td>feat(inventory): changed catalog to inventory</td> </tr> <tr> <td>PrimeFuel/frontend</td> <td>feature/fulfillment</td> <td>97d1ecc</td> <td>feat(fulfillment): implement driver list and form presentation views</td> </tr> <tr> <td>PrimeFuel/frontend</td> <td>feature/reporting</td> <td>133904a</td> <td>feat(reporting): connection json server and added statics</td> </tr> <tr> <td>PrimeFuel/frontend</td> <td>feature/shared</td> <td>b720b65</td> <td>feat(shared): move notification button from menu to header</td> </tr> <tr> <td>PrimeFuel/frontend</td> <td>feature/notification</td> <td>23248bf</td> <td>feat(notification): fix server db.json</td> </tr> <tr> <td>PrimeFuel/frontend</td> <td>feature/notification</td> <td>ea54e2d</td> <td>feat(notification): add notification routes and list view</td> </tr> <tr> <td>PrimeFuel/frontend</td> <td>feature/shared</td> <td>03fb1e3</td> <td>feat(shared): add button for clients and providers</td> </tr> <tr> <td>PrimeFuel/frontend</td> <td>feature/i18n</td> <td>9e04917</td> <td>feat(i18n): add en and es translation files</td> </tr> <tr> <td>PrimeFuel/frontend</td> <td>feature/shared</td> <td>fa80d5d</td> <td>chore(environments): add development and production environment configuration</td> </tr> </tbody> </table>
+
+#### 5.2.2.5.Execution Evidence for Sprint Review.
+
+En este sprint se implementaron las siguientes pantallas y módulos clave:
+
+
+
+#### 5.2.2.6.Services Documentation Evidence for Sprint Review.
+
+Durante el Sprint 2 utilizamos un **json-server** expuesto en Render (`https://json-server-y51j.onrender.com`) para habilitar la simulación de todas las pantallas operativas sin depender del equipo backend en java. La implementación real del RESTful Web API con Spring Boot y documentación en Swagger será el objetivo principal de los próximos Sprints.
+
+#### 5.2.2.7.Software Deployment Evidence for Sprint Review.
+
+Resumen:
+Se logró el despliegue automático de la aplicación Frontend en la nube utilizando Firebase Hosting. El proyecto está configurado a través del archivo `firebase.json` en el workspace `full-tank-open`.
+
+Detalles del Despliegue:
+URL del Frontend App: 
+
+![Frontend Firebase Deployment](../assets/chapter-5/firebase-deploy.png)
+
+
+#### 5.2.2.8.Team Collaboration Insights during Sprint
+
+<p>
+    <strong>Resumen:</strong><br>
+    La colaboración se estructuró dividiendo los componentes de Angular según los módulos del negocio:
+    <b>Cayanchi Avila Milenko Rubén</b> estructuró las bases del proyecto, layout, router y configuración
+    del store con Angular Signals; <b>Asto Jacome Jose Gustavo</b> lideró el módulo de dashboard del
+    proveedor y los reportes analíticos (ventas, sector y portafolio de clientes); <b>Corvacho Damian
+    Brayan Alexis</b> desarrolló el módulo de fulfillment, incluyendo la gestión de vehículos, conductores
+    y el dispatch dashboard; <b>Ponce Perales Alberto Alejandro</b> lideró el módulo de ordering,
+    implementando las vistas de solicitudes, órdenes y todas las acciones de estado; <b>Herrera Enriquez
+    Diego Fernando</b> colaboró en la integración del historial de órdenes y el soporte transversal
+    entre módulos.
+</p>
+<h4>Evidencia de Colaboración (GitHub Frontend):</h4>
+<ul>
+  <li>Captura de los Contribuidores del repositorio Frontend en GitHub.</li>
+</ul>
+
+![Frontend Contributors](../assets/chapter-5/frontend.png)
+
+<br>
+
 **Conclusiones**
 
 Al finalizar el ciclo de desarrollo y validación de la solución FullTank, el equipo ha llegado a las siguientes conclusiones, contrastando los resultados obtenidos con los planteamientos iniciales del proceso Lean UX:
@@ -557,9 +962,10 @@ No obstante, se identificó que ofrecer únicamente información resumida no es 
 
 Anexos:
 
+**Videos de Exposiciones:**
+- **TB1:** [Enlace al video de la exposición del TB1 (Reemplazar con enlace real)](#)
 
-Link del repositorio del informe:
-https://github.com/PrimeFuel/Prime_Fuel_Document
+Link del repositorio del informe: https://github.com/PrimeFuel/Prime_Fuel_Document
 
 Link del repositorio de la Landing Page:
 https://github.com/PrimeFuel/FullTank_LandingPage
@@ -570,10 +976,10 @@ https://github.com/PrimeFuel/frontend
 Link del repositorio del backend:
 https://github.com/PrimeFuel/backend
 
-Link de los repositorios de la organización:
+Link de los repositorios de la organización: https://github.com/PrimeFuel
 
-https://github.com/PrimeFuel
 
 Link del figma: https://www.figma.com/design/ZMHB35H60u2eUhctevkVKc/Fullank-Completo?node-id=0-1&t=I3nr2x0tcAinM7gE-1
+
 URL de la Landing Page: https://primefuel.github.io/FullTank_LandingPage/
-Repositorio Landing Page: https://github.com/PrimeFuel/FullTank_LandingPage
+
