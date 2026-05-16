@@ -985,7 +985,7 @@ No obstante, se identificó que ofrecer únicamente información resumida no es 
 Anexos:
 
 **Videos de Exposiciones:**
-- **TB1:** [Enlace al video de la exposición del TB1 (Reemplazar con enlace real)](#)
+- **TB1:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQBzyXZtjgr3Q7geKwL8bo18AQf3YrQShOtgE3OjzQeH1hw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lvAcm0](#)
 
 Link del repositorio del informe: https://github.com/PrimeFuel/Prime_Fuel_Document
 
