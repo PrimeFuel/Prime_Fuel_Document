@@ -448,6 +448,209 @@
   </tbody>
 </table>
 
+<!-- Technical Stories: EP08 -->
+
+<tr>
+  <td colspan="5"><b>EP08 — Gestión de Usuarios y Empresas:</b> Como developer, quiero contar con endpoints para administrar usuarios y empresas dentro de la plataforma.</td>
+</tr>
+
+<tr>
+  <td>TS-06</td>
+  <td>Endpoint: Registro de usuario</td>
+  <td>Como developer, quiero un endpoint para registrar nuevos usuarios en la plataforma (sign-up).</td>
+  <td>Ver especificación del endpoint de registro de usuarios.</td>
+  <td>EP08</td>
+</tr>
+
+<tr>
+  <td>TS-07</td>
+  <td>Endpoint: Consultar usuarios</td>
+  <td>Como developer, quiero endpoints para listar todos los usuarios y consultar uno por su ID.</td>
+  <td>Ver especificación de consulta de usuarios.</td>
+  <td>EP08</td>
+</tr>
+
+<tr>
+  <td>TS-08</td>
+  <td>Endpoint: CRUD de empresas compradoras</td>
+  <td>Como developer, quiero endpoints para registrar, listar, consultar y actualizar empresas compradoras.</td>
+  <td>Ver especificación CRUD de buyer companies.</td>
+  <td>EP08</td>
+</tr>
+
+<tr>
+  <td>TS-09</td>
+  <td>Endpoint: CRUD de empresas proveedoras</td>
+  <td>Como developer, quiero endpoints para registrar, listar, consultar y actualizar empresas proveedoras.</td>
+  <td>Ver especificación CRUD de provider companies.</td>
+  <td>EP08</td>
+</tr>
+
+<tr>
+  <td>TS-10</td>
+  <td>Endpoint: Actualizar perfil de usuario</td>
+  <td>Como developer, quiero un endpoint para que un usuario autenticado actualice los datos de su propio perfil.</td>
+  <td>Ver especificación de actualización de perfil.</td>
+  <td>EP08</td>
+</tr>
+
+<!-- Technical Stories: EP09 -->
+
+<tr>
+  <td colspan="5"><b>EP09 — Gestión de Inventario:</b> Como developer, quiero contar con endpoints para administrar productos de combustible y su stock disponible.</td>
+</tr>
+
+<tr>
+  <td>TS-11</td>
+  <td>Endpoint: CRUD de productos de combustible</td>
+  <td>Como developer, quiero endpoints para crear, listar, consultar, actualizar y eliminar productos de combustible.</td>
+  <td>Ver especificación CRUD de productos.</td>
+  <td>EP09</td>
+</tr>
+
+<tr>
+  <td>TS-12</td>
+  <td>Endpoint: Actualizar stock de producto</td>
+  <td>Como developer, quiero un endpoint para actualizar el stock disponible de un producto de combustible.</td>
+  <td>Ver especificación de actualización de stock.</td>
+  <td>EP09</td>
+</tr>
+
+<!-- Technical Stories: EP10 -->
+
+<tr>
+  <td colspan="5"><b>EP10 — Gestión Logística:</b> Como developer, quiero contar con endpoints para administrar solicitudes, entregas, vehículos y conductores involucrados en el despacho de combustible.</td>
+</tr>
+
+<tr>
+  <td>TS-15</td>
+  <td>Endpoint: Solicitudes de combustible</td>
+  <td>Como developer, quiero endpoints para crear, listar, aceptar y rechazar solicitudes de combustible.</td>
+  <td>Ver especificación de fuel requests.</td>
+  <td>EP10</td>
+</tr>
+
+<tr>
+  <td>TS-16</td>
+  <td>Endpoint: Consultar solicitud por ID</td>
+  <td>Como developer, quiero un endpoint para consultar el detalle de una solicitud de combustible específica.</td>
+  <td>Ver especificación de consulta de solicitud.</td>
+  <td>EP10</td>
+</tr>
+
+<tr>
+  <td>TS-17</td>
+  <td>Endpoint: Gestión de entregas</td>
+  <td>Como developer, quiero endpoints para crear, despachar, completar, marcar como fallida y consultar entregas.</td>
+  <td>Ver especificación de entregas.</td>
+  <td>EP10</td>
+</tr>
+
+<tr>
+  <td>TS-18</td>
+  <td>Endpoint: CRUD de conductores</td>
+  <td>Como developer, quiero endpoints para registrar, consultar, actualizar y eliminar conductores.</td>
+  <td>Ver especificación CRUD de conductores.</td>
+  <td>EP10</td>
+</tr>
+
+<tr>
+  <td>TS-19</td>
+  <td>Endpoint: CRUD de vehículos</td>
+  <td>Como developer, quiero endpoints para registrar, consultar, actualizar y eliminar vehículos.</td>
+  <td>Ver especificación CRUD de vehículos.</td>
+  <td>EP10</td>
+</tr>
+
+<!-- Technical Stories: EP11 -->
+
+<tr>
+  <td colspan="5"><b>EP11 — Gestión de Pagos:</b> Como developer, quiero contar con endpoints para registrar, consultar y procesar pagos asociados a los pedidos.</td>
+</tr>
+
+<tr>
+  <td>TS-20</td>
+  <td>Endpoint: Registrar y procesar pagos</td>
+  <td>Como developer, quiero endpoints para registrar pagos, completarlos y procesar reembolsos.</td>
+  <td>Ver especificación de pagos.</td>
+  <td>EP11</td>
+</tr>
+
+<tr>
+  <td>TS-21</td>
+  <td>Endpoint: Consultar pagos</td>
+  <td>Como developer, quiero endpoints para consultar pagos por distintos criterios.</td>
+  <td>Ver especificación de consultas de pago.</td>
+  <td>EP11</td>
+</tr>
+
+<!-- Technical Stories: EP12 -->
+
+<tr>
+  <td colspan="5"><b>EP12 — Catálogo y Equipos:</b> Como developer, quiero contar con endpoints para gestionar calificaciones, equipos y relaciones con proveedores.</td>
+</tr>
+
+<tr>
+  <td>TS-22</td>
+  <td>Endpoint: Calificaciones de proveedores</td>
+  <td>Como developer, quiero endpoints para crear, listar y actualizar calificaciones de proveedores.</td>
+  <td>Ver especificación de provider ratings.</td>
+  <td>EP12</td>
+</tr>
+
+<tr>
+  <td>TS-23</td>
+  <td>Endpoint: Gestión de equipos</td>
+  <td>Como developer, quiero endpoints para registrar, actualizar, listar y consultar equipos.</td>
+  <td>Ver especificación de equipos.</td>
+  <td>EP12</td>
+</tr>
+
+<tr>
+  <td>TS-24</td>
+  <td>Endpoint: Asignar proveedor favorito</td>
+  <td>Como developer, quiero un endpoint para asignar un proveedor favorito a un equipo.</td>
+  <td>Ver especificación de proveedor favorito.</td>
+  <td>EP12</td>
+</tr>
+
+<tr>
+  <td>TS-25</td>
+  <td>Endpoint: Eliminar equipo</td>
+  <td>Como developer, quiero un endpoint para eliminar un equipo registrado.</td>
+  <td>Ver especificación de eliminación de equipos.</td>
+  <td>EP12</td>
+</tr>
+
+<!-- Technical Stories: EP13 -->
+
+<tr>
+  <td colspan="5"><b>EP13 — Sistema de Notificaciones:</b> Como developer, quiero contar con endpoints para gestionar y consultar notificaciones de la plataforma.</td>
+</tr>
+
+<tr>
+  <td>TS-26</td>
+  <td>Endpoint: Sistema de notificaciones</td>
+  <td>Como developer, quiero endpoints para crear, consultar y marcar notificaciones como leídas.</td>
+  <td>Ver especificación de notificaciones.</td>
+  <td>EP13</td>
+</tr>
+
+<!-- Technical Stories: EP14 -->
+
+<tr>
+  <td colspan="5"><b>EP14 — Reportes y Analítica:</b> Como developer, quiero contar con endpoints para obtener métricas y reportes del funcionamiento de la plataforma.</td>
+</tr>
+
+<tr>
+  <td>TS-27</td>
+  <td>Endpoint: Reportes y analítica</td>
+  <td>Como developer, quiero endpoints para obtener indicadores y estadísticas de la plataforma.</td>
+  <td>Ver especificación de analítica.</td>
+  <td>EP14</td>
+</tr>
+
+
 
 
 ## 3.2 Impact Mapping
@@ -464,58 +667,80 @@ A partir de estos impactos se definieron los Deliverables que la plataforma Full
 ## 3.3 Product Backlog
 
 | #Orden | ID | Título | Descripción | Story Points |
-|--------|-----|--------|-------------|:---:|
-| 01 | US-05 | Registrar nuevo pedido | Como solicitante, quiero registrar un pedido con tipo y cantidad de combustible para que el proveedor lo procese. | 5 |
-| 02 | US-06 | Consultar estado del pedido | Como solicitante, quiero ver el estado de mis pedidos para saber si están aprobados, en tránsito o entregados. | 2 |
-| 03 | US-08 | Registrar información de pago | Como solicitante, quiero ingresar la información de los pagos correspondientes para validar el pedido ante el proveedor. | 3 |
-| 04 | US-07 | Confirmar recepción de pedido | Como solicitante, quiero confirmar que recibí el pedido para que el proveedor lo cierre. | 2 |
-| 05 | US-09 | Ver historial de pedidos | Como solicitante, quiero ver mis pedidos anteriores para tener control sobre mi consumo. | 2 |
-| 06 | US-43 | Ver detalle de pedido | Como usuario de ambos segmentos, quiero ver el detalle completo de un pedido para revisar toda la información asociada. | 2 |
-| 07 | US-10 | Ver pedidos pendientes | Como proveedor, quiero ver todos los pedidos pendientes para analizarlos y tomar acción. | 2 |
-| 08 | US-11 | Aprobar pedido | Como proveedor, quiero aprobar pedidos según los depósitos hechos a mis cuentas bancarias. | 3 |
-| 09 | US-42 | Rechazar pedido | Como proveedor, quiero rechazar un pedido cuando no pueda atenderlo para notificar al solicitante oportunamente. | 2 |
-| 10 | US-12 | Marcar pedido como despachado | Como proveedor, quiero marcar cuándo un pedido sale a entrega para notificar al cliente. | 2 |
-| 11 | US-13 | Cerrar pedido | Como proveedor, quiero cerrar el pedido cuando el cliente confirme la entrega para finalizar el proceso. | 2 |
-| 12 | US-14 | Generar reporte de ventas | Como proveedor, quiero generar reportes de ventas para tener registro de operaciones realizadas. | 3 |
-| 13 | US-46 | Gestionar inventario de combustibles | Como proveedor, quiero registrar, editar y eliminar los productos de combustible de mi catálogo para que estén disponibles como opciones al crear un pedido. | 3 |
-| 14 | US-44 | Gestionar vehículos de flota | Como proveedor, quiero registrar y administrar los vehículos de mi flota para tenerlos disponibles al asignarlos a pedidos. | 3 |
-| 15 | US-45 | Gestionar conductores | Como proveedor, quiero registrar y administrar los conductores de mi empresa para asignarlos correctamente a los despachos. | 3 |
-| 16 | US-49 | Asignar recursos a despacho | Como proveedor, quiero asignar un vehículo y un conductor a un pedido aprobado en una sola operación para agilizar la preparación del despacho. | 5 |
-| 17 | US-22 | Validar disponibilidad de transporte | Como proveedor, quiero saber qué vehículos están disponibles antes de asignarlos para vincularlos correctamente. | 5 |
-| 18 | US-18 | Ver resumen de pedidos (Solicitante) | Como solicitante, quiero ver un resumen de mis pedidos para identificar cuántos están en proceso o completados. | 3 |
-| 19 | US-47 | Ver Dashboard principal del proveedor | Como proveedor, quiero acceder a un panel principal con KPIs de operación y un gráfico de tendencia de ventas para tener visibilidad en tiempo real del estado de mi negocio. | 3 |
-| 20 | US-29 | Recibir notificación de aprobación | Como solicitante, quiero recibir una notificación cuando un pedido sea aprobado o rechazado para estar informado. | 2 |
-| 21 | US-30 | Notificación de pedido despachado | Como solicitante, quiero recibir una notificación cuando un pedido haya sido despachado para estar informado. | 2 |
-| 22 | US-27 | Buscar pedido por código | Como usuario de ambos segmentos, quiero buscar un pedido específico por su código para encontrarlo rápidamente. | 2 |
-| 23 | US-28 | Filtrar pedidos por estado | Como usuario de ambos segmentos, quiero filtrar mis pedidos por estado para facilitar la revisión. | 2 |
-| 24 | US-31 | Ver listado de empresas | Como proveedor, quiero ver una lista de empresas solicitantes para identificar a mis clientes frecuentes. | 2 |
-| 25 | US-32 | Ver detalles de empresa | Como proveedor, quiero ver información detallada de una empresa solicitante para analizar su historial de pedidos. | 2 |
-| 26 | US-33 | Ver gráfico de consumo (Solicitante) | Como solicitante, quiero ver un gráfico de mi consumo mensual para tener control sobre el uso del combustible. | 3 |
-| 27 | US-34 | Ver gráfico de ventas (Proveedor) | Como proveedor, quiero ver un gráfico de ventas por mes para monitorear el rendimiento del negocio. | 3 |
-| 28 | US-48 | Ver distribución de ventas por sector | Como proveedor, quiero ver la distribución de mis ventas por sector industrial para identificar cuáles son mis clientes más relevantes por rubro. | 2 |
-| 29 | US-35 | Descargar reporte PDF | Como usuario de ambos segmentos, quiero descargar un resumen de pedidos o ventas en formato PDF para archivarlo o compartirlo. | 3 |
-| 30 | US-01 | Ver sección Home | Como visitante (proveedor), quiero ver una sección de inicio que resuma el valor de FullTank para comprender rápidamente el objetivo del sistema. | 2 |
-| 31 | US-02 | Ver sección About Us | Como visitante de ambos segmentos, quiero conocer quiénes están detrás de FullTank para confiar en el sistema. | 1 |
-| 32 | US-03 | Ver sección How it works? | Como visitante de ambos segmentos, quiero entender cómo funciona FullTank paso a paso para evaluar si se ajusta a mis necesidades. | 2 |
-| 33 | US-36 | Ver sección Benefits | Como visitante de ambos segmentos, quiero conocer las principales ventajas para evaluar la implementación de la plataforma. | 1 |
-| 34 | US-37 | Ver sección Lo que Dicen Nuestros Clientes | Como visitante de ambos segmentos, quiero conocer los testimonios de usuarios de FullTank para tener confianza en la plataforma. | 2 |
-| 35 | US-38 | Ver sección Planes y Precios | Como visitante de ambos segmentos, quiero saber qué planes se adecuan a mis necesidades para poder iniciar un proceso de registro. | 3 |
-| 36 | US-39 | Cambiar idioma | Como visitante de ambos segmentos, quiero poder cambiar entre inglés y español para entender la plataforma en mi idioma preferido. | 3 |
-| 37 | US-04 | Enviar mensaje de contacto | Como visitante de ambos segmentos, quiero enviar un mensaje desde Contact Us para solicitar más información. | 3 |
-| 38 | US-23 | Ver perfil de usuario | Como usuario registrado, quiero ver mis datos de perfil para revisar mi información registrada. | 1 |
-| 39 | US-24 | Editar datos de perfil | Como usuario registrado, quiero editar mis datos para mantener mi información actualizada. | 2 |
-| 40 | US-25 | Ver sección de preguntas frecuentes | Como visitante de ambos segmentos, quiero acceder a una sección de preguntas frecuentes para resolver dudas rápidamente. | 2 |
-| 41 | US-26 | Acceder a información de contacto rápido | Como usuario de ambos segmentos, quiero ver datos de contacto directo (teléfono o correo) para hacer consultas urgentes. | 1 |
-| 42 | US-40 | Registrar empresa solicitante | Como visitante (solicitante), quiero registrar mi empresa en la plataforma para comenzar a realizar pedidos de combustible. | 3 |
-| 43 | US-41 | Registrar empresa proveedora | Como visitante (proveedor), quiero registrar mi empresa distribuidora en la plataforma para comenzar a gestionar pedidos de combustible. | 3 |
-| 44 | US-15 | Iniciar sesión | Como usuario registrado, quiero iniciar sesión con correo y contraseña para acceder a mi cuenta. | 2 |
-| 45 | US-16 | Recuperar contraseña | Como usuario registrado, quiero recuperar mi contraseña para volver a acceder si la olvidé. | 2 |
-| 46 | US-17 | Cerrar sesión | Como usuario registrado, quiero poder cerrar sesión para mantener segura mi cuenta. | 1 |
-| 47 | TS-01 | Endpoint: Login | Como developer, quiero un endpoint para autenticar usuarios. | 2 |
-| 48 | TS-02 | Endpoint: Recuperar contraseña | Como developer, quiero un endpoint que permita enviar correo de recuperación. | 2 |
-| 49 | TS-03 | Endpoint: Logout | Como developer, quiero un endpoint para cerrar sesión. | 1 |
-| 50 | TS-04 | Endpoint: Crear pedido | Como developer, quiero un endpoint para registrar un nuevo pedido de combustible. | 3 |
-| 51 | TS-05 | Endpoint: Consultar pedidos por usuario | Como developer, quiero un endpoint para obtener todos los pedidos de un usuario. | 2 |
+|--------|-----|--------|-------------|:------------:|
+| 01 | US-05 | Registrar nuevo pedido | Como solicitante, quiero registrar un pedido con tipo y cantidad de combustible para que el proveedor lo procese. |      5       |
+| 02 | US-06 | Consultar estado del pedido | Como solicitante, quiero ver el estado de mis pedidos para saber si están aprobados, en tránsito o entregados. |      2       |
+| 03 | US-08 | Registrar información de pago | Como solicitante, quiero ingresar la información de los pagos correspondientes para validar el pedido ante el proveedor. |      3       |
+| 04 | US-07 | Confirmar recepción de pedido | Como solicitante, quiero confirmar que recibí el pedido para que el proveedor lo cierre. |      2       |
+| 05 | US-09 | Ver historial de pedidos | Como solicitante, quiero ver mis pedidos anteriores para tener control sobre mi consumo. |      2       |
+| 06 | US-43 | Ver detalle de pedido | Como usuario de ambos segmentos, quiero ver el detalle completo de un pedido para revisar toda la información asociada. |      2       |
+| 07 | US-10 | Ver pedidos pendientes | Como proveedor, quiero ver todos los pedidos pendientes para analizarlos y tomar acción. |      2       |
+| 08 | US-11 | Aprobar pedido | Como proveedor, quiero aprobar pedidos según los depósitos hechos a mis cuentas bancarias. |      3       |
+| 09 | US-42 | Rechazar pedido | Como proveedor, quiero rechazar un pedido cuando no pueda atenderlo para notificar al solicitante oportunamente. |      2       |
+| 10 | US-12 | Marcar pedido como despachado | Como proveedor, quiero marcar cuándo un pedido sale a entrega para notificar al cliente. |      2       |
+| 11 | US-13 | Cerrar pedido | Como proveedor, quiero cerrar el pedido cuando el cliente confirme la entrega para finalizar el proceso. |      2       |
+| 12 | US-14 | Generar reporte de ventas | Como proveedor, quiero generar reportes de ventas para tener registro de operaciones realizadas. |      3       |
+| 13 | US-46 | Gestionar inventario de combustibles | Como proveedor, quiero registrar, editar y eliminar los productos de combustible de mi catálogo para que estén disponibles como opciones al crear un pedido. |      3       |
+| 14 | US-44 | Gestionar vehículos de flota | Como proveedor, quiero registrar y administrar los vehículos de mi flota para tenerlos disponibles al asignarlos a pedidos. |      3       |
+| 15 | US-45 | Gestionar conductores | Como proveedor, quiero registrar y administrar los conductores de mi empresa para asignarlos correctamente a los despachos. |      3       |
+| 16 | US-49 | Asignar recursos a despacho | Como proveedor, quiero asignar un vehículo y un conductor a un pedido aprobado en una sola operación para agilizar la preparación del despacho. |      5       |
+| 17 | US-22 | Validar disponibilidad de transporte | Como proveedor, quiero saber qué vehículos están disponibles antes de asignarlos para vincularlos correctamente. |      5       |
+| 18 | US-18 | Ver resumen de pedidos (Solicitante) | Como solicitante, quiero ver un resumen de mis pedidos para identificar cuántos están en proceso o completados. |      3       |
+| 19 | US-47 | Ver Dashboard principal del proveedor | Como proveedor, quiero acceder a un panel principal con KPIs de operación y un gráfico de tendencia de ventas para tener visibilidad en tiempo real del estado de mi negocio. |      3       |
+| 20 | US-29 | Recibir notificación de aprobación | Como solicitante, quiero recibir una notificación cuando un pedido sea aprobado o rechazado para estar informado. |      2       |
+| 21 | US-30 | Notificación de pedido despachado | Como solicitante, quiero recibir una notificación cuando un pedido haya sido despachado para estar informado. |      2       |
+| 22 | US-27 | Buscar pedido por código | Como usuario de ambos segmentos, quiero buscar un pedido específico por su código para encontrarlo rápidamente. |      2       |
+| 23 | US-28 | Filtrar pedidos por estado | Como usuario de ambos segmentos, quiero filtrar mis pedidos por estado para facilitar la revisión. |      2       |
+| 24 | US-31 | Ver listado de empresas | Como proveedor, quiero ver una lista de empresas solicitantes para identificar a mis clientes frecuentes. |      2       |
+| 25 | US-32 | Ver detalles de empresa | Como proveedor, quiero ver información detallada de una empresa solicitante para analizar su historial de pedidos. |      2       |
+| 26 | US-33 | Ver gráfico de consumo (Solicitante) | Como solicitante, quiero ver un gráfico de mi consumo mensual para tener control sobre el uso del combustible. |      3       |
+| 27 | US-34 | Ver gráfico de ventas (Proveedor) | Como proveedor, quiero ver un gráfico de ventas por mes para monitorear el rendimiento del negocio. |      3       |
+| 28 | US-48 | Ver distribución de ventas por sector | Como proveedor, quiero ver la distribución de mis ventas por sector industrial para identificar cuáles son mis clientes más relevantes por rubro. |      2       |
+| 29 | US-35 | Descargar reporte PDF | Como usuario de ambos segmentos, quiero descargar un resumen de pedidos o ventas en formato PDF para archivarlo o compartirlo. |      3       |
+| 30 | US-01 | Ver sección Home | Como visitante (proveedor), quiero ver una sección de inicio que resuma el valor de FullTank para comprender rápidamente el objetivo del sistema. |      2       |
+| 31 | US-02 | Ver sección About Us | Como visitante de ambos segmentos, quiero conocer quiénes están detrás de FullTank para confiar en el sistema. |      1       |
+| 32 | US-03 | Ver sección How it works? | Como visitante de ambos segmentos, quiero entender cómo funciona FullTank paso a paso para evaluar si se ajusta a mis necesidades. |      2       |
+| 33 | US-36 | Ver sección Benefits | Como visitante de ambos segmentos, quiero conocer las principales ventajas para evaluar la implementación de la plataforma. |      1       |
+| 34 | US-37 | Ver sección Lo que Dicen Nuestros Clientes | Como visitante de ambos segmentos, quiero conocer los testimonios de usuarios de FullTank para tener confianza en la plataforma. |      2       |
+| 35 | US-38 | Ver sección Planes y Precios | Como visitante de ambos segmentos, quiero saber qué planes se adecuan a mis necesidades para poder iniciar un proceso de registro. |      3       |
+| 36 | US-39 | Cambiar idioma | Como visitante de ambos segmentos, quiero poder cambiar entre inglés y español para entender la plataforma en mi idioma preferido. |      3       |
+| 37 | US-04 | Enviar mensaje de contacto | Como visitante de ambos segmentos, quiero enviar un mensaje desde Contact Us para solicitar más información. |      3       |
+| 38 | US-23 | Ver perfil de usuario | Como usuario registrado, quiero ver mis datos de perfil para revisar mi información registrada. |      1       |
+| 39 | US-24 | Editar datos de perfil | Como usuario registrado, quiero editar mis datos para mantener mi información actualizada. |      2       |
+| 40 | US-25 | Ver sección de preguntas frecuentes | Como visitante de ambos segmentos, quiero acceder a una sección de preguntas frecuentes para resolver dudas rápidamente. |      2       |
+| 41 | US-26 | Acceder a información de contacto rápido | Como usuario de ambos segmentos, quiero ver datos de contacto directo (teléfono o correo) para hacer consultas urgentes. |      1       |
+| 42 | US-40 | Registrar empresa solicitante | Como visitante (solicitante), quiero registrar mi empresa en la plataforma para comenzar a realizar pedidos de combustible. |      3       |
+| 43 | US-41 | Registrar empresa proveedora | Como visitante (proveedor), quiero registrar mi empresa distribuidora en la plataforma para comenzar a gestionar pedidos de combustible. |      3       |
+| 44 | US-15 | Iniciar sesión | Como usuario registrado, quiero iniciar sesión con correo y contraseña para acceder a mi cuenta. |      2       |
+| 45 | US-16 | Recuperar contraseña | Como usuario registrado, quiero recuperar mi contraseña para volver a acceder si la olvidé. |      2       |
+| 46 | US-17 | Cerrar sesión | Como usuario registrado, quiero poder cerrar sesión para mantener segura mi cuenta. |      1       |
+| 47 | TS-01 | Endpoint: Login | Como developer, quiero un endpoint para autenticar usuarios. |      2       |
+| 48 | TS-02 | Endpoint: Recuperar contraseña | Como developer, quiero un endpoint que permita enviar correo de recuperación. |      2       |
+| 49 | TS-03 | Endpoint: Logout | Como developer, quiero un endpoint para cerrar sesión. |      1       |
+| 50 | TS-04 | Endpoint: Crear pedido | Como developer, quiero un endpoint para registrar un nuevo pedido de combustible. |      3       |
+| 51 | TS-05 | Endpoint: Consultar pedidos por usuario | Como developer, quiero un endpoint para obtener todos los pedidos de un usuario. |      2       |
+| 51 | TS-06 | Endpoint: Registro de usuario | Como developer, quiero un endpoint para registrar nuevos usuarios en la plataforma (sign-up). |      3       |
+| 52 | TS-07 | Endpoint: Consultar usuarios | Como developer, quiero endpoints para listar todos los usuarios y consultar uno por su ID. |      2       |
+| 53 | TS-08 | Endpoint: CRUD de empresas compradoras | Como developer, quiero endpoints para registrar, listar, consultar y actualizar empresas compradoras (buyer companies). |      5       |
+| 54 | TS-09 | Endpoint: CRUD de empresas proveedoras | Como developer, quiero endpoints para registrar, listar, consultar y actualizar empresas proveedoras (provider companies). |      5       |
+| 55 | TS-10 | Endpoint: Actualizar perfil de usuario | Como developer, quiero un endpoint para que un usuario autenticado actualice los datos de su propio perfil. |      3       |
+| 56 | TS-11 | Endpoint: CRUD de productos de combustible | Como developer, quiero endpoints para crear, listar, consultar (por ID y por proveedor), actualizar y eliminar productos de combustible. |      5       |
+| 57 | TS-12 | Endpoint: Actualizar stock de producto | Como developer, quiero un endpoint para actualizar el stock disponible de un producto de combustible. |      2       |
+| 58 | TS-13 | Endpoint: Consultar pedidos | Como developer, quiero endpoints para listar todos los pedidos y consultarlos por ID, por empresa compradora y por proveedor. |      3       |
+| 59 | TS-14 | Endpoint: Confirmar / cancelar pedido | Como developer, quiero endpoints para confirmar o cancelar un pedido existente. |      3       |
+| 60 | TS-15 | Endpoint: Solicitudes de combustible | Como developer, quiero endpoints para crear, listar, aceptar y rechazar solicitudes de combustible (fuel requests). |      5       |
+| 61 | TS-16 | Endpoint: Consultar solicitud por ID | Como developer, quiero un endpoint para consultar el detalle de una solicitud de combustible específica. |      2       |
+| 62 | TS-17 | Endpoint: Gestión de entregas | Como developer, quiero endpoints para crear, despachar, completar, marcar como fallida y consultar entregas (todas, por ID, por proveedor y por pedido). |      5       |
+| 63 | TS-18 | Endpoint: CRUD de conductores | Como developer, quiero endpoints para registrar, listar por proveedor, consultar, actualizar y eliminar conductores. |      5       |
+| 64 | TS-19 | Endpoint: CRUD de vehículos | Como developer, quiero endpoints para registrar, listar por proveedor, consultar, actualizar y eliminar vehículos. |      5       |
+| 65 | TS-20 | Endpoint: Registrar y procesar pagos | Como developer, quiero endpoints para registrar un pago, marcarlo como completado y procesar su reembolso. |      5       |
+| 66 | TS-21 | Endpoint: Consultar pagos | Como developer, quiero endpoints para listar todos los pagos y consultarlos por ID, por pedido y por empresa. |      3       |
+| 67 | TS-22 | Endpoint: Calificaciones de proveedores | Como developer, quiero endpoints para crear, listar y actualizar calificaciones de proveedores. |      3       |
+| 68 | TS-23 | Endpoint: Gestión de equipos | Como developer, quiero endpoints para registrar, actualizar, listar y consultar equipos (por ID y por empresa). |      5       |
+| 69 | TS-24 | Endpoint: Asignar proveedor favorito | Como developer, quiero un endpoint para asignar un proveedor favorito a un equipo. |      2       |
+| 70 | TS-25 | Endpoint: Eliminar equipo | Como developer, quiero un endpoint para eliminar un equipo registrado. |      2       |
+| 71 | TS-26 | Endpoint: Sistema de notificaciones | Como developer, quiero endpoints para crear notificaciones, marcarlas como leídas y consultarlas por usuario, por empresa compradora, por proveedor y las no leídas de un usuario. |      5       |
+| 72 | TS-27 | Endpoint: Reportes y analítica | Como developer, quiero endpoints para obtener el resumen general de la plataforma y la analítica de un proveedor o comprador específico. |      5       |
 
 ---
 
