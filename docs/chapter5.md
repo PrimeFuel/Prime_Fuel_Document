@@ -1075,7 +1075,303 @@ URL del Frontend App: https://fulltank-open.web.app/home
   </tbody>
 </table>
 
+#### 5.2.3.3.Sprint Backlog 3.
 
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th colspan="2"><strong>Sprint #</strong></th>
+      <th colspan="6"><strong>Sprint 3</strong></th>
+    </tr>
+    <tr>
+      <th colspan="2"><strong>Technical Story</strong></th>
+      <th colspan="6"><strong>Work-Item / Task</strong></th>
+    </tr>
+    <tr>
+      <th><strong>Id</strong></th>
+      <th><strong>Title</strong></th>
+      <th><strong>Id</strong></th>
+      <th><strong>Title</strong></th>
+      <th><strong>Description</strong></th>
+      <th><strong>Estimation (Hours)</strong></th>
+      <th><strong>Assigned to</strong></th>
+      <th><strong>Status</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TS-01</td>
+      <td>Endpoint: Login</td>
+      <td>W-01</td>
+      <td>Implementación Sign In</td>
+      <td>Desarrollo del endpoint de autenticación utilizando JWT y validación de credenciales.</td>
+      <td>2</td>
+      <td>Asto Jacome Jose Gustavo</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-02</td>
+      <td>Endpoint: Recuperar contraseña</td>
+      <td>W-02</td>
+      <td>Password Recovery</td>
+      <td>Diseño del flujo de recuperación mediante generación de token y envío de correo.</td>
+      <td>2</td>
+      <td>Herrera Enriquez Diego Fernando</td>
+      <td>Pending</td>
+    </tr>
+    <tr>
+      <td>TS-03</td>
+      <td>Endpoint: Logout</td>
+      <td>W-03</td>
+      <td>Logout Service</td>
+      <td>Evaluación e implementación del mecanismo de cierre de sesión para JWT.</td>
+      <td>1</td>
+      <td>Cayanchi Avila Milenko Rubén</td>
+      <td>Pending</td>
+    </tr>
+    <tr>
+      <td>TS-04</td>
+      <td>Endpoint: Crear pedido</td>
+      <td>W-04</td>
+      <td>Create Fuel Order</td>
+      <td>Implementación del endpoint para registrar pedidos de combustible.</td>
+      <td>2</td>
+      <td>Ponce Perales Alberto Alejandro</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-05</td>
+      <td>Consultar pedidos por usuario</td>
+      <td>W-05</td>
+      <td>Orders by User</td>
+      <td>Consulta de pedidos asociados a un usuario específico.</td>
+      <td>2</td>
+      <td>Corvacho Damian Brayan Alexis</td>
+      <td>In Progress</td>
+    </tr>
+    <tr>
+      <td>TS-06</td>
+      <td>Registro de usuario</td>
+      <td>W-06</td>
+      <td>Sign Up Endpoint</td>
+      <td>Implementación del registro de usuarios y persistencia de credenciales.</td>
+      <td>2</td>
+      <td>Asto Jacome Jose Gustavo</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-07</td>
+      <td>Consultar usuarios</td>
+      <td>W-07</td>
+      <td>User Query Services</td>
+      <td>Endpoints para listar usuarios y obtener detalle por identificador.</td>
+      <td>1</td>
+      <td>Cayanchi Avila Milenko Rubén</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-08</td>
+      <td>CRUD Empresas Compradoras</td>
+      <td>W-08</td>
+      <td>Buyer Companies API</td>
+      <td>Servicios CRUD para la gestión de empresas compradoras.</td>
+      <td>3</td>
+      <td>Herrera Enriquez Diego Fernando</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-09</td>
+      <td>CRUD Empresas Proveedoras</td>
+      <td>W-09</td>
+      <td>Provider Companies API</td>
+      <td>Servicios CRUD para empresas proveedoras registradas.</td>
+      <td>3</td>
+      <td>Ponce Perales Alberto Alejandro</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-10</td>
+      <td>Actualizar perfil de usuario</td>
+      <td>W-10</td>
+      <td>Update User Profile</td>
+      <td>Implementación de actualización de datos del usuario autenticado.</td>
+      <td>2</td>
+      <td>Corvacho Damian Brayan Alexis</td>
+      <td>Pending</td>
+    </tr>
+    <tr>
+      <td>TS-11</td>
+      <td>CRUD Productos de Combustible</td>
+      <td>W-11</td>
+      <td>Fuel Products API</td>
+      <td>Gestión completa de productos de combustible mediante endpoints REST.</td>
+      <td>3</td>
+      <td>Asto Jacome Jose Gustavo</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-12</td>
+      <td>Actualizar stock</td>
+      <td>W-12</td>
+      <td>Stock Management</td>
+      <td>Actualización de stock disponible para productos registrados.</td>
+      <td>1</td>
+      <td>Cayanchi Avila Milenko Rubén</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-13</td>
+      <td>Consultar pedidos</td>
+      <td>W-13</td>
+      <td>Fuel Orders Queries</td>
+      <td>Listado y consulta de pedidos por distintos criterios.</td>
+      <td>2</td>
+      <td>Ponce Perales Alberto Alejandro</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-14</td>
+      <td>Confirmar / Cancelar pedido</td>
+      <td>W-14</td>
+      <td>Order State Actions</td>
+      <td>Acciones para confirmar y cancelar pedidos existentes.</td>
+      <td>2</td>
+      <td>Herrera Enriquez Diego Fernando</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-15</td>
+      <td>Solicitudes de combustible</td>
+      <td>W-15</td>
+      <td>Fuel Requests API</td>
+      <td>Gestión de solicitudes de combustible y sus estados.</td>
+      <td>3</td>
+      <td>Corvacho Damian Brayan Alexis</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-16</td>
+      <td>Consultar solicitud por ID</td>
+      <td>W-16</td>
+      <td>Fuel Request Detail</td>
+      <td>Consulta detallada de solicitudes mediante identificador.</td>
+      <td>1</td>
+      <td>Asto Jacome Jose Gustavo</td>
+      <td>Pending</td>
+    </tr>
+    <tr>
+      <td>TS-17</td>
+      <td>Gestión de entregas</td>
+      <td>W-17</td>
+      <td>Delivery Management API</td>
+      <td>Implementación integral de endpoints de logística y entregas.</td>
+      <td>4</td>
+      <td>Ponce Perales Alberto Alejandro</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-18</td>
+      <td>CRUD Conductores</td>
+      <td>W-18</td>
+      <td>Drivers API</td>
+      <td>Administración de conductores mediante operaciones CRUD.</td>
+      <td>2</td>
+      <td>Cayanchi Avila Milenko Rubén</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-19</td>
+      <td>CRUD Vehículos</td>
+      <td>W-19</td>
+      <td>Vehicles API</td>
+      <td>Administración de flota vehicular mediante endpoints REST.</td>
+      <td>2</td>
+      <td>Corvacho Damian Brayan Alexis</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-20</td>
+      <td>Registrar y procesar pagos</td>
+      <td>W-20</td>
+      <td>Payments API</td>
+      <td>Registro, procesamiento y reembolso de pagos.</td>
+      <td>3</td>
+      <td>Herrera Enriquez Diego Fernando</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-21</td>
+      <td>Consultar pagos</td>
+      <td>W-21</td>
+      <td>Payments Queries</td>
+      <td>Consulta de pagos por empresa, pedido e identificador.</td>
+      <td>2</td>
+      <td>Asto Jacome Jose Gustavo</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-22</td>
+      <td>Calificaciones de proveedores</td>
+      <td>W-22</td>
+      <td>Provider Ratings API</td>
+      <td>Creación y actualización de valoraciones de proveedores.</td>
+      <td>2</td>
+      <td>Cayanchi Avila Milenko Rubén</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-23</td>
+      <td>Gestión de equipos</td>
+      <td>W-23</td>
+      <td>Equipment Management</td>
+      <td>Administración de equipos y consultas por empresa.</td>
+      <td>3</td>
+      <td>Ponce Perales Alberto Alejandro</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-24</td>
+      <td>Asignar proveedor favorito</td>
+      <td>W-24</td>
+      <td>Favorite Provider</td>
+      <td>Asignación de proveedores preferidos para equipos registrados.</td>
+      <td>1</td>
+      <td>Corvacho Damian Brayan Alexis</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-25</td>
+      <td>Eliminar equipo</td>
+      <td>W-25</td>
+      <td>Delete Equipment</td>
+      <td>Implementación de endpoint para eliminación de equipos.</td>
+      <td>1</td>
+      <td>Herrera Enriquez Diego Fernando</td>
+      <td>Pending</td>
+    </tr>
+    <tr>
+      <td>TS-26</td>
+      <td>Sistema de notificaciones</td>
+      <td>W-26</td>
+      <td>Notifications API</td>
+      <td>Gestión de notificaciones, lectura y consultas especializadas.</td>
+      <td>3</td>
+      <td>Asto Jacome Jose Gustavo</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-27</td>
+      <td>Reportes y analítica</td>
+      <td>W-27</td>
+      <td>Analytics Services</td>
+      <td>Implementación de métricas generales y reportes por empresa.</td>
+      <td>3</td>
+      <td>Herrera Enriquez Diego Fernando</td>
+      <td>Done</td>
+    </tr>
+  </tbody>
+</table>
 
 
 **Conclusiones**
