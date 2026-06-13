@@ -1030,6 +1030,52 @@ URL del Frontend App: https://fulltank-open.web.app/home
 
 </table>
 
+#### 5.2.3.2. Aspect Leaders and Collaborators
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th>Team Member</th>
+      <th>GitHub Username</th>
+      <th>Landing Page</th>
+      <th>Documentation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Milenko Rubén Cayanchi Avila</td>
+      <td>MaxghZZ</td>
+      <td>L</td>
+      <td>L</td>
+    </tr>
+    <tr>
+      <td>Jose Gustavo Asto Jacome</td>
+      <td>DhudsQ</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Diego Fernando Herrera Enriquez</td>
+      <td>DerDFHE</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Alberto Alejandro Ponce Perales</td>
+      <td>aponceperales</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Brayan Alexis Corvacho Damian</td>
+      <td>BralexCD</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+  </tbody>
+</table>
+
+
 
 
 **Conclusiones**
