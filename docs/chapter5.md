@@ -504,6 +504,7 @@ Durante el Sprint 1, el equipo se enfocó en el desarrollo del Landing Page de F
 </ul>
 
 ### 5.2.2. Sprint 2
+
 #### 5.2.2.1.Sprint Planning 2
 
 <table border="1" cellspacing="0" cellpadding="6">
@@ -931,6 +932,105 @@ URL del Frontend App: https://fulltank-open.web.app/home
 ![Frontend Contributors](../assets/chapter-5/frontend.png)
 
 <br>
+
+### 5.2.3. Sprint 3
+
+#### 5.2.3.1. Sprint Planning 3
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <td><strong>Sprint #</strong></td>
+    <td><strong>Sprint 3</strong></td>
+  </tr>
+
+  <tr>
+    <td colspan="2" align="center"><strong>Sprint Planning Background</strong></td>
+  </tr>
+
+  <tr>
+    <td>Date</td>
+    <td>10/06/2026</td>
+  </tr>
+
+  <tr>
+    <td>Time</td>
+    <td>15:00 PM</td>
+  </tr>
+
+  <tr>
+    <td>Location</td>
+    <td>Meet / Discord</td>
+  </tr>
+
+  <tr>
+    <td>Prepared by</td>
+    <td>Asto Jacome Jose Gustavo</td>
+  </tr>
+
+  <tr>
+    <td>Attendees (to planning meeting)</td>
+    <td>
+      Asto Jacome Jose Gustavo (u20241c630)<br>
+      Cayanchi Avila Milenko Rubén (u202312566)<br>
+      Corvacho Damian Brayan Alexis (u20231a257)<br>
+      Ponce Perales Alberto Alejandro (u202320684)<br>
+      Herrera Enriquez Diego Fernando (u202319027)
+    </td>
+  </tr>
+
+  <tr>
+    <td>Sprint 2 Review Summary</td>
+    <td>
+      Se completó el desarrollo de la Web Application de FullTank utilizando Angular 17.
+      Se implementaron los principales módulos operativos del sistema, incluyendo
+      inventario de combustibles, gestión de pedidos, solicitudes de combustible,
+      logística de entregas, gestión de conductores y vehículos, dashboard del proveedor
+      y vistas analíticas. Asimismo, se integró una API simulada mediante json-server
+      desplegada en Render para validar los flujos de negocio del frontend.
+    </td>
+  </tr>
+
+  <tr>
+    <td>Sprint 2 Retrospective Summary</td>
+    <td>
+      El equipo logró mantener una distribución equilibrada de tareas durante el desarrollo
+      frontend. Como oportunidad de mejora se identificó la necesidad de acelerar la integración
+      entre frontend y backend desde etapas más tempranas del proyecto, así como establecer
+      contratos de API más detallados para reducir retrabajos durante las fases de integración.
+    </td>
+  </tr>
+
+  <tr>
+    <td colspan="2" align="center"><strong>Sprint Goal &amp; User Stories</strong></td>
+  </tr>
+
+  <tr>
+    <td>Sprint 3 Goal</td>
+    <td>
+      Diseñar, implementar y desplegar la arquitectura Backend de FullTank utilizando
+      Spring Boot y Domain Driven Design (DDD), desarrollando los servicios REST necesarios
+      para soportar la autenticación, gestión de empresas, inventario de combustibles,
+      pedidos, logística, pagos, notificaciones y analítica de la plataforma.<br><br>
+      <em> Sprint Goal se considerará cumplido cuando los principales procesos de negocio
+      estén expuestos mediante endpoints funcionales y documentados, permitiendo la
+      comunicación entre la Web Application y los servicios backend desplegados.</em>
+    </td>
+
+  </tr>
+
+  <tr>
+    <td>Sprint 3 Velocity</td>
+    <td>21</td>
+  </tr>
+
+  <tr>
+    <td>Sum of Story Points</td>
+    <td>97</td>
+  </tr>
+
+</table>
+
+
 
 **Conclusiones**
 
