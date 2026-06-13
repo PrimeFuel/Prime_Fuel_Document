@@ -1373,6 +1373,73 @@ URL del Frontend App: https://fulltank-open.web.app/home
   </tbody>
 </table>
 
+#### 5.2.3.4. Development Evidence for Sprint Review
+
+Durante el Sprint 3 se desarrolló la capa backend de FullTank utilizando Spring Boot y una arquitectura basada en Domain Driven Design (DDD), organizada mediante bounded contexts independientes para cada dominio del negocio. Esta estructura permitió mantener una adecuada separación de responsabilidades entre los diferentes módulos del sistema, facilitando la escalabilidad y el mantenimiento del proyecto.
+
+Como parte de la implementación se desarrollaron múltiples APIs REST para soportar los procesos principales de la plataforma, incluyendo autenticación, gestión de empresas, inventario de combustibles, pedidos, logística, pagos, notificaciones y analítica. Cada bounded context fue implementado siguiendo una arquitectura por capas compuesta por Controllers, Services, Commands, Queries, Assemblers, Repositories y entidades de dominio, permitiendo una organización consistente del código fuente.
+
+Asimismo, se definieron agregados y entidades de dominio para representar los conceptos centrales del negocio, implementando Command Services y Query Services para gestionar operaciones de escritura y consulta de datos. La persistencia fue desarrollada mediante Spring Data JPA, estableciendo la integración entre la aplicación y la base de datos relacional. Adicionalmente, se configuró un mecanismo de autenticación y autorización basado en JSON Web Tokens (JWT) para proteger los recursos expuestos por la API.
+
+Las evidencias de desarrollo incluyen los commits realizados por los integrantes del equipo, la implementación de endpoints REST, la creación de componentes de dominio y aplicación, así como la integración de los diferentes módulos que conforman la arquitectura backend de FullTank.
+
+**Figura X. Historial de commits y evidencias de desarrollo del Sprint 3.**
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+La validación funcional se realizó mediante pruebas de ejecución de endpoints utilizando herramientas como Swagger UI y Postman.
+
+Se verificó el correcto funcionamiento de:
+
+* Registro e inicio de sesión de usuarios.
+* Gestión de empresas proveedoras y compradoras.
+* Gestión de productos de combustible.
+* Creación y seguimiento de pedidos.
+* Administración de conductores y vehículos.
+* Procesamiento de pagos.
+* Gestión de notificaciones.
+* Generación de métricas y reportes.
+
+**Figura X. Ejecución de endpoints mediante Swagger UI.**
+
+**Figura X. Validación de respuestas HTTP utilizando Postman.**
+
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 3 se documentaron los servicios desarrollados en el backend utilizando OpenAPI/Swagger, lo que permitió contar con una especificación clara, centralizada y actualizada de los recursos expuestos por la plataforma FullTank. Esta documentación facilitó la validación de endpoints, la comprensión de los contratos de comunicación entre frontend y backend, y las pruebas realizadas por el equipo durante el desarrollo.
+
+La documentación generada incluye información sobre rutas, métodos HTTP, parámetros de entrada, estructuras de solicitud y respuesta, así como los posibles códigos de estado retornados por cada servicio. Gracias a ello, los integrantes del equipo pudieron consultar de manera rápida el comportamiento esperado de cada endpoint y verificar la correcta integración entre los distintos módulos del sistema.
+
+Entre los principales servicios documentados se encuentran los módulos de autenticación y gestión de usuarios (Authentication API y Users API), la administración de empresas compradoras y proveedoras (Buyer Companies API y Provider Companies API), la gestión de inventario de combustibles (Fuel Products API), el procesamiento de pedidos y solicitudes de combustible (Fuel Orders API y Fuel Requests API), los servicios de logística y distribución (Deliveries API, Drivers API y Vehicles API), la gestión de pagos (Payments API), el sistema de notificaciones (Notifications API) y los servicios de reportes y analítica (Analytics API).
+
+La utilización de Swagger permitió además disponer de una interfaz interactiva para ejecutar pruebas sobre los servicios implementados, verificar respuestas en tiempo real y validar el correcto funcionamiento de los distintos bounded contexts que conforman la arquitectura del backend.
+
+**Figura X. Documentación OpenAPI del backend FullTank.**
+
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+
+
+**Figura X. Backend desplegado y accesible desde Internet.**
+
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+Durante este sprint el equipo trabajó de forma colaborativa utilizando GitHub para la gestión del código fuente y Trello para el seguimiento de tareas.
+
+Las principales prácticas aplicadas fueron:
+
+* Desarrollo basado en ramas (feature branches).
+* Uso de Pull Requests para revisión de código.
+* Seguimiento de historias técnicas mediante tablero Kanban.
+* Reuniones periódicas para coordinación e integración de módulos.
+* Resolución colaborativa de incidencias durante la implementación.
+
+Como resultado, se logró completar la mayor parte de las historias técnicas planificadas, obteniendo una cobertura funcional significativa de los servicios backend requeridos para la plataforma FullTank.
+
+**Figura X. Insights.**
 
 **Conclusiones**
 
