@@ -446,8 +446,6 @@
   <td>EP07</td>
 </tr>
   </tbody>
-</table>
-
 <!-- Technical Stories: EP08 -->
 
 <tr>
@@ -650,7 +648,7 @@
   <td>EP14</td>
 </tr>
 
-
+</table>
 
 
 ## 3.2 Impact Mapping
