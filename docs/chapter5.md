@@ -1568,6 +1568,12 @@ Durante el Sprint 3 se realizó el despliegue del frontend de FullTank en un ent
 El proceso incluyó la configuración de variables de entorno necesarias para la conexión con los servicios backend, la construcción del proyecto frontend y su publicación en la plataforma, garantizando su disponibilidad para pruebas de usuario y validación del flujo completo de la aplicación.
 
 
+vercel: frontend-dgwsg79ja-bralexcds-projects.vercel.app
+
+render: https://prime-fuel-backend.onrender.com
+
+swagger: https://prime-fuel-backend.onrender.com/swagger-ui/index.html
+
 ![Deployment Visual Evidence of Deploy](../assets/chapter-5/Deploy1.jpg)
 ![Deployment Visual Evidence of Deploy](../assets/chapter-5/Deploy2.jpg)
 ![Deployment Visual Evidence of Deploy](../assets/chapter-5/Deploy3.jpg)
