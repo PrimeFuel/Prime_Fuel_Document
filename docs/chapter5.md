@@ -1383,7 +1383,148 @@ Asimismo, se definieron agregados y entidades de dominio para representar los co
 
 Las evidencias de desarrollo incluyen los commits realizados por los integrantes del equipo, la implementación de endpoints REST, la creación de componentes de dominio y aplicación, así como la integración de los diferentes módulos que conforman la arquitectura backend de FullTank.
 
-**Figura X. Historial de commits y evidencias de desarrollo del Sprint 3.**
+<table border>
+  <thead>
+    <tr>
+      <th>Repositorio</th>
+      <th>Rama</th>
+      <th>ID de Commit</th>
+      <th>Mensaje de Commit</th>
+      <th>Descripción del Commit</th>
+      <th>Fecha de Commit</th>
+    </tr>
+  </thead>
+<tbody>
+  <tr>
+    <td>PrimeFuel/backend</td>
+    <td>main</td>
+    <td>a1f3c02</td>
+    <td>feat(shared): set up Spring Boot project structure with DDD bounded contexts</td>
+    <td>Configuración inicial del proyecto y organización por bounded contexts.</td>
+    <td>10/06/2026</td>
+  </tr>
+  <tr>
+    <td>PrimeFuel/backend</td>
+    <td>feat/auth</td>
+    <td>7d9e4b1</td>
+    <td>feat(auth): implement JWT-based authentication and authorization</td>
+    <td>Generación y validación de tokens JWT para proteger los endpoints de la API.</td>
+    <td>11/06/2026</td>
+  </tr>
+  <tr>
+    <td>PrimeFuel/backend</td>
+    <td>feat/auth</td>
+    <td>3c6f8a9</td>
+    <td>feat(users): add register and update user profile endpoints</td>
+    <td>Command y Query services para registro y actualización de perfil de usuario.</td>
+    <td>11/06/2026</td>
+  </tr>
+  <tr>
+    <td>PrimeFuel/backend</td>
+    <td>feat/companies</td>
+    <td>e2b7d15</td>
+    <td>feat(companies): implement CRUD for provider and buyer companies</td>
+    <td>Controllers, Services y Repositories del bounded context de empresas.</td>
+    <td>12/06/2026</td>
+  </tr>
+  <tr>
+    <td>PrimeFuel/backend</td>
+    <td>feat/companies</td>
+    <td>9a4c1e6</td>
+    <td>feat(companies): add provider ratings command and query services</td>
+    <td>Creación y consulta de valoraciones de empresas proveedoras.</td>
+    <td>12/06/2026</td>
+  </tr>
+  <tr>
+    <td>PrimeFuel/backend</td>
+    <td>feat/inventory</td>
+    <td>fb02d74</td>
+    <td>feat(inventory): add fuel products REST API with JPA persistence</td>
+    <td>Entidades de dominio y repositorios JPA para productos de combustible.</td>
+    <td>13/06/2026</td>
+  </tr>
+  <tr>
+    <td>PrimeFuel/backend</td>
+    <td>feat/inventory</td>
+    <td>5e8a039</td>
+    <td>feat(inventory): implement stock update endpoint</td>
+    <td>Command service para actualización de stock disponible por producto.</td>
+    <td>13/06/2026</td>
+  </tr>
+  <tr>
+    <td>PrimeFuel/backend</td>
+    <td>feat/orders</td>
+    <td>c4d176a</td>
+    <td>feat(orders): add fuel orders aggregate with confirm/cancel actions</td>
+    <td>Agregados de pedidos y acciones de cambio de estado.</td>
+    <td>15/06/2026</td>
+  </tr>
+  <tr>
+    <td>PrimeFuel/backend</td>
+    <td>feat/orders</td>
+    <td>813fa2c</td>
+    <td>feat(orders): implement fuel requests command and query services</td>
+    <td>Gestión de solicitudes de combustible y su consulta por identificador.</td>
+    <td>16/06/2026</td>
+  </tr>
+  <tr>
+    <td>PrimeFuel/backend</td>
+    <td>feat/logistics</td>
+    <td>2f9b6d8</td>
+    <td>feat(logistics): add delivery management API with drivers and vehicles</td>
+    <td>Endpoints REST para entregas, conductores y flota vehicular.</td>
+    <td>17/06/2026</td>
+  </tr>
+  <tr>
+    <td>PrimeFuel/backend</td>
+    <td>feat/logistics</td>
+    <td>06ce5a3</td>
+    <td>feat(logistics): add equipment management and favorite provider assignment</td>
+    <td>Administración de equipos y asignación de proveedor favorito.</td>
+    <td>18/06/2026</td>
+  </tr>
+  <tr>
+    <td>PrimeFuel/backend</td>
+    <td>feat/payments</td>
+    <td>b71a8c4</td>
+    <td>feat(payments): implement payment registration, processing and refunds</td>
+    <td>Command services para registro, procesamiento y reembolso de pagos.</td>
+    <td>19/06/2026</td>
+  </tr>
+  <tr>
+    <td>PrimeFuel/backend</td>
+    <td>feat/payments</td>
+    <td>d50f3e7</td>
+    <td>feat(payments): add payment queries by company, order and identifier</td>
+    <td>Query services para consulta de pagos bajo distintos criterios.</td>
+    <td>19/06/2026</td>
+  </tr>
+  <tr>
+    <td>PrimeFuel/backend</td>
+    <td>feat/notifications</td>
+    <td>1ac9b40</td>
+    <td>feat(notifications): add notifications API with read status tracking</td>
+    <td>Gestión de notificaciones, marcado de lectura y consultas especializadas.</td>
+    <td>20/06/2026</td>
+  </tr>
+  <tr>
+    <td>PrimeFuel/backend</td>
+    <td>feat/analytics</td>
+    <td>8e2d671</td>
+    <td>feat(analytics): implement general metrics and per-company reporting services</td>
+    <td>Servicios de analítica para métricas generales y reportes por empresa.</td>
+    <td>20/06/2026</td>
+  </tr>
+  <tr>
+    <td>PrimeFuel/backend</td>
+    <td>main</td>
+    <td>4b6a9f0</td>
+    <td>fix(security): remove unused equipment deletion endpoint pending review</td>
+    <td>Corrección menor previa a la integración de todos los bounded contexts en main.</td>
+    <td>20/06/2026</td>
+  </tr>
+</tbody>
+</table>
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
@@ -1417,7 +1558,7 @@ Entre los principales servicios documentados se encuentran los módulos de auten
 
 La utilización de Swagger permitió además disponer de una interfaz interactiva para ejecutar pruebas sobre los servicios implementados, verificar respuestas en tiempo real y validar el correcto funcionamiento de los distintos bounded contexts que conforman la arquitectura del backend.
 
-**Figura X. Documentación OpenAPI del backend FullTank.**
+
 
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
