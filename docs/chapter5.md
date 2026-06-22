@@ -1590,6 +1590,230 @@ Como resultado, se logró completar la mayor parte de las historias técnicas pl
 
 ![Deployment Visual Evidence of Deploy](../assets/chapter-5/InsightsS3.png)
 
+## 5.3. Validation Interviews
+### 5.3.1. Validation Interviews
+
+### Segmento Comprador
+
+Preguntas para la persona que probó el flujo de comprador (registro, catálogo de proveedores, equipos, solicitud de combustible, pedidos y notificaciones).
+
+1. ¿Qué fue lo que más te gustó del flujo de comprador?
+2. ¿Qué fue lo que menos te gustó o lo que te generó dudas?
+3. ¿Hubo algo que no entendiste para qué servía?
+4. ¿Sientes que te faltó ver algo que esperabas encontrar como comprador?
+5. ¿Confiarías en hacer un pedido real de combustible a través de esta plataforma?
+6. Comparado con cómo compras combustible hoy, ¿esto te ahorraría tiempo o trabajo?
+7. ¿La usarías en lugar de tu método actual para comprar combustible? ¿Por qué sí o por qué no?
+8. ¿Qué es lo único que, si faltara, haría que no la usaras como comprador?
+9. ¿El proceso de hacer un pedido te pareció rápido o tardarías menos haciéndolo de otra forma?
+10. ¿Recomendarías este flujo de compra a otra empresa que compre combustible? ¿Por qué?
+
+
+
+### Segmento Proveedor
+
+Preguntas para la persona que probó el flujo de proveedor (registro, inventario de productos, pedidos entrantes, despacho de vehículos y conductores, notificaciones).
+
+1. ¿Qué fue lo que más te gustó del flujo de proveedor?
+2. ¿Qué fue lo que menos te gustó o lo que te generó dudas?
+3. ¿Hubo algo que no entendiste para qué servía?
+4. ¿Sientes que te faltó ver algo que esperabas encontrar como proveedor?
+5. ¿Confiarías en gestionar pedidos reales de tus clientes a través de esta plataforma?
+6. Comparado con cómo gestionas tu inventario y entregas hoy, ¿esto te ahorraría tiempo o trabajo?
+7. ¿La usarías en lugar de tu método actual como proveedor? ¿Por qué sí o por qué no?
+8. ¿Qué es lo único que, si faltara, haría que no la usaras como proveedor?
+9. ¿Gestionar tus pedidos y entregas aquí te parece más organizado que tu método actual?
+10. ¿Recomendarías este flujo de gestión a otro proveedor de combustible? ¿Por qué?
+
+### 5.3.2. Registro de Entrevistas
+
+### Segmento 1: Empresas solicitantes de combustible
+
+- Entrevista 1:
+
+| Campo | Detalle |
+|-------------------------|---------|
+| **Nombre entrevistado** | Jesús Ponce |
+| **Empresa** | Agroconjuic |
+| **Perfil** | Comprador |
+| **Flujo evaluado** | Registro, catálogo de proveedores, gestión de equipos, solicitud de combustible, pedidos y reportes. |
+| **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQAOa_pOt6Q0S5nCLX_CP4qNAfsaQaKDKdCf1PHW9vWxiaY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=VeO7F1 |
+| **Foto entrevista** | <img src="../assets/chapter-5/jesus-ponce.png" alt="Entrevista de validación - Jesús Ponce" style="width: 30%; max-width: 150px;"> |
+| **Calificación** | 9/10 |
+| **Palabra que define la experiencia** | Eficiente |
+| **Resumen** | El entrevistado probó el panel de comprador y destacó principalmente la facilidad para controlar el consumo de combustible de todas sus maquinarias desde un solo lugar. Consideró que los reportes visuales mensuales de gastos y consumos representan la funcionalidad de mayor valor para su empresa, ya que facilitan el análisis y la toma de decisiones. Como sugerencias de mejora, recomendó incorporar opciones de pago en otras monedas, como dólares, y permitir el uso de vales o cupones de descuento mediante convenios con distribuidoras de combustible. Finalmente, calificó la plataforma con **9/10**, afirmó que la utilizaría sin dudarlo y describió su experiencia con la palabra **"eficiente"**. |
+
+---
+
+### Segmento 2: Proveedores de combustible
+
+- Entrevista 1:
+
+| Campo | Detalle |
+|-------------------------|---------|
+| **Nombre entrevistado** | Jainer Gutiérrez |
+| **Empresa** | Petro Cajamarca |
+| **Perfil** | Proveedor |
+| **Flujo evaluado** | Registro, gestión de inventario, pedidos entrantes, despacho de vehículos y conductores, y notificaciones. |
+| **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQA9W4g1twlDTbJApbBh_8IJAU0w6pEH3w1WpHNlZ6TdjtA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FOpbPn |
+| **Foto entrevista** | <img src="../assets/chapter-5/jainer-gutierrez.png" alt="Entrevista de validación - Jainer Gutiérrez" style="width: 30%; max-width: 150px;"> |
+| **Calificación** | 8/10 |
+| **Palabra que define la experiencia** | Organizada |
+| **Resumen** | El entrevistado evaluó el panel de proveedor y destacó que la plataforma **Full Tank** le permitiría centralizar y organizar procesos que actualmente realiza mediante WhatsApp y llamadas telefónicas. Valoró especialmente el control sobre el inventario, la gestión de pedidos y los despachos, indicando que estas funcionalidades reducirían considerablemente el tiempo invertido en sus operaciones diarias. Como aspectos de mejora, comentó que el sistema puede resultar algo complejo durante el primer uso y sugirió incorporar una visualización más clara del seguimiento de las entregas en tiempo real. Finalmente, calificó la plataforma con **8/10**, afirmó que reemplazaría su método de trabajo actual por esta solución y resumió su experiencia con la palabra **"organizada"**. |
+
+
+### 5.3.3. Evaluaciones según heurísticas
+
+De nosotros al cliente:
+
+# UX Heuristics & Principles Evaluation
+### Usability – Inclusive Design – Information Architecture
+
+| | |
+|---|---|
+| **CARRERA** | Ingeniería de Software |
+| **CURSO** | Desarrollo de Aplicaciones Open Source |
+| **PROFESORES** | Hugo Allan Mori |
+| **AUDITOR** | PrimeFuel |
+| **CLIENTE** | Frigora |
+
+> **NOTA:** Los contenidos de este formato (en color plomo) son referidos a un sitio web de ejemplo. Use este formato como referencia de la estructura que tiene que ser entregada y elimine el contenido en plomo. Coloque su contenido con color azul.
+
+---
+
+## SITE o APP A EVALUAR
+**Frigora**
+
+---
+
+## TAREAS A EVALUAR
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+- Revisión del estado de los equipos (Dashboard y Equipments)
+- Identificación y gestión de alertas (Dashboard y Alerts)
+- Creación y seguimiento de solicitudes de servicio (Services)
+- Revisión de reportes generados (Reports)
+- Gestión de información de usuario (Admin)
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+- Configuración avanzada de equipos o sitios.
+- Creación de planes de servicio.
+- Interacción con sistemas externos de pago o facturación.
+
+---
+
+## ESCALA DE SEVERIDAD
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción |
+|---|---|
+| 1 | Problema superficial: puede ser fácilmente superado por el usuario u ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2 | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4 | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+---
+
+## TABLA RESUMEN
+
+| # | Problema | Severidad | Heurística/Principio violado |
+|---|---|---|---|
+| 1 | La acción "Acknowledge (ACK)" en alertas no funciona. | 4 | User Control and Freedom / Error Prevention |
+| 2 | En la vista de detalle de solicitud de servicio (técnico), el estado siempre aparece como "Pending". | 4 | Visibility of System Status / Match Between System and the Real World |
+| 3 | El Dashboard no muestra la temperatura promedio ni el gráfico de temperatura. | 4 | Visibility of System Status / Aesthetic and Minimalist Design |
+| 4 | El detalle de Service Request muestra el error "Invalid date". | 4 | Match Between System and the Real World / Error Prevention |
+| 5 | Los reportes generados no son compartidos ni visibles para los técnicos. | 3 | User Control and Freedom / Flexibility and Efficiency of Use |
+| 6 | Los equipos y sitios mostrados son los mismos para cualquier usuario dueño de negocio. | 4 | Error Prevention / Match Between System and the Real World |
+
+---
+
+## DESCRIPCIÓN DE PROBLEMAS
+
+### PROBLEMA #1: La acción "Acknowledge (ACK)" en alertas no funciona.
+
+**Severidad:** 4 – Muy grave
+**Heurística violada:** User Control and Freedom / Error Prevention
+
+**Problema:**
+En la sección de Alerts (y en la tabla "Recent Alerts" del Dashboard), al hacer clic en el botón "Acknowledge (ACK)" no se produce ningún efecto visible: el estado de la alerta no cambia, no aparece ningún mensaje de confirmación ni de error, y la alerta permanece en el mismo estado. El usuario no recibe retroalimentación sobre si la acción se ejecutó correctamente o falló, lo que genera confusión y pérdida de confianza en el sistema.
+
+**Recomendación:**
+Implementar la lógica funcional del botón ACK para que actualice el estado de la alerta a "Acknowledged" y refleje el cambio inmediatamente en la tabla. Adicionalmente, mostrar un mensaje de confirmación (toast/snackbar) que indique el éxito o el error de la operación. Mientras la acción esté en proceso, deshabilitar el botón para evitar clics duplicados.
+
+---
+
+### PROBLEMA #2: En la vista de detalle de solicitud de servicio (técnico), el estado siempre aparece como "Pending".
+
+**Severidad:** 4 – Muy grave
+**Heurística violada:** Visibility of System Status / Match Between System and the Real World
+
+**Problema:**
+Cuando un técnico accede al detalle de una Service Request, el campo de estado (status) siempre muestra el valor "Pending", independientemente del estado real de la solicitud en el sistema. Esto implica que el estado no se está leyendo ni mostrando correctamente desde el backend, lo que impide al técnico conocer el estado actual de su trabajo y puede llevar a decisiones operacionales incorrectas.
+
+**Recomendación:**
+Corregir el binding del campo de estado en la vista de detalle de Service Request para el rol de técnico, asegurando que el valor mostrado refleje el estado real devuelto por la API. Verificar que la propiedad del objeto de respuesta esté correctamente mapeada al componente de UI.
+
+---
+
+### PROBLEMA #3: El Dashboard no muestra la temperatura promedio ni el gráfico de temperatura.
+
+**Severidad:** 4 – Muy grave
+**Heurística violada:** Visibility of System Status / Aesthetic and Minimalist Design
+
+**Problema:**
+En el Dashboard, la sección de temperatura promedio aparece vacía o con valores nulos, y el gráfico de temperatura (Temperature Chart) no se renderiza. Esto priva al usuario de la información de monitoreo en tiempo real más crítica de la aplicación, que es la razón principal por la que se accede al Dashboard. El error puede deberse a un fallo en la carga de datos desde el backend, un error en el componente del gráfico o un problema con el formato de los datos recibidos.
+
+**Recomendación:**
+Investigar y corregir la causa raíz del fallo en la carga de datos de temperatura: verificar las llamadas a la API correspondiente, el manejo de errores en el servicio y el componente del gráfico. Implementar un estado de carga (skeleton/spinner) mientras los datos se obtienen, y un mensaje de error descriptivo cuando la carga falla, en lugar de mostrar una sección vacía.
+
+---
+
+### PROBLEMA #4: El detalle de Service Request muestra el error "Invalid date".
+
+**Severidad:** 4 – Muy grave
+**Heurística violada:** Match Between System and the Real World / Error Prevention
+
+**Problema:**
+Al acceder al detalle de una solicitud de servicio (Service Request Detail), los campos de fecha muestran el texto "Invalid date" en lugar del valor real. Esto indica que el formato de la fecha devuelto por la API no es compatible con la función de formateo utilizada en el frontend, o que el valor llega como null/undefined. Esta situación impide al usuario conocer fechas clave como la de creación, asignación o resolución de la solicitud.
+
+**Recomendación:**
+Revisar el formato de fecha devuelto por la API y asegurarse de que el parser o la librería de formateo del frontend (ej. date-fns, moment.js, o el pipe de Angular) pueda interpretarlo correctamente. Añadir validación antes del formateo para manejar valores nulos o vacíos mostrando un texto alternativo como "Sin fecha" en lugar de "Invalid date".
+
+---
+
+### PROBLEMA #5: Los reportes generados no son compartidos ni visibles para los técnicos.
+
+**Severidad:** 3 – Mayor
+**Heurística violada:** User Control and Freedom / Flexibility and Efficiency of Use
+
+**Problema:**
+Los reportes generados en la sección Reports solo son visibles para el rol de administrador/dueño de negocio. Los técnicos, que son los ejecutores directos del servicio y necesitan consultar reportes para hacer seguimiento de su trabajo o rendir cuentas, no tienen acceso a esta sección o no ven ningún reporte en ella. Esto limita la utilidad de la funcionalidad de reportes y obliga a flujos de comunicación externos.
+
+**Recomendación:**
+Revisar la lógica de control de acceso (roles y permisos) de la sección Reports para determinar si los técnicos deben ver todos los reportes o solo los que les conciernen. Implementar el nivel de acceso correspondiente para el rol de técnico, filtrando los reportes según sea necesario (ej. reportes asociados a sus propias solicitudes de servicio).
+
+---
+
+### PROBLEMA #6: Los equipos y sitios mostrados son los mismos para cualquier usuario dueño de negocio.
+
+**Severidad:** 4 – Muy grave
+**Heurística violada:** Error Prevention / Match Between System and the Real World
+
+**Problema:**
+En las secciones de Equipments y Sites, todos los usuarios con rol de dueño de negocio (business owner) visualizan el mismo conjunto de equipos y sitios, independientemente de la organización o tenant al que pertenezcan. Esto supone una brecha grave de privacidad y seguridad de datos, ya que un usuario puede ver información confidencial de activos que no le pertenecen, y también dificulta la gestión al mezclar datos de distintas empresas en una sola vista.
+
+**Recomendación:**
+Implementar filtrado por tenant/organización en las consultas de la API de equipos y sitios, asegurando que cada usuario solo reciba y visualice los activos asociados a su propia organización. Verificar que el token de autenticación JWT incluya el identificador del tenant y que el backend lo utilice como filtro obligatorio en todas las consultas de recursos.
+
+## 5.4. Video About-the-Product
+
+Link del video About-the-product: https://www.youtube.com/watch?v=NqBxrFdpotY
+
+<img src="../assets/chapter-5/about-product.png" alt="Video about the product" style="width: 70%">
+
 **Conclusiones**
 
 Al finalizar el ciclo de desarrollo y validación de la solución FullTank, el equipo ha llegado a las siguientes conclusiones, contrastando los resultados obtenidos con los planteamientos iniciales del proceso Lean UX:
@@ -1609,6 +1833,13 @@ Hipótesis de Valor para Proveedores:
 Se propuso que "Si los proveedores tienen visibilidad de las solicitudes en tiempo real, podrán mejorar sus tiempos de respuesta y coordinación logística". La validación confirmó esta hipótesis, ya que los usuarios destacaron la importancia de recibir notificaciones inmediatas y contar con información actualizada para la toma de decisiones.
 
 No obstante, se identificó que ofrecer únicamente información resumida no es suficiente; los usuarios requieren actualizaciones constantes y trazabilidad detallada de cada pedido, lo que valida la necesidad de integrar monitoreo en tiempo real como una funcionalidad central y no opcional.
+
+
+**Video About-the-team**
+
+Link del video: https://youtu.be/pZbrpTs73ZY
+
+<img src="../assets/chapter-5/about-team.png" alt="Video about the team" style="width: 70%">
 
 **Bibliografia**
 
@@ -1641,10 +1872,6 @@ No obstante, se identificó que ofrecer únicamente información resumida no es 
 - Vernon, V. (s.f.). Domain-Driven Design Reference. Recuperado de https://domainlanguage.com/ddd/reference/
 
 Anexos:
-
-**Videos de Exposiciones:**
-- **TB1:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQBzyXZtjgr3Q7geKwL8bo18AQf3YrQShOtgE3OjzQeH1hw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lvAcm0](#)
-
 Link del repositorio del informe: https://github.com/PrimeFuel/Prime_Fuel_Document
 
 Link del repositorio de la Landing Page:
@@ -1662,4 +1889,3 @@ Link de los repositorios de la organización: https://github.com/PrimeFuel
 Link del figma: https://www.figma.com/design/ZMHB35H60u2eUhctevkVKc/Fullank-Completo?node-id=0-1&t=I3nr2x0tcAinM7gE-1
 
 URL de la Landing Page: https://primefuel.github.io/FullTank_LandingPage/
-
