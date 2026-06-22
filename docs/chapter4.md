@@ -1221,7 +1221,22 @@ El diagrama completo del frontend muestra la organización general de la capa de
   Responsabilidad: Maneja las vistas de visualización de métricas, gráficos de consumo o ventas, y la descarga de reportes.
 
 <div allign="center">
-  <img src="../assets/chapter-4/frontend_analysis.png" alt="frontend analysis"/>
+  <img src="../assets/chapter-4/frontend_reporting.png" alt="frontend analysis"/>
+</div>
+
+
+- **Equipment Frontend**  
+  Responsabilidad: Maneja las vistas para que el cliente registre, actualice, elimine y visualice sus equipos (vehículos, generadores, maquinaria), incluyendo el tipo de combustible requerido y el estado operativo de cada uno.
+
+<div allign="center">
+  <img src="../assets/chapter-4/frontend_equipment.png" alt="frontend equipment"/>
+</div>
+
+- **Inventory Frontend**  
+  Responsabilidad: Maneja las vistas de gestión del inventario de combustible por parte del proveedor, incluyendo el registro, actualización y eliminación de ítems, así como la visualización de niveles de stock y precio por litro.
+
+<div allign="center">
+  <img src="../assets/chapter-4/frontend_inventory.png" alt="frontend inventory"/>
 </div>
 
 ### Diagramas de clases del Backend
@@ -1300,7 +1315,21 @@ Todas las interacciones entre bounded contexts se realizan a través de interfac
   Responsabilidad: Agrega información histórica para generar métricas, análisis y reportes.
 
 <div allign="center">
-  <img src="../assets/chapter-4/backend_analysis.png" alt="backend analysis"/>
+  <img src="../assets/chapter-4/backend_reporting.png" alt="backend analysis"/>
+</div>
+
+- **Equipment Backend**  
+  Responsabilidad: Gestiona el registro, actualización, eliminación y consulta de los equipos del cliente, así como la asignación del tipo de combustible requerido por cada equipo.
+
+<div allign="center">
+  <img src="../assets/chapter-4/backend_equipment.png" alt="backend equipment"/>
+</div>
+
+- **Inventory Backend**  
+  Responsabilidad: Gestiona el registro, actualización y eliminación de los productos de combustible del proveedor, validando la información del ítem y controlando los niveles de stock disponible y precio por litro.
+
+<div allign="center">
+  <img src="../assets/chapter-4/backend_inventory.png" alt="backend inventory"/>
 </div>
 
 ## 4.8 Database Design

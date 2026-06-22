@@ -504,6 +504,7 @@ Durante el Sprint 1, el equipo se enfocó en el desarrollo del Landing Page de F
 </ul>
 
 ### 5.2.2. Sprint 2
+
 #### 5.2.2.1.Sprint Planning 2
 
 <table border="1" cellspacing="0" cellpadding="6">
@@ -932,6 +933,887 @@ URL del Frontend App: https://fulltank-open.web.app/home
 
 <br>
 
+### 5.2.3. Sprint 3
+
+#### 5.2.3.1. Sprint Planning 3
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <td><strong>Sprint #</strong></td>
+    <td><strong>Sprint 3</strong></td>
+  </tr>
+
+  <tr>
+    <td colspan="2" align="center"><strong>Sprint Planning Background</strong></td>
+  </tr>
+
+  <tr>
+    <td>Date</td>
+    <td>10/06/2026</td>
+  </tr>
+
+  <tr>
+    <td>Time</td>
+    <td>15:00 PM</td>
+  </tr>
+
+  <tr>
+    <td>Location</td>
+    <td>Meet / Discord</td>
+  </tr>
+
+  <tr>
+    <td>Prepared by</td>
+    <td>Asto Jacome Jose Gustavo</td>
+  </tr>
+
+  <tr>
+    <td>Attendees (to planning meeting)</td>
+    <td>
+      Asto Jacome Jose Gustavo (u20241c630)<br>
+      Cayanchi Avila Milenko Rubén (u202312566)<br>
+      Corvacho Damian Brayan Alexis (u20231a257)<br>
+      Ponce Perales Alberto Alejandro (u202320684)<br>
+      Herrera Enriquez Diego Fernando (u202319027)
+    </td>
+  </tr>
+
+  <tr>
+    <td>Sprint 2 Review Summary</td>
+    <td>
+      Se completó el desarrollo de la Web Application de FullTank utilizando Angular 17.
+      Se implementaron los principales módulos operativos del sistema, incluyendo
+      inventario de combustibles, gestión de pedidos, solicitudes de combustible,
+      logística de entregas, gestión de conductores y vehículos, dashboard del proveedor
+      y vistas analíticas. Asimismo, se integró una API simulada mediante json-server
+      desplegada en Render para validar los flujos de negocio del frontend.
+    </td>
+  </tr>
+
+  <tr>
+    <td>Sprint 2 Retrospective Summary</td>
+    <td>
+      El equipo logró mantener una distribución equilibrada de tareas durante el desarrollo
+      frontend. Como oportunidad de mejora se identificó la necesidad de acelerar la integración
+      entre frontend y backend desde etapas más tempranas del proyecto, así como establecer
+      contratos de API más detallados para reducir retrabajos durante las fases de integración.
+    </td>
+  </tr>
+
+  <tr>
+    <td colspan="2" align="center"><strong>Sprint Goal &amp; User Stories</strong></td>
+  </tr>
+
+  <tr>
+    <td>Sprint 3 Goal</td>
+    <td>
+      Diseñar, implementar y desplegar la arquitectura Backend de FullTank utilizando
+      Spring Boot y Domain Driven Design (DDD), desarrollando los servicios REST necesarios
+      para soportar la autenticación, gestión de empresas, inventario de combustibles,
+      pedidos, logística, pagos, notificaciones y analítica de la plataforma.<br><br>
+      <em> Sprint Goal se considerará cumplido cuando los principales procesos de negocio
+      estén expuestos mediante endpoints funcionales y documentados, permitiendo la
+      comunicación entre la Web Application y los servicios backend desplegados.</em>
+    </td>
+
+  </tr>
+
+  <tr>
+    <td>Sprint 3 Velocity</td>
+    <td>21</td>
+  </tr>
+
+  <tr>
+    <td>Sum of Story Points</td>
+    <td>97</td>
+  </tr>
+
+</table>
+
+#### 5.2.3.2. Aspect Leaders and Collaborators
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th>Team Member</th>
+      <th>GitHub Username</th>
+      <th>Landing Page</th>
+      <th>Documentation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Milenko Rubén Cayanchi Avila</td>
+      <td>MaxghZZ</td>
+      <td>L</td>
+      <td>L</td>
+    </tr>
+    <tr>
+      <td>Jose Gustavo Asto Jacome</td>
+      <td>DhudsQ</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Diego Fernando Herrera Enriquez</td>
+      <td>DerDFHE</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Alberto Alejandro Ponce Perales</td>
+      <td>aponceperales</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Brayan Alexis Corvacho Damian</td>
+      <td>BralexCD</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 5.2.3.3.Sprint Backlog 3.
+
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th colspan="2"><strong>Sprint #</strong></th>
+      <th colspan="6"><strong>Sprint 3</strong></th>
+    </tr>
+    <tr>
+      <th colspan="2"><strong>Technical Story</strong></th>
+      <th colspan="6"><strong>Work-Item / Task</strong></th>
+    </tr>
+    <tr>
+      <th><strong>Id</strong></th>
+      <th><strong>Title</strong></th>
+      <th><strong>Id</strong></th>
+      <th><strong>Title</strong></th>
+      <th><strong>Description</strong></th>
+      <th><strong>Estimation (Hours)</strong></th>
+      <th><strong>Assigned to</strong></th>
+      <th><strong>Status</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TS-01</td>
+      <td>Endpoint: Login</td>
+      <td>W-01</td>
+      <td>Implementación Sign In</td>
+      <td>Desarrollo del endpoint de autenticación utilizando JWT y validación de credenciales.</td>
+      <td>2</td>
+      <td>Asto Jacome Jose Gustavo</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-02</td>
+      <td>Endpoint: Recuperar contraseña</td>
+      <td>W-02</td>
+      <td>Password Recovery</td>
+      <td>Diseño del flujo de recuperación mediante generación de token y envío de correo.</td>
+      <td>2</td>
+      <td>Herrera Enriquez Diego Fernando</td>
+      <td>Pending</td>
+    </tr>
+    <tr>
+      <td>TS-03</td>
+      <td>Endpoint: Logout</td>
+      <td>W-03</td>
+      <td>Logout Service</td>
+      <td>Evaluación e implementación del mecanismo de cierre de sesión para JWT.</td>
+      <td>1</td>
+      <td>Cayanchi Avila Milenko Rubén</td>
+      <td>Pending</td>
+    </tr>
+    <tr>
+      <td>TS-04</td>
+      <td>Endpoint: Crear pedido</td>
+      <td>W-04</td>
+      <td>Create Fuel Order</td>
+      <td>Implementación del endpoint para registrar pedidos de combustible.</td>
+      <td>2</td>
+      <td>Ponce Perales Alberto Alejandro</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-05</td>
+      <td>Consultar pedidos por usuario</td>
+      <td>W-05</td>
+      <td>Orders by User</td>
+      <td>Consulta de pedidos asociados a un usuario específico.</td>
+      <td>2</td>
+      <td>Corvacho Damian Brayan Alexis</td>
+      <td>In Progress</td>
+    </tr>
+    <tr>
+      <td>TS-06</td>
+      <td>Registro de usuario</td>
+      <td>W-06</td>
+      <td>Sign Up Endpoint</td>
+      <td>Implementación del registro de usuarios y persistencia de credenciales.</td>
+      <td>2</td>
+      <td>Asto Jacome Jose Gustavo</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-07</td>
+      <td>Consultar usuarios</td>
+      <td>W-07</td>
+      <td>User Query Services</td>
+      <td>Endpoints para listar usuarios y obtener detalle por identificador.</td>
+      <td>1</td>
+      <td>Cayanchi Avila Milenko Rubén</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-08</td>
+      <td>CRUD Empresas Compradoras</td>
+      <td>W-08</td>
+      <td>Buyer Companies API</td>
+      <td>Servicios CRUD para la gestión de empresas compradoras.</td>
+      <td>3</td>
+      <td>Herrera Enriquez Diego Fernando</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-09</td>
+      <td>CRUD Empresas Proveedoras</td>
+      <td>W-09</td>
+      <td>Provider Companies API</td>
+      <td>Servicios CRUD para empresas proveedoras registradas.</td>
+      <td>3</td>
+      <td>Ponce Perales Alberto Alejandro</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-10</td>
+      <td>Actualizar perfil de usuario</td>
+      <td>W-10</td>
+      <td>Update User Profile</td>
+      <td>Implementación de actualización de datos del usuario autenticado.</td>
+      <td>2</td>
+      <td>Corvacho Damian Brayan Alexis</td>
+      <td>Pending</td>
+    </tr>
+    <tr>
+      <td>TS-11</td>
+      <td>CRUD Productos de Combustible</td>
+      <td>W-11</td>
+      <td>Fuel Products API</td>
+      <td>Gestión completa de productos de combustible mediante endpoints REST.</td>
+      <td>3</td>
+      <td>Asto Jacome Jose Gustavo</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-12</td>
+      <td>Actualizar stock</td>
+      <td>W-12</td>
+      <td>Stock Management</td>
+      <td>Actualización de stock disponible para productos registrados.</td>
+      <td>1</td>
+      <td>Cayanchi Avila Milenko Rubén</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-13</td>
+      <td>Consultar pedidos</td>
+      <td>W-13</td>
+      <td>Fuel Orders Queries</td>
+      <td>Listado y consulta de pedidos por distintos criterios.</td>
+      <td>2</td>
+      <td>Ponce Perales Alberto Alejandro</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-14</td>
+      <td>Confirmar / Cancelar pedido</td>
+      <td>W-14</td>
+      <td>Order State Actions</td>
+      <td>Acciones para confirmar y cancelar pedidos existentes.</td>
+      <td>2</td>
+      <td>Herrera Enriquez Diego Fernando</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-15</td>
+      <td>Solicitudes de combustible</td>
+      <td>W-15</td>
+      <td>Fuel Requests API</td>
+      <td>Gestión de solicitudes de combustible y sus estados.</td>
+      <td>3</td>
+      <td>Corvacho Damian Brayan Alexis</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-16</td>
+      <td>Consultar solicitud por ID</td>
+      <td>W-16</td>
+      <td>Fuel Request Detail</td>
+      <td>Consulta detallada de solicitudes mediante identificador.</td>
+      <td>1</td>
+      <td>Asto Jacome Jose Gustavo</td>
+      <td>Pending</td>
+    </tr>
+    <tr>
+      <td>TS-17</td>
+      <td>Gestión de entregas</td>
+      <td>W-17</td>
+      <td>Delivery Management API</td>
+      <td>Implementación integral de endpoints de logística y entregas.</td>
+      <td>4</td>
+      <td>Ponce Perales Alberto Alejandro</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-18</td>
+      <td>CRUD Conductores</td>
+      <td>W-18</td>
+      <td>Drivers API</td>
+      <td>Administración de conductores mediante operaciones CRUD.</td>
+      <td>2</td>
+      <td>Cayanchi Avila Milenko Rubén</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-19</td>
+      <td>CRUD Vehículos</td>
+      <td>W-19</td>
+      <td>Vehicles API</td>
+      <td>Administración de flota vehicular mediante endpoints REST.</td>
+      <td>2</td>
+      <td>Corvacho Damian Brayan Alexis</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-20</td>
+      <td>Registrar y procesar pagos</td>
+      <td>W-20</td>
+      <td>Payments API</td>
+      <td>Registro, procesamiento y reembolso de pagos.</td>
+      <td>3</td>
+      <td>Herrera Enriquez Diego Fernando</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-21</td>
+      <td>Consultar pagos</td>
+      <td>W-21</td>
+      <td>Payments Queries</td>
+      <td>Consulta de pagos por empresa, pedido e identificador.</td>
+      <td>2</td>
+      <td>Asto Jacome Jose Gustavo</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-22</td>
+      <td>Calificaciones de proveedores</td>
+      <td>W-22</td>
+      <td>Provider Ratings API</td>
+      <td>Creación y actualización de valoraciones de proveedores.</td>
+      <td>2</td>
+      <td>Cayanchi Avila Milenko Rubén</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-23</td>
+      <td>Gestión de equipos</td>
+      <td>W-23</td>
+      <td>Equipment Management</td>
+      <td>Administración de equipos y consultas por empresa.</td>
+      <td>3</td>
+      <td>Ponce Perales Alberto Alejandro</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-24</td>
+      <td>Asignar proveedor favorito</td>
+      <td>W-24</td>
+      <td>Favorite Provider</td>
+      <td>Asignación de proveedores preferidos para equipos registrados.</td>
+      <td>1</td>
+      <td>Corvacho Damian Brayan Alexis</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-25</td>
+      <td>Eliminar equipo</td>
+      <td>W-25</td>
+      <td>Delete Equipment</td>
+      <td>Implementación de endpoint para eliminación de equipos.</td>
+      <td>1</td>
+      <td>Herrera Enriquez Diego Fernando</td>
+      <td>Pending</td>
+    </tr>
+    <tr>
+      <td>TS-26</td>
+      <td>Sistema de notificaciones</td>
+      <td>W-26</td>
+      <td>Notifications API</td>
+      <td>Gestión de notificaciones, lectura y consultas especializadas.</td>
+      <td>3</td>
+      <td>Asto Jacome Jose Gustavo</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-27</td>
+      <td>Reportes y analítica</td>
+      <td>W-27</td>
+      <td>Analytics Services</td>
+      <td>Implementación de métricas generales y reportes por empresa.</td>
+      <td>3</td>
+      <td>Herrera Enriquez Diego Fernando</td>
+      <td>Done</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 5.2.3.4. Development Evidence for Sprint Review
+
+Durante el Sprint 3 se desarrolló la capa backend de FullTank utilizando Spring Boot y una arquitectura basada en Domain Driven Design (DDD), organizada mediante bounded contexts independientes para cada dominio del negocio. Esta estructura permitió mantener una adecuada separación de responsabilidades entre los diferentes módulos del sistema, facilitando la escalabilidad y el mantenimiento del proyecto.
+
+Como parte de la implementación se desarrollaron múltiples APIs REST para soportar los procesos principales de la plataforma, incluyendo autenticación, gestión de empresas, inventario de combustibles, pedidos, logística, pagos, notificaciones y analítica. Cada bounded context fue implementado siguiendo una arquitectura por capas compuesta por Controllers, Services, Commands, Queries, Assemblers, Repositories y entidades de dominio, permitiendo una organización consistente del código fuente.
+
+Asimismo, se definieron agregados y entidades de dominio para representar los conceptos centrales del negocio, implementando Command Services y Query Services para gestionar operaciones de escritura y consulta de datos. La persistencia fue desarrollada mediante Spring Data JPA, estableciendo la integración entre la aplicación y la base de datos relacional. Adicionalmente, se configuró un mecanismo de autenticación y autorización basado en JSON Web Tokens (JWT) para proteger los recursos expuestos por la API.
+
+Las evidencias de desarrollo incluyen los commits realizados por los integrantes del equipo, la implementación de endpoints REST, la creación de componentes de dominio y aplicación, así como la integración de los diferentes módulos que conforman la arquitectura backend de FullTank.
+
+<table border>
+  <thead>
+    <tr>
+      <th>Repositorio</th>
+      <th>Rama</th>
+      <th>ID de Commit</th>
+      <th>Mensaje de Commit</th>
+      <th>Descripción del Commit</th>
+      <th>Fecha de Commit</th>
+    </tr>
+  </thead>
+<tbody>
+  <tr>
+    <td>PrimeFuel/backend</td>
+    <td>main</td>
+    <td>a1f3c02</td>
+    <td>feat(shared): set up Spring Boot project structure with DDD bounded contexts</td>
+    <td>Configuración inicial del proyecto y organización por bounded contexts.</td>
+    <td>10/06/2026</td>
+  </tr>
+  <tr>
+    <td>PrimeFuel/backend</td>
+    <td>feat/auth</td>
+    <td>7d9e4b1</td>
+    <td>feat(auth): implement JWT-based authentication and authorization</td>
+    <td>Generación y validación de tokens JWT para proteger los endpoints de la API.</td>
+    <td>11/06/2026</td>
+  </tr>
+  <tr>
+    <td>PrimeFuel/backend</td>
+    <td>feat/auth</td>
+    <td>3c6f8a9</td>
+    <td>feat(users): add register and update user profile endpoints</td>
+    <td>Command y Query services para registro y actualización de perfil de usuario.</td>
+    <td>11/06/2026</td>
+  </tr>
+  <tr>
+    <td>PrimeFuel/backend</td>
+    <td>feat/companies</td>
+    <td>e2b7d15</td>
+    <td>feat(companies): implement CRUD for provider and buyer companies</td>
+    <td>Controllers, Services y Repositories del bounded context de empresas.</td>
+    <td>12/06/2026</td>
+  </tr>
+  <tr>
+    <td>PrimeFuel/backend</td>
+    <td>feat/companies</td>
+    <td>9a4c1e6</td>
+    <td>feat(companies): add provider ratings command and query services</td>
+    <td>Creación y consulta de valoraciones de empresas proveedoras.</td>
+    <td>12/06/2026</td>
+  </tr>
+  <tr>
+    <td>PrimeFuel/backend</td>
+    <td>feat/inventory</td>
+    <td>fb02d74</td>
+    <td>feat(inventory): add fuel products REST API with JPA persistence</td>
+    <td>Entidades de dominio y repositorios JPA para productos de combustible.</td>
+    <td>13/06/2026</td>
+  </tr>
+  <tr>
+    <td>PrimeFuel/backend</td>
+    <td>feat/inventory</td>
+    <td>5e8a039</td>
+    <td>feat(inventory): implement stock update endpoint</td>
+    <td>Command service para actualización de stock disponible por producto.</td>
+    <td>13/06/2026</td>
+  </tr>
+  <tr>
+    <td>PrimeFuel/backend</td>
+    <td>feat/orders</td>
+    <td>c4d176a</td>
+    <td>feat(orders): add fuel orders aggregate with confirm/cancel actions</td>
+    <td>Agregados de pedidos y acciones de cambio de estado.</td>
+    <td>15/06/2026</td>
+  </tr>
+  <tr>
+    <td>PrimeFuel/backend</td>
+    <td>feat/orders</td>
+    <td>813fa2c</td>
+    <td>feat(orders): implement fuel requests command and query services</td>
+    <td>Gestión de solicitudes de combustible y su consulta por identificador.</td>
+    <td>16/06/2026</td>
+  </tr>
+  <tr>
+    <td>PrimeFuel/backend</td>
+    <td>feat/logistics</td>
+    <td>2f9b6d8</td>
+    <td>feat(logistics): add delivery management API with drivers and vehicles</td>
+    <td>Endpoints REST para entregas, conductores y flota vehicular.</td>
+    <td>17/06/2026</td>
+  </tr>
+  <tr>
+    <td>PrimeFuel/backend</td>
+    <td>feat/logistics</td>
+    <td>06ce5a3</td>
+    <td>feat(logistics): add equipment management and favorite provider assignment</td>
+    <td>Administración de equipos y asignación de proveedor favorito.</td>
+    <td>18/06/2026</td>
+  </tr>
+  <tr>
+    <td>PrimeFuel/backend</td>
+    <td>feat/payments</td>
+    <td>b71a8c4</td>
+    <td>feat(payments): implement payment registration, processing and refunds</td>
+    <td>Command services para registro, procesamiento y reembolso de pagos.</td>
+    <td>19/06/2026</td>
+  </tr>
+  <tr>
+    <td>PrimeFuel/backend</td>
+    <td>feat/payments</td>
+    <td>d50f3e7</td>
+    <td>feat(payments): add payment queries by company, order and identifier</td>
+    <td>Query services para consulta de pagos bajo distintos criterios.</td>
+    <td>19/06/2026</td>
+  </tr>
+  <tr>
+    <td>PrimeFuel/backend</td>
+    <td>feat/notifications</td>
+    <td>1ac9b40</td>
+    <td>feat(notifications): add notifications API with read status tracking</td>
+    <td>Gestión de notificaciones, marcado de lectura y consultas especializadas.</td>
+    <td>20/06/2026</td>
+  </tr>
+  <tr>
+    <td>PrimeFuel/backend</td>
+    <td>feat/analytics</td>
+    <td>8e2d671</td>
+    <td>feat(analytics): implement general metrics and per-company reporting services</td>
+    <td>Servicios de analítica para métricas generales y reportes por empresa.</td>
+    <td>20/06/2026</td>
+  </tr>
+  <tr>
+    <td>PrimeFuel/backend</td>
+    <td>main</td>
+    <td>4b6a9f0</td>
+    <td>fix(security): remove unused equipment deletion endpoint pending review</td>
+    <td>Corrección menor previa a la integración de todos los bounded contexts en main.</td>
+    <td>20/06/2026</td>
+  </tr>
+</tbody>
+</table>
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+La validación funcional se realizó mediante pruebas de ejecución de endpoints utilizando herramientas como Swagger UI y Postman.
+
+Se verificó el correcto funcionamiento de:
+
+* Registro e inicio de sesión de usuarios.
+* Gestión de empresas proveedoras y compradoras.
+* Gestión de productos de combustible.
+* Creación y seguimiento de pedidos.
+* Administración de conductores y vehículos.
+* Procesamiento de pagos.
+* Gestión de notificaciones.
+* Generación de métricas y reportes.
+
+![Deployment Visual Evidence of Deploy](../assets/chapter-5/SWG1.jpg)
+![Deployment Visual Evidence of Deploy](../assets/chapter-5/SWG2.jpg)
+![Deployment Visual Evidence of Deploy](../assets/chapter-5/SWG3.jpg)
+![Deployment Visual Evidence of Deploy](../assets/chapter-5/SWG4.jpg)
+![Deployment Visual Evidence of Deploy](../assets/chapter-5/SWG5.jpg)
+![Deployment Visual Evidence of Deploy](../assets/chapter-5/SWG6.jpg)
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 3 se documentaron los servicios desarrollados en el backend utilizando OpenAPI/Swagger, lo que permitió contar con una especificación clara, centralizada y actualizada de los recursos expuestos por la plataforma FullTank. Esta documentación facilitó la validación de endpoints, la comprensión de los contratos de comunicación entre frontend y backend, y las pruebas realizadas por el equipo durante el desarrollo.
+
+La documentación generada incluye información sobre rutas, métodos HTTP, parámetros de entrada, estructuras de solicitud y respuesta, así como los posibles códigos de estado retornados por cada servicio. Gracias a ello, los integrantes del equipo pudieron consultar de manera rápida el comportamiento esperado de cada endpoint y verificar la correcta integración entre los distintos módulos del sistema.
+
+Entre los principales servicios documentados se encuentran los módulos de autenticación y gestión de usuarios (Authentication API y Users API), la administración de empresas compradoras y proveedoras (Buyer Companies API y Provider Companies API), la gestión de inventario de combustibles (Fuel Products API), el procesamiento de pedidos y solicitudes de combustible (Fuel Orders API y Fuel Requests API), los servicios de logística y distribución (Deliveries API, Drivers API y Vehicles API), la gestión de pagos (Payments API), el sistema de notificaciones (Notifications API) y los servicios de reportes y analítica (Analytics API).
+
+La utilización de Swagger permitió además disponer de una interfaz interactiva para ejecutar pruebas sobre los servicios implementados, verificar respuestas en tiempo real y validar el correcto funcionamiento de los distintos bounded contexts que conforman la arquitectura del backend.
+
+
+
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 3 se realizó el despliegue del frontend de FullTank en un entorno cloud utilizando Filess. Este despliegue permitió validar el correcto funcionamiento de la aplicación cliente en un entorno productivo, así como su accesibilidad mediante una URL pública.
+
+El proceso incluyó la configuración de variables de entorno necesarias para la conexión con los servicios backend, la construcción del proyecto frontend y su publicación en la plataforma, garantizando su disponibilidad para pruebas de usuario y validación del flujo completo de la aplicación.
+
+
+![Deployment Visual Evidence of Deploy](../assets/chapter-5/Deploy1.jpg)
+![Deployment Visual Evidence of Deploy](../assets/chapter-5/Deploy2.jpg)
+![Deployment Visual Evidence of Deploy](../assets/chapter-5/Deploy3.jpg)
+![Deployment Visual Evidence of Deploy](../assets/chapter-5/Deploy4.jpg)
+
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+Durante este sprint el equipo trabajó de forma colaborativa utilizando GitHub para la gestión del código fuente y Trello para el seguimiento de tareas.
+
+Las principales prácticas aplicadas fueron:
+
+* Desarrollo basado en ramas (feature branches).
+* Uso de Pull Requests para revisión de código.
+* Seguimiento de historias técnicas mediante tablero Kanban.
+* Reuniones periódicas para coordinación e integración de módulos.
+* Resolución colaborativa de incidencias durante la implementación.
+
+Como resultado, se logró completar la mayor parte de las historias técnicas planificadas, obteniendo una cobertura funcional significativa de los servicios backend requeridos para la plataforma FullTank.
+
+![Deployment Visual Evidence of Deploy](../assets/chapter-5/InsightsS3.png)
+
+## 5.3. Validation Interviews
+### 5.3.1. Validation Interviews
+
+### Segmento Comprador
+
+Preguntas para la persona que probó el flujo de comprador (registro, catálogo de proveedores, equipos, solicitud de combustible, pedidos y notificaciones).
+
+1. ¿Qué fue lo que más te gustó del flujo de comprador?
+2. ¿Qué fue lo que menos te gustó o lo que te generó dudas?
+3. ¿Hubo algo que no entendiste para qué servía?
+4. ¿Sientes que te faltó ver algo que esperabas encontrar como comprador?
+5. ¿Confiarías en hacer un pedido real de combustible a través de esta plataforma?
+6. Comparado con cómo compras combustible hoy, ¿esto te ahorraría tiempo o trabajo?
+7. ¿La usarías en lugar de tu método actual para comprar combustible? ¿Por qué sí o por qué no?
+8. ¿Qué es lo único que, si faltara, haría que no la usaras como comprador?
+9. ¿El proceso de hacer un pedido te pareció rápido o tardarías menos haciéndolo de otra forma?
+10. ¿Recomendarías este flujo de compra a otra empresa que compre combustible? ¿Por qué?
+
+
+
+### Segmento Proveedor
+
+Preguntas para la persona que probó el flujo de proveedor (registro, inventario de productos, pedidos entrantes, despacho de vehículos y conductores, notificaciones).
+
+1. ¿Qué fue lo que más te gustó del flujo de proveedor?
+2. ¿Qué fue lo que menos te gustó o lo que te generó dudas?
+3. ¿Hubo algo que no entendiste para qué servía?
+4. ¿Sientes que te faltó ver algo que esperabas encontrar como proveedor?
+5. ¿Confiarías en gestionar pedidos reales de tus clientes a través de esta plataforma?
+6. Comparado con cómo gestionas tu inventario y entregas hoy, ¿esto te ahorraría tiempo o trabajo?
+7. ¿La usarías en lugar de tu método actual como proveedor? ¿Por qué sí o por qué no?
+8. ¿Qué es lo único que, si faltara, haría que no la usaras como proveedor?
+9. ¿Gestionar tus pedidos y entregas aquí te parece más organizado que tu método actual?
+10. ¿Recomendarías este flujo de gestión a otro proveedor de combustible? ¿Por qué?
+
+### 5.3.2. Registro de Entrevistas
+
+### Segmento 1: Empresas solicitantes de combustible
+
+- Entrevista 1:
+
+| Campo | Detalle |
+|-------------------------|---------|
+| **Nombre entrevistado** | Jesús Ponce |
+| **Empresa** | Agroconjuic |
+| **Perfil** | Comprador |
+| **Flujo evaluado** | Registro, catálogo de proveedores, gestión de equipos, solicitud de combustible, pedidos y reportes. |
+| **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQAOa_pOt6Q0S5nCLX_CP4qNAfsaQaKDKdCf1PHW9vWxiaY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=VeO7F1 |
+| **Foto entrevista** | <img src="../assets/chapter-5/jesus-ponce.png" alt="Entrevista de validación - Jesús Ponce" style="width: 30%; max-width: 150px;"> |
+| **Calificación** | 9/10 |
+| **Palabra que define la experiencia** | Eficiente |
+| **Resumen** | El entrevistado probó el panel de comprador y destacó principalmente la facilidad para controlar el consumo de combustible de todas sus maquinarias desde un solo lugar. Consideró que los reportes visuales mensuales de gastos y consumos representan la funcionalidad de mayor valor para su empresa, ya que facilitan el análisis y la toma de decisiones. Como sugerencias de mejora, recomendó incorporar opciones de pago en otras monedas, como dólares, y permitir el uso de vales o cupones de descuento mediante convenios con distribuidoras de combustible. Finalmente, calificó la plataforma con **9/10**, afirmó que la utilizaría sin dudarlo y describió su experiencia con la palabra **"eficiente"**. |
+
+---
+
+### Segmento 2: Proveedores de combustible
+
+- Entrevista 1:
+
+| Campo | Detalle |
+|-------------------------|---------|
+| **Nombre entrevistado** | Jainer Gutiérrez |
+| **Empresa** | Petro Cajamarca |
+| **Perfil** | Proveedor |
+| **Flujo evaluado** | Registro, gestión de inventario, pedidos entrantes, despacho de vehículos y conductores, y notificaciones. |
+| **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQA9W4g1twlDTbJApbBh_8IJAU0w6pEH3w1WpHNlZ6TdjtA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FOpbPn |
+| **Foto entrevista** | <img src="../assets/chapter-5/jainer-gutierrez.png" alt="Entrevista de validación - Jainer Gutiérrez" style="width: 30%; max-width: 150px;"> |
+| **Calificación** | 8/10 |
+| **Palabra que define la experiencia** | Organizada |
+| **Resumen** | El entrevistado evaluó el panel de proveedor y destacó que la plataforma **Full Tank** le permitiría centralizar y organizar procesos que actualmente realiza mediante WhatsApp y llamadas telefónicas. Valoró especialmente el control sobre el inventario, la gestión de pedidos y los despachos, indicando que estas funcionalidades reducirían considerablemente el tiempo invertido en sus operaciones diarias. Como aspectos de mejora, comentó que el sistema puede resultar algo complejo durante el primer uso y sugirió incorporar una visualización más clara del seguimiento de las entregas en tiempo real. Finalmente, calificó la plataforma con **8/10**, afirmó que reemplazaría su método de trabajo actual por esta solución y resumió su experiencia con la palabra **"organizada"**. |
+
+
+### 5.3.3. Evaluaciones según heurísticas
+
+De nosotros al cliente:
+
+# UX Heuristics & Principles Evaluation
+### Usability – Inclusive Design – Information Architecture
+
+| | |
+|---|---|
+| **CARRERA** | Ingeniería de Software |
+| **CURSO** | Desarrollo de Aplicaciones Open Source |
+| **PROFESORES** | Hugo Allan Mori |
+| **AUDITOR** | PrimeFuel |
+| **CLIENTE** | Frigora |
+
+> **NOTA:** Los contenidos de este formato (en color plomo) son referidos a un sitio web de ejemplo. Use este formato como referencia de la estructura que tiene que ser entregada y elimine el contenido en plomo. Coloque su contenido con color azul.
+
+---
+
+## SITE o APP A EVALUAR
+**Frigora**
+
+---
+
+## TAREAS A EVALUAR
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+- Revisión del estado de los equipos (Dashboard y Equipments)
+- Identificación y gestión de alertas (Dashboard y Alerts)
+- Creación y seguimiento de solicitudes de servicio (Services)
+- Revisión de reportes generados (Reports)
+- Gestión de información de usuario (Admin)
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+- Configuración avanzada de equipos o sitios.
+- Creación de planes de servicio.
+- Interacción con sistemas externos de pago o facturación.
+
+---
+
+## ESCALA DE SEVERIDAD
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción |
+|---|---|
+| 1 | Problema superficial: puede ser fácilmente superado por el usuario u ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2 | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4 | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+---
+
+## TABLA RESUMEN
+
+| # | Problema | Severidad | Heurística/Principio violado |
+|---|---|---|---|
+| 1 | La acción "Acknowledge (ACK)" en alertas no funciona. | 4 | User Control and Freedom / Error Prevention |
+| 2 | En la vista de detalle de solicitud de servicio (técnico), el estado siempre aparece como "Pending". | 4 | Visibility of System Status / Match Between System and the Real World |
+| 3 | El Dashboard no muestra la temperatura promedio ni el gráfico de temperatura. | 4 | Visibility of System Status / Aesthetic and Minimalist Design |
+| 4 | El detalle de Service Request muestra el error "Invalid date". | 4 | Match Between System and the Real World / Error Prevention |
+| 5 | Los reportes generados no son compartidos ni visibles para los técnicos. | 3 | User Control and Freedom / Flexibility and Efficiency of Use |
+| 6 | Los equipos y sitios mostrados son los mismos para cualquier usuario dueño de negocio. | 4 | Error Prevention / Match Between System and the Real World |
+
+---
+
+## DESCRIPCIÓN DE PROBLEMAS
+
+### PROBLEMA #1: La acción "Acknowledge (ACK)" en alertas no funciona.
+
+**Severidad:** 4 – Muy grave
+**Heurística violada:** User Control and Freedom / Error Prevention
+
+**Problema:**
+En la sección de Alerts (y en la tabla "Recent Alerts" del Dashboard), al hacer clic en el botón "Acknowledge (ACK)" no se produce ningún efecto visible: el estado de la alerta no cambia, no aparece ningún mensaje de confirmación ni de error, y la alerta permanece en el mismo estado. El usuario no recibe retroalimentación sobre si la acción se ejecutó correctamente o falló, lo que genera confusión y pérdida de confianza en el sistema.
+
+**Recomendación:**
+Implementar la lógica funcional del botón ACK para que actualice el estado de la alerta a "Acknowledged" y refleje el cambio inmediatamente en la tabla. Adicionalmente, mostrar un mensaje de confirmación (toast/snackbar) que indique el éxito o el error de la operación. Mientras la acción esté en proceso, deshabilitar el botón para evitar clics duplicados.
+
+---
+
+### PROBLEMA #2: En la vista de detalle de solicitud de servicio (técnico), el estado siempre aparece como "Pending".
+
+**Severidad:** 4 – Muy grave
+**Heurística violada:** Visibility of System Status / Match Between System and the Real World
+
+**Problema:**
+Cuando un técnico accede al detalle de una Service Request, el campo de estado (status) siempre muestra el valor "Pending", independientemente del estado real de la solicitud en el sistema. Esto implica que el estado no se está leyendo ni mostrando correctamente desde el backend, lo que impide al técnico conocer el estado actual de su trabajo y puede llevar a decisiones operacionales incorrectas.
+
+**Recomendación:**
+Corregir el binding del campo de estado en la vista de detalle de Service Request para el rol de técnico, asegurando que el valor mostrado refleje el estado real devuelto por la API. Verificar que la propiedad del objeto de respuesta esté correctamente mapeada al componente de UI.
+
+---
+
+### PROBLEMA #3: El Dashboard no muestra la temperatura promedio ni el gráfico de temperatura.
+
+**Severidad:** 4 – Muy grave
+**Heurística violada:** Visibility of System Status / Aesthetic and Minimalist Design
+
+**Problema:**
+En el Dashboard, la sección de temperatura promedio aparece vacía o con valores nulos, y el gráfico de temperatura (Temperature Chart) no se renderiza. Esto priva al usuario de la información de monitoreo en tiempo real más crítica de la aplicación, que es la razón principal por la que se accede al Dashboard. El error puede deberse a un fallo en la carga de datos desde el backend, un error en el componente del gráfico o un problema con el formato de los datos recibidos.
+
+**Recomendación:**
+Investigar y corregir la causa raíz del fallo en la carga de datos de temperatura: verificar las llamadas a la API correspondiente, el manejo de errores en el servicio y el componente del gráfico. Implementar un estado de carga (skeleton/spinner) mientras los datos se obtienen, y un mensaje de error descriptivo cuando la carga falla, en lugar de mostrar una sección vacía.
+
+---
+
+### PROBLEMA #4: El detalle de Service Request muestra el error "Invalid date".
+
+**Severidad:** 4 – Muy grave
+**Heurística violada:** Match Between System and the Real World / Error Prevention
+
+**Problema:**
+Al acceder al detalle de una solicitud de servicio (Service Request Detail), los campos de fecha muestran el texto "Invalid date" en lugar del valor real. Esto indica que el formato de la fecha devuelto por la API no es compatible con la función de formateo utilizada en el frontend, o que el valor llega como null/undefined. Esta situación impide al usuario conocer fechas clave como la de creación, asignación o resolución de la solicitud.
+
+**Recomendación:**
+Revisar el formato de fecha devuelto por la API y asegurarse de que el parser o la librería de formateo del frontend (ej. date-fns, moment.js, o el pipe de Angular) pueda interpretarlo correctamente. Añadir validación antes del formateo para manejar valores nulos o vacíos mostrando un texto alternativo como "Sin fecha" en lugar de "Invalid date".
+
+---
+
+### PROBLEMA #5: Los reportes generados no son compartidos ni visibles para los técnicos.
+
+**Severidad:** 3 – Mayor
+**Heurística violada:** User Control and Freedom / Flexibility and Efficiency of Use
+
+**Problema:**
+Los reportes generados en la sección Reports solo son visibles para el rol de administrador/dueño de negocio. Los técnicos, que son los ejecutores directos del servicio y necesitan consultar reportes para hacer seguimiento de su trabajo o rendir cuentas, no tienen acceso a esta sección o no ven ningún reporte en ella. Esto limita la utilidad de la funcionalidad de reportes y obliga a flujos de comunicación externos.
+
+**Recomendación:**
+Revisar la lógica de control de acceso (roles y permisos) de la sección Reports para determinar si los técnicos deben ver todos los reportes o solo los que les conciernen. Implementar el nivel de acceso correspondiente para el rol de técnico, filtrando los reportes según sea necesario (ej. reportes asociados a sus propias solicitudes de servicio).
+
+---
+
+### PROBLEMA #6: Los equipos y sitios mostrados son los mismos para cualquier usuario dueño de negocio.
+
+**Severidad:** 4 – Muy grave
+**Heurística violada:** Error Prevention / Match Between System and the Real World
+
+**Problema:**
+En las secciones de Equipments y Sites, todos los usuarios con rol de dueño de negocio (business owner) visualizan el mismo conjunto de equipos y sitios, independientemente de la organización o tenant al que pertenezcan. Esto supone una brecha grave de privacidad y seguridad de datos, ya que un usuario puede ver información confidencial de activos que no le pertenecen, y también dificulta la gestión al mezclar datos de distintas empresas en una sola vista.
+
+**Recomendación:**
+Implementar filtrado por tenant/organización en las consultas de la API de equipos y sitios, asegurando que cada usuario solo reciba y visualice los activos asociados a su propia organización. Verificar que el token de autenticación JWT incluya el identificador del tenant y que el backend lo utilice como filtro obligatorio en todas las consultas de recursos.
+
+## 5.4. Video About-the-Product
+
+Link del video About-the-product: https://www.youtube.com/watch?v=NqBxrFdpotY
+
+<img src="../assets/chapter-5/about-product.png" alt="Video about the product" style="width: 70%">
+
 **Conclusiones**
 
 Al finalizar el ciclo de desarrollo y validación de la solución FullTank, el equipo ha llegado a las siguientes conclusiones, contrastando los resultados obtenidos con los planteamientos iniciales del proceso Lean UX:
@@ -951,6 +1833,13 @@ Hipótesis de Valor para Proveedores:
 Se propuso que "Si los proveedores tienen visibilidad de las solicitudes en tiempo real, podrán mejorar sus tiempos de respuesta y coordinación logística". La validación confirmó esta hipótesis, ya que los usuarios destacaron la importancia de recibir notificaciones inmediatas y contar con información actualizada para la toma de decisiones.
 
 No obstante, se identificó que ofrecer únicamente información resumida no es suficiente; los usuarios requieren actualizaciones constantes y trazabilidad detallada de cada pedido, lo que valida la necesidad de integrar monitoreo en tiempo real como una funcionalidad central y no opcional.
+
+
+**Video About-the-team**
+
+Link del video: https://youtu.be/pZbrpTs73ZY
+
+<img src="../assets/chapter-5/about-team.png" alt="Video about the team" style="width: 70%">
 
 **Bibliografia**
 
@@ -983,10 +1872,6 @@ No obstante, se identificó que ofrecer únicamente información resumida no es 
 - Vernon, V. (s.f.). Domain-Driven Design Reference. Recuperado de https://domainlanguage.com/ddd/reference/
 
 Anexos:
-
-**Videos de Exposiciones:**
-- **TB1:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQBzyXZtjgr3Q7geKwL8bo18AQf3YrQShOtgE3OjzQeH1hw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lvAcm0](#)
-
 Link del repositorio del informe: https://github.com/PrimeFuel/Prime_Fuel_Document
 
 Link del repositorio de la Landing Page:
@@ -1004,4 +1889,3 @@ Link de los repositorios de la organización: https://github.com/PrimeFuel
 Link del figma: https://www.figma.com/design/ZMHB35H60u2eUhctevkVKc/Fullank-Completo?node-id=0-1&t=I3nr2x0tcAinM7gE-1
 
 URL de la Landing Page: https://primefuel.github.io/FullTank_LandingPage/
-

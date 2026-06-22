@@ -75,10 +75,51 @@
       </td>
     </tr>
     <tr>
+      <td>TB1</td>
+      <td>21/05/2026</td>
+      <td>
+        - Asto Jacome Jose Gustavo <br>
+        - Cayanchi Avila Milenko Rubén<br>
+        - Brayan Alexis Corvacho Damian <br>
+        - Herrera Enriquez Diego Fernando<br>
+        - Alberto Alejandro Ponce Perales
+      </td>
+      <td>
+        Se desarrolló e implementó la Web Application (Frontend) de FullTank en Angular 17, correspondiente al Sprint 2 del proyecto. Se incluyeron los siguientes avances: <br>
+        • Implementación del Dashboard principal del proveedor con KPIs y navegación directa a módulos operativos <br>
+        • Módulo de Inventario (CRUD de productos de combustible) <br>
+        • Módulo de Pedidos (Ordering): solicitudes, órdenes, aprobación, rechazo, despacho, cierre, búsqueda y filtrado <br>
+        • Módulo de Logística (Fulfillment): gestión de vehículos, conductores y dispatch dashboard con validación de disponibilidad <br>
+        • Módulo de Reportes (Reporting): gráficos de ventas, distribución por sector y portafolio de clientes <br>
+        • Integración del historial de pedidos en el módulo de Ordering <br>
+        • Conexión a una API simulada (json-server) desplegada en Render <br>
+        • Despliegue del Frontend en Firebase Hosting <br>
+        • Actualización del Capítulo V con la evidencia de Sprint Planning, Sprint Backlog, ejecución y despliegue del Sprint 2
+      </td>
+    </tr>
     <tr>
+      <td>AV2</td>
+      <td>21/06/2026</td>
+      <td>
+        - Asto Jacome Jose Gustavo <br>
+        - Cayanchi Avila Milenko Rubén<br>
+        - Brayan Alexis Corvacho Damian <br>
+        - Herrera Enriquez Diego Fernando<br>
+        - Alberto Alejandro Ponce Perales
+      </td>
+      <td>
+        Se diseñó e implementó la arquitectura Backend de FullTank utilizando Spring Boot y Domain-Driven Design, correspondiente al Sprint 3 del proyecto. Se incluyeron los siguientes avances: <br>
+        • Desarrollo de los servicios REST organizados por bounded contexts: Identity & Access, Equipment, Catalog/Inventory, Ordering, Payment, Fulfillment, Notification y Reporting & Analytics <br>
+        • Implementación de autenticación y autorización mediante JSON Web Tokens (JWT) <br>
+        • Persistencia de datos mediante Spring Data JPA sobre base de datos relacional <br>
+        • Documentación de los servicios desarrollados mediante OpenAPI/Swagger <br>
+        • Validación funcional de endpoints mediante Swagger UI y Postman <br>
+        • Actualización del Capítulo IV con los diagramas de clases (Class Diagrams) de Frontend y Backend por bounded context <br>
+        • Actualización del Capítulo V con la evidencia de Sprint Planning, Sprint Backlog, ejecución, documentación de servicios y despliegue del Sprint 3
+      </td>
+    </tr>
   </tbody>
 </table>
-
 
 ## Project Report Collaboration Insights
 
@@ -196,17 +237,27 @@ El siguiente gráfico muestra una línea de tiempo con la evolución semanal de 
       <td>
         <b>Jose Asto Jacome</b><br>
         AV1: Expuso oralmente los hallazgos del análisis competitivo y las estrategias frente a competidores durante las sesiones de equipo.<br>
+        TB1: Presentó oralmente la implementación del Dashboard principal del proveedor (KPIs y navegación) y los módulos de Reporting (gráfico de ventas mensuales, distribución por sector y portafolio de clientes) desarrollados en Angular.<br>
+        AV2: Presentó oralmente el avance del Dashboard principal del proveedor, los módulos de Reporting y los servicios backend de Reporting & Analytics, explicando al equipo la lógica de las métricas e indicadores expuestos.<br>
         <b>Milenko Cayanchi Avila</b><br>
         AV1: Presentó oralmente los resultados del Needfinding, incluyendo User Personas y User Journey Mapping, ante el grupo.<br>
+        TB1: Comunicó oralmente la estructuración de las bases del proyecto Angular (layout, router y store con Angular Signals) y el desarrollo del módulo de Inventario (CRUD de productos y lista de stock).<br>
+        AV2: Comunicó oralmente la estructura base del proyecto Angular, la configuración del store con Angular Signals, el módulo de Inventario y los endpoints de consulta de usuarios y gestión de stock implementados en el backend.<br>
         <b>Brayan Corvacho Damian</b><br>
         AV1: Comunicó oralmente el diseño de la arquitectura de software y los diagramas de contenedores y componentes al equipo.<br>
+        TB1: Expuso oralmente el desarrollo del módulo de Fulfillment, incluyendo la gestión de vehículos y conductores, y el dispatch dashboard con validación de disponibilidad en tiempo real.<br>
+        AV2: Expuso oralmente el desarrollo del módulo de Fulfillment (vehículos, conductores y dispatch dashboard) y los endpoints backend de solicitudes de combustible, vehículos y asignación de proveedor favorito.<br>
         <b>Diego Herrera Enriquez</b><br>
         AV1: Expuso oralmente el proceso de entrevistas y el análisis de los segmentos objetivo identificados.<br>
+        TB1: Presentó oralmente la integración del historial de órdenes cerradas en el módulo de Ordering y el soporte transversal brindado entre los distintos módulos del frontend.<br>
+        AV2: Presentó oralmente la integración del historial de pedidos en el módulo de Ordering y los servicios backend de empresas compradoras, confirmación/cancelación de pedidos y reportes y analítica.<br>
         <b>Alberto Ponce Perales</b><br>
         AV1: Presentó oralmente el diseño UX/UI de la Landing Page y las Web Applications al equipo de trabajo.<br>
+        TB1: Comunicó oralmente el desarrollo completo del módulo de Ordering (solicitudes, órdenes, aprobación, rechazo, despacho, cierre, búsqueda y filtrado de pedidos).<br>
+        AV2: Comunicó oralmente el desarrollo completo del módulo de Ordering (solicitudes, órdenes, aprobación, rechazo, despacho, cierre, búsqueda y filtrado) y los endpoints backend de empresas proveedoras, consulta de pedidos y gestión de entregas.<br>
       </td>
       <td>
-        Consideramos que la comunicación oral fue aplicada de manera clara y estratégica, logrando exponer hallazgos, transmitir insights y sostener discusiones con efectividad frente a diferentes audiencias. Gracias a ello, se alcanzó una comprensión común del problema y se sentaron bases sólidas para proponer soluciones innovadoras en el marco del Lean UX Process.
+        Consideramos que la comunicación oral fue aplicada de manera clara y estratégica, logrando exponer hallazgos, transmitir insights y sostener discusiones con efectividad frente a diferentes audiencias. Durante el TB1 y el AV2, esta habilidad se evidenció además en la capacidad de cada integrante para explicar decisiones técnicas de implementación (módulos de frontend y servicios de backend) ante el equipo, facilitando la integración entre los distintos bounded contexts desarrollados y la coordinación necesaria para el despliegue de ambas capas del sistema.
       </td>
     </tr>
     <tr>
@@ -214,17 +265,27 @@ El siguiente gráfico muestra una línea de tiempo con la evolución semanal de 
       <td>
         <b>Jose Asto Jacome</b><br>
         AV1: Redactó el Startup Profile y el Solution Profile, adaptando el lenguaje para audiencias técnicas y no técnicas.<br>
+        TB1: Documentó por escrito la implementación del Dashboard principal del proveedor y los módulos de Reporting, dejando registro de la integración con Chart.js y la conexión al json-server.<br>
+        AV2: Documentó por escrito la implementación del Dashboard principal, los módulos de Reporting y los endpoints de autenticación, registro de usuarios, productos de combustible, pagos y notificaciones, además de actualizar la evidencia de desarrollo y ejecución del Sprint 3.<br>
         <b>Milenko Cayanchi Avila</b><br>
         AV1: Documentó por escrito el análisis de entrevistas y el Empathy Mapping con claridad y estructura adecuada.<br>
+        TB1: Redactó la documentación de la estructura base del proyecto Angular y del módulo de Inventario, detallando el uso de assemblers, store con Angular Signals y las vistas de formulario y listado.<br>
+        AV2: Redactó la documentación del módulo de Inventario, la lista de stock y los endpoints de consulta de usuarios, actualización de stock, conductores y calificaciones de proveedores, dejando registro claro de las decisiones técnicas adoptadas.<br>
         <b>Brayan Corvacho Damian</b><br>
         AV1: Elaboró la documentación escrita de los diagramas de base de datos y el diseño orientado a objetos.<br>
+        TB1: Documentó por escrito el desarrollo del módulo de Fulfillment, incluyendo el CRUD de vehículos y conductores y la lógica del dispatch dashboard.<br>
+        AV2: Documentó por escrito el módulo de Fulfillment (vehículos, conductores, dispatch dashboard y asignación de recursos) y los endpoints backend de consulta de pedidos por usuario, actualización de perfil, vehículos y asignación de proveedor favorito.<br>
         <b>Diego Herrera Enriquez</b><br>
         AV1: Redactó las User Stories y el Impact Mapping, asegurando que fueran comprensibles para todos los miembros del equipo.<br>
+        TB1: Documentó por escrito la integración del historial de órdenes en el módulo de Ordering y el trabajo de soporte transversal entre módulos del frontend.<br>
+        AV2: Documentó por escrito la integración del historial de pedidos en Ordering y los endpoints de empresas compradoras, confirmación/cancelación de pedidos, eliminación de equipos y reportes y analítica.<br>
         <b>Alberto Ponce Perales</b><br>
         AV1: Documentó por escrito las Style Guidelines y los sistemas de arquitectura de información del producto.<br>
+        TB1: Redactó la documentación completa del módulo de Ordering, detallando las vistas de solicitudes, órdenes y las acciones de cambio de estado implementadas.<br>
+        AV2: Redactó la documentación del módulo de Ordering completo (solicitudes, órdenes, acciones de aprobación/rechazo/despacho/cierre, búsqueda y filtrado) y los endpoints backend de empresas proveedoras, consulta de pedidos, gestión de entregas y equipos.<br>
       </td>
       <td>
-        La comunicación escrita se utilizó de forma clara y estratégica, adaptando el nivel de detalle y el lenguaje según la audiencia. Esto permitió documentar hallazgos, explicar la problemática y presentar propuestas de manera efectiva, logrando que toda la información fuera comprendida y validada en el marco del Lean UX Process.
+        La comunicación escrita se utilizó de forma clara y estratégica, adaptando el nivel de detalle y el lenguaje según la audiencia. En el TB1 y el AV2, esta habilidad se reflejó en la documentación técnica del Sprint Backlog, las evidencias de desarrollo y despliegue, y la actualización de los diagramas de clases del Capítulo IV, lo que permitió mantener una trazabilidad clara entre los requerimientos definidos, las decisiones de diseño y la implementación final tanto del frontend como del backend de FullTank.
       </td>
     </tr>
   </tbody>
