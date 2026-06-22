@@ -1400,10 +1400,12 @@ Se verificó el correcto funcionamiento de:
 * Gestión de notificaciones.
 * Generación de métricas y reportes.
 
-**Figura X. Ejecución de endpoints mediante Swagger UI.**
-
-**Figura X. Validación de respuestas HTTP utilizando Postman.**
-
+![Deployment Visual Evidence of Deploy](../assets/chapter-5/SWG1.jpg)
+![Deployment Visual Evidence of Deploy](../assets/chapter-5/SWG2.jpg)
+![Deployment Visual Evidence of Deploy](../assets/chapter-5/SWG3.jpg)
+![Deployment Visual Evidence of Deploy](../assets/chapter-5/SWG4.jpg)
+![Deployment Visual Evidence of Deploy](../assets/chapter-5/SWG5.jpg)
+![Deployment Visual Evidence of Deploy](../assets/chapter-5/SWG6.jpg)
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
@@ -1420,9 +1422,15 @@ La utilización de Swagger permitió además disponer de una interfaz interactiv
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
+Durante el Sprint 3 se realizó el despliegue del frontend de FullTank en un entorno cloud utilizando Filess. Este despliegue permitió validar el correcto funcionamiento de la aplicación cliente en un entorno productivo, así como su accesibilidad mediante una URL pública.
+
+El proceso incluyó la configuración de variables de entorno necesarias para la conexión con los servicios backend, la construcción del proyecto frontend y su publicación en la plataforma, garantizando su disponibilidad para pruebas de usuario y validación del flujo completo de la aplicación.
 
 
-**Figura X. Backend desplegado y accesible desde Internet.**
+![Deployment Visual Evidence of Deploy](../assets/chapter-5/Deploy1.jpg)
+![Deployment Visual Evidence of Deploy](../assets/chapter-5/Deploy2.jpg)
+![Deployment Visual Evidence of Deploy](../assets/chapter-5/Deploy3.jpg)
+![Deployment Visual Evidence of Deploy](../assets/chapter-5/Deploy4.jpg)
 
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
@@ -1439,7 +1447,7 @@ Las principales prácticas aplicadas fueron:
 
 Como resultado, se logró completar la mayor parte de las historias técnicas planificadas, obteniendo una cobertura funcional significativa de los servicios backend requeridos para la plataforma FullTank.
 
-**Figura X. Insights.**
+![Deployment Visual Evidence of Deploy](../assets/chapter-5/InsightsS3.png)
 
 **Conclusiones**
 
