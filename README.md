@@ -1,15 +1,20 @@
 <div align="center">
-  <img src="assets/introduction/logo.png" alt="Logo de la Universidad Peruana de Ciencias Aplicadas"/>  
-  <h2>Informe de Trabajo Final</h2>
-  <p><strong>Universidad:</strong> Universidad Peruana de Ciencias Aplicadas</p>
-  <p><strong>Ciclo:</strong> 2026-10</p>
-  <p><strong>Curso:</strong> 1ASI0729-2610 Desarrollo de Aplicaciones Open Source</p>
-  <p><strong>Sección:</strong> 11959</p>
-  <p><strong>Profesor:</strong> Hugo Allan Mori Paiva</p>
+  <img src="assets/introduction/logo.png" alt="Logo de la Universidad Peruana de Ciencias Aplicadas"/>
+  <p>Universidad Peruana de Ciencias Aplicadas</p>
+  <p>Carrera de Ingeniería de Software</p>
+  <p><strong>1ASI0729</strong></p>
+  <p><strong>Desarrollo de Aplicaciones Open Source</strong></p>
+  <p>NRC</p>
+  <p><strong>11959</strong></p>
+  <h2>Informe del Trabajo Final</h2>
+  <p>Docente</p>
+  <p><strong>Mori Paiva, Hugo Allan</strong></p>
+  <p>Equipo</p>
+  <p><strong>PrimeFuel</strong></p>
+  <p>Proyecto</p>
+  <p><strong>FullTank</strong></p>
 </div>
-
-<h2 align="center">Relación de Integrantes:</h2>
-
+<h2 align="center">Integrantes</h2>
 <div align="center">
   <table>
     <tr>
@@ -31,17 +36,20 @@
     <tr>
       <td>u202320684</td>
       <td>Ponce Perales Alberto Alejandro</td>
-    </tr><tr>
+    </tr>
+    <tr>
       <td>u202319027</td>
       <td>Herrera Enriquez Diego Fernando</td>
     </tr>
   </table>
 </div>
+<div align="center">
+  <p><strong>Período 202610</strong></p>
+  <p><strong>Junio 2026</strong></p>
+</div>
 
-<p align="center"><strong>Mes y Año:</strong> Abril 2026</p>
 
 ## Registro de Versiones del Informe
-
 <table border>
   <thead>
     <tr>
@@ -118,6 +126,24 @@
         • Actualización del Capítulo V con la evidencia de Sprint Planning, Sprint Backlog, ejecución, documentación de servicios y despliegue del Sprint 3
       </td>
     </tr>
+    <tr>
+      <td>TB2</td>
+      <td>09/07/2026</td>
+      <td>
+        - Asto Jacome Jose Gustavo <br>
+        - Cayanchi Avila Milenko Rubén<br>
+        - Brayan Alexis Corvacho Damian <br>
+        - Herrera Enriquez Diego Fernando<br>
+        - Alberto Alejandro Ponce Perales
+      </td>
+      <td>
+        Se finalizó la integración completa de FullTank, correspondiente a la entrega final del proyecto. Se incluyeron los siguientes avances: <br>
+        • Conexión e integración del Frontend (Angular 17) con el Backend (Spring Boot) mediante consumo real de los servicios REST <br>
+        • Validaciones de autenticación y autorización mediante JSON Web Tokens (JWT) en el flujo end-to-end <br>
+        • Finalización de la Landing Page con la incorporación de videos "About the Team" y "About the Product" <br>
+        • Actualización del Capítulo V con la evidencia de integración, validaciones y despliegue final del proyecto
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -192,6 +218,7 @@ El siguiente gráfico muestra una línea de tiempo con la evolución semanal de 
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1 User Stories](#31-user-stories)
   - [3.2 Impact Mapping](#32-impact-mapping)
+  - [3.3 Product Backlog](#33-product-backlog)
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
   - [4.1 Style Guidelines](#41-style-guidelines)
     - [4.1.1 General Style Guidelines](#411-general-style-guidelines)
@@ -220,6 +247,59 @@ El siguiente gráfico muestra una línea de tiempo con la evolución semanal de 
     - [4.7.1 Class Diagrams](#471-class-diagrams)
   - [4.8 Database Design](#48-database-design)
     - [4.8.1 Database Diagrams](#481-database-diagrams)
+- [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
+  - [5.1 Software Configuration Management](#51-software-configuration-management)
+    - [5.1.1 Software Development Environment Configuration](#511-software-development-environment-configuration)
+    - [5.1.2 Source Code Management](#512-source-code-management)
+    - [5.1.3 Source Code Style Guide \& Conventions](#513-source-code-style-guide--conventions)
+    - [5.1.4 Software Deployment Configuration](#514-software-deployment-configuration)
+  - [5.2 Landing Page, Services \& Applications Implementation](#52-landing-page-services--applications-implementation)
+    - [5.2.1 Sprint 1](#521-sprint-1)
+      - [5.2.1.1 Sprint Planning 1](#5211-sprint-planning-1)
+      - [5.2.1.2 Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
+      - [5.2.1.3 Sprint Backlog 1](#5213-sprint-backlog-1)
+      - [5.2.1.4 Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
+      - [5.2.1.5 Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
+      - [5.2.1.6 Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
+      - [5.2.1.7 Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
+      - [5.2.1.8 Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+    - [5.2.2 Sprint 2](#522-sprint-2)
+      - [5.2.2.1 Sprint Planning 2](#5221-sprint-planning-2)
+      - [5.2.2.2 Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+      - [5.2.2.3 Sprint Backlog 2](#5223-sprint-backlog-2)
+      - [5.2.2.4 Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
+      - [5.2.2.5 Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+      - [5.2.2.6 Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+      - [5.2.2.7 Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+      - [5.2.2.8 Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+    - [5.2.3 Sprint 3](#523-sprint-3)
+      - [5.2.3.1 Sprint Planning 3](#5231-sprint-planning-3)
+      - [5.2.3.2 Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+      - [5.2.3.3 Sprint Backlog 3](#5233-sprint-backlog-3)
+      - [5.2.3.4 Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+      - [5.2.3.5 Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+      - [5.2.3.6 Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7 Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8 Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+    - [5.2.4 Sprint 4](#524-sprint-4)
+      - [5.2.4.1 Sprint Planning 4](#5241-sprint-planning-4)
+      - [5.2.4.2 Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
+      - [5.2.4.3 Sprint Backlog 4](#5243-sprint-backlog-4)
+      - [5.2.4.4 Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
+      - [5.2.4.5 Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
+      - [5.2.4.6 Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
+      - [5.2.4.7 Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
+      - [5.2.4.8 Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
+  - [5.3 Validation Interviews](#53-validation-interviews)
+    - [5.3.1 Diseño de Entrevistas](#531-diseño-de-entrevistas)
+    - [5.3.2 Registro de Entrevistas](#532-registro-de-entrevistas)
+    - [5.3.3 Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+  - [5.4 Video About-the-Product](#54-video-about-the-product)
+- [Conclusiones](#conclusiones)
+  - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+  - [Video About-the-Team](#video-about-the-team)
+- [Bibliografía](#bibliografía)
+- [Anexos](#anexos)
 
 ## Student Outcome
 
@@ -239,25 +319,30 @@ El siguiente gráfico muestra una línea de tiempo con la evolución semanal de 
         AV1: Expuso oralmente los hallazgos del análisis competitivo y las estrategias frente a competidores durante las sesiones de equipo.<br>
         TB1: Presentó oralmente la implementación del Dashboard principal del proveedor (KPIs y navegación) y los módulos de Reporting (gráfico de ventas mensuales, distribución por sector y portafolio de clientes) desarrollados en Angular.<br>
         AV2: Presentó oralmente el avance del Dashboard principal del proveedor, los módulos de Reporting y los servicios backend de Reporting & Analytics, explicando al equipo la lógica de las métricas e indicadores expuestos.<br>
+        TB2: Expuso oralmente la conexión del Dashboard y los módulos de Reporting con los servicios reales del backend, así como la implementación de la autenticación mediante JSON Web Tokens (JWT) y su validación en el flujo end-to-end de la aplicación.<br>
         <b>Milenko Cayanchi Avila</b><br>
         AV1: Presentó oralmente los resultados del Needfinding, incluyendo User Personas y User Journey Mapping, ante el grupo.<br>
         TB1: Comunicó oralmente la estructuración de las bases del proyecto Angular (layout, router y store con Angular Signals) y el desarrollo del módulo de Inventario (CRUD de productos y lista de stock).<br>
         AV2: Comunicó oralmente la estructura base del proyecto Angular, la configuración del store con Angular Signals, el módulo de Inventario y los endpoints de consulta de usuarios y gestión de stock implementados en el backend.<br>
+        TB2: Comunicó oralmente la integración del módulo de Inventario con los endpoints reales de stock y usuarios, incluyendo la validación de tokens JWT en las peticiones autenticadas del módulo.<br>
         <b>Brayan Corvacho Damian</b><br>
         AV1: Comunicó oralmente el diseño de la arquitectura de software y los diagramas de contenedores y componentes al equipo.<br>
         TB1: Expuso oralmente el desarrollo del módulo de Fulfillment, incluyendo la gestión de vehículos y conductores, y el dispatch dashboard con validación de disponibilidad en tiempo real.<br>
         AV2: Expuso oralmente el desarrollo del módulo de Fulfillment (vehículos, conductores y dispatch dashboard) y los endpoints backend de solicitudes de combustible, vehículos y asignación de proveedor favorito.<br>
+        TB2: Expuso oralmente la conexión del módulo de Fulfillment con los servicios reales de backend, así como las pruebas de validación del token JWT en las operaciones de despacho y asignación de vehículos.<br>
         <b>Diego Herrera Enriquez</b><br>
         AV1: Expuso oralmente el proceso de entrevistas y el análisis de los segmentos objetivo identificados.<br>
         TB1: Presentó oralmente la integración del historial de órdenes cerradas en el módulo de Ordering y el soporte transversal brindado entre los distintos módulos del frontend.<br>
         AV2: Presentó oralmente la integración del historial de pedidos en el módulo de Ordering y los servicios backend de empresas compradoras, confirmación/cancelación de pedidos y reportes y analítica.<br>
+        TB2: Presentó oralmente la conexión del historial de pedidos y los reportes con los servicios reales del backend, y el soporte transversal brindado al equipo durante las pruebas de integración end-to-end.<br>
         <b>Alberto Ponce Perales</b><br>
         AV1: Presentó oralmente el diseño UX/UI de la Landing Page y las Web Applications al equipo de trabajo.<br>
         TB1: Comunicó oralmente el desarrollo completo del módulo de Ordering (solicitudes, órdenes, aprobación, rechazo, despacho, cierre, búsqueda y filtrado de pedidos).<br>
         AV2: Comunicó oralmente el desarrollo completo del módulo de Ordering (solicitudes, órdenes, aprobación, rechazo, despacho, cierre, búsqueda y filtrado) y los endpoints backend de empresas proveedoras, consulta de pedidos y gestión de entregas.<br>
+        TB2: Comunicó oralmente la conexión del módulo de Ordering con los servicios reales del backend y presentó la finalización de la Landing Page, incluyendo los videos "About the Team" y "About the Product".<br>
       </td>
       <td>
-        Consideramos que la comunicación oral fue aplicada de manera clara y estratégica, logrando exponer hallazgos, transmitir insights y sostener discusiones con efectividad frente a diferentes audiencias. Durante el TB1 y el AV2, esta habilidad se evidenció además en la capacidad de cada integrante para explicar decisiones técnicas de implementación (módulos de frontend y servicios de backend) ante el equipo, facilitando la integración entre los distintos bounded contexts desarrollados y la coordinación necesaria para el despliegue de ambas capas del sistema.
+        Consideramos que la comunicación oral fue aplicada de manera clara y estratégica, logrando exponer hallazgos, transmitir insights y sostener discusiones con efectividad frente a diferentes audiencias. Durante el TB1 y el AV2, esta habilidad se evidenció además en la capacidad de cada integrante para explicar decisiones técnicas de implementación (módulos de frontend y servicios de backend) ante el equipo, facilitando la integración entre los distintos bounded contexts desarrollados y la coordinación necesaria para el despliegue de ambas capas del sistema. Finalmente, en el TB2 esta competencia se reforzó al comunicar oralmente el cierre del proyecto: la integración real entre frontend y backend, el funcionamiento de la validación JWT en los distintos módulos, y la presentación de la Landing Page finalizada con el material audiovisual del equipo y del producto.
       </td>
     </tr>
     <tr>
@@ -267,25 +352,30 @@ El siguiente gráfico muestra una línea de tiempo con la evolución semanal de 
         AV1: Redactó el Startup Profile y el Solution Profile, adaptando el lenguaje para audiencias técnicas y no técnicas.<br>
         TB1: Documentó por escrito la implementación del Dashboard principal del proveedor y los módulos de Reporting, dejando registro de la integración con Chart.js y la conexión al json-server.<br>
         AV2: Documentó por escrito la implementación del Dashboard principal, los módulos de Reporting y los endpoints de autenticación, registro de usuarios, productos de combustible, pagos y notificaciones, además de actualizar la evidencia de desarrollo y ejecución del Sprint 3.<br>
+        TB2: Documentó por escrito la conexión del Dashboard y los módulos de Reporting con el backend real, así como la implementación y validación de la autenticación mediante JWT, dejando registro claro del flujo de seguridad end-to-end.<br>
         <b>Milenko Cayanchi Avila</b><br>
         AV1: Documentó por escrito el análisis de entrevistas y el Empathy Mapping con claridad y estructura adecuada.<br>
         TB1: Redactó la documentación de la estructura base del proyecto Angular y del módulo de Inventario, detallando el uso de assemblers, store con Angular Signals y las vistas de formulario y listado.<br>
         AV2: Redactó la documentación del módulo de Inventario, la lista de stock y los endpoints de consulta de usuarios, actualización de stock, conductores y calificaciones de proveedores, dejando registro claro de las decisiones técnicas adoptadas.<br>
+        TB2: Documentó por escrito la integración del módulo de Inventario con los endpoints reales de stock y usuarios, incluyendo la configuración de los interceptores HTTP para el envío y validación del token JWT.<br>
         <b>Brayan Corvacho Damian</b><br>
         AV1: Elaboró la documentación escrita de los diagramas de base de datos y el diseño orientado a objetos.<br>
         TB1: Documentó por escrito el desarrollo del módulo de Fulfillment, incluyendo el CRUD de vehículos y conductores y la lógica del dispatch dashboard.<br>
         AV2: Documentó por escrito el módulo de Fulfillment (vehículos, conductores, dispatch dashboard y asignación de recursos) y los endpoints backend de consulta de pedidos por usuario, actualización de perfil, vehículos y asignación de proveedor favorito.<br>
+        TB2: Documentó por escrito la conexión del módulo de Fulfillment con los servicios reales de backend y las pruebas de validación del token JWT en las operaciones de despacho y asignación de vehículos.<br>
         <b>Diego Herrera Enriquez</b><br>
         AV1: Redactó las User Stories y el Impact Mapping, asegurando que fueran comprensibles para todos los miembros del equipo.<br>
         TB1: Documentó por escrito la integración del historial de órdenes en el módulo de Ordering y el trabajo de soporte transversal entre módulos del frontend.<br>
         AV2: Documentó por escrito la integración del historial de pedidos en Ordering y los endpoints de empresas compradoras, confirmación/cancelación de pedidos, eliminación de equipos y reportes y analítica.<br>
+        TB2: Documentó por escrito la conexión del historial de pedidos y los reportes con los servicios reales del backend, así como las evidencias de las pruebas de integración end-to-end realizadas junto al equipo.<br>
         <b>Alberto Ponce Perales</b><br>
         AV1: Documentó por escrito las Style Guidelines y los sistemas de arquitectura de información del producto.<br>
         TB1: Redactó la documentación completa del módulo de Ordering, detallando las vistas de solicitudes, órdenes y las acciones de cambio de estado implementadas.<br>
         AV2: Redactó la documentación del módulo de Ordering completo (solicitudes, órdenes, acciones de aprobación/rechazo/despacho/cierre, búsqueda y filtrado) y los endpoints backend de empresas proveedoras, consulta de pedidos, gestión de entregas y equipos.<br>
+        TB2: Redactó la documentación de la conexión del módulo de Ordering con el backend real y de la finalización de la Landing Page, incluyendo la incorporación de los videos "About the Team" y "About the Product".<br>
       </td>
       <td>
-        La comunicación escrita se utilizó de forma clara y estratégica, adaptando el nivel de detalle y el lenguaje según la audiencia. En el TB1 y el AV2, esta habilidad se reflejó en la documentación técnica del Sprint Backlog, las evidencias de desarrollo y despliegue, y la actualización de los diagramas de clases del Capítulo IV, lo que permitió mantener una trazabilidad clara entre los requerimientos definidos, las decisiones de diseño y la implementación final tanto del frontend como del backend de FullTank.
+        La comunicación escrita se utilizó de forma clara y estratégica, adaptando el nivel de detalle y el lenguaje según la audiencia. En el TB1 y el AV2, esta habilidad se reflejó en la documentación técnica del Sprint Backlog, las evidencias de desarrollo y despliegue, y la actualización de los diagramas de clases del Capítulo IV, lo que permitió mantener una trazabilidad clara entre los requerimientos definidos, las decisiones de diseño y la implementación final tanto del frontend como del backend de FullTank. En el TB2, esta competencia se consolidó al documentar por escrito el cierre del proyecto: la integración real entre frontend y backend, el funcionamiento de las validaciones JWT a lo largo de los distintos módulos, y la finalización de la Landing Page con el material audiovisual del equipo y del producto, asegurando la trazabilidad completa entre lo diseñado, lo implementado y lo entregado.
       </td>
     </tr>
   </tbody>
