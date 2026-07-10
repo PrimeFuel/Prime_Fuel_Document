@@ -445,6 +445,20 @@
   <td><b>Escenario 1: Usuario con pedidos registrados</b><br/>Dado que el usuario tiene pedidos en el sistema,<br/>Cuando se llama al endpoint,<br/>Entonces retorna un array con sus pedidos y status 200.<br/><br/><b>Escenario 2: Usuario sin pedidos</b><br/>Dado que el usuario no ha realizado pedidos,<br/>Cuando se ejecuta la solicitud,<br/>Entonces retorna un array vacío con status 200.</td>
   <td>EP07</td>
 </tr>
+<tr>
+  <td>TS-13</td>
+  <td>Endpoint: Consultar pedidos</td>
+  <td>Como developer, quiero endpoints para listar todos los pedidos y consultarlos por ID, por empresa compradora y por proveedor.</td>
+  <td><b>Escenario 1: Consulta exitosa por ID</b><br/>Dado que el developer envía un ID de pedido existente,<br/>Cuando se llama al endpoint de consulta,<br/>Entonces se retorna el pedido correspondiente con status 200.<br/><br/><b>Escenario 2: Consulta por empresa compradora o proveedor</b><br/>Dado que el developer envía el identificador de una empresa compradora o proveedora,<br/>Cuando se ejecuta la solicitud,<br/>Entonces se retorna un array con los pedidos asociados y status 200.<br/><br/><b>Escenario 3: Pedido no encontrado</b><br/>Dado que el developer envía un ID que no corresponde a ningún pedido registrado,<br/>Cuando se procesa la solicitud,<br/>Entonces se retorna status 404 con un mensaje de error.</td>
+  <td>EP07</td>
+</tr>
+<tr>
+  <td>TS-14</td>
+  <td>Endpoint: Confirmar / cancelar pedido</td>
+  <td>Como developer, quiero endpoints para confirmar o cancelar un pedido existente.</td>
+  <td><b>Escenario 1: Confirmación exitosa del pedido</b><br/>Dado que el developer envía una solicitud de confirmación sobre un pedido válido,<br/>Cuando se procesa el request,<br/>Entonces el estado del pedido cambia a confirmado y se retorna status 200.<br/><br/><b>Escenario 2: Cancelación exitosa del pedido</b><br/>Dado que el developer envía una solicitud de cancelación sobre un pedido que aún puede cancelarse,<br/>Cuando se procesa el request,<br/>Entonces el estado del pedido cambia a cancelado y se retorna status 200.<br/><br/><b>Escenario 3: Intento de acción sobre pedido ya cerrado</b><br/>Dado que el developer intenta confirmar o cancelar un pedido que ya fue cerrado o cancelado previamente,<br/>Cuando se procesa la solicitud,<br/>Entonces se retorna status 400 con un mensaje indicando que la acción no es válida para el estado actual.</td>
+  <td>EP07</td>
+</tr>
   </tbody>
 <!-- Technical Stories: EP08 -->
 
