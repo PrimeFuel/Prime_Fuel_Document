@@ -167,6 +167,11 @@ https://github.com/PrimeFuel
 
 **Link del figma:** https://www.figma.com/design/ZMHB35H60u2eUhctevkVKc/Fullank-Completo?node-id=0-1&t=I3nr2x0tcAinM7gE-1
 
+**Link de de Swagger desplegado con render: https://prime-fuel-backend.onrender.com/swagger-ui/index.html**  
+
+**Link de frontend desplegado con vercel: https://frontend-dgwsg79ja-bralexcds-projects.vercel.app**  
+
+
 Este informe ha sido desarrollado de forma colaborativa mediante GitHub, empleando GitFlow y Conventional Commits. Cada miembro del equipo ha contribuido con commits y ramas durante el desarrollo del proyecto.
 
 **Participación por miembro**
