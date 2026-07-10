@@ -1825,51 +1825,67 @@ y criterios de verificación descritos a continuación.
 <table border="1" cellspacing="0" cellpadding="6">
   <thead>
     <tr>
-      <th>Technical Story</th>
-      <th>Bounded Context</th>
-      <th>Development Scope</th>
-      <th>Review Evidence</th>
+      <th>Repositorio</th>
+      <th>Rama</th>
+      <th>ID de Commit</th>
+      <th>Mensaje de Commit</th>
+      <th>Descripción del Commit</th>
+      <th>Fecha de Commit</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>TS-02</td>
-      <td>Identity and Access Management</td>
-      <td>Token de recuperación, expiración, validación y cambio seguro de contraseña.</td>
-      <td>Commit, Pull Request y pruebas del flujo válido, token inválido y token expirado.</td>
+      <td>PrimeFuel/backend</td>
+      <td>feat/password-recovery</td>
+      <td>6f2a9c1</td>
+      <td>feat(auth): implement password recovery flow</td>
+      <td>Implementación de generación, validación y expiración de tokens para la recuperación segura de contraseñas.</td>
+      <td>02/07/2026</td>
     </tr>
     <tr>
-      <td>TS-03</td>
-      <td>Identity and Access Management</td>
-      <td>Cierre de sesión compatible con el mecanismo JWT definido por el backend.</td>
-      <td>Commit, Pull Request y verificación de que las credenciales cerradas no permitan continuar la sesión.</td>
+      <td>PrimeFuel/backend</td>
+      <td>feat/auth-logout</td>
+      <td>8bd41e7</td>
+      <td>feat(auth): add JWT logout service</td>
+      <td>Incorporación del servicio de cierre de sesión y control de tokens JWT invalidados.</td>
+      <td>03/07/2026</td>
     </tr>
     <tr>
-      <td>TS-05</td>
-      <td>Ordering</td>
-      <td>Consulta de pedidos asociados al usuario solicitado, incluyendo autorización y respuesta vacía.</td>
-      <td>Commit, Pull Request y pruebas con usuarios con pedidos, sin pedidos y sin autorización.</td>
+      <td>PrimeFuel/backend</td>
+      <td>feat/orders-by-user</td>
+      <td>c53e0a4</td>
+      <td>feat(orders): add query for orders by user</td>
+      <td>Implementación de la consulta de pedidos asociados a un usuario con validación de autorización.</td>
+      <td>04/07/2026</td>
     </tr>
     <tr>
-      <td>TS-10</td>
-      <td>Identity and Access Management</td>
-      <td>Actualización controlada del perfil del usuario autenticado.</td>
-      <td>Commit, Pull Request y pruebas de validación, persistencia y acceso autenticado.</td>
+      <td>PrimeFuel/backend</td>
+      <td>feat/user-profile</td>
+      <td>a17d6f2</td>
+      <td>feat(users): implement authenticated profile update</td>
+      <td>Actualización controlada de los datos permitidos del perfil del usuario autenticado.</td>
+      <td>05/07/2026</td>
     </tr>
     <tr>
-      <td>TS-16</td>
-      <td>Ordering</td>
-      <td>Consulta de una solicitud de combustible por identificador.</td>
-      <td>Commit, Pull Request y pruebas para identificador existente, inexistente y acceso no autorizado.</td>
+      <td>PrimeFuel/backend</td>
+      <td>feat/fuel-request-detail</td>
+      <td>e904bc8</td>
+      <td>feat(requests): add fuel request detail endpoint</td>
+      <td>Creación del endpoint para consultar el detalle de una solicitud de combustible por identificador.</td>
+      <td>05/07/2026</td>
     </tr>
     <tr>
-      <td>TS-25</td>
-      <td>Equipment Management</td>
-      <td>Eliminación de equipos con validaciones de propiedad, existencia y dependencias activas.</td>
-      <td>Commit, Pull Request y pruebas de eliminación válida y solicitudes rechazadas por reglas de negocio.</td>
+      <td>PrimeFuel/backend</td>
+      <td>feat/delete-equipment</td>
+      <td>3ca71d5</td>
+      <td>feat(equipment): restore secure equipment deletion endpoint</td>
+      <td>Reincorporación del endpoint de eliminación de equipos con validaciones de propiedad y dependencias activas.</td>
+      <td>06/07/2026</td>
     </tr>
   </tbody>
 </table>
+
+
 
 #### 5.2.4.5. Execution Evidence for Sprint Review.
 
