@@ -1748,7 +1748,7 @@ mantener la trazabilidad entre ambos sprints.
       <th><strong>Description</strong></th>
       <th><strong>Estimation (Hours)</strong></th>
       <th><strong>Assigned to</strong></th>
-      <th><strong>Initial Status</strong></th>
+      <th><strong>Status</strong></th>
     </tr>
   </thead>
   <tbody>
@@ -1760,7 +1760,7 @@ mantener la trazabilidad entre ambos sprints.
       <td>Completar el flujo de recuperación mediante generación de token y envío de correo.</td>
       <td>2</td>
       <td>Herrera Enriquez Diego Fernando</td>
-      <td>Pending</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>TS-03</td>
@@ -1770,7 +1770,7 @@ mantener la trazabilidad entre ambos sprints.
       <td>Definir e implementar el mecanismo de cierre de sesión para la autenticación basada en JWT.</td>
       <td>1</td>
       <td>Cayanchi Avila Milenko Rubén</td>
-      <td>Pending</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>TS-05</td>
@@ -1780,7 +1780,7 @@ mantener la trazabilidad entre ambos sprints.
       <td>Completar la consulta de pedidos asociados a un usuario específico y validar sus restricciones de acceso.</td>
       <td>2</td>
       <td>Corvacho Damian Brayan Alexis</td>
-      <td>In Progress</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>TS-10</td>
@@ -1790,7 +1790,7 @@ mantener la trazabilidad entre ambos sprints.
       <td>Implementar la actualización de los datos permitidos del usuario autenticado.</td>
       <td>2</td>
       <td>Corvacho Damian Brayan Alexis</td>
-      <td>Pending</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>TS-16</td>
@@ -1800,7 +1800,7 @@ mantener la trazabilidad entre ambos sprints.
       <td>Implementar la consulta detallada de una solicitud de combustible mediante su identificador.</td>
       <td>1</td>
       <td>Asto Jacome Jose Gustavo</td>
-      <td>Pending</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>TS-25</td>
@@ -1810,18 +1810,17 @@ mantener la trazabilidad entre ambos sprints.
       <td>Reincorporar e implementar el endpoint de eliminación de equipos con las validaciones de seguridad correspondientes.</td>
       <td>1</td>
       <td>Herrera Enriquez Diego Fernando</td>
-      <td>Pending</td>
+      <td>Done</td>
     </tr>
   </tbody>
 </table>
 
 #### 5.2.4.4. Development Evidence for Sprint Review.
 
-El desarrollo del Sprint 4 se concentra en completar código ya identificado durante el Sprint 3. La evidencia
-de cada historia debe mantener trazabilidad con su identificador original e incluir el commit, la rama de trabajo
-y el Pull Request utilizado para integrar el cambio al repositorio `PrimeFuel/backend`. Debido a que el capítulo
-solo registra el estado heredado al inicio del Sprint 4, no se consignan identificadores de commits ni Pull
-Requests que todavía no se encuentran respaldados por evidencia en el repositorio documental.
+El desarrollo del Sprint 4 completó el código identificado como pendiente durante el Sprint 3. La evidencia
+de cada historia mantiene trazabilidad con su identificador original y con los cambios integrados al repositorio
+`PrimeFuel/backend`. Las seis historias técnicas fueron implementadas y revisadas de acuerdo con los alcances
+y criterios de verificación descritos a continuación.
 
 <table border="1" cellspacing="0" cellpadding="6">
   <thead>
@@ -1829,7 +1828,7 @@ Requests que todavía no se encuentran respaldados por evidencia en el repositor
       <th>Technical Story</th>
       <th>Bounded Context</th>
       <th>Development Scope</th>
-      <th>Required Review Evidence</th>
+      <th>Review Evidence</th>
     </tr>
   </thead>
   <tbody>
@@ -1874,73 +1873,32 @@ Requests que todavía no se encuentran respaldados por evidencia en el repositor
 
 #### 5.2.4.5. Execution Evidence for Sprint Review.
 
-La ejecución debe validarse mediante Swagger UI y Postman sobre los seis servicios incluidos en el Sprint 4.
-Para que una historia pase a **Done**, la respuesta HTTP, el cuerpo retornado, la persistencia y las restricciones
-de autorización deben coincidir con el contrato definido. La matriz de revisión es la siguiente:
+La ejecución se validó mediante Swagger UI y Postman sobre los seis servicios incluidos en el Sprint 4.
+Para considerar una historia como **Done**, se comprobó que la respuesta HTTP, el cuerpo retornado, la
+persistencia y las restricciones de autorización coincidieran con el contrato definido. La matriz de revisión
+fue la siguiente:
 
-<table border="1" cellspacing="0" cellpadding="6">
-  <thead>
-    <tr>
-      <th>Technical Story</th>
-      <th>Execution Scenario</th>
-      <th>Expected Result</th>
-      <th>Evidence to Attach</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>TS-02</td>
-      <td>Solicitar y utilizar un token de recuperación de contraseña.</td>
-      <td>El sistema valida el token, actualiza la contraseña y rechaza tokens inválidos o expirados.</td>
-      <td>Captura de Swagger/Postman y resultado de las pruebas automatizadas.</td>
-    </tr>
-    <tr>
-      <td>TS-03</td>
-      <td>Cerrar una sesión autenticada e intentar reutilizar sus credenciales.</td>
-      <td>La sesión queda cerrada de acuerdo con la estrategia JWT adoptada.</td>
-      <td>Captura de la solicitud de logout y del intento posterior de acceso.</td>
-    </tr>
-    <tr>
-      <td>TS-05</td>
-      <td>Consultar pedidos de un usuario con y sin registros asociados.</td>
-      <td>Se retornan únicamente los pedidos autorizados o una colección vacía, según corresponda.</td>
-      <td>Capturas de ambas respuestas y prueba de autorización.</td>
-    </tr>
-    <tr>
-      <td>TS-10</td>
-      <td>Actualizar campos válidos e intentar modificar datos restringidos del perfil.</td>
-      <td>Los campos permitidos persisten y las modificaciones inválidas son rechazadas.</td>
-      <td>Capturas de las respuestas y consulta posterior del perfil.</td>
-    </tr>
-    <tr>
-      <td>TS-16</td>
-      <td>Consultar una solicitud existente y otra inexistente por identificador.</td>
-      <td>Se obtiene el detalle autorizado o el código de error definido por el contrato.</td>
-      <td>Capturas de Swagger/Postman para ambos casos.</td>
-    </tr>
-    <tr>
-      <td>TS-25</td>
-      <td>Eliminar un equipo válido e intentar eliminar uno inexistente o con dependencias.</td>
-      <td>La eliminación válida se persiste y las operaciones no permitidas son rechazadas.</td>
-      <td>Capturas de las respuestas y consulta posterior del equipo.</td>
-    </tr>
-  </tbody>
-</table>
-
+![Execution Evidence for Sprint Review](../assets/chapter-5/SWGS41.png)
+![Execution Evidence for Sprint Review](../assets/chapter-5/SWGS42.png)
+![Execution Evidence for Sprint Review](../assets/chapter-5/SWGS43.png)
+![Execution Evidence for Sprint Review](../assets/chapter-5/SWGS44.png)
+![Execution Evidence for Sprint Review](../assets/chapter-5/SWGS45.png)
+![Execution Evidence for Sprint Review](../assets/chapter-5/SWGS46.png)
+![Execution Evidence for Sprint Review](../assets/chapter-5/SWGS47.png)
+![Execution Evidence for Sprint Review](../assets/chapter-5/SWGS48.png)
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.
 
-La documentación de servicios del Sprint 4 debe actualizar la especificación OpenAPI/Swagger existente sin
-añadir recursos ajenos al backlog heredado. Para cada operación se deben registrar el método HTTP y la ruta
-definitiva, el esquema de autenticación, parámetros, cuerpos de solicitud y respuesta, códigos de estado y
-ejemplos de error.
+La documentación de servicios del Sprint 4 actualizó la especificación OpenAPI/Swagger existente sin añadir
+recursos ajenos al backlog heredado. Para cada operación se registraron el método HTTP y la ruta definitiva,
+el esquema de autenticación, parámetros, cuerpos de solicitud y respuesta, códigos de estado y ejemplos de error.
 
 <table border="1" cellspacing="0" cellpadding="6">
   <thead>
     <tr>
       <th>Technical Story</th>
       <th>API Group</th>
-      <th>Operation to Document</th>
+      <th>Documented Operation</th>
     </tr>
   </thead>
   <tbody>
@@ -1977,14 +1935,14 @@ ejemplos de error.
   </tbody>
 </table>
 
-La evidencia de cierre será la visualización de estas seis operaciones en Swagger UI y la versión actualizada
-de la especificación OpenAPI integrada al backend.
+La evidencia de cierre corresponde a la visualización de estas seis operaciones en Swagger UI y a la versión
+actualizada de la especificación OpenAPI integrada al backend.
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.
 
-El Sprint 4 mantiene la estrategia de despliegue utilizada en el Sprint 3. Los cambios aprobados deberán
-integrarse en el backend de FullTank, desplegarse en Render y verificarse desde Swagger UI. El frontend
-desplegado en Vercel se utilizará para las pruebas de integración que correspondan a las historias heredadas.
+El Sprint 4 mantuvo la estrategia de despliegue utilizada en el Sprint 3. Los cambios aprobados se integraron
+en el backend de FullTank, se desplegaron en Render y se verificaron desde Swagger UI. El frontend desplegado
+en Vercel se utilizó para las pruebas de integración correspondientes a las historias heredadas.
 
 <ul>
   <li><strong>Repositorio backend:</strong> PrimeFuel/backend</li>
@@ -1996,7 +1954,7 @@ desplegado en Vercel se utilizará para las pruebas de integración que correspo
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
 
-El equipo conserva los mismos integrantes y responsables del Sprint 3. La colaboración del Sprint 4 se organiza
+El equipo conservó los mismos integrantes y responsables del Sprint 3. La colaboración del Sprint 4 se organizó
 alrededor del cierre de las seis historias heredadas:
 
 * **Herrera Enriquez Diego Fernando:** responsable de TS-02 (recuperación de contraseña) y TS-25 (eliminación de equipos).
@@ -2005,11 +1963,16 @@ alrededor del cierre de las seis historias heredadas:
 * **Asto Jacome Jose Gustavo:** responsable de TS-16 (detalle de solicitud) y apoyo en la documentación OpenAPI.
 * **Ponce Perales Alberto Alejandro:** colaborador en revisión de código, pruebas de regresión e integración del bounded context de pedidos.
 
-Las tareas se continuarán gestionando en Trello con sus identificadores originales. Cada cambio deberá
-desarrollarse en una rama de trabajo, revisarse mediante Pull Request en GitHub y validarse por otro integrante
-antes de su integración. Meet y Discord se utilizarán para la coordinación del sprint y la resolución de
-bloqueos. Una historia solo podrá pasar a **Done** cuando cuente con implementación, revisión, pruebas,
-documentación y verificación en el entorno desplegado.
+Las tareas se gestionaron en Trello con sus identificadores originales. Cada cambio se desarrolló en una rama
+de trabajo, se revisó mediante Pull Request en GitHub y fue validado por otro integrante antes de su integración.
+Meet y Discord se utilizaron para la coordinación del sprint y la resolución de bloqueos. Las seis historias
+pasaron a **Done** después de completar su implementación, revisión, pruebas, documentación y verificación en
+el entorno desplegado.
+
+![Frontend Contributors](../assets/chapter-5/CBackend.jpg)
+![Frontend Contributors](../assets/chapter-5/CFrontend.jpg)
+![Frontend Contributors](../assets/chapter-5/CLanding.jpg)
+
 
 ## 5.3. Validation Interviews
 ### 5.3.1. Validation Interviews
