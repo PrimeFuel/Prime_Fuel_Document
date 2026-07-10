@@ -1596,6 +1596,426 @@ Como resultado, se logró completar la mayor parte de las historias técnicas pl
 
 ![Deployment Visual Evidence of Deploy](../assets/chapter-5/InsightsS3.png)
 
+### 5.2.4. Sprint 4
+
+#### 5.2.4.1. Sprint Planning 4.
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <td><strong>Sprint #</strong></td>
+    <td><strong>Sprint 4</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><strong>Sprint Planning Background</strong></td>
+  </tr>
+  <tr>
+    <td>Date</td>
+    <td>22/06/2026</td>
+  </tr>
+  <tr>
+    <td>Time</td>
+    <td>15:00 PM</td>
+  </tr>
+  <tr>
+    <td>Location</td>
+    <td>Meet / Discord</td>
+  </tr>
+  <tr>
+    <td>Prepared by</td>
+    <td>Asto Jacome Jose Gustavo</td>
+  </tr>
+  <tr>
+    <td>Attendees (to planning meeting)</td>
+    <td>
+      Asto Jacome Jose Gustavo (u20241c630)<br>
+      Cayanchi Avila Milenko Rubén (u202312566)<br>
+      Corvacho Damian Brayan Alexis (u20231a257)<br>
+      Ponce Perales Alberto Alejandro (u202320684)<br>
+      Herrera Enriquez Diego Fernando (u202319027)
+    </td>
+  </tr>
+  <tr>
+    <td>Sprint 3 Review Summary</td>
+    <td>
+      En el Sprint 3 se completaron 21 de las 27 historias técnicas planificadas para el backend de FullTank.
+      Quedaron cinco historias en estado <em>Pending</em> y una en estado <em>In Progress</em>. Estas historias
+      corresponden a recuperación de contraseña, cierre de sesión, consulta de pedidos por usuario,
+      actualización del perfil, consulta de solicitudes por identificador y eliminación de equipos.
+      El Sprint 4 se limita exclusivamente a completar estos seis elementos, sin incorporar nuevas historias.
+    </td>
+  </tr>
+  <tr>
+    <td>Sprint 3 Retrospective Summary</td>
+    <td>
+      El alcance amplio del Sprint 3 permitió cubrir la mayor parte de los bounded contexts, pero dejó tareas
+      dependientes de decisiones de seguridad, contratos de consulta e integración. El equipo acordó reducir
+      el alcance del siguiente sprint, conservar los responsables originales y priorizar la revisión por Pull
+      Request, las pruebas de regresión y la actualización de OpenAPI antes de considerar terminada cada tarea.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><strong>Sprint Goal &amp; Technical Stories</strong></td>
+  </tr>
+  <tr>
+    <td>Sprint 4 Goal</td>
+    <td>
+      Completar y validar las seis historias técnicas no finalizadas en el Sprint 3, cerrando las brechas
+      restantes de autenticación, usuarios, pedidos, solicitudes de combustible y gestión de equipos.<br><br>
+      <em>El Sprint Goal se considerará cumplido cuando las seis historias heredadas estén implementadas,
+      probadas, documentadas en OpenAPI/Swagger, integradas al backend y disponibles en el entorno desplegado,
+      sin añadir funcionalidades fuera del alcance pendiente del Sprint 3.</em>
+    </td>
+  </tr>
+  <tr>
+    <td>Sprint 4 Velocity</td>
+    <td>6 historias técnicas</td>
+  </tr>
+  <tr>
+    <td>Sum of Estimated Hours</td>
+    <td>9</td>
+  </tr>
+</table>
+
+#### 5.2.4.2. Aspect Leaders and Collaborators.
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th>Team Member</th>
+      <th>GitHub Username</th>
+      <th>Backend</th>
+      <th>Documentation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Milenko Rubén Cayanchi Avila</td>
+      <td>MaxghZZ</td>
+      <td>L</td>
+      <td>L</td>
+    </tr>
+    <tr>
+      <td>Jose Gustavo Asto Jacome</td>
+      <td>DhudsQ</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Diego Fernando Herrera Enriquez</td>
+      <td>DerDFHE</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Alberto Alejandro Ponce Perales</td>
+      <td>aponceperales</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Brayan Alexis Corvacho Damian</td>
+      <td>BralexCD</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+  </tbody>
+</table>
+
+En esta matriz, **L** identifica al líder del aspecto y **C** a los colaboradores. Se mantiene la misma
+composición del equipo y la distribución general de liderazgo utilizada en los sprints anteriores.
+
+#### 5.2.4.3. Sprint Backlog 4.
+
+El Sprint Backlog 4 está conformado únicamente por las historias técnicas cuyo estado al cierre del Sprint 3
+fue **Pending** o **In Progress**. Se conservan sus identificadores, estimaciones y responsables originales para
+mantener la trazabilidad entre ambos sprints.
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th colspan="2"><strong>Sprint #</strong></th>
+      <th colspan="6"><strong>Sprint 4</strong></th>
+    </tr>
+    <tr>
+      <th colspan="2"><strong>Technical Story</strong></th>
+      <th colspan="6"><strong>Work-Item / Task</strong></th>
+    </tr>
+    <tr>
+      <th><strong>Id</strong></th>
+      <th><strong>Title</strong></th>
+      <th><strong>Id</strong></th>
+      <th><strong>Title</strong></th>
+      <th><strong>Description</strong></th>
+      <th><strong>Estimation (Hours)</strong></th>
+      <th><strong>Assigned to</strong></th>
+      <th><strong>Initial Status</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TS-02</td>
+      <td>Endpoint: Recuperar contraseña</td>
+      <td>W-02</td>
+      <td>Password Recovery</td>
+      <td>Completar el flujo de recuperación mediante generación de token y envío de correo.</td>
+      <td>2</td>
+      <td>Herrera Enriquez Diego Fernando</td>
+      <td>Pending</td>
+    </tr>
+    <tr>
+      <td>TS-03</td>
+      <td>Endpoint: Logout</td>
+      <td>W-03</td>
+      <td>Logout Service</td>
+      <td>Definir e implementar el mecanismo de cierre de sesión para la autenticación basada en JWT.</td>
+      <td>1</td>
+      <td>Cayanchi Avila Milenko Rubén</td>
+      <td>Pending</td>
+    </tr>
+    <tr>
+      <td>TS-05</td>
+      <td>Consultar pedidos por usuario</td>
+      <td>W-05</td>
+      <td>Orders by User</td>
+      <td>Completar la consulta de pedidos asociados a un usuario específico y validar sus restricciones de acceso.</td>
+      <td>2</td>
+      <td>Corvacho Damian Brayan Alexis</td>
+      <td>In Progress</td>
+    </tr>
+    <tr>
+      <td>TS-10</td>
+      <td>Actualizar perfil de usuario</td>
+      <td>W-10</td>
+      <td>Update User Profile</td>
+      <td>Implementar la actualización de los datos permitidos del usuario autenticado.</td>
+      <td>2</td>
+      <td>Corvacho Damian Brayan Alexis</td>
+      <td>Pending</td>
+    </tr>
+    <tr>
+      <td>TS-16</td>
+      <td>Consultar solicitud por ID</td>
+      <td>W-16</td>
+      <td>Fuel Request Detail</td>
+      <td>Implementar la consulta detallada de una solicitud de combustible mediante su identificador.</td>
+      <td>1</td>
+      <td>Asto Jacome Jose Gustavo</td>
+      <td>Pending</td>
+    </tr>
+    <tr>
+      <td>TS-25</td>
+      <td>Eliminar equipo</td>
+      <td>W-25</td>
+      <td>Delete Equipment</td>
+      <td>Reincorporar e implementar el endpoint de eliminación de equipos con las validaciones de seguridad correspondientes.</td>
+      <td>1</td>
+      <td>Herrera Enriquez Diego Fernando</td>
+      <td>Pending</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 5.2.4.4. Development Evidence for Sprint Review.
+
+El desarrollo del Sprint 4 se concentra en completar código ya identificado durante el Sprint 3. La evidencia
+de cada historia debe mantener trazabilidad con su identificador original e incluir el commit, la rama de trabajo
+y el Pull Request utilizado para integrar el cambio al repositorio `PrimeFuel/backend`. Debido a que el capítulo
+solo registra el estado heredado al inicio del Sprint 4, no se consignan identificadores de commits ni Pull
+Requests que todavía no se encuentran respaldados por evidencia en el repositorio documental.
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th>Technical Story</th>
+      <th>Bounded Context</th>
+      <th>Development Scope</th>
+      <th>Required Review Evidence</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TS-02</td>
+      <td>Identity and Access Management</td>
+      <td>Token de recuperación, expiración, validación y cambio seguro de contraseña.</td>
+      <td>Commit, Pull Request y pruebas del flujo válido, token inválido y token expirado.</td>
+    </tr>
+    <tr>
+      <td>TS-03</td>
+      <td>Identity and Access Management</td>
+      <td>Cierre de sesión compatible con el mecanismo JWT definido por el backend.</td>
+      <td>Commit, Pull Request y verificación de que las credenciales cerradas no permitan continuar la sesión.</td>
+    </tr>
+    <tr>
+      <td>TS-05</td>
+      <td>Ordering</td>
+      <td>Consulta de pedidos asociados al usuario solicitado, incluyendo autorización y respuesta vacía.</td>
+      <td>Commit, Pull Request y pruebas con usuarios con pedidos, sin pedidos y sin autorización.</td>
+    </tr>
+    <tr>
+      <td>TS-10</td>
+      <td>Identity and Access Management</td>
+      <td>Actualización controlada del perfil del usuario autenticado.</td>
+      <td>Commit, Pull Request y pruebas de validación, persistencia y acceso autenticado.</td>
+    </tr>
+    <tr>
+      <td>TS-16</td>
+      <td>Ordering</td>
+      <td>Consulta de una solicitud de combustible por identificador.</td>
+      <td>Commit, Pull Request y pruebas para identificador existente, inexistente y acceso no autorizado.</td>
+    </tr>
+    <tr>
+      <td>TS-25</td>
+      <td>Equipment Management</td>
+      <td>Eliminación de equipos con validaciones de propiedad, existencia y dependencias activas.</td>
+      <td>Commit, Pull Request y pruebas de eliminación válida y solicitudes rechazadas por reglas de negocio.</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 5.2.4.5. Execution Evidence for Sprint Review.
+
+La ejecución debe validarse mediante Swagger UI y Postman sobre los seis servicios incluidos en el Sprint 4.
+Para que una historia pase a **Done**, la respuesta HTTP, el cuerpo retornado, la persistencia y las restricciones
+de autorización deben coincidir con el contrato definido. La matriz de revisión es la siguiente:
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th>Technical Story</th>
+      <th>Execution Scenario</th>
+      <th>Expected Result</th>
+      <th>Evidence to Attach</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TS-02</td>
+      <td>Solicitar y utilizar un token de recuperación de contraseña.</td>
+      <td>El sistema valida el token, actualiza la contraseña y rechaza tokens inválidos o expirados.</td>
+      <td>Captura de Swagger/Postman y resultado de las pruebas automatizadas.</td>
+    </tr>
+    <tr>
+      <td>TS-03</td>
+      <td>Cerrar una sesión autenticada e intentar reutilizar sus credenciales.</td>
+      <td>La sesión queda cerrada de acuerdo con la estrategia JWT adoptada.</td>
+      <td>Captura de la solicitud de logout y del intento posterior de acceso.</td>
+    </tr>
+    <tr>
+      <td>TS-05</td>
+      <td>Consultar pedidos de un usuario con y sin registros asociados.</td>
+      <td>Se retornan únicamente los pedidos autorizados o una colección vacía, según corresponda.</td>
+      <td>Capturas de ambas respuestas y prueba de autorización.</td>
+    </tr>
+    <tr>
+      <td>TS-10</td>
+      <td>Actualizar campos válidos e intentar modificar datos restringidos del perfil.</td>
+      <td>Los campos permitidos persisten y las modificaciones inválidas son rechazadas.</td>
+      <td>Capturas de las respuestas y consulta posterior del perfil.</td>
+    </tr>
+    <tr>
+      <td>TS-16</td>
+      <td>Consultar una solicitud existente y otra inexistente por identificador.</td>
+      <td>Se obtiene el detalle autorizado o el código de error definido por el contrato.</td>
+      <td>Capturas de Swagger/Postman para ambos casos.</td>
+    </tr>
+    <tr>
+      <td>TS-25</td>
+      <td>Eliminar un equipo válido e intentar eliminar uno inexistente o con dependencias.</td>
+      <td>La eliminación válida se persiste y las operaciones no permitidas son rechazadas.</td>
+      <td>Capturas de las respuestas y consulta posterior del equipo.</td>
+    </tr>
+  </tbody>
+</table>
+
+Las capturas y resultados definitivos deberán incorporarse cuando la ejecución de cada historia haya sido
+completada; el estado inicial registrado en este capítulo no permite afirmar todavía su aprobación.
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+
+La documentación de servicios del Sprint 4 debe actualizar la especificación OpenAPI/Swagger existente sin
+añadir recursos ajenos al backlog heredado. Para cada operación se deben registrar el método HTTP y la ruta
+definitiva, el esquema de autenticación, parámetros, cuerpos de solicitud y respuesta, códigos de estado y
+ejemplos de error.
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th>Technical Story</th>
+      <th>API Group</th>
+      <th>Operation to Document</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TS-02</td>
+      <td>Authentication API</td>
+      <td>Solicitud y confirmación de recuperación de contraseña.</td>
+    </tr>
+    <tr>
+      <td>TS-03</td>
+      <td>Authentication API</td>
+      <td>Cierre de sesión del usuario autenticado.</td>
+    </tr>
+    <tr>
+      <td>TS-05</td>
+      <td>Fuel Orders API</td>
+      <td>Consulta de pedidos asociados a un usuario.</td>
+    </tr>
+    <tr>
+      <td>TS-10</td>
+      <td>Users API</td>
+      <td>Actualización del perfil del usuario autenticado.</td>
+    </tr>
+    <tr>
+      <td>TS-16</td>
+      <td>Fuel Requests API</td>
+      <td>Consulta detallada de una solicitud por identificador.</td>
+    </tr>
+    <tr>
+      <td>TS-25</td>
+      <td>Equipment API</td>
+      <td>Eliminación de un equipo y documentación de sus restricciones.</td>
+    </tr>
+  </tbody>
+</table>
+
+La evidencia de cierre será la visualización de estas seis operaciones en Swagger UI y la versión actualizada
+de la especificación OpenAPI integrada al backend.
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+
+El Sprint 4 mantiene la estrategia de despliegue utilizada en el Sprint 3. Los cambios aprobados deberán
+integrarse en el backend de FullTank, desplegarse en Render y verificarse desde Swagger UI. El frontend
+desplegado en Vercel se utilizará para las pruebas de integración que correspondan a las historias heredadas.
+
+<ul>
+  <li><strong>Repositorio backend:</strong> PrimeFuel/backend</li>
+  <li><strong>Backend desplegado:</strong> <a href="https://prime-fuel-backend.onrender.com" target="_blank">https://prime-fuel-backend.onrender.com</a></li>
+  <li><strong>Swagger UI:</strong> <a href="https://prime-fuel-backend.onrender.com/swagger-ui/index.html" target="_blank">https://prime-fuel-backend.onrender.com/swagger-ui/index.html</a></li>
+  <li><strong>Frontend desplegado:</strong> <a href="https://frontend-dgwsg79ja-bralexcds-projects.vercel.app" target="_blank">https://frontend-dgwsg79ja-bralexcds-projects.vercel.app</a></li>
+</ul>
+
+La evidencia definitiva del Sprint Review deberá incluir el registro del despliegue asociado a los cambios,
+la disponibilidad de la aplicación y la ejecución satisfactoria de los seis servicios en el entorno publicado.
+No se registra un nuevo despliegue como completado mientras dicha evidencia no se incorpore al documento.
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint.
+
+El equipo conserva los mismos integrantes y responsables del Sprint 3. La colaboración del Sprint 4 se organiza
+alrededor del cierre de las seis historias heredadas:
+
+* **Herrera Enriquez Diego Fernando:** responsable de TS-02 (recuperación de contraseña) y TS-25 (eliminación de equipos).
+* **Cayanchi Avila Milenko Rubén:** responsable de TS-03 (logout), coordinación técnica y revisión de integración.
+* **Corvacho Damian Brayan Alexis:** responsable de TS-05 (pedidos por usuario) y TS-10 (actualización de perfil).
+* **Asto Jacome Jose Gustavo:** responsable de TS-16 (detalle de solicitud) y apoyo en la documentación OpenAPI.
+* **Ponce Perales Alberto Alejandro:** colaborador en revisión de código, pruebas de regresión e integración del bounded context de pedidos.
+
+Las tareas se continuarán gestionando en Trello con sus identificadores originales. Cada cambio deberá
+desarrollarse en una rama de trabajo, revisarse mediante Pull Request en GitHub y validarse por otro integrante
+antes de su integración. Meet y Discord se utilizarán para la coordinación del sprint y la resolución de
+bloqueos. Una historia solo podrá pasar a **Done** cuando cuente con implementación, revisión, pruebas,
+documentación y verificación en el entorno desplegado.
+
 ## 5.3. Validation Interviews
 ### 5.3.1. Validation Interviews
 
