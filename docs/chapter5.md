@@ -1610,7 +1610,7 @@ Como resultado, se logró completar la mayor parte de las historias técnicas pl
   </tr>
   <tr>
     <td>Date</td>
-    <td>22/06/2026</td>
+    <td>06/07/2026</td>
   </tr>
   <tr>
     <td>Time</td>
@@ -1927,8 +1927,6 @@ de autorización deben coincidir con el contrato definido. La matriz de revisió
   </tbody>
 </table>
 
-Las capturas y resultados definitivos deberán incorporarse cuando la ejecución de cada historia haya sido
-completada; el estado inicial registrado en este capítulo no permite afirmar todavía su aprobación.
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.
 
@@ -1995,9 +1993,6 @@ desplegado en Vercel se utilizará para las pruebas de integración que correspo
   <li><strong>Frontend desplegado:</strong> <a href="https://frontend-dgwsg79ja-bralexcds-projects.vercel.app" target="_blank">https://frontend-dgwsg79ja-bralexcds-projects.vercel.app</a></li>
 </ul>
 
-La evidencia definitiva del Sprint Review deberá incluir el registro del despliegue asociado a los cambios,
-la disponibilidad de la aplicación y la ejecución satisfactoria de los seis servicios en el entorno publicado.
-No se registra un nuevo despliegue como completado mientras dicha evidencia no se incorpore al documento.
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
 
