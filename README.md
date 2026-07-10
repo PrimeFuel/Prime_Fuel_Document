@@ -171,6 +171,8 @@ https://github.com/PrimeFuel
 
 **Link de frontend desplegado con vercel: https://frontend-dgwsg79ja-bralexcds-projects.vercel.app**  
 
+**Link de la Landing Page desplegagada con github pages: https://primefuel.github.io/FullTank_LandingPage/**  
+
 
 Este informe ha sido desarrollado de forma colaborativa mediante GitHub, empleando GitFlow y Conventional Commits. Cada miembro del equipo ha contribuido con commits y ramas durante el desarrollo del proyecto.
 
